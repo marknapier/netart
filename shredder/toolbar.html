@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Shredder Toolbar</title>
+<script language="javascript">
+<!--
+var shredderVersion = 1.0;
+var doImgSwap = false;
+var agent = navigator.userAgent.toLowerCase();
+var ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+var ie  = (agent.indexOf("msie") != -1);
+var ver = parseInt(navigator.appVersion);
+if ((ns || ie) && (ver >= 4)) {
+   doImgSwap = true;
+}
+function setLocation() {
+   var shredForm = window.document.gotoForm;
+   var bookmarkIdx = shredForm.bookmarks.selectedIndex;
+   var url = shredForm.bookmarks.options[bookmarkIdx].value;
+   shredForm.location.value = url;
+   shredForm.location.focus();
+}
+function shredPage() {
+   shredURL(window.document.gotoForm.location.value);
+}
+function shredURL(url) {
+   if (url != "") {
+      window.document.gotoForm.location.value = url;
+      if (doImgSwap) {
+         window.document.shlogo.src = "http://www.potatoland.org/shredder/aShred.gif";
+      }
+      // parent.display.location.href = "http://www.potatoland.org/cgi-bin/shred.pl?" + url;
+      parent.display.location.href = "http://www.potatoland.org/shredder/php/shred_v1.php?frame=n&url=" + url;
+      setTimeout('pageLoaded()',90000);
+   }
+}
+function loadPage(url) {
+   window.document.gotoForm.location.value = url;
+   shredPage();
+}
+function pageLoaded() {
+   if (doImgSwap) {
+      window.document.shlogo.src = "http://www.potatoland.org/shredder/bladeSmBorder.jpg";
+   }
+}
+function resetList() {
+   window.document.gotoForm.bookmarks.selectedIndex = 0;
+}
+// -->
+</script>
+</head>
+
+<BODY BGCOLOR="#c0c0c0" link="#0020c0" vlink="#0020c0">
+  <FORM name="gotoForm" onsubmit="shredPage();return false;" action="#" method="GET">
+    <TABLE cellpadding=0 cellspacing=0 width=100% border=0>
+      <TR> 
+        <TD width=6%> &nbsp; </TD>
+        <TD valign=middle align=right><NOBR><font face="Arial" size="4">&nbsp; 
+          </font><font face="Arial" size="2">&nbsp; Location: </font></NOBR> </TD>
+        <TD valign=middle> 
+          <input type="text" name="location" size=60 onchange="resetList();/*shredPage();*/">
+        </TD>
+        <TD valign=middle align=right> <A HREF="welcome.html" target="display"><img name="shlogo" src="bladeSmBorder.jpg" height=38 align=middle hspace=3 vspace=3 border=0></A> 
+        </TD>
+      </TR>
+      <TR> 
+        <TD width=6%> &nbsp; </TD>
+        <TD align=right> <font face="Arial" size="2">&nbsp; <A HREF="bookmarks.html" target="display">Bookmarks:</A></font> 
+        </TD>
+        <TD valign=middle> <font face="Arial" size="2"> 
+          <SELECT name="bookmarks" onchange="setLocation();shredPage();">
+            <OPTION value=""> 
+            <OPTION value="">------- net.art pages 
+            <OPTION value="http://www.jodi.org">Jodi 
+            <OPTION value="http://404.jodi.org/">http://404.jodi.org/ 
+            <OPTION value="http://404.jodi.org/ae">http://404.jodi.org/ae 
+            <OPTION value="http://jodi.org/100/hqx/i902.html">http://jodi.org/100/hqx/i902.html 
+            <OPTION value="http://jodi.org/100/hqx/index.html">http://jodi.org/100/hqx/index.html 
+            <OPTION value="http://jodi.org/100/../400/index.html">http://jodi.org/100/../400/index.html 
+            <OPTION value="http://jodi.org/100/fig/aaa.html">http://jodi.org/100/fig/aaa.html 
+            <OPTION value="http://jodi.org/100/fig/index.html">http://jodi.org/100/fig/index.html 
+            <OPTION value="http://www.rhizome.org/splash/murphy">RHIZOME: murphy splash 
+            <OPTION value="http://www.potatoland.org/dmachine">The Desiring Machine 
+            <OPTION value="http://www.users.interport.net/~napier/gallery/openend/openend.html">Napier: Open Other End 
+            <OPTION value="http://potatoland.org/studio/door/flip7ar.htm">Napier: Portal 
+            <OPTION value="http://potatoland.org/studio/gallery1/loadfli5.htm">Napier: Gallery1 
+            <OPTION value="http://potatoland.org/seizure/grid6f.htm">Napier: Grid6f 
+            <OPTION value=""> 
+            <OPTION value="">------- Search Engines, etc. 
+            <OPTION value="http://www.download.com">Download.com 
+            <OPTION value="http://www.lycos.com">Lycos 
+            <OPTION value=""> 
+            <OPTION value="">------- net.art Collections 
+            <OPTION value="http://www.rhizome.org/fresh">RHIZOME 
+            <OPTION value="http://www.hotwired.com">HotWired.com 
+            <OPTION value="http://www.hotwired.com/rgb">HotWired RGB 
+            <OPTION value="http://www.hotwired.com/rgb/hours/index_main.html">HotWired RGB Hours 
+            <OPTION value="http://www.hotwired.com/rgb/location/">HotWired RGB Location 
+            <OPTION value="http://www.hotwired.com/rgb/hours/art/time_ns.html">HotWired RGB Hours 
+            <OPTION value=""> 
+            <OPTION value="">------- misc 
+            <OPTION value="http://www.sito.org/">SITO 
+            <OPTION value="http://www.graffiti.org/nyc/newyork_4.html">Art Crimes NYC page 4 
+          </SELECT>
+          </font> </TD>
+        <TD></TD>
+      </TR>
+    </TABLE>
+</FORM>
+
+<div id="Layer1" style="position:absolute; width:70px; height:30px; z-index:1; left:10; top:10">
+  <font face="Arial" size="4"><a href="welcome.html" target="display"><img src="shredder1aSmt.gif" height="46" border="0" width="60"></a></font> 
+</div>
+
+<TABLE width=100%>
+<TR>
+    <TD width=5%></TD>
+    <TD width="90%"> 
+      <HR width="100%">
+<font size="+1"><B><I>Shredder 1.0</I></B></font>.  Produced by <A HREF="http://www.potatoland.org" target="_parent">POTATOLAND.org</A>, creators of the <A HREF="http://www.potatoland.org/landfill" target="_parent">Digital Landfill</A>
+<BR>
+Copyright &copy; 1998 Mark Napier
+<P>
+Questions, problems or comments?  Contact <A HREF="mailto:napier@interport.net">napier@interport.net</a>
+<BR>
+<P>
+</TD>
+    <TD width=5%></TD>
+</TR>
+</TABLE>
+
+<script>window.document.gotoForm.location.focus();</script>
+</body>
+</html>
