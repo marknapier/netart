@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>RIOT</title>
+
+<style TYPE="text/css">
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: #fefefe;
+		overflow: hidden;
+	}
+	iframe {
+		border: 0;
+	}
+	#outer-container {
+		display: table;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+	#top {
+		display: block;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		height: 38px;
+	}
+	#shredder-top {
+		display: block;
+		font-family: Calibri, Arial, sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 6px 0 6px 16px;
+		margin-bottom: 0;
+		background-color: #ddd;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #bbb;
+		z-index:1000;
+		overflow: hidden;
+	}
+	#shredder-top .logo {
+		font-style: italic;
+	}
+	#shredder-top form { 
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	#shredder-top form input {
+		padding: 3px;
+		margin-right: 4px;
+		font-size: 14px;
+	}
+	#bottom {
+		display: table-row;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		overflow: hidden;
+	}
+	<!--[if lte IE 9]>
+	#bottom { /* IE fix to make bottom area fill screen */
+		position: absolute;
+		left: 0px;
+		top: 38px;
+		width: 100%;
+		height: 100%;
+	}
+	<![endif]-->
+	#riot-output {
+		position: relative;
+		margin: 2px 0px 0px 2px;
+	}
+
+	#bookmarks {
+		display: none;
+		position: absolute;
+		left: 30px;
+		top: 32px;
+		height: 500px;
+		width: 300px;
+		z-index: 1200;
+		border: 1px solid #999;
+	}
+	#urls {
+		display: none;
+		position: absolute;
+		left: 232px;
+		top: 27px;
+		height: 300px;
+		width: 663px;
+		z-index: 1400;
+		border: 1px solid #999;
+	}
+</style>
+
+<script language="javascript">
+	function reloadURLs() {		// refresh riot page every 5 minutes
+		riotToolbar.riotURL("refresh");
+		setTimeout('reloadURLs()', 600000);
+	}
+	function init() {
+		setTimeout('reloadURLs()', 600000);
+	}
+	function setPageTitle(title) {
+		document.title = 'RIOT: ' + title;
+	}
+	function setDisplayScale() {
+		var width = window.innerWidth || document.body.clientWidth;
+		var scale = width/$RIOT_WIDTH_PIXELS;
+		var el = document.getElementById('riot-output');
+		el.style.transformOrigin = 'left top'; 
+		el.style.transform = 'scale(' + scale + ')';
+	}
+	function setPageLocation(url) {
+		if (url && (input=document.getElementById('user-url-input'))) {
+			input.value = url;
+		}
+	}
+	function showHide(elementID) {
+		var style = document.getElementById(elementID).style;
+		style.display = (style.display !== 'block') ? 'block' : 'none';
+	}
+	function show(elementID) {
+		document.getElementById(elementID).style.display = 'block';
+	}
+	function hide(elementID) {
+		document.getElementById(elementID).style.display = 'none';
+	}
+	function refreshUrls() {
+		document.getElementById('riotUrls').src = 'urls.html?nocache=' + ((""+Math.random()).substr(2));
+	}
+</script>
+</head>
+
+<body onload="init()">
+	<div id="outer-container">
+		<div id="top">
+			<iframe src="toolbar.html" name="riotToolbar" scrolling="no" style="width:100%; height:38px"></iframe>
+		</div>
+		<div id="bottom">
+			<iframe src="php/riot_v1.php" name="riotDisplay" scrolling="auto" style="display:block; height:100%; width:100%;"></iframe>
+		</div> <!-- bottom -->
+	</div> <!-- outer-container -->
+
+	<div id="bookmarks">
+		<iframe src="bookmarks.html" name="riotBookmarks" width="100%" height="100%"></iframe>
+	</div>
+
+	<div id="urls">
+		<iframe src="urls.html" name="riotUrls" id="riotUrls" width="100%" height="100%"></iframe>
+	</div>
+
+</body>
+
+</html>
