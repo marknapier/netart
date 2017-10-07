@@ -277,10 +277,16 @@ function logURL($safeURL) {
 
 	array_unshift($urls, $safeURL);
 	$tenUrls = array_slice($urls, 0, 10);
+	$tenUrlsStr = json_encode($tenUrls);
+
+	// if something broke, fallback to google url
+	if ($tenUrlsStr == null) {
+		$tenUrlsStr = '["http:\/\/www.google.com\/"]';
+	}
 
 	// var_dump($tenUrls);
 
-	file_put_contents("../riot_urls.js", 'var riotUrlHistory = ' . json_encode($tenUrls));
+	file_put_contents("../riot_urls.js", 'var riotUrlHistory = ' . $tenUrlsStr);
 }
 
 // Return array containing three most recent urls from log.
