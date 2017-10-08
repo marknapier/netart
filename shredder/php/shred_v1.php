@@ -403,6 +403,9 @@ $html = <<<EOT
 		#shredder-out {
 			position: relative;
 			margin: 2px 0px 0px 2px;
+			width: 2000px;
+			height: 4000px;
+			overflow: hidden;
 		}
 	</style>
 	</head>
