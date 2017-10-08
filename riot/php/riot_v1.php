@@ -81,6 +81,7 @@ function processURL($riotURL) {
 function showTheRiotPage() {
 	$threeUrls = latestUrls();
 	$threeUrlsStr = "1) " . $threeUrls[0] . " &nbsp;&nbsp; 2) " . $threeUrls[1] . " &nbsp;&nbsp; 3) " . $threeUrls[2] ;
+	$latestUrl = $threeUrls[0];
 	$elements = null;
 
 	// start the shredded output div and set the scale to imitate an 800 pixel width screen
@@ -101,7 +102,7 @@ function showTheRiotPage() {
 		// Set body BG color
 		print "<SCRIPT>document.body.style.backgroundColor = '" . $bodyBGC . "';</SCRIPT>\n";
 		// Set page title and location from most recent url
-		print "<SCRIPT>setPageTitle('" . $elements['title'] . "'); setPageLocation('" . $url . "');</SCRIPT>\n";
+		print "<SCRIPT>setPageTitle('" . $elements['title'] . "'); setPageLocation('" . $latestUrl . "');</SCRIPT>\n";
 	}
 
 	// close the output container div
@@ -565,6 +566,10 @@ function showFrame() {
 
 //--------------------------------------------------------------------------------------------------
 // HTML, scripts and CSS are below
+//
+// Note: This php script is usually called inside an iframe in the Riot container page (riot.html), 
+// but it can also be called directly from the browser location. The javascript functions below 
+// check for presence of parent.riotToolbar before accessing parent functionality.
 //--------------------------------------------------------------------------------------------------
 
 function startHTMLpage() {
@@ -586,7 +591,8 @@ $html = <<<EOT
 			}
 		}
 		function setPageTitle(title) {
-			document.title='$RIOT_TITLE: ' + title;
+			var el = parent ? parent : document;
+			el.document.title='$RIOT_TITLE: ' + title;
 		}
 		function setDisplayScale() {
 			var width = window.innerWidth || document.body.clientWidth;
@@ -596,8 +602,8 @@ $html = <<<EOT
 			el.style.transform = 'scale(' + scale + ')';
 		}
 		function setPageLocation(url) {
-			if (url && (input=document.getElementById('user-url-input'))) {
-				input.value = url;
+			if (parent.riotToolbar) {
+				parent.riotToolbar.setLocationBar(url);
 			}
 		}
 	</script>

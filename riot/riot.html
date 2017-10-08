@@ -116,11 +116,6 @@
 		el.style.transformOrigin = 'left top'; 
 		el.style.transform = 'scale(' + scale + ')';
 	}
-	function setPageLocation(url) {
-		if (url && (input=document.getElementById('user-url-input'))) {
-			input.value = url;
-		}
-	}
 	function showHide(elementID) {
 		var style = document.getElementById(elementID).style;
 		style.display = (style.display !== 'block') ? 'block' : 'none';
@@ -132,7 +127,6 @@
 		document.getElementById(elementID).style.display = 'none';
 	}
 	function refreshUrls() {
-		// document.getElementById('riotUrls').src = 'php/url_history.php?nocache=' + ((""+Math.random()).substr(2));
 		document.getElementById('riotUrls').src = 'php/url_history.php';
 	}
 </script>

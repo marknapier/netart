@@ -85,6 +85,10 @@ function formSubmitted() {	// called from FORM below
 	riotURL(F.url.value);
 }
 
+function setLocationBar(url) {
+	F.url.value = url || '';
+}
+
 function pageLoaded() {
 	patiencePrompt("off");
 	parent.refreshUrls();
@@ -101,8 +105,7 @@ function init() {
 	document.getElementById("loclyrNN").style.display="block"
 }
 
-function setVisibile(pElem, pbState)
-{
+function setVisibile(pElem, pbState) {
 	var strState = (pbState) ? "visible" : "hidden";
 	pElem.visibility = strState;
 }
@@ -119,7 +122,7 @@ function setVisibile(pElem, pbState)
 
 <div id="loclyrNN" style="position:absolute; height:30px; left:230px; top:5px; z-index:100;">
     <FORM id="urlFormNN" name="urlFormNN" onsubmit="formSubmitted();return false;">
-        <div class="input-border"><input class="tiny" type="text" name="url" size=46></div><A HREF="javascript:openUrls();return false;" onclick="openUrls();(arguments[0]||window.event).stopPropagation();return false;"><img src="img/ddarrow_oneborder.gif" align=absmiddle border=0></A>
+        <div class="input-border"><input class="tiny" type="text" name="url" size=46 onfocus="this.select();"></div><A HREF="javascript:openUrls();return false;" onclick="openUrls();(arguments[0]||window.event).stopPropagation();return false;"><img src="img/ddarrow_oneborder.gif" align=absmiddle border=0></A>
     </FORM>
 </div>
 
