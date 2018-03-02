@@ -291,9 +291,11 @@ $html = <<<EOT
 	<title>$SHREDDER_TITLE</title>
 	<script>
 		function shred(url) {
-			document.location.href='$SHREDDER_URL' + url + '&frame=$frame'; 
 			if (parent.Stoolbar) {
 				parent.Stoolbar.loadPage(url);
+			}
+			else {
+				document.location.href='$SHREDDER_URL' + url + '&frame=$frame'; 
 			}
 		}
 		function setShredderTitle(title) {

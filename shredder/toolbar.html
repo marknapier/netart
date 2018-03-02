@@ -2,50 +2,35 @@
 <head>
 <title>Shredder Toolbar</title>
 <script language="javascript">
-<!--
-var shredderVersion = 1.0;
-var doImgSwap = false;
-var agent = navigator.userAgent.toLowerCase();
-var ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
-var ie  = (agent.indexOf("msie") != -1);
-var ver = parseInt(navigator.appVersion);
-if ((ns || ie) && (ver >= 4)) {
-   doImgSwap = true;
-}
+var shredderVersion = 1.1;
 function setLocation() {
-   var shredForm = window.document.gotoForm;
-   var bookmarkIdx = shredForm.bookmarks.selectedIndex;
-   var url = shredForm.bookmarks.options[bookmarkIdx].value;
-   shredForm.location.value = url;
-   shredForm.location.focus();
+  var shredForm = window.document.gotoForm;
+  var bookmarkIdx = shredForm.bookmarks.selectedIndex;
+  var url = shredForm.bookmarks.options[bookmarkIdx].value;
+  shredForm.location.value = url;
+  shredForm.location.focus();
 }
 function shredPage() {
-   shredURL(window.document.gotoForm.location.value);
+  shredURL(window.document.gotoForm.location.value);
 }
 function shredURL(url) {
-   if (url != "") {
-      window.document.gotoForm.location.value = url;
-      if (doImgSwap) {
-         window.document.shlogo.src = "http://www.potatoland.org/shredder/aShred.gif";
-      }
-      // parent.display.location.href = "http://www.potatoland.org/cgi-bin/shred.pl?" + url;
-      parent.display.location.href = "http://www.potatoland.org/shredder/php/shred_v1.php?frame=n&url=" + url;
-      setTimeout('pageLoaded()',90000);
-   }
+  if (url != "") {
+    window.document.gotoForm.location.value = url;
+    window.document.shlogo.src = "/shredder/aShred.gif";
+    parent.display.location.href = "/shredder/php/shred_v1.php?frame=n&url=" + url;
+    setTimeout('pageLoaded()', 30000);
+  }
 }
 function loadPage(url) {
-   window.document.gotoForm.location.value = url;
-   shredPage();
+  window.document.gotoForm.location.value = url;
+  shredPage();
 }
 function pageLoaded() {
-   if (doImgSwap) {
-      window.document.shlogo.src = "http://www.potatoland.org/shredder/bladeSmBorder.jpg";
-   }
+  window.document.shlogo.src = "/shredder/bladeSmBorder.jpg";
 }
 function resetList() {
-   window.document.gotoForm.bookmarks.selectedIndex = 0;
+  window.document.gotoForm.bookmarks.selectedIndex = 0;
 }
-// -->
 </script>
 </head>
 
@@ -57,7 +42,7 @@ function resetList() {
         <TD valign=middle align=right><NOBR><font face="Arial" size="4">&nbsp; 
           </font><font face="Arial" size="2">&nbsp; Location: </font></NOBR> </TD>
         <TD valign=middle> 
-          <input type="text" name="location" size=60 onchange="resetList();/*shredPage();*/">
+          <input type="text" name="location" size=60 onchange="resetList();/*shredPage();*/"  onfocus="this.select();">
         </TD>
         <TD valign=middle align=right> <A HREF="welcome.html" target="display"><img name="shlogo" src="bladeSmBorder.jpg" height=38 align=middle hspace=3 vspace=3 border=0></A> 
         </TD>
