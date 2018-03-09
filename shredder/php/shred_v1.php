@@ -39,6 +39,12 @@ function shredAll($URLstring) {
 	$maxUrls = 7;
 	$urlCount = 0;
 
+	// Exit if script was not called by the Shredder interface (probably somebody hacking)
+	$refurl = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+	if ( !(isset($refurl) && strpos($refurl, '/shredder/toolbar.html') !== false) ) {
+		errorExit('&nbsp;:(');
+	}
+
 	// push URL onto stack
 	$URLstack = array($URLstring);
 
@@ -246,7 +252,7 @@ function outputShreddedHTML($elements, $url) {
 function makePermalink($url, $randomVal) {
 	global $SHREDDER_URL;
 	global $SHREDDER_TITLE;
-	$atag = "<div class='permalink'><a href='" . $SHREDDER_URL . $url . "&srand=" .$randomVal.  "&frame=n" . "' title='Permalink Shredder $url'>o-o $SHREDDER_TITLE</a></div>";
+	$atag = "<div class='permalink'><a href='" . $SHREDDER_URL . $url . "&srand=" .$randomVal.  "&frame=n" . "' title='Permalink Shredder $url' onclick='return false;'>$SHREDDER_TITLE</a></div>";
 	return $atag;
 }
 
@@ -333,7 +339,7 @@ $html = <<<EOT
 			font-size: 18px;
 			font-family: "Courier New", Courier, monospace;
 		}
-		.smalltext, .permalink {
+		.smalltext {
 			/* the original shredder default font size (-2) is equivalent to 10px (x-small) */
 			font-family: 'arial';
 			font-size: 10px;
@@ -341,14 +347,19 @@ $html = <<<EOT
 			margin-top: 0;
 		}
 		.permalink {
-			text-decoration: none;
 			position: absolute;
 			left: 700px;
 			top: 0px;
-			width: 100px;
 		}
-		.permalink:hover {
+		.permalink a {
+			font-family: 'arial';
+			font-size: 8px;
+			text-decoration: none;
+			color: #ccc;
+		}
+		.permalink a:hover {
 			text-decoration: underline;
+			color: #ccc;
 		}
 		#outer-container {
 			display: table;
