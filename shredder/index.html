@@ -1,19 +1,12 @@
 <html>
 <head>
-<!META HTTP-EQUIV="Refresh" CONTENT="0; URL='/p-soup/redirecttest.html'">
 <title>Launch Shredder</title>
 <script language="javascript">
-<!--
-var shredW = null;
 function openShredder() {
-   var ver = parseInt(navigator.appVersion);
-   if (ver < 4) {
-      alert("The Shredder is designed for 4.X browsers");
-   }
-   shredW = window.open("http://www.potatoland.org/shredder/shredder.html","",'width=900,height=675,resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,top=10,left=10');
+   var shredW = null;
+   shredW = window.open("/shredder/shredder.html","",'width=900,height=675,resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,top=10,left=10');
    shredW.focus();
 }
-// -->
 </script>
 </head>
 

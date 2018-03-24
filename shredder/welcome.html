@@ -1,32 +1,78 @@
 <HTML> 
 <HEAD> 
-<TITLE>Version 4.04 [en]-97313</TITLE> 
+<TITLE>Welcome to the Shredder</TITLE>
+<style type="text/css">
+  body {
+    color: #000066;
+    background-color: #C0C0C0;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
+
+  a {
+    color: #0000EE;
+  }
+
+  a:visited {
+    color: #0033CC;
+  }
+
+  a:active {
+    color: #FF0000;
+  }
+
+  #logo {
+    position: absolute; 
+    left: 40px; 
+    top: 30px;
+    width: 500px; 
+    height: 200px; 
+    z-index: 1; 
+  }
+
+  #logo img {
+    width: 500px; 
+    height: 200px; 
+  }
+
+  #welcome-text {
+    position: absolute;
+    left: 165px;
+    top: 160px;
+    width: 500px;
+    height: 115px;
+    z-index: 2;
+  }
+
+  #welcome-text table {
+    width: 100%;
+  }
+
+  span.copyright {
+    color: #000;
+    font-size: 13px;
+  }
+</style>
 </HEAD> 
 
-
-<BODY TEXT="#000000" BGCOLOR="#C0C0C0" LINK="#0000EE" VLINK="#0033CC" ALINK="#FF0000">
-<div id="Layer1" style="position:absolute; width:365px; height:235px; z-index:1; left: 15; top: 20">
-  <img src="shredder1at.gif" width="500" height="200"> 
+<BODY>
+<div id="logo">
+  <img src="shredder11_logo.png"> 
 </div>
-<div id="Layer2" style="position:absolute; width:200px; height:115px; z-index:2; left:135; top:150">
-  <table cellpadding=5 width=500 >
+<div id="welcome-text">
+  <table cellpadding=5>
     <tr> 
       <td valign=TOP> 
-        <p> <font color="#000066">An alternative browsing experience brought to 
-          you by <a href="http://www.potatoland.org" target="_parent">POTATOLAND.org</a> and the 
-          <a href="http://www.potatoland.org/landfill" target="_parent">Digital Landfill</a>. Type 
+        <p> An alternative browsing experience brought to 
+          you by <a href="http://www.potatoland.org" target="_new">POTATOLAND.org</a> and the 
+          <a href="http://www.potatoland.org/landfill" target="_new">Digital Landfill</a>. Type 
           a URL into the textbox above and hit enter, or choose from one of these 
-          <a href="bookmarks.html">favorites</a>. </font> </p>
+          <a href="bookmarks.html">favorites</a>. </p>
         <p> <a href="about.html">About the <b><i>Shredder</i></b></a> </p>
-        <p> <font size=-1>Copyright &copy; 1998 Mark Napier, All rights reserved. 
-          </font> </p>
-        <p>&nbsp; </p>
+        <p> <span class="copyright">Copyright &copy; 1998-2018 Mark Napier, All rights reserved. </span> </p>
       </td>
     </tr>
   </table>
 </div>
-<P ALIGN=CENTER>
-</P>  
-
-</BODY> 
-</HTML> 
+</BODY>
+</HTML>
