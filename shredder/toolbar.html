@@ -95,6 +95,7 @@ function setLocation() {
   shredForm.location.focus();
 }
 function shredPage() {
+  window.document.gotoForm.location.focus();
   shredURL(window.document.gotoForm.location.value);
 }
 function shredURL(url) {
@@ -135,18 +136,6 @@ function resetList() {
           <div class="input-wrapper">
             <SELECT name="bookmarks" onchange="setLocation();shredPage();">
               <OPTION value="">
-              <OPTION value="" disabled="disabled">------- net.art pages
-              <OPTION value="http://wwwww.jodi.org/">wwwww.jodi.org
-              <OPTION value="http://wwwww.jodi.org/id.html">wwwww.jodi.org/id.html
-              <OPTION value="http://wwwww.jodi.org/100/hqx/">wwwww.jodi.org/100/hqx
-              <OPTION value="http://wwwww.jodi.org/100/hqx/i902.html">wwwww.jodi.org/100/hqx/i902.html
-              <OPTION value="http://wwwww.jodi.org/100/hqx/i705.html">wwwww.jodi.org/100/hqx/i705.html
-              <OPTION value="http://archive.rhizome.org/splash/murphy/">RHIZOME: Murphy splash page
-              <OPTION value="http://www.superbad.com/1/plumbing/">superbad.com/plumbing
-              <OPTION value="http://worldofawe.net/chapter2">World of Awe [Chapter 2]
-              <OPTION value="http://potatoland.org/studio/gallery1/loadfli5.htm">Napier: Gallery1
-              <OPTION value="http://potatoland.org/seizure/grid6f.htm">Napier: Grid6f
-              <OPTION value="" disabled="disabled">
               <OPTION value="" disabled="disabled">------- Search Engines, etc.
               <OPTION value="http://www.google.com">Google
               <OPTION value="http://www.yahoo.com">Yahoo
@@ -156,8 +145,19 @@ function resetList() {
               <OPTION value="http://www.wired.com">Wired.com
               <OPTION value="https://www.huffingtonpost.com/">Huffington Post
               <OPTION value="" disabled="disabled">
-              <OPTION value="" disabled="disabled">------- Misc
+              <OPTION value="" disabled="disabled">------- net.art pages
+              <OPTION value="http://wwwww.jodi.org/">wwwww.jodi.org
+              <OPTION value="http://wwwww.jodi.org/id.html">wwwww.jodi.org/id.html
+              <OPTION value="http://wwwww.jodi.org/100/hqx/i902.html">wwwww.jodi.org/100/hqx/i902.html
+              <OPTION value="http://wwwww.jodi.org/100/hqx/i705.html">wwwww.jodi.org/100/hqx/i705.html
+              <OPTION value="http://archive.rhizome.org/splash/murphy/">RHIZOME: Murphy splash page
+              <OPTION value="http://www.superbad.com/1/plumbing/">superbad.com/plumbing
+              <OPTION value="http://worldofawe.net/chapter2">World of Awe [Chapter 2]
+              <OPTION value="http://potatoland.org/studio/gallery1/loadfli5.htm">Napier: Gallery1
+              <OPTION value="http://potatoland.org/seizure/grid6f.htm">Napier: Grid6f
               <OPTION value="http://www.rhizome.org/">RHIZOME
+              <OPTION value="" disabled="disabled">
+              <OPTION value="" disabled="disabled">------- Misc.
               <OPTION value="http://www.sito.org/">SITO
               <OPTION value="http://www.hamsterdance.org/hamsterdance/">Hamster Dance
               <OPTION value="http://www.omgcatsinspace.com/">OMG Cats in Space
@@ -175,7 +175,7 @@ function resetList() {
 </div>
 
 <div id="shredder-spinner">
-  <A href="welcome.html" target="display"><img name="shlogo" src="bladeSmBorder.jpg"></A>
+  <A href="#" onclick="shredPage();return false;" target="display"><img name="shlogo" src="bladeSmBorder.jpg"></A>
 </div>
 
 <script>window.document.gotoForm.location.focus();</script>

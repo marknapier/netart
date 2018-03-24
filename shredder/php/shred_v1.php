@@ -112,7 +112,9 @@ function shred($url, &$URLstack) {
 function outputShreddedHTML($elements, $url) {
 	$urlParts = testURL($url);
 
-		// guts('HTMLHTMLHTMLHTML2', $elements['html']);
+	// guts('HTMLHTMLHTMLHTML2', $elements['bgcolors']);
+	// guts('HTMLHTMLHTMLHTML2 [0]', $elements['bgcolors'][0]);
+	// guts('HTMLHTMLHTMLHTML2 bodyBGC', $elements['bodyBGColor']);
 
 	$html = $elements['headers'] . $elements['html'];
 	$colors = $elements['colors'];
@@ -120,7 +122,12 @@ function outputShreddedHTML($elements, $url) {
 	$videos = $elements['videos'];
 	$mp4s = $elements['mp4s'];
 	$links = $elements['links'];
-	$bodyBGC = isset($elements['bodyBGColor']) ? $elements['bodyBGColor'] : '#fff';
+	$bodyBGC = (isset($elements['bodyBGColor']) && $elements['bodyBGColor'] != "") ? $elements['bodyBGColor'] : 
+				((isset($elements['bgcolors']) 
+									&& 
+									sizeof($elements['bgcolors']) > 0) ? 
+								$elements['bgcolors'][0] : 
+								'#fff');
 
 	// Show the URL
 	print "<!-------- Output Shred: $url -------->\n";

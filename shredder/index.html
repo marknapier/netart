@@ -1,32 +1,70 @@
 <html>
 <head>
 <title>Launch Shredder</title>
+<link rel="icon" type="image/png" href="./shredder_icon.png">
+<style type="text/css">
+  body, td {
+    color: #000066;
+    background-color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  a {
+    color: #003399;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #0000EE;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #003399;
+  }
+
+  a:active {
+    color: #FF0000;
+  }
+
+  table#launch-shredder {
+  	border-top: 1px solid #d9d9d9;
+  	border-left: 1px solid #d9d9d9;
+  	border-bottom: 1px solid #999999;
+  	border-right: 1px solid #999999;
+  }
+
+  table#launch-shredder td {
+  	padding: 25px;
+  }
+</style>
 <script language="javascript">
 function openShredder() {
-   var shredW = null;
-   shredW = window.open("/shredder/shredder.html","",'width=900,height=675,resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,top=10,left=10');
+   var shredW = window.open("/shredder/shredder.html","",'width=900,height=675,resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,top=10,left=10');
    shredW.focus();
 }
 </script>
 </head>
 
-<BODY TEXT="#000000" BGCOLOR="#C0C0C0" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">  
+<BODY>  
 
 <TABLE WIDTH="100%" HEIGHT="100%"> 
 <TR height="100%"> 
-<TD valign=middle align=center>
+	<TD valign=middle align=center>
 
-<TABLE CELLPADDING=3 border=0> 
-<TR height="100%"> 
-<TD VALIGN=top align=right> <A HREF="shredder.html" onclick="openShredder();return false;"><IMG SRC="shredder1aSmt.gif" ALT="Launch the Shredder" border=0></A>
-</TD> 
-<TD VALIGN=TOP align=left> <A HREF="shredder.html" onclick="openShredder();return false;"><B><FONT SIZE=+3>Shredder</FONT><FONT SIZE=+2> 1.1</FONT></B></A> <P>
-Click to launch the Shredder
-</TD> 
-</TR> 
-</TABLE>  
+		<TABLE id="launch-shredder"> 
+		<TR> 
+			<TD align=center> 
+				<A HREF="shredder.html" onclick="openShredder();return false;">
+					<img src="shredder11_logo.png" width="300px" alt="Launch the Shredder"><Br>
+					Click to launch the Shredder
+				</A>
+			</TD> 
+		</TR> 
+		</TABLE>  
 
-</TD> 
+	</TD> 
 </TR> 
 </TABLE>
 
