@@ -1,6 +1,90 @@
 <html>
 <head>
 <title>Shredder Toolbar</title>
+<style type="text/css">
+  html {
+    border-top: 1px solid black;    
+  }
+
+  body, td {
+    background-color: #c0c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  a {
+    color: #0020c0
+  }
+
+  a:visited {
+    color: #0020c0;
+  }
+
+  div#shredder-logo {
+    position: absolute; 
+    width: 70px; 
+    height: 30px; 
+    left: 16px; 
+    top: 10px;
+    z-index: 1; 
+  }
+
+  div#shredder-spinner {
+    position: absolute; 
+    width: 40px; 
+    height: 40px; 
+    right: 4px; 
+    top: 4px;
+    z-index: 2; 
+  }
+
+  div#shredder-spinner img {
+    width: 40px; 
+    height: 40px; 
+  }
+
+  #url-entry input, #url-entry select {
+    outline-style: none;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1px;
+    height: 21px;
+  }
+
+  #url-entry input {
+    width: 550px;
+    padding-left: 4px;
+  }
+
+  #url-entry a {
+    text-decoration: none;
+  }
+
+  #url-entry a:hover {
+    text-decoration: underline;
+  }
+
+  #url-entry .input-wrapper {
+    display: inline-block;
+    padding: 1px;
+    background-color: white;
+    box-shadow: inset 1px 1px 0px 0px #777;
+    margin-left: 4px;
+  }
+
+  #url-entry table {
+    margin-left: 100px;
+    margin-top: 4px;
+    width: 600px;
+    border: 0;
+  }
+
+  #url-entry table tr {
+    height: 30px;
+  }
+</style>
 <script language="javascript">
 var shredderVersion = 1.1;
 function setLocation() {
@@ -34,81 +118,65 @@ function resetList() {
 </script>
 </head>
 
-<BODY BGCOLOR="#c0c0c0" link="#0020c0" vlink="#0020c0">
-  <FORM name="gotoForm" onsubmit="shredPage();return false;" action="#" method="GET">
-    <TABLE cellpadding=0 cellspacing=0 width=100% border=0>
+<BODY>
+  <FORM id="url-entry" name="gotoForm" onsubmit="shredPage();return false;" action="#" method="GET">
+    <TABLE cellpadding=0 cellspacing=0>
       <TR> 
-        <TD width=6%> &nbsp; </TD>
-        <TD valign=middle align=right><NOBR><font face="Arial" size="4">&nbsp; 
-          </font><font face="Arial" size="2">&nbsp; Location: </font></NOBR> </TD>
-        <TD valign=middle> 
-          <input type="text" name="location" size=60 onchange="resetList();/*shredPage();*/"  onfocus="this.select();">
-        </TD>
-        <TD valign=middle align=right> <A HREF="welcome.html" target="display"><img name="shlogo" src="bladeSmBorder.jpg" height=38 align=middle hspace=3 vspace=3 border=0></A> 
+        <TD valign=middle align=right>Location:</TD>
+        <TD valign=middle>
+          <div class="input-wrapper">
+            <input type="text" name="location" onchange="resetList();" onfocus="this.select();" spellcheck="false" autocomplete="off">
+          </div>
         </TD>
       </TR>
       <TR> 
-        <TD width=6%> &nbsp; </TD>
-        <TD align=right> <font face="Arial" size="2">&nbsp; <A HREF="bookmarks.html" target="display">Bookmarks:</A></font> 
+        <TD align=right><A HREF="bookmarks.html" target="display">Bookmarks:</A></TD>
+        <TD valign=middle>
+          <div class="input-wrapper">
+            <SELECT name="bookmarks" onchange="setLocation();shredPage();">
+              <OPTION value="">
+              <OPTION value="" disabled="disabled">------- net.art pages
+              <OPTION value="http://wwwww.jodi.org/">wwwww.jodi.org
+              <OPTION value="http://wwwww.jodi.org/id.html">wwwww.jodi.org/id.html
+              <OPTION value="http://wwwww.jodi.org/100/hqx/">wwwww.jodi.org/100/hqx
+              <OPTION value="http://wwwww.jodi.org/100/hqx/i902.html">wwwww.jodi.org/100/hqx/i902.html
+              <OPTION value="http://wwwww.jodi.org/100/hqx/i705.html">wwwww.jodi.org/100/hqx/i705.html
+              <OPTION value="http://archive.rhizome.org/splash/murphy/">RHIZOME: Murphy splash page
+              <OPTION value="http://www.superbad.com/1/plumbing/">superbad.com/plumbing
+              <OPTION value="http://worldofawe.net/chapter2">World of Awe [Chapter 2]
+              <OPTION value="http://potatoland.org/studio/gallery1/loadfli5.htm">Napier: Gallery1
+              <OPTION value="http://potatoland.org/seizure/grid6f.htm">Napier: Grid6f
+              <OPTION value="" disabled="disabled">
+              <OPTION value="" disabled="disabled">------- Search Engines, etc.
+              <OPTION value="http://www.google.com">Google
+              <OPTION value="http://www.yahoo.com">Yahoo
+              <OPTION value="http://www.facebook.com">Facebook
+              <OPTION value="" disabled="disabled">
+              <OPTION value="" disabled="disabled">------- Publications
+              <OPTION value="http://www.wired.com">Wired.com
+              <OPTION value="https://www.huffingtonpost.com/">Huffington Post
+              <OPTION value="" disabled="disabled">
+              <OPTION value="" disabled="disabled">------- Misc
+              <OPTION value="http://www.rhizome.org/">RHIZOME
+              <OPTION value="http://www.sito.org/">SITO
+              <OPTION value="http://www.hamsterdance.org/hamsterdance/">Hamster Dance
+              <OPTION value="http://www.omgcatsinspace.com/">OMG Cats in Space
+              <OPTION value="http://www.graffiti.org/nyc/newyork_4.html">Art Crimes NYC page 4
+              <OPTION value="" disabled="disabled"> 
+            </SELECT>
+          </div>
         </TD>
-        <TD valign=middle> <font face="Arial" size="2"> 
-          <SELECT name="bookmarks" onchange="setLocation();shredPage();">
-            <OPTION value="">
-            <OPTION value="" disabled="disabled">------- net.art pages
-            <OPTION value="http://wwwww.jodi.org/">wwwww.jodi.org
-            <OPTION value="http://wwwww.jodi.org/id.html">wwwww.jodi.org/id.html
-            <OPTION value="http://wwwww.jodi.org/100/hqx/">wwwww.jodi.org/100/hqx
-            <OPTION value="http://wwwww.jodi.org/100/hqx/i902.html">wwwww.jodi.org/100/hqx/i902.html
-            <OPTION value="http://wwwww.jodi.org/100/hqx/i705.html">wwwww.jodi.org/100/hqx/i705.html
-            <OPTION value="http://archive.rhizome.org/splash/murphy/">RHIZOME: Murphy splash page
-            <OPTION value="http://www.superbad.com/1/plumbing/">superbad.com/plumbing
-            <OPTION value="http://worldofawe.net/chapter2">World of Awe [Chapter 2]
-            <OPTION value="http://potatoland.org/studio/gallery1/loadfli5.htm">Napier: Gallery1
-            <OPTION value="http://potatoland.org/seizure/grid6f.htm">Napier: Grid6f
-            <OPTION value="" disabled="disabled">
-            <OPTION value="" disabled="disabled">------- Search Engines, etc.
-            <OPTION value="http://www.google.com">Google
-            <OPTION value="http://www.yahoo.com">Yahoo
-            <OPTION value="http://www.facebook.com">Facebook
-            <OPTION value="" disabled="disabled">
-            <OPTION value="" disabled="disabled">------- Publications
-            <OPTION value="http://www.wired.com">Wired.com
-            <OPTION value="https://www.huffingtonpost.com/">Huffington Post
-            <OPTION value="" disabled="disabled">
-            <OPTION value="" disabled="disabled">------- Misc
-            <OPTION value="http://www.rhizome.org/">RHIZOME
-            <OPTION value="http://www.sito.org/">SITO
-            <OPTION value="http://www.hamsterdance.org/hamsterdance/">Hamster Dance
-            <OPTION value="http://www.omgcatsinspace.com/">OMG Cats in Space
-            <OPTION value="http://www.graffiti.org/nyc/newyork_4.html">Art Crimes NYC page 4
-            <OPTION value="" disabled="disabled"> 
-          </SELECT>
-          </font> </TD>
-        <TD></TD>
       </TR>
     </TABLE>
 </FORM>
 
-<div id="Layer1" style="position:absolute; width:70px; height:30px; z-index:1; left:10; top:10">
-  <font face="Arial" size="4"><a href="welcome.html" target="display"><img src="shredder1aSmt.gif" height="46" border="0" width="60"></a></font> 
+<div id="shredder-logo">
+  <a href="welcome.html" target="display"><img src="shredder1aSmt.gif" height="46" border="0" width="60"></a>
 </div>
 
-<TABLE width=100%>
-<TR>
-    <TD width=5%></TD>
-    <TD width="90%"> 
-      <HR width="100%">
-<font size="+1"><B><I>Shredder 1.0</I></B></font>.  Produced by <A HREF="http://www.potatoland.org" target="_parent">POTATOLAND.org</A>, creators of the <A HREF="http://www.potatoland.org/landfill" target="_parent">Digital Landfill</A>
-<BR>
-Copyright &copy; 1998 Mark Napier
-<P>
-Questions, problems or comments?  Contact <A HREF="mailto:napier@interport.net">napier@interport.net</a>
-<BR>
-<P>
-</TD>
-    <TD width=5%></TD>
-</TR>
-</TABLE>
+<div id="shredder-spinner">
+  <A href="welcome.html" target="display"><img name="shlogo" src="bladeSmBorder.jpg"></A>
+</div>
 
 <script>window.document.gotoForm.location.focus();</script>
 </body>
