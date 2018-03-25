@@ -3,30 +3,40 @@
 <title>Toolbar</title>
 <STYLE TYPE="text/css">
 body {
+	background-image: url("img/tb_riot.gif");
 	background-color: #c0c0c0;
 	color: #3399CC;
 	margin: 0;
 	padding: 0;
 }
-.tiny {
+#loclyrNN input {
+    outline-style: none;
 	font-family: Arial, Geneva, Lucida, sans-serif;
 	font-size: 9pt;
 	font-weight: normal;
-}
-#loclyrNN input {
-	border-top: 1px solid #333; 
-	border-right : 0; 
-	border-bottom: 1px solid #333; 
-	border-left: 1px solid #333; 
-	height: 19px;
+	border: 0;
+	padding: 0 0 0 3px;
+	height: 17px;
 	width: 650px;
 }
-#loclyrNN .input-border {
-	border-top: 1px solid #999;
-	border-right: 0;
-	border-bottom: 1px solid #ddd;
-	border-left: 1px solid #999;
+#loclyrNN .input-border-in {
 	display: inline-block;
+	vertical-align: top;
+	background-color: #fff;
+	border: 1px solid blue;
+    border-top: 1px solid #414141;
+    border-left: 1px solid #414141;
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+#loclyrNN .input-border-out {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid red;
+    border-top: 1px solid #848484;
+    border-left: 1px solid #848484;
+    border-right: 1px solid #fafafa;
+    border-bottom: 1px solid #fafafa;
 }
 </STYLE>
 
@@ -69,8 +79,7 @@ function hidePopups() {
 }
 
 function riotURL(url) {
-	patiencePrompt("on");
-	if (url != "" && url.indexOf("-----") == -1 || url.charAt(0) != 32) {
+	if (url != "" && url.indexOf("-----") == -1 && url.charAt(0) != 32) {
 		var cgicall = (url=="refresh") ? "/riot/php/riot_v1.php" : ("/riot/php/riot_v1.php?url="+url);
 		F.url.value = (url=="refresh") ? "" : url;
 		parent.riotDisplay.document.location.href = cgicall;
@@ -78,6 +87,8 @@ function riotURL(url) {
 		oldUpdated = updated;
 		parent.hide('bookmarks');
 		parent.hide('urls');
+		patiencePrompt("on");
+	    setTimeout(function () { patiencePrompt("off"); }, 30000);
 	}
 }
 
@@ -112,7 +123,9 @@ function setVisibile(pElem, pbState) {
 </script>
 </head>
 
-<BODY background="img/tb_riot.gif" onload="init();" onclick="hidePopups();">
+<BODY onload="init();" onclick="hidePopups();">
+
+<!-- Microsoft logo on far right of toolbar -->
 
 <TABLE border=0 width=100% cellpadding=0 cellspacing=0><TR><TD valign=top align=right>
         <img src="img/ie1.gif" id="waitImage" align=absmiddle border=0 hspace=0 vspace=0 width=52 height=31>
@@ -122,9 +135,15 @@ function setVisibile(pElem, pbState) {
 
 <div id="loclyrNN" style="position:absolute; height:30px; left:230px; top:5px; z-index:100;">
     <FORM id="urlFormNN" name="urlFormNN" onsubmit="formSubmitted();return false;">
-        <div class="input-border"><input class="tiny" type="text" name="url" size=46 onfocus="this.select();"></div><A HREF="javascript:openUrls();return false;" onclick="openUrls();(arguments[0]||window.event).stopPropagation();return false;"><img src="img/ddarrow_oneborder.gif" align=absmiddle border=0></A>
+        <div class="input-border-out">
+        	<div class="input-border-in">
+        		<input type="text" name="url" size=46 onfocus="this.select();" spellcheck="false" autocomplete="off"><A HREF="javascript:openUrls();return false;" onclick="openUrls();(arguments[0]||window.event).stopPropagation();return false;"><img src="img/ddarrow_inset.gif" align=absmiddle border=0></A>
+        	</div>
+        </div>
     </FORM>
 </div>
+
+<!-- Transparent bookmark link over 'Bookmarks' -->
 
 <div id="linklyr" style="position:absolute; width:100px; height:30px; z-index:200; left:45; top:7">
   <a href="bookmarks.html" onclick="openBookmarks();(arguments[0]||window.event).stopPropagation();return false;"><img src="img/blank.gif" height="20" width=104 border="0" alt="show Bookmarks"></a>

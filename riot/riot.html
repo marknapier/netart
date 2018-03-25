@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>RIOT</title>
+<link rel="icon" type="image/png" href="./img/riot_icon.png">
 
 <style TYPE="text/css">
 	html, body {
@@ -101,10 +102,10 @@
 <script language="javascript">
 	function reloadURLs() {		// refresh riot page every 5 minutes
 		riotToolbar.riotURL("refresh");
-		setTimeout('reloadURLs()', 600000);
+		setTimeout(reloadURLs, 600000);
 	}
 	function init() {
-		setTimeout('reloadURLs()', 600000);
+		setTimeout(reloadURLs, 600000);
 	}
 	function setPageTitle(title) {
 		document.title = 'RIOT: ' + title;

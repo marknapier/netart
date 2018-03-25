@@ -1,29 +1,47 @@
 <?php
-
+/** 
+ *  Script to generate html pages for Riot.
+ *  Run with a url parameter:  riot_v1.php?url=google.com
+ *  NOTE: requires that a 'cache' folder exists in the parent folder
+ *
+ *  The original Riot script was written in Perl in 1999. This PHP script is the result of 
+ *  a substantial re-write 2015-2018. 
+ */
 require_once("file_funcs.php");
 require_once("html_guts.php");
 
 $RIOT_TITLE = "Riot 1.2";
 $RIOT_URL_ROOT = "/riot/php/riot_v1.php";
 $RIOT_URL = $RIOT_URL_ROOT . "?url=";
-$RIOT_WIDTH_PIXELS = "1000";   // Riot 1.0 (1998) was designed to fit an 800x600 pixel window (see setDisplayScale())
+$RIOT_WIDTH_PIXELS = "1200";   // Riot 1.0 (1999) was designed to fit an 800x600 pixel window but overflowed a lot, so go for 1200 now (see setDisplayScale())
 
 $mergedWords = array();  // holds words for random sentence
 $pageNum = 0;		// number of html page being output
 $z = 10;		// z-index
 
-initRandomGenerator();
-$URLstring = sanitizeUrl(getUserURL());
-
-startHTMLpage();
-startFrame($URLstring);
-riot($URLstring);
-endFrame();
-endHTMLpage();
+main();
 
 //--------------------------------------------------------------------------------------------------
 
 // Riot starts here
+function main() {
+	// Exit if script was not called from Riot
+	$refurl = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+	if ( !(isset($refurl) && strpos($refurl, 'potatoland.org/riot') !== false) ) {
+		errorExit('&nbsp;:(');
+	}
+
+	set_error_handler("warning_handler", E_WARNING);  // handle php warnings quietly
+	initRandomGenerator();
+	$URLstring = sanitizeUrl(getUserURL());
+
+	startHTMLpage();
+	startFrame($URLstring);
+	riot($URLstring);
+	endFrame();
+	endHTMLpage();	
+}
+
 function riot($url) {
 	if (isset($url) && $url !== '') {
 		// parse and cache the given url and any further nested urls
@@ -33,7 +51,7 @@ function riot($url) {
 		}
 		else {
 			$safeURL = buildURL($urlParts);
-			processURL($safeURL);
+			parseAndCache($safeURL);
 		}
 	}
 	// riotously render the three latest urls
@@ -41,7 +59,7 @@ function riot($url) {
 }
 
 // Parse the html from this url and store results into a cache file
-function processURL($riotURL) {
+function parseAndCache($riotURL) {
 	// limit how many urls we'll process
 	$maxUrls = 7;
 	$urlCount = 0;
@@ -50,12 +68,12 @@ function processURL($riotURL) {
 	// push URL onto stack
 	$URLstack = array($riotURL);
 
-	// riot() may push more URLs onto stack (if processing a frameset) so loop until all are urls are processed
+	// riot() may push more URLs onto stack (if processing a frameset) so loop until all urls are processed
 	while (($url = array_shift($URLstack)) && $urlCount++ < $maxUrls) {
 		// get elements from first url
 		$elementsForOnePage = parseHTML($url, $URLstack);
 
-		// print "########### processURL $url elementsforonepage=";
+		// print "########### parseAndCache $url elementsforonepage=";
 		// var_dump($elementsForOnePage);
 
 		if ($elements == null) {
@@ -68,7 +86,7 @@ function processURL($riotURL) {
 		}
 	}
 
-	// print "########### processURL elements=";
+	// print "########### parseAndCache elements=";
 	// var_dump($elements);
 
 	if ($elements != null) {
@@ -92,13 +110,18 @@ function showTheRiotPage() {
 	// Load and render the cache files for last three urls
 	while (($url = array_pop($threeUrls))) {  // go from oldest url to newest
 		$fileContents = getFromCache($url);
+		if ($fileContents == null) {
+			error('Could not read from cache');
+		}
 		$elements = makeElementsFromFileContents($fileContents);
 		outputRiotHTML($elements, $url, $threeUrls);
 	}
 
 	if (isset($elements)) {
 		// Set background color once, not for each url
-		$bodyBGC = isset($elements['bodyBGColor']) ? $elements['bodyBGColor'] : '#fff';
+		$bodyBGC = (isset($elements['bodyBGColor']) && $elements['bodyBGColor'] != "") ? $elements['bodyBGColor'] : 
+					((isset($elements['bgcolors']) && sizeof($elements['bgcolors']) > 0) ? $elements['bgcolors'][0] : '#fff');
+
 		// Set body BG color
 		print "<SCRIPT>document.body.style.backgroundColor = '" . $bodyBGC . "';</SCRIPT>\n";
 		// Set page title and location from most recent url
@@ -124,50 +147,52 @@ function makeElementsFromFileContents($lines) {
 		'base' => '',
 		'text' => ''
 	);
-	foreach($lines as $line) {
-		// remove newline at end
-		$line = substr($line, 0, -1);
+	if (isset($lines) && $lines != null) {
+		foreach($lines as $line) {
+			// remove newline at end
+			$line = substr($line, 0, -1);
 
-		// break line into two parts on '=='
-		$lineParts = preg_split("/==/", $line);
-		$left = $lineParts[0];
-		if (sizeof($lineParts) <= 1) {
-			guts("ERROR LINEPARTS", $lineParts);
-		}
-		else {
-			$right = $lineParts[1];
-		}
+			// break line into two parts on '=='
+			$lineParts = preg_split("/==/", $line);
+			$left = $lineParts[0];
+			if (sizeof($lineParts) <= 1) {
+				guts("ERROR LINEPARTS", $lineParts);
+			}
+			else {
+				$right = $lineParts[1];
+			}
 
-		// process each type of line
-		if ($left === "f") {
-			array_push($elements['frames'], $right); 
-			print "<!Got FRAME from file: $right>\n"; 
-		}   
-		else if ($left === "l") {
-			// example:  "http://marknapier.com/press||Press"
-			$lineParts = preg_split("/\|\|/", $right);
-			array_push($elements['links'], $lineParts[0]);
-			array_push($elements['linkTexts'], (sizeof($lineParts) > 1 ? $lineParts[1] : ""));
-		}
-		else if ($left === "bgimg" && $right !== "") {
-			array_push($elements['bgimages'], $right);
-			array_push($elements['images'], $right);
-		}
-		else if ($left === "i") {
-		    array_push($elements['images'], $right);
-		}
-		else if ($left === "c") {
-		    array_push($elements['colors'], $right);
-		}
-		else if ($left === "title") {
-			$elements['title'] = $right;
-		}
-		else if ($left === "base") {
-			$elements['base'] = $right;
-		}
-		else if ($left === "t") {
-		    $elements['text'] = $right;
-		}
+			// process each type of line
+			if ($left === "f") {
+				array_push($elements['frames'], $right); 
+				print "<!Got FRAME from file: $right>\n"; 
+			}   
+			else if ($left === "l") {
+				// example:  "http://marknapier.com/press||Press"
+				$lineParts = preg_split("/\|\|/", $right);
+				array_push($elements['links'], $lineParts[0]);
+				array_push($elements['linkTexts'], (sizeof($lineParts) > 1 ? $lineParts[1] : ""));
+			}
+			else if ($left === "bgimg" && $right !== "") {
+				array_push($elements['bgimages'], $right);
+				array_push($elements['images'], $right);
+			}
+			else if ($left === "i") {
+			    array_push($elements['images'], $right);
+			}
+			else if ($left === "c") {
+			    array_push($elements['colors'], $right);
+			}
+			else if ($left === "title") {
+				$elements['title'] = $right;
+			}
+			else if ($left === "base") {
+				$elements['base'] = $right;
+			}
+			else if ($left === "t") {
+			    $elements['text'] = $right;
+			}
+		}		
 	}
 	return $elements;
 }
@@ -244,7 +269,7 @@ function addToCache($elements, $safeURL) {
 	}
 }
 
-// Retrieve the parsed html contents for on cached web page
+// Retrieve the parsed html contents from cached web page
 // as an array of strings.
 function getFromCache($url) {
 	$urlParts = testURL(sanitizeURL($url));
@@ -403,7 +428,8 @@ function outputRiotHTML($elements, $url) {
 
 	// Scatter links towards the right
 	print "<!-------- Links -------->\n";
-	while ($link = array_shift($links)) {
+	for ($linkCount=0; $linkCount < 150; $linkCount++) {  // up to 150 links max
+		$link = array_shift($links);
 		$linkText = array_shift($linkTexts);
 		$lpos = (randint(50, 650) + ($pageNum * 100)) . "px";
 		$tpos = randint(50,650) . "px";
@@ -707,7 +733,7 @@ print showFrame() ? $html : '';
 // Show message and exit
 function errorExit($message)
 {
-	print "<div>\n";
+	print "<div style='margin-left: 20px;'>\n";
 	print "<h3>Error: $message</h3>\n";
 	print "<p><a href='javascript:history.back()'>&lt; BACK</a></p>\n";
 	print "</div>\n";
@@ -715,5 +741,15 @@ function errorExit($message)
 	print "</body></html>\n";
 	exit(-1);
 }
+
+// Show message
+function error($message) {
+	print "<!-- riot error: " . $message . " -->\n";
+}
+
+function warning_handler($errno, $errstr) { 
+	error($errstr);
+}
+
 
 ?>

@@ -11,6 +11,11 @@ function makeNextFilename($name) {
 
 function writeFile($stringData, $filename) {
 	$myFile = $filename? $filename : makeNextFilename('riot_data');
+
+	//
+//Warning: fopen(../cache/http___www_yansite_jp_.hdata): failed to open stream: No such file or directory in C:\xampp2\htdocs\riot\php\file_funcs.php on line 14
+//save.php writeToFile(): can't open file ../cache/http___www_yansite_jp_.hdata
+
 	$fh = fopen($myFile, 'w') or die("save.php writeToFile(): can't open file " . $myFile);
 	fwrite($fh, $stringData);
 	fclose($fh);
@@ -20,7 +25,11 @@ function writeFile($stringData, $filename) {
  * Return file contents as an array of strings, or null if file open fails
  */
 function loadFile($filename) {
-	$lines = file($filename);
+	try {
+		$lines = file($filename);
+	} catch (Exception $e) {
+	    print 'loadFile() exception: ' . $e->getMessage() . "\n";
+	}
 	return $lines === FALSE ? null : $lines;
 }
 
