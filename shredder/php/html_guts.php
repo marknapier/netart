@@ -54,7 +54,7 @@ function getHeaders($url) {
     // check for problems
     $curlError = curl_error($ch);
     if ($curlError != "") {
-    	print "<!-- CURL ERROR:" . $curlError . "-->\n";
+    	error("CURL ERROR:" . $curlError);
     }
 
     // get redirected url, if any
@@ -90,7 +90,7 @@ function getHeadersLast($url) {
 	    }
 	    else if ($httpCode == 404) {
 	    	// page not found: give up
-	    	errorExit("<p>HTTP returned 404: file not found<BR>\n <BR> <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	    	error("HTTP returned 404: file not found\n");
 	    }
 		else if ($httpCode == 301 || $httpCode == 302) {
 			// redirect to another url
@@ -99,16 +99,16 @@ function getHeadersLast($url) {
 	        $url_parsed = parse_url($url);
 	    	// guts("getHeaderLast:  url_parsed is ", $url_parsed);
 	        if (!isset($url_parsed)) {
-	        	errorExit("<p>Redirect found a funky url<BR>\n <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	        	error("Redirect found a funky url");
 	        }
 			$redirects++;
 	    }
 	    else {
-	    	errorExit("<p>HTTP returned error code: $httpCode<BR>\n <BR> <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	    	error("HTTP returned error code: $httpCode");
 	    }
 	}
 	if (!$finalURL) {
-		errorExit("TOO MANY redirects!!!!");
+		error("Too many redirects!!!!");
 	}
     return $finalURL;
 }
@@ -513,6 +513,11 @@ function getParam($name) {
 		$param = $_GET[$name];
 	}
 	return $param;
+}
+
+// Show message
+function error($message) {
+	print "<!-- html_guts error: " . $message . " -->\n";
 }
 
 ?>

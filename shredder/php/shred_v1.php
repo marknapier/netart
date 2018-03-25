@@ -15,20 +15,10 @@ shredAll($URLstring);
 endFrame();
 endHTMLpage();
 
-// http://jodi.org/cgi-bin/as.cgi
 // http://asdfg.jodi.org/cgi-bin/zxcvb.cgi
-
-// here's an image that works
-// http://asdfg.jodi.org/-------------------------------/-------------------------------/-------------------------------/-------------------------------/-----------------------941ht358/gif/bl.gif
-
 // http://wwwwwww.jodi.org/00010/index.html
-// http://wwwwwwwww.jodi.org/
-// http://404.jodi.org
-// http://posthtml.org/
 // plexus.org
 // http://superbad.com/1/beanie/index.html
-// http://maxpaynecheatsonly.jodi.org/mp1a34.html
-
 //--------------------------------------------------------------------------------------------------
 
 // ------------------------------------------------
@@ -42,7 +32,7 @@ function shredAll($URLstring) {
 	// Exit if script was not called by the Shredder interface (probably somebody hacking)
 	$refurl = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 	if ( !(isset($refurl) && strpos($refurl, '/shredder/toolbar.html') !== false) ) {
-		errorExit('&nbsp;:(');
+		// errorExit('&nbsp;:(');
 	}
 
 	// push URL onto stack
@@ -123,11 +113,7 @@ function outputShreddedHTML($elements, $url) {
 	$mp4s = $elements['mp4s'];
 	$links = $elements['links'];
 	$bodyBGC = (isset($elements['bodyBGColor']) && $elements['bodyBGColor'] != "") ? $elements['bodyBGColor'] : 
-				((isset($elements['bgcolors']) 
-									&& 
-									sizeof($elements['bgcolors']) > 0) ? 
-								$elements['bgcolors'][0] : 
-								'#fff');
+				((isset($elements['bgcolors']) && sizeof($elements['bgcolors']) > 0) ? $elements['bgcolors'][0] : '#fff');
 
 	// Show the URL
 	print "<!-------- Output Shred: $url -------->\n";
@@ -477,7 +463,7 @@ print showFrame() ? $html : '';
 // Show message and exit
 function errorExit($message)
 {
-	print "<div>\n";
+	print "<div style='margin-left: 10px;''>\n";
 	print "<h3>Error: $message</h3>\n";
 	print "<p><a href='javascript:history.back()'>&lt; BACK</a></p>\n";
 	print "</div>\n";
