@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=600">
+<title>potatoland</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
+<link rel="icon" type="image/png" href="./potatoland_icon.png">
+<style>
+	body {
+		margin: 30px;
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	}
+	a {
+	  color: #665555;
+	  font-size: 11px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  line-height: 16px;
+	}
+	a:hover {
+		color: #F64;
+		text-decoration: underline;
+	}
+	.block {
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+	.block-title {
+		color:#666;
+	}
+	.block-items {
+		margin-left: 20px;
+	}
+	.block-items a {
+		display: block;
+		color:#445;
+	}
+	.block-items a:hover {
+		text-decoration: underline;
+		color: #F64;
+	}
+	#site-title {
+		margin-bottom: 30px;
+		font-size: 20px;
+		color: #999;
+	}
+	#site-title div {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.teasers {
+		display: block;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	#site-links {
+		display: block;
+		position: absolute;
+		padding: 10px;
+		background-color: rgba(255,255,255,0.8);
+		left: 20px;
+		top: 60px;
+	}
+	a.back-home {
+		position: fixed;
+		padding: 10px;
+		color: #aaa;
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		line-height: 0;
+		text-decoration: none;
+	}
+	a.back-home:hover {
+		color: #333;
+		text-decoration: none;
+	}
+	#menu-button .bars {
+		width: 16px;
+		height: 16px;
+		background: linear-gradient(
+		  to bottom,
+		  #777, #777 20%,
+		  transparent 20%, transparent 40%,
+		  #777 40%, #777 60%,
+		  transparent 60%, transparent 80%,
+		  #777 80%, #777 100%
+		);
+	}
+	#main-image {
+		width: 60%;
+		max-width: 600px;
+		margin-left: 25%;
+		margin-top: 20px;
+	}
+	#main-image img {
+		width: 100%;
+	}
+	@media only screen and (max-width: 600px) {
+		div#menu-button {
+			display: inline-block;
+		}
+		#site-links {
+			display: none;
+		}
+	}
+</style>
+<script>
+	var framed = (top != self);
+	if (framed) {
+		top.location.href = 'index.html';
+	}
+
+	function showHide(elementID) {
+		var style = document.getElementById(elementID).style;
+		var setTo = 'none';
+		if (style.display === 'none' || style.display === '') {
+			setTo = 'block';
+		}
+		else {
+			setTo = 'none';
+		}
+		style.display = setTo;
+	}
+
+	function show(elementID) {
+		document.getElementById(elementID).style.display = 'block';
+	}
+
+	function hide(elementID) {
+		document.getElementById(elementID).style.display = 'none';
+	}
+
+	function openW(url) {
+		var sw = window.screen.availWidth - 10;
+		var sh = window.screen.availHeight - 20;
+		var win = window.open(url,"potatoland","width=" +sw+ ",height=" +sh+ ",resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,directories=no,top=0,left=0");
+		win.focus();
+	}
+
+	function toggleSiteLinks() {
+		showHide("site-links");
+	}
+</script>
+</head>
+
+<body>
+
+	<a class="back-home" href="../index.html">&lt;</a>
+
+	<div id="main-image">
+		<A href="PAM_Standing/index.html"><img src="pam2a_20090725-181518_coy_frag_s.jpg" alt=""></a>
+	</div>
+
+</body>
+</html>

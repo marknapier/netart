@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>RIOT</title>
@@ -47,7 +47,7 @@
 	#shredder-top .logo {
 		font-style: italic;
 	}
-	#shredder-top form { 
+	#shredder-top form {
 		margin-top: 6px;
 		margin-bottom: 6px;
 	}
@@ -114,7 +114,7 @@
 		var width = window.innerWidth || document.body.clientWidth;
 		var scale = width/$RIOT_WIDTH_PIXELS;
 		var el = document.getElementById('riot-output');
-		el.style.transformOrigin = 'left top'; 
+		el.style.transformOrigin = 'left top';
 		el.style.transform = 'scale(' + scale + ')';
 	}
 	function showHide(elementID) {

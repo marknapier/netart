@@ -1,180 +1,122 @@
+<!DOCTYPE HTML>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=600">
 <title>potatoland</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
 <link rel="icon" type="image/png" href="./potatoland_icon.png">
-
+<link href="potatoland.css" rel="stylesheet">
 <script>
-var framed = (top != self);
-if (framed) {
-	top.location.href = 'index.html';
-}
+	var framed = (top != self);
+	if (framed) {
+		top.location.href = 'index.html';
+	}
+
+	function showHide(elementID) {
+		var style = document.getElementById(elementID).style;
+		var setTo = 'none';
+		if (style.display === 'none' || style.display === '') {
+			setTo = 'block';
+		}
+		else {
+			setTo = 'none';
+		}
+		style.display = setTo;
+	}
+
+	function show(elementID) {
+		document.getElementById(elementID).style.display = 'block';
+	}
+
+	function hide(elementID) {
+		document.getElementById(elementID).style.display = 'none';
+	}
+
+	function openW(url) {
+		var sw = window.screen.availWidth - 10;
+		var sh = window.screen.availHeight - 20;
+		var win = window.open(url,"potatoland","width=" +sw+ ",height=" +sh+ ",resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,directories=no,top=0,left=0");
+		win.focus();
+	}
+
+	function toggleSiteLinks() {
+		showHide("site-links");
+	}
 </script>
-
-
-<script language="javascript">
-<!--
-var win = null;
-var isNN=false, isIE=false;
-var ver = parseFloat(navigator.appVersion);
-
-if (ver >= 4.0) {
-	if (navigator.appName == "Netscape") {
-		isNN = true;
-	} else {
-		isIE = true;
-	}
-}
-
-function openW(url) {
-	var sw = window.screen.availWidth;
-	var sh = window.screen.availHeight;
-	if (ver < 4.0) {
-		alert("Designed for 4+ browsers");
-	}
-	if (isNN) {
-		sw = sw - 10;
-		sh = sh - 20;
-	} else {
-		sw = sw - 10;
-		sh = sh - 50;
-	}
-	win = window.open(url,"potatoland","width=" +sw+ ",height=" +sh+ ",resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,directories=no,top=0,left=0");
-	win.focus();
-}
-
-function show(which) {
-	//nada
-}
-// -->
-</script>
-
-<style>
-body {margin:30px; font-family:'Open Sans',Arial,Helvetica,sans-serif;}
-A {  color: #665555; font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; line-height: 16px; }
-A:hover {text-decoration:underline;}
-.small {  color: #00c040; font-size: 9pt; font-family: Arial, Helvetica, sans-serif; font-weight: bold}
-.large { color: #339933; font-size:11px;font-family: Arial, Geneva, Lucida, sans-serif; font-weight: bold; text-decoration: none; }
-.larged { color: #665555; font-size:14px;font-family: Arial, Geneva, Lucida, sans-serif; font-weight: bold; text-decoration: none; }
-.largedd {  color: #80f020; font-size: 32pt; font-family: Arial, Helvetica, sans-serif; font-weight: bold}
-.linksOLD {  color: #669966; font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration:none; line-height: 16px; }
-.links {  color: #999999; font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration:none; line-height: 16px; }
-.block {margin-bottom:20px; font-size:12px; }
-.block-title {color:#666;}
-.block-items {margin-left:20px;}
-.block-items a {color:#445;}
-.block-items a:hover {text-decoration:underline; color:#F64;}
-</style>
 </head>
 
 <body>
 
-<div id="BG" style="position: absolute; z-index:-10; left:360px; top:20px; visibility: visible;">
-	<img src="pam2a_20090725-181518_coy_frag_s.jpg" "pam2a_20080823-234224_frag_s.jpg" alt="" border="0" height="900" hspace="0" vspace="0">
+<div id="site-title">
+	<div id="menu-button">
+		<div class="bars"></div>
+	</div>
+	<div id="title-text">potatoland</div>
 </div>
 
-<div style="margin-bottom:30px; font-size:20px; color:#999;">
-potatoland
+<div id="main-image">
+	<A href="PAM_Standing/index.html"><img src="pam2a_20090725-181518_coy_frag_s.jpg" alt=""></a>
 </div>
 
-<div class="block">
-	<div class="block-title">selected shows</div>
-	<div class="block-items">
-		<a href="berlin_2009/index.html" title="Napier solo show at DAM Berlin, december 2009">at DAM berlin: solo show dec 2009</a><br>
-		<a href="berlin_2007/index.html" title="John Simon and Mark Napier at [DAM] Berlin, sept-oct 2007">at DAM berlin: sept 27 - oct 27 2007</a><br>
-		<a href="april2007/index.html" title="bitforms april 2007">at bitforms april 2007</a><br>
-		<a href="waitingroom/" title="the 'waiting room' - generative artwork at bitforms april 2002">at bitforms april 2002 - "waiting room" </a> <br>
+<div id="site-links">
+	<div class="teasers">
+		<a href="http://english.ntmofa.gov.tw/English/ShowInfomation1_1.aspx?SN=4981&n=10134" target="_new">March - May 2018: net.flag at the <br>National Taiwan Museum of Fine Arts</a>
+<!-- 		<a href="http://www.museumangewandtekunst.de/en/" target="_new">Museum Angewandte Kunst - Sept 2018</a><br> -->
+	</div>
+
+	<div class="block">
+		<div class="block-title">net.art</div>
+		<div class="block-items">
+			<a href="riot/" target="new">RIOT</a>
+			<a href="shredder/" target="new">shredder</a>
+			<a href="http://netflag.guggenheim.org" target="new">net.flag</a>
+			<a href="feed/" target="new">FEED</a>
+			<a href="landfill/" target="new">digital landfill</a>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="block-title">Generative artwork and prints</div>
+		<div class="block-items">
+			<a href="PAM_On_Sofa/index.html" title="PAM attempts to recline (napier 2009)">PAM On Sofa</a>
+			<a href="PAM_Standing/index.html" title="Venus by way of Frankenstein (napier 2009)">PAM Standing</a>
+			<a href="PAM_draft1/index.html" title="first attempt to recreate Pamela Anderson from parts found online (napier 2009)">PAM Draft 1</a>
+			<a href="cyclops/index.html" title="Images and videos from the Cyclops Series">The Cyclops Series</a>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="block-title">Selected shows</div>
+		<div class="block-items">
+			<a href="berlin_2009/index.html" title="Solo show at DAM Berlin, december 2009">DAM berlin: solo show dec 2009</a>
+			<a href="berlin_2007/index.html" title="John Simon and Mark Napier at [DAM] Berlin, sept-oct 2007">DAM berlin: sept 27 - oct 27 2007</a>
+			<a href="april2007/index.html" title="bitforms april 2007">bitforms april 2007</a>
+			<a href="waitingroom/" title="the 'waiting room' - generative artwork at bitforms april 2002">bitforms april 2002 - "waiting room" </a>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="block-title">1995-96</div>
+		<div class="block-items">
+			<a href="/napier_homepage" target="new">napier homepage</a>
+			<a href="/napier_homepage/barbie" target="new">The Distorted Barbie</a>
+			<a href="studio/faces/loadfmix.htm" target="new">heroes</a>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="block-title">Contact</div>
+		<div class="block-items">
+			<a href="mailto:napier@potatoland.org">napier@potatoland.org</a>
+			<a href="http://marknapier.com" target="new">marknapier.com</a>
+		</div>
 	</div>
 </div>
 
-<div class="block">
-	<div class="block-title">code</div>
-	<div class="block-items">
-		<a href="http://potatoland.org/code/gl" target="new">OpenGL Java LWJGL demos)</a><br>
-		<a href="http://potatoland.org/glart" target="new">GLArt class at ITP (3D graphics with Java and OpenGL)</a>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">PAM (generative artwork and prints)</div>
-	<div class="block-items">
-		<a href="PAM_On_Sofa/index.html" title="PAM attempts to recline (napier 2009)">PAM On Sofa</a> <br>
-		<a href="PAM_Standing/index.html" title="Venus by way of Frankenstein (napier 2009)">PAM Standing</a> <br>
-		<a href="PAM_draft1/index.html" title="first attempt to recreate Pamela Anderson from parts found online (napier 2009)">PAM Draft 1</a> <br>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">Cyclops (generative artwork and prints)</div>
-	<div class="block-items">
-		<a href="cyclops/index.html" title="Images and videos from the Cyclops Series">cyclops</a> <br>
-		<a href="kk2/kk3_line">KK3-line</a> <br>
-		<a href="kk2/kk3_1">KK3-1</a> <br>
-		<a href="kk2/kk3_skyline">KK3-skyline</a> <br>
-		<a href="kk2/">KK2</a>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">net.art</div>
-	<div class="block-items">
-		<a href="http://netflag.guggenheim.org" target="new">net.flag</a> <br>
-		<a href="shredder/" target="new">shredder</a> <br>
-		<a href="riot/" target="new">RIOT</a> <br>
-		<a href="landfill/" target="new">digital landfill</a> <br>
-		<a href="p-soup/" target="new">p-Soup</a> <br>
-		<a href="cbots/" target="new"><font size="+1">©</font>Bots</a> <br>
-		<a href="feed/" target="new">FEED</a> <br>
-		<a href="pulse/" target="new">pulse</a> <br>
-		<a href="word/" target="new">words</a> <br>
-		<a href="solid/" target="new">solid</a> <br>
-		<a href="blackwhite/" target="new">black &amp; white</a> <br>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">1995-96</div>
-	<div class="block-items">
-		<a href="studio/faces/loadfmix.htm" target="new">heroes</a> <br>
-		<a href="studio/spud/spudzo.htm" target="new">SPUD</a> <br>
-		<a href="stolen/stolen.html" target="new">stolen</a> <br>
-		<a href="internal/pchairs.html" target="new">[spaces]</a> <br>
-		<a href="parallel/parallel.html" target="new">parallel</a>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">contact</div>
-	<div class="block-items">
-		<a href="mailto:napier@potatoland.org">napier@potatoland.org</a> <br>
-		<a href="http://marknapier.com" target="new">marknapier.com</a> <br>
-	</div>
-</div>
-
-<div class="block">
-	<div class="block-title">first napier homepage 1995</div>
-	<div class="block-items">
-		<a href="http://users.rcn.com/napier.interport" target="new">ancient</a> <br>
-	</div>
-</div>
-
-
-<!-- older artworks that mostly no longer work -->
-<!--a href="javascript:openW('dmachine/')" onclick="openW('dmachine/');return false;"--><!--dmachine--><!--/a--> <!--br-->
-<!--a href="javascript:openW('four/')" onclick="openW('four/');return false;"--><!--four--><!--/a--> <!--br-->
-<!--A HREF="ripple/" onmouseover="show('RIPPLE')"--><!--ripple--><!--/A--> <!--BR-->
-<!--A HREF="studio/gallery1/loadfli5.htm" onmouseover="show('GALLERY')"--><!--gallery1--><!--/A--> <!--BR-->
-<!--A HREF="seizure/grid6f.htm" onmouseover="show('SUNS')"--><!--suns--><!--/A--> <!--BR-->
-<!--A HREF="seizure/tvplatf.htm" onmouseover="show('SEIZ')"--><!--seizure--><!--/A--> <!--BR-->
-<!--A HREF="seizure/redch/redch1f.htm" onmouseover="show('REDCH')"--><!--redch--><!--/A--> <!--BR-->
-<!--A HREF="draw/drawf1.htm" onmouseover="show('DRAW')"--><!--draw--><!--/A--> <!--BR-->
-<!--A HREF="studio/door/flip7ar.htm" onmouseover="show('DOOR')"--><!--door--><!--/A--> <!--BR-->
-<!--A HREF="thumbs/thumbsf1.htm" onmouseover="show('THUMBS')"--><!--thumbs--><!--/A--> <!--BR-->
-<!--A HREF="fleshtones/ft.htm" onmouseover="show('FT')"--><!--fleshtones--><!--/A--> <!--p-->
-<!--A HREF="studio/gallery1/flip1f.htm" onmouseover="show('VDATE')"--><!--viddate--><!--/A--> <!--BR-->
-<!--A HREF="studio/studio.html" onmouseover="show('STUDIO')"--><!--studio--><!--/A--> <!--BR-->
-<!--A HREF="grapes.html" onmouseover="show('REAL')"--><!--real--><!--/A--> <!--BR-->
-<!--A HREF="brig.html" onmouseover="show('PUSHBB')"--><!--bodybttn--><!--/A--> <!--BR-->
-
+<script>
+	var el = document.getElementById("menu-button");
+	el.addEventListener("click", toggleSiteLinks);
+</script>
 </body>
 </html>
