@@ -2,11 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=600">
+<meta name="viewport" content="width=400">
 <title>potatoland</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
 <link rel="icon" type="image/png" href="./potatoland_icon.png">
 <link href="potatoland.css" rel="stylesheet">
+<style type="text/css">
+	@media only screen and (max-width: 700px) {
+		#main-image {
+			width: 90%;
+			margin-left: 5%;
+		}
+		div#menu-button {
+			display: inline-block;
+		}
+		#site-links {
+			display: none;
+		}
+	}
+</style>
 <script>
 	var framed = (top != self);
 	if (framed) {
