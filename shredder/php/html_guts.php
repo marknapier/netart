@@ -54,7 +54,7 @@ function getHeaders($url) {
     // check for problems
     $curlError = curl_error($ch);
     if ($curlError != "") {
-    	error("CURL ERROR:" . $curlError);
+    	gutsError("CURL ERROR:" . $curlError);
     }
 
     // get redirected url, if any
@@ -90,7 +90,7 @@ function getHeadersLast($url) {
 	    }
 	    else if ($httpCode == 404) {
 	    	// page not found: give up
-	    	error("HTTP returned 404: file not found\n");
+	    	gutsError("HTTP returned 404: file not found\n");
 	    }
 		else if ($httpCode == 301 || $httpCode == 302) {
 			// redirect to another url
@@ -99,16 +99,16 @@ function getHeadersLast($url) {
 	        $url_parsed = parse_url($url);
 	    	// guts("getHeaderLast:  url_parsed is ", $url_parsed);
 	        if (!isset($url_parsed)) {
-	        	error("Redirect found a funky url");
+	        	gutsError("Redirect found a funky url");
 	        }
 			$redirects++;
 	    }
 	    else {
-	    	error("HTTP returned error code: $httpCode");
+	    	gutsError("HTTP returned error code: $httpCode");
 	    }
 	}
 	if (!$finalURL) {
-		error("Too many redirects!!!!");
+		gutsError("Too many redirects!!!!");
 	}
     return $finalURL;
 }
@@ -194,6 +194,7 @@ function getHTMLElements($html, $url) {
 	$urlParts = testURL($url);
 	$elements = array();
 	$links = array();
+	$linkTexts = array();
 	$images = array();
 	$videos = array();
 	$mp4s = array();
@@ -207,6 +208,7 @@ function getHTMLElements($html, $url) {
     $title = "";
     $baseHref = null;
     $bodyBGColor = null;
+    $bodyBGImage = null;
 
 	// print "getHTMLElements: base href is " . $urlParts['base'] . " <br />";
 
@@ -224,8 +226,7 @@ function getHTMLElements($html, $url) {
 	# <body> tag
 	foreach($dom->getElementsByTagName('body') as $bodyTag) {
 		$bodyBGColor = $bodyTag->getAttribute('bgcolor');
-		// guts("BODY=", $bodyTag);
-		// guts("BODYBGCOLOR=", $bodyBGColor);
+		$bodyBGImage = $bodyTag->getAttribute('background');
 	}
 
 	# <title> tag
@@ -247,6 +248,7 @@ function getHTMLElements($html, $url) {
 	        // print " " . makeShreddableLink($href, $urlParts);
 	        // print "<br />";
         	array_push($links, $link->getAttribute('href'));
+        	array_push($linkTexts, $link->nodeValue);
         }
 	}
 
@@ -359,13 +361,16 @@ function getHTMLElements($html, $url) {
 
 	$elements['title'] = $title;
 	$elements['bodyBGColor'] = $bodyBGColor;
+	$elements['bodyBGImage'] = $bodyBGImage;
 	$elements['images'] = $images;
 	$elements['videos'] = $videos;
 	$elements['mp4s'] = $mp4s;
 	$elements['links'] = $links;
+	$elements['linkTexts'] = $linkTexts;
 	$elements['colors'] = $colors;
 	$elements['bgcolors'] = $bgcolors;
 	$elements['fonts'] = $fonts;
+	$elements['text'] = getTextFromHTML($dom);  // extract plain text (non HTML commands)
 	$elements['html'] = htmlspecialchars($html, ENT_IGNORE | ENT_COMPAT, 'UTF-8');
 	$elements['frames'] = $frames;
 	$elements['base'] = $baseHref;
@@ -390,7 +395,6 @@ function getColors($cssText) {
 function getBGColors($cssText) {
 	// match:    body { background-color: #fefefe;
 	$matches = array();
-	// $num = preg_match_all ('/body\s*{[a-zA-Z0-9%:!;\s\-_,\"\'\n]*background-color\:\s*(\#[0-9a-f]*)\;/im', $cssText, $matches);
 	$num = preg_match_all ('/body\s*\{[^\}]*background-color\:\s*(\#[a-fA-F0-9]*)\;/im', $cssText, $matches);
 	return $matches[1];
 }
@@ -411,6 +415,67 @@ function getFonts($cssText) {
 		}
 	}
 	return $cleanedFontNames;
+}
+
+function getTextFromTags($dom, $tagname, &$text) {
+	foreach($dom->getElementsByTagName($tagname) as $t) {
+        $tmp = $t->nodeValue;
+	    $tmp = preg_replace( "/<([^>]|\n)*?>/", "", $tmp);		# kill html tags
+	    $tmp = preg_replace( "/\s+/", " ", $tmp);				# convert newlines and tabs to spaces
+        array_push($text, $tmp);
+	}
+}
+
+function getTextFromHTML($dom) {
+	$text = array();
+	getTextFromTags($dom, 'H1', $text);
+	getTextFromTags($dom, 'H2', $text);
+	getTextFromTags($dom, 'H3', $text);
+	getTextFromTags($dom, 'H4', $text);
+	getTextFromTags($dom, 'H5', $text);
+	getTextFromTags($dom, 'p', $text);
+	getTextFromTags($dom, 'b', $text);
+	getTextFromTags($dom, 'i', $text);
+	getTextFromTags($dom, 'font', $text);
+	return (sizeof($text) > 0) ? implode(' ', $text) : '';
+}
+
+function getTextFromHTML_BREAKS_MEMORY($html) {
+	$text = "blah blah blah";
+	$matches = array();
+	// $charset = (mb_check_encoding($string,'ISO-8859-1')) ? 'ISO-8859-1' : 'UTF-8';
+
+	// print "getTextFromHTML()\n";
+
+	// These long regex matches crashed PHP on windows, due to stack size too small.
+	// Added these lines to httpd.conf (Apache server config file) to increase stack for PHP:
+	// <IfModule mpm_winnt_module>
+	//    ThreadStackSize 8388608
+	// </IfModule>
+	//
+	$matches = explode('<body', $html);
+
+	// if ( preg_match("/<BODY(.|\n)*<\/BODY>/i", $html, $matches) ) {
+		print "<!FOUND A BODY TAG>\n";
+		$buffer = $matches[1];
+		/*
+		$buffer = preg_replace( "/<SCRIPT(.|\n)*?<\/SCRIPT>/i", "", $buffer);		# kill scripts
+		$buffer = preg_replace( "/<A\sHREF[^>]+>[^<]+<\/A>/i", "", $buffer);		# kill links
+		*/
+		$buffer = preg_replace( "/<([^>]|\n)*?>/", "", $buffer);					# kill html tags
+		$buffer = preg_replace( "/[<>\n\r\t]/", "", $buffer);				# kill newlines and strays
+		$buffer = preg_replace( "/\s+/", " ", $buffer);				# kill newlines and strays
+		$words = preg_split("/[\s]+/", $buffer);
+		print "<!FOUND words=((($buffer)))>\n";
+		guts("WORDS", $words);
+		for ($i=0; $i < 100; $i++) {
+			if ($w = array_shift($words)) {
+				$text = $text . " " . $w;
+			}
+		}
+		/* */
+	// }
+	return $text;
 }
 
 function hasProtocol($URLstring) {
@@ -515,8 +580,25 @@ function getParam($name) {
 	return $param;
 }
 
+function mergeElements($elements1, $elements2) {
+	$result = array();
+	$result['title'] 		= $elements1['title'] . $elements2['title'];
+	$result['bodyBGColor'] 	= $elements2['bodyBGColor'];
+	$result['base'] 		= $elements2['base'];
+	$result['html'] 		= $elements1['html'] . $elements2['html'];
+	$result['images'] 		= array_merge($elements1['images'], $elements2['images']);
+	$result['videos'] 		= array_merge($elements1['videos'], $elements2['videos']);
+	$result['mp4s'] 		= array_merge($elements1['mp4s'], $elements2['mp4s']);
+	$result['links'] 		= array_merge($elements1['links'], $elements2['links']);
+	$result['linkTexts'] 	= array_merge($elements1['linkTexts'], $elements2['linkTexts']);
+	$result['colors'] 		= array_merge($elements1['colors'], $elements2['colors']);
+	$result['fonts'] 		= array_merge($elements1['fonts'], $elements2['fonts']);
+	$result['frames'] 		= array_merge($elements1['frames'], $elements2['frames']);
+	return $result;
+}
+
 // Show message
-function error($message) {
+function gutsError($message) {
 	print "<!-- html_guts error: " . $message . " -->\n";
 }
 

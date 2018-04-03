@@ -7,6 +7,26 @@ function getHeaders($url) {
 
     $ch = curl_init();
 
+	/*
+	php version: 
+		"5.4.16"  (on HP laptop)  Apache 2.4.4
+		5.6.31  (on HP laptop in xampp2)
+		5.2.17  on potatoland.org
+
+	OpenSSL 1.0.2 and the newer versions support TLS 1.2 by default.
+	Released in June 2014, Version 1.0.1g is the oldest version considered sufficient.
+	openssl 1.0.1 is needed for TLS 1.2 in PHP, and in WIndows it looks like this is compiled in PHP 5.5 and higher
+		https://www.experts-exchange.com/questions/28930112/PHP-on-Windows-supported-TLS-versions.html
+
+	CURL_SSLVERSION_DEFAULT (0)
+	CURL_SSLVERSION_TLSv1 (1)
+	CURL_SSLVERSION_SSLv2 (2)
+	CURL_SSLVERSION_SSLv3 (3)
+	CURL_SSLVERSION_TLSv1_0 (4)
+	CURL_SSLVERSION_TLSv1_1 (5)
+	CURL_SSLVERSION_TLSv1_2 (6)   // latest TLS version
+	*/
+
     // return headers only
     curl_setopt($ch, CURLOPT_HEADER, true);
 	curl_setopt($ch, CURLOPT_NOBODY, true);
@@ -16,14 +36,26 @@ function getHeaders($url) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     // https
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    // SSL version (fixes wired.com failing with error "error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version")
+    // Seems like in PHP 5.6 this isn't needed
+    // curl_setopt($ch, CURLOPT_SSLVERSION, 6);
     // follow redirects
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_MAXREDIRS, 10);
     // set url
     curl_setopt($ch, CURLOPT_URL, $url);
 
+    // guts('PHPVERSION:', phpversion());
+
     // retrieve the headers
     $headers = curl_exec($ch);
+    // guts("getHeaders(): headers is ", $headers);
+
+    // check for problems
+    $curlError = curl_error($ch);
+    if ($curlError != "") {
+    	gutsError("CURL ERROR:" . $curlError);
+    }
 
     // get redirected url, if any
     $matches = array();
@@ -58,7 +90,7 @@ function getHeadersLast($url) {
 	    }
 	    else if ($httpCode == 404) {
 	    	// page not found: give up
-	    	errorExit("<p>HTTP returned 404: file not found<BR>\n <BR> <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	    	gutsError("HTTP returned 404: file not found\n");
 	    }
 		else if ($httpCode == 301 || $httpCode == 302) {
 			// redirect to another url
@@ -67,16 +99,16 @@ function getHeadersLast($url) {
 	        $url_parsed = parse_url($url);
 	    	// guts("getHeaderLast:  url_parsed is ", $url_parsed);
 	        if (!isset($url_parsed)) {
-	        	errorExit("<p>Redirect found a funky url<BR>\n <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	        	gutsError("Redirect found a funky url");
 	        }
 			$redirects++;
 	    }
 	    else {
-	    	errorExit("<p>HTTP returned error code: $httpCode<BR>\n <BR> <a href='javascript:history.back()'>&lt; BACK</a></p>");
+	    	gutsError("HTTP returned error code: $httpCode");
 	    }
 	}
 	if (!$finalURL) {
-		errorExit("TOO MANY redirects!!!!");
+		gutsError("Too many redirects!!!!");
 	}
     return $finalURL;
 }
@@ -170,14 +202,21 @@ function getHTMLElements($html, $url) {
 	$font_batches = array();
 	$colors = array();
     $color_batches = array();
+	$bgcolors = array();
+    $bgcolor_batches = array();
     $frames = array();
     $title = "";
     $baseHref = null;
     $bodyBGColor = null;
     $bodyBGImage = null;
 
+	// print "getHTMLElements: base href is " . $urlParts['base'] . " <br />";
+
 	# Create a DOM parser object
 	$dom = new DOMDocument();
+
+	// to test PRE tag
+	// $html .= "<pre>This is preformatted text</pre> and here's some junk";
 
 	# Parse the HTML
 	# The @ before the method call suppresses any warnings that
@@ -225,12 +264,16 @@ function getHTMLElements($html, $url) {
         }
 	}
 
-	# <style> tags
+	# <style> tags embedded in doc
 	foreach($dom->getElementsByTagName('style') as $style) {
-        // styles embedded in doc
         if (isset($style->nodeValue)) {
+        	// get all hex formatted color values from css
 	        $c = getColors($style->nodeValue);
 	        array_push($color_batches, $c);
+	        // get specifically body background-color values
+	        $bgc = getBGColors($style->nodeValue);
+	        array_push($bgcolor_batches, $bgc);
+	        // guts("BODYBG IN STYLE TAG", $bgc);
         }
 	}
 
@@ -277,10 +320,11 @@ function getHTMLElements($html, $url) {
         if ($link->getAttribute('rel') == 'stylesheet') {
 	        $cssText = getHTML( makeFullHref($link->getAttribute('href'), $urlParts) );
 	        $c = getColors($cssText);
-	        $b = getBGColors($cssText);
+	        $bgc = getBGColors($cssText);
 	        // guts("BODYBG BODYBG", $b);
 	        $f = getFonts($cssText);
 	        array_push($color_batches, $c);
+	        array_push($bgcolor_batches, $bgc);
 	        array_push($font_batches, $f);
         }
 	}
@@ -307,6 +351,10 @@ function getHTMLElements($html, $url) {
 	if (sizeof($color_batches) > 0) {
 		$colors = call_user_func_array('array_merge', $color_batches);
 	}
+	if (sizeof($bgcolor_batches) > 0) {
+		$bgcolors = call_user_func_array('array_merge', $bgcolor_batches);
+		// guts('BGCOLERS', $bgcolors);
+	}
 	if (sizeof($font_batches) > 0) {
 		$fonts = call_user_func_array('array_merge', $font_batches);
 	}
@@ -320,6 +368,7 @@ function getHTMLElements($html, $url) {
 	$elements['links'] = $links;
 	$elements['linkTexts'] = $linkTexts;
 	$elements['colors'] = $colors;
+	$elements['bgcolors'] = $bgcolors;
 	$elements['fonts'] = $fonts;
 	$elements['text'] = getTextFromHTML($dom);  // extract plain text (non HTML commands)
 	$elements['html'] = htmlspecialchars($html, ENT_IGNORE | ENT_COMPAT, 'UTF-8');
@@ -346,7 +395,7 @@ function getColors($cssText) {
 function getBGColors($cssText) {
 	// match:    body { background-color: #fefefe;
 	$matches = array();
-	$num = preg_match_all ('/body\s*{[a-zA-Z0-9%:!;\s\-_,\"\'\n]*background-color\:\s*(\#[0-9a-f]*)\;/im', $cssText, $matches);
+	$num = preg_match_all ('/body\s*\{[^\}]*background-color\:\s*(\#[a-fA-F0-9]*)\;/im', $cssText, $matches);
 	return $matches[1];
 }
 
@@ -546,6 +595,11 @@ function mergeElements($elements1, $elements2) {
 	$result['fonts'] 		= array_merge($elements1['fonts'], $elements2['fonts']);
 	$result['frames'] 		= array_merge($elements1['frames'], $elements2['frames']);
 	return $result;
+}
+
+// Show message
+function gutsError($message) {
+	print "<!-- html_guts error: " . $message . " -->\n";
 }
 
 ?>
