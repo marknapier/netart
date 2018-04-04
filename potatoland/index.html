@@ -48,9 +48,9 @@
 	}
 
 	function openW(url) {
-		var sw = window.screen.availWidth - 10;
-		var sh = window.screen.availHeight - 20;
-		var win = window.open(url,"potatoland","width=" +sw+ ",height=" +sh+ ",resizable=yes,menubar=no,toolbar=no,status=yes,scrollbars=yes,directories=no,top=0,left=0");
+		var sw = 800;
+		var sh = 570;
+		var win = window.open(url,"potatoland","width=" +sw+ ",height=" +sh+ ",resizable=yes,top=50,left=50");
 		win.focus();
 	}
 
@@ -82,40 +82,40 @@
 	<div class="block">
 		<div class="block-title">net.art</div>
 		<div class="block-items">
-			<a href="riot/" target="new">RIOT</a>
-			<a href="shredder/" target="new">shredder</a>
+			<a href="/riot" target="new">RIOT</a>
+			<a href="/shredder" target="new">shredder</a>
 			<a href="http://netflag.guggenheim.org" target="new">net.flag</a>
-			<a href="feed/" target="new">FEED</a>
-			<a href="landfill/" target="new">digital landfill</a>
+			<a href="/feed" target="new">FEED</a>
+			<a href="/landfill" target="new">digital landfill</a>
 		</div>
 	</div>
 
 	<div class="block">
 		<div class="block-title">Generative artwork and prints</div>
 		<div class="block-items">
-			<a href="PAM_On_Sofa/index.html" title="PAM attempts to recline (napier 2009)">PAM On Sofa</a>
-			<a href="PAM_Standing/index.html" title="Venus by way of Frankenstein (napier 2009)">PAM Standing</a>
-			<a href="PAM_draft1/index.html" title="first attempt to recreate Pamela Anderson from parts found online (napier 2009)">PAM Draft 1</a>
-			<a href="cyclops/index.html" title="Images and videos from the Cyclops Series">The Cyclops Series</a>
+			<a href="/PAM_On_Sofa" title="PAM attempts to recline (napier 2009)">PAM On Sofa</a>
+			<a href="/PAM_Standing" title="Venus by way of Frankenstein (napier 2009)">PAM Standing</a>
+			<a href="/PAM_draft1" title="first attempt to recreate Pamela Anderson from parts found online (napier 2009)">PAM Draft 1</a>
+			<a href="/cyclops" title="Images and videos from the Cyclops Series">The Cyclops Series</a>
 		</div>
 	</div>
 
 	<div class="block">
 		<div class="block-title">Selected shows</div>
 		<div class="block-items">
-			<a href="berlin_2009/index.html" title="Solo show at DAM Berlin, december 2009">DAM berlin: solo show dec 2009</a>
-			<a href="berlin_2007/index.html" title="John Simon and Mark Napier at [DAM] Berlin, sept-oct 2007">DAM berlin: sept 27 - oct 27 2007</a>
-			<a href="april2007/index.html" title="bitforms april 2007">bitforms april 2007</a>
-			<a href="waitingroom/" title="the 'waiting room' - generative artwork at bitforms april 2002">bitforms april 2002 - "waiting room" </a>
+			<a href="/berlin_2009" title="Solo show at DAM Berlin, december 2009">DAM berlin: solo show dec 2009</a>
+			<a href="/berlin_2007" title="John Simon and Mark Napier at [DAM] Berlin, sept-oct 2007">DAM berlin: sept 27 - oct 27 2007</a>
+			<a href="/april2007" title="bitforms april 2007">bitforms april 2007</a>
+			<a href="/waitingroom" title="the 'waiting room' - generative artwork at bitforms april 2002">bitforms april 2002 - "waiting room" </a>
 		</div>
 	</div>
 
 	<div class="block">
 		<div class="block-title">1995-96</div>
 		<div class="block-items">
-			<a href="/napier_homepage" target="new">napier homepage</a>
-			<a href="/napier_homepage/barbie" target="new">The Distorted Barbie</a>
-			<a href="studio/faces/loadfmix.htm" target="new">heroes</a>
+			<a href="/napier_homepage" onclick="openW('/napier_homepage'); return false;">napier homepage</a>
+			<a href="/napier_homepage/barbie" onclick="openW('/napier_homepage/barbie'); return false;">The Distorted Barbie</a>
+			<a href="/studio/faces/loadfmix.htm" onclick="openW('/studio/faces/loadfmix.htm'); return false;">heroes</a>
 		</div>
 	</div>
 
