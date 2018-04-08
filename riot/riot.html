@@ -96,6 +96,7 @@
 		width: 663px;
 		z-index: 1400;
 		border: 1px solid #999;
+		background-color: #fff;
 	}
 </style>
 
@@ -120,6 +121,9 @@
 	function showHide(elementID) {
 		var style = document.getElementById(elementID).style;
 		style.display = (style.display !== 'block') ? 'block' : 'none';
+		if (elementID === 'urls' && style.display === 'block') {
+			refreshUrls();
+		}
 	}
 	function show(elementID) {
 		document.getElementById(elementID).style.display = 'block';
@@ -128,7 +132,7 @@
 		document.getElementById(elementID).style.display = 'none';
 	}
 	function refreshUrls() {
-		document.getElementById('riotUrls').src = 'php/url_history.php';
+		document.getElementById('riotUrls').src = "php/url_history.php?nocache=" + (""+Math.random()).substring(2,10);
 	}
 </script>
 </head>
