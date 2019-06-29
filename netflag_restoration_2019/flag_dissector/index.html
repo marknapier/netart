@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flag Dissector</title>
+
+  <style type="text/css">
+    body {
+      background-color: #efefef;
+    }
+
+    button {
+      font-weight: bold;
+    }
+
+    #topbar {
+      width: 1500px;
+    }
+
+    #topbar label {
+      display: inline-block;
+      width: 70px;
+    }
+
+    #country {
+      width: 300px;
+    }
+
+    #abbrev {
+      width: 40px;
+    }
+    #existing-flags {
+      margin-bottom: 8px;
+    }
+
+    #existing-flags .flag-link {
+      margin-right: 6px;
+    }
+
+    #left-column label {
+      display: inline-block;
+      vertical-align: top;
+      width: 70px;
+    }
+
+    #element-type-options label {
+      width: 150px;
+    }
+
+    #star-options input {
+      width: 50px;
+    }
+
+    #poly-points {
+      width: 60px;
+      height: 200px;
+    }
+
+    #outercontainer {
+      width: 1500px;
+    }
+
+    #left-column {
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 40px;
+    }
+
+    #right-column {
+      display: inline-block;
+      vertical-align: top;
+      max-width: 710px;
+    }
+
+    #flag-thumbnail {
+      min-height: 200px;
+      min-width: 300px;
+      max-width: 400px;
+      border: 1px solid #ccc;
+    }
+
+    #flag-image {
+      position: relative;
+      /*background-image: url(flags/belarus.png);*/
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+      width: 700px;
+      height: 440px;
+      cursor: crosshair;
+      border: 1px solid #ccc;
+    }
+
+    #flag-components {
+      position: relative;
+      border: 1px solid #ccc;
+      background-color: white;
+      width: 700px;
+      height: 440px;
+    }
+
+    .el_row_bttn {
+      margin: 4px 10px 4px 0px;
+    }
+
+    .element-row {
+      padding: 4px;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 3px;
+    }
+
+    #marker {
+      display: none;
+      position: absolute;
+      background-color: blue;
+      opacity: 0.4;
+    }
+
+    #color {
+      background-color: #fff;
+    }
+
+    .inputs {
+      margin-bottom: 10px;
+    }
+
+    #bottom {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    #shape-data {
+      width: 1000px;
+      height: 300px;
+      font-family: "Courier New", monospace;
+      white-space: pre;
+    }
+
+    #import-export-json {
+      width: 1000px;
+      height: 100px;
+      font-family: "Courier New", monospace;
+      white-space: pre;
+    }
+
+    #meaning {
+      width: 500px;
+    }
+
+    #element-type-options {
+      display: none;
+      margin: 6px;
+      margin-left: 74px;
+    }
+
+    #element-type-options div {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="topbar">
+    <div class="inputs">
+      <h3>Enter country name and two letter abbreviation (or click a saved flag name)</h3>
+      <div id="existing-flags"></div>
+      <label for="country">Country:</label>
+      <input id="country" type="text">
+      <br>
+      <label for="abbrev">Abbrev:</label>
+      <input id="abbrev" type="text">
+    </div>
+    <img id="flag-thumbnail" src="blah.jpg">
+  </div>
+
+  <div id="outercontainer">
+    <div id="left-column">
+      <h3>Edit Flag Elements</h3>
+      <!-- <div id="flag-image">
+        <div id="marker"></div>
+      </div> -->
+      <canvas id="flag-image" width="700" height="440"></canvas>
+      <div>
+        <div class="inputs">
+          <div id="mouseinfo"></div>
+          <div>
+            <input type="radio" id="bgcover" name="bgsize" value="cover" checked>
+            <label for="bgcover">Cover</label>
+            <input type="radio" id="bgcontain" name="bgsize" value="contain">
+            <label for="bgcontain">Contain</label>
+            <input type="radio" id="bgstretch" name="bgsize" value="100% 100%">
+            <label for="bgstretch">Stretch</label>
+          </div>
+          <h4>Element</h4>
+          <label for="element-name">Name:</label>
+          <input id="element-name" type="text">
+          <br>
+          <label for="element-type">Type:</label>
+          <select id="element-type">
+            <option>rect</option>
+            <option>circle</option>
+            <option>triangle</option>
+            <option>star</option>
+            <option>poly</option>
+            <option>image</option>
+          </select>
+          <div id="element-type-options">
+            <div id="star-options">
+              <label for="star-numpoints">Number of points:</label>
+              <input id="star-numpoints" type="text" value="5">
+              <br>
+              <label for="star-spikyness">Spikyness (0-1):</label>
+              <input id="star-spikyness" type="text" value="0.5">
+              <br>
+              <label for="star-angle">Rotate (degrees):</label>
+              <input id="star-angle" type="text" value="0" >
+              <br>
+            </div>
+            <div id="poly-options">
+              <label for="poly-points">Polygon points:</label>
+              <textarea id="poly-points"></textarea>
+            </div>
+          </div>
+          <br>
+          <label for="markerX">X:</label>
+          <input id="markerX" type="text">
+          <br>
+          <label for="markerY">Y:</label>
+          <input id="markerY" type="text">
+          <br>
+          <label for="markerW">W:</label>
+          <input id="markerW" type="text">
+          <br>
+          <label for="markerH">H:</label>
+          <input id="markerH" type="text">
+          <br>
+          <label for="color">color:</label>
+          <input id="color" type="text">
+          <br>
+          <label for="meaning">meaning:</label>
+          <input id="meaning" type="text">
+          <br>
+        </div>
+        <button id="addToFlag">Add to Flag >></button>
+      </div>
+    </div>
+    <div id="right-column">
+      <h3>Flag Elements</h3>
+      <canvas id="flag-components" width="700" height="440"></canvas>
+      <div id="flag-element-list">
+        element list here
+      </div>
+      <div>
+        <br>
+        <button id="save-flag">Save to Storage \/</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="bottom">
+    <hr>
+
+    <h3>Flag Storage <button id="copy-to-clipboard">Copy to Clipboard</button></h3>
+    <textarea id="shape-data"></textarea>
+
+    <h3>Flag Storage <button id="import">Import</button></h3>
+    <textarea id="import-export-json"></textarea>
+  </div>
+
+<script src='js/jquery/jquery.min.js'></script>
+<script src='js/flag_shapes.js'></script>
+<script src='js/flag_dissector.js'></script>
+<script type="text/javascript">
+  $(function(){
+    FlagDissector.init();
+  });
+</script>
+</body>
+</html>
