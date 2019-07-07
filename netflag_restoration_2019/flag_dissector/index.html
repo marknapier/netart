@@ -13,6 +13,10 @@
       font-weight: bold;
     }
 
+    h3 {
+      margin: 22px 0px 14px 0px;
+    }
+
     #topbar {
       width: 1500px;
     }
@@ -29,6 +33,7 @@
     #abbrev {
       width: 40px;
     }
+
     #existing-flags {
       margin-bottom: 8px;
     }
@@ -47,12 +52,16 @@
       width: 150px;
     }
 
+    #bottom label {
+      display: block;
+    }
+
     #star-options input {
       width: 50px;
     }
 
     #poly-points {
-      width: 60px;
+      width: 100px;
       height: 200px;
     }
 
@@ -120,6 +129,30 @@
       background-color: #fff;
     }
 
+    #keywords {
+      display: inline;
+      width: 400px;
+    }
+
+    #keyword-select {
+      display: inline;
+      margin-left: 2px;
+    }
+
+    #meaning {
+      width: 600px;
+    }
+
+    #element-type-options {
+      display: none;
+      margin: 6px;
+      margin-left: 74px;
+    }
+
+    #element-type-options div {
+      display: none;
+    }
+
     .inputs {
       margin-bottom: 10px;
     }
@@ -141,20 +174,6 @@
       height: 100px;
       font-family: "Courier New", monospace;
       white-space: pre;
-    }
-
-    #meaning {
-      width: 500px;
-    }
-
-    #element-type-options {
-      display: none;
-      margin: 6px;
-      margin-left: 74px;
-    }
-
-    #element-type-options div {
-      display: none;
     }
   </style>
 </head>
@@ -241,7 +260,11 @@
           <label for="meaning">meaning:</label>
           <input id="meaning" type="text">
           <br>
-        </div>
+          <div id="keyword-list">
+            <label for="keywords">keywords:</label>
+            <input id="keywords" type="text">
+          </div>
+      </div>
         <button id="addToFlag">Add to Flag >></button>
       </div>
     </div>
@@ -261,10 +284,12 @@
   <div id="bottom">
     <hr>
 
-    <h3>Flag Storage <button id="copy-to-clipboard">Copy to Clipboard</button></h3>
+    <h3>Flag Storage <button id="copy-to-clipboard">Copy JSON to Clipboard</button></h3>
+    <label for="shape-data">Flag data in the nf_shapedata format. Click Copy JSON to copy this data in JSON format.</label>
     <textarea id="shape-data"></textarea>
 
-    <h3>Flag Storage <button id="import">Import</button></h3>
+    <h3>Flag Storage <button id="import">Import JSON</button></h3>
+    <label for="import-export-json">Paste flag data in JSON format into the box below, then click Import JSON to load it.</label>
     <textarea id="import-export-json"></textarea>
   </div>
 

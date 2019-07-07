@@ -90,21 +90,21 @@ window.FlagShapes = (function () {
 		var datapoints = datapointsStr.split(',');
 		var pixelPoints = [];
 		for (let i=0; i < datapoints.length; i += 2) {
-    	pixelPoints.push({
-    		x: Math.round((datapoints[i] * .001) * flagW),
-    		y: Math.round((datapoints[i+1] * .001) * flagH),
-    	});
-    }
-    return pixelPoints;
+			pixelPoints.push({
+				x: Math.round((datapoints[i] * .001) * flagW),
+				y: Math.round((datapoints[i+1] * .001) * flagH),
+			});
+	    }
+		return pixelPoints;
 	}
 
 	function convertPixelsToDataPoints(pixelPoints, flagW, flagH) {
 		var dataPoints = [];
 		for (let i=0; i < pixelPoints.length; i++) {
-    	dataPoints.push(Math.round(pixelPoints[i].x / flagW * 1000));
+			dataPoints.push(Math.round(pixelPoints[i].x / flagW * 1000));
 			dataPoints.push(Math.round(pixelPoints[i].y / flagH * 1000));
-    }
-    return dataPoints;
+		}
+		return dataPoints;
 	}
 
 	// given "rgb(13, 176, 43)" return string "13, 176, 43"

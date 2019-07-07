@@ -1,4 +1,83 @@
 window.FlagDissector = (function () {
+  // Colors (originally from FlagDescription.java)
+  var colors = [
+    "255,255,255", // white
+    "0,0,0", // black
+    // blue
+    "0,35,119", //  "usa australia, uk dark blue"
+    "0,49,156", //  "(armenia, cambodia) finland, columbia, thailand, south africa, namibia, Bahamas Barbados medium blue
+    "0,0,204", // medium bright blue
+    "0,107,198", // "light blue  uzbekistan, guatemala, elsalvador, honduras, nicaragua, sweden, greece, estonia"
+    "8,123,206", // azerbaijan, israel light dull blue
+    "102,204,255", // "ukraine, luxembourg, armenia, botswana, san marino light blue"
+    // green
+    "0,91,24", // dark green
+    "0,102,0", // medium green, saudi arabia
+    "0,104,71", //  mexico dark dull green
+    "56,126,41", // uzbekistan
+    "53,150,43", // "togo, jordan, "     0,128,0=brazil
+    "0,153,0", // medium green
+    "0,191,0", // rwanda green
+    // yellow - orange
+    "255,255,0", // "ukraine, lots of countries, brightyellow"
+    //"255,214,0",   // NOW IS 255,204,0.  "benin, south africa, barbados"
+    "255,204,0", // "germany, cyprus, vatican, sweden, lots others, yellow gold"
+    "255,153,0", // "cote divoire, armenia, india orange"
+    "255,90,0", //  ireland
+    // red - redorange
+    "222,57,8", //  uganda rust red-orange
+    "255,0,0", // "austria, lots of countries, bright red"
+    "245,30,48", // "puerto rico, angola, canada, bright red"
+    "241,0,67", //  united states red
+    "222,33,16", // "thailand, lots of countries, medium red"
+    //"204,51,51",   // NOW IS 204,0,0   azerbiajan
+    "204,0,0", // bolivia gambia cambodia iraq, UK, mexico
+    //"188,2,4",   // NOW IS 222,33,16   denmark orange red
+    "153,0,0" //  latvia georgia dark dull red
+  ];
+
+  // Keywords in alpha order (originally from FlagDescription.java)
+  var keywords = [
+    "africa",
+    "agriculture",
+    "blood",
+    "catholic",
+    "communism",
+    "compassion",
+    "courage",
+    "energy",
+    "equality",
+    "freedom",
+    "forest",
+    "grain",
+    "harmony",
+    "heaven",
+    "hope",
+    "innocence",
+    "islam",
+    "liberty",
+    "loyalty",
+    "peace",
+    "progress",
+    "protestant",
+    "purity",
+    "revolution",
+    "royalty",
+    "sacrifice",
+    "suffering",
+    "sand",
+    "sea",
+    "sky",
+    "snow",
+    "sun",
+    "strength",
+    "unity",
+    "valour",
+    "virtue",
+    "wealth"
+  ];
+
+
   // marks the flag element that the user is editing on the left side flag
   var marker = {
     type: 'rect',
@@ -56,7 +135,10 @@ window.FlagDissector = (function () {
 
   function addPolyPoint(pos) {
     var pointStr = $('#poly-points').val();
-    $('#poly-points').val( `${pointStr} ${xPercent(pos.x)},${yPercent(pos.y)}, ` );
+    if (pointStr.length > 1) {
+      pointStr += ',\n';
+    }
+    $('#poly-points').val( `${pointStr}${xPercent(pos.x)},${yPercent(pos.y)}` );
   }
 
   function startElement(e) {
@@ -135,6 +217,7 @@ window.FlagDissector = (function () {
       h: $('#markerH').val(),
       color: $('#color').css('background-color') || $('#color').val() || '#def',
       meaning: $('#meaning').val(),
+      keywords: $('#keywords').val(),
     };
 
     if (shortTypeCode(flagElement.type) === 'star') {
@@ -144,10 +227,36 @@ window.FlagDissector = (function () {
     }
 
     if (shortTypeCode(flagElement.type) === 'poly') {
-      flagElement.polyPointStr = $('#poly-points').val().replace(/ /g, '');
+      flagElement.polyPointStr = $('#poly-points').val().replace(/\n/g, '');
     }
 
     return flagElement;
+  }
+
+  // return the three extra flag parameters that vary by type. These will be used in the netflag data file,
+  // so they are formatted to match that files standards. 
+  function getElementExtraParams(flagEl) {
+    if (flagEl.type === 'poly') {
+      return {
+        one: `\"${flagEl.polyPointStr}\"`,   //"
+        two: 0,
+        three: 0,
+      };
+    }
+    else if (flagEl.type === 'star') {
+      return {
+        one: flagEl.starAngle, 
+        two: flagEl.starNumpoints,
+        three: flagEl.starSpikyness,
+      };
+    }
+    else {
+      return {
+        one: 0,
+        two: 0,
+        three: 0,
+      };
+    }
   }
 
   function addMarkedToFlag() {
@@ -172,6 +281,19 @@ window.FlagDissector = (function () {
     }
   }
 
+  function addNewLines(polyPointStr) {
+    if (polyPointStr) {
+      var datapoints = polyPointStr.split(',');
+      var stringWithLineBreaks = '';
+      for (let i=0; i < datapoints.length; i += 2) {
+        stringWithLineBreaks += `${datapoints[i]},${datapoints[i+1]},\n`;
+      }
+      stringWithLineBreaks = stringWithLineBreaks.slice(0, -2);
+      return stringWithLineBreaks;      
+    }
+    return '';
+  }
+
   function setMarkedElement(flagEl) {
     $('#abbrev').val(flagEl.abbrev);
     $('#element-name').val(flagEl.name);
@@ -185,10 +307,12 @@ window.FlagDissector = (function () {
     $('#star-spikyness').val(flagEl.starSpikyness);
     $('#star-angle').val(flagEl.starAngle);
 
-    $('#poly-points').val(flagEl.polyPointStr);
+    $('#poly-points').val(addNewLines(flagEl.polyPointStr));
 
     $('#color').val(flagEl.color).css({backgroundColor: flagEl.color});
     $('#meaning').val(flagEl.meaning);
+    $('#keywords').val(flagEl.keywords);
+    pickElementType();
     updateMarkerFromForm();
   }
 
@@ -272,7 +396,10 @@ window.FlagDissector = (function () {
   }
 
   function drawElementRowText(el) {
-    return `${el.abbrev}\t${el.name}\t\"${stripRGB(el.color)}\"\t${el.type}\t${el.x}\t${el.y}\t${el.w}\t${el.h}\t\"${el.meaning}\"`;   // "
+    var extraParams = getElementExtraParams(el);
+    var extraParamsStr = `${extraParams.one}\t${extraParams.two}\t${extraParams.three}`;
+    var keywords = el.keywords || '';
+    return `${el.abbrev}\t${el.name}\t\"${stripRGB(el.color)}\"\t${el.type}\t${el.x}\t${el.y}\t${el.w}\t${el.h}\t${extraParamsStr}\t\"${keywords}\"\t\"${el.meaning}\"`;   // "
   }
 
   function makeElementButtons(elName) {
@@ -368,51 +495,7 @@ window.FlagDissector = (function () {
     }
   }
 
-
-  // function drawFlag() {
-  //   var country = $('#country').val();
-  //   $('#flag-components').empty();
-
-  //   if (flagElements[country]) {
-  //     flagElements[country].forEach((element) => {
-  //       var $element;
-  //       if (element.type === 'image') {
-  //         $element = $(`<img src="images/${country}_image.gif">`);
-  //       }
-  //       else {
-  //         $element = $('<div></div>');
-  //       }
-
-  //       $element.css({
-  //         position: 'absolute',
-  //         backgroundColor: element.color,
-  //         left: percentToX(element.x),
-  //         top: percentToY(element.y),
-  //         width: percentToX(element.w),
-  //         height: percentToY(element.h),
-  //       });
-
-  //       if (element.type === 'circle') {
-  //         $element.css({
-  //           borderRadius: '1000px',
-  //           height: percentToX(element.w),
-  //         });
-  //       }
-
-  //       if (element.type === 'image') {
-  //         $element.css({
-  //           backgroundColor: 'transparent',
-  //         });
-  //       }
-
-  //       $('#flag-components').append($element);
-  //     });
-  //   }
-  // }
-
   function drawStoredFlagElements() {
-    // var shapedata = JSON.stringify(flagElements, null, 4);
-
     var shapedata = '';
     Object.keys(flagElements).forEach((country) => {
       flagElements[country].forEach((element) => {
@@ -509,6 +592,17 @@ window.FlagDissector = (function () {
     updateMarkerFromForm();
   }
 
+  function addKeyword() {
+    var keyword = $('#keyword-select').val();
+    var keywords = $('#keywords').val();
+
+    if (keywords.indexOf(keyword) === -1) {
+      keywords = keywords.length > 1 ? keywords + ',' : keywords;
+
+      $('#keywords').val( keywords + keyword );
+    }
+  }
+
   function drawStoredFlagCountryNames() {
     var savedFlagNames = Object.keys(flagElements).sort();
     var html = `There are ${savedFlagNames.length} saved flags: `;
@@ -534,6 +628,22 @@ window.FlagDissector = (function () {
     savedFlagNames.forEach((countryName) => {
       $('#existing-flags').append( makeAHrefTag(countryName) ).append(' ');
     });
+  }
+
+  function makeSelectElement(id = 'my-select', values = []) {
+    var select = document.createElement('select');
+    var option;
+
+    select.setAttribute('id', id);
+
+    for (var i=0; i < values.length; i += 1) {
+        option = document.createElement('option');
+        option.setAttribute('value', values[i]);
+        option.appendChild(document.createTextNode(values[i]));
+        select.appendChild(option);
+    }
+
+    return select;
   }
 
   function setupEvents() {
@@ -565,6 +675,10 @@ window.FlagDissector = (function () {
       .on('click', copyStorageToClipboard);
     $('#import')
       .on('click', importJSON);
+
+    var keywordSelect = makeSelectElement('keyword-select', keywords);
+    $(keywordSelect).change(addKeyword);
+    $('#keyword-list').append(keywordSelect);
   }
 
   function refreshUI() {
