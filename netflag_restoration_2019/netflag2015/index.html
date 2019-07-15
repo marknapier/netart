@@ -1,0 +1,190 @@
+<html><head><title>net.flag</title><!--
+ 	netflagvars.js has the name, comment and date of latest
+	flag.  Show these stats below the flag.  See showStats()
+	and nf_history.pl.
+-->
+
+
+<script src="netflagvars.js"></script>
+<script>
+function openFlagEditor() {
+        openWin("netflageditor.html");
+}
+function openFlagHistory() {
+        openWin("netflaghistory.html");
+}
+function openGrid() {
+        openWin("netflag_grid.html");
+}
+function openWin(url) {
+        //var nfw = window.open(url,"flag",'width=790,height=550,resizable=yes,scrollbars=no,toolbar=no,status=no,top=0,left=0');
+        var nfw = window.open(url,"flag",'width=990,height=680,resizable=yes,scrollbars=no,toolbar=no,status=no,top=0,left=0');
+        nfw.focus();
+        return false;
+}
+function openGugg() {
+        var gggW = window.open("http://www.guggenheim.org/internetart","gugg");
+        gggW.focus();
+        return false;
+}
+function Browser() {
+	var b=navigator.appName
+	if (b=="Netscape") this.b="ns"
+	else if (b=="Microsoft Internet Explorer") this.b="ie"
+	else this.b=b
+	this.version=navigator.appVersion
+	this.v=parseInt(this.version)
+	this.ns=(this.b=="ns" && this.v>=4)
+	this.ns4=(this.b=="ns" && this.v==4)
+	this.ns5=(this.b=="ns" && this.v==5)
+	this.ns6=(this.b=="ns" && this.v>=5)
+	this.ie=(this.b=="ie" && this.v>=4)
+	this.ie4=(this.version.indexOf('MSIE 4')>0)
+	this.ie5=(this.version.indexOf('MSIE 5')>0)
+	this.ie55=(this.version.indexOf('MSIE 5.5')>0)
+	var ua=navigator.userAgent.toLowerCase()
+	if (ua.indexOf("windows 95")>-1 || ua.indexOf("win95")>-1) this.platform="win95"
+	else if (ua.indexOf("win")>-1) this.platform="win32"
+	else if (ua.indexOf("mac")>-1) this.platform="mac"
+	else this.platform = "other"
+}
+function checkBrowser()
+{
+	var env = new Browser();
+	var msg = "";
+	if (env.platform == "mac") {
+		if (env.ns && !env.ns6) {
+			msg = "NOTE to Mac users: net.flag works with Netscape version 6.  Earlier versions may not work.";
+		}
+		else if (!env.ie) {
+			msg = "NOTE to Mac users: Use Internet Explorer  4 or 5 for best results";
+		}
+	}
+	else if (env.platform == "win95") {
+		msg = "NOTE to Windows 95 users: this site is optimized for Windows 98/2000";
+	}
+	if (msg!="") alert(msg);
+}
+function showStats()
+{
+	// display vars from netflagvars.js
+	// netflagvars.js is updated by nf_history.pl every time it saves a flag.
+	// flag_date is the same as the .flag file name ie.:  "050807-021538"
+	var months = new Array("","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+	var day = flag_date.substring(4,6);
+	var month = months[getMonthNum(flag_date)];
+	var year = "20" + flag_date.substring(0,2);
+	var hour = flag_date.substring(7,9);
+	var minute = flag_date.substring(9,11);
+	var dateLine =  day + "-" + month + "-" + year + " at " + hour + ":" + minute;
+	var statLine = "The current flag, created " + dateLine + "";
+	document.write(statLine);
+}
+function getMonthNum(flagDateStr)
+{
+	// some Javascript versions are too retarded to parse leading zeroes
+	// so check if month is 01-09
+	var monthStr = flag_date.substring(2,4);  // should get a string between "01" and "12"
+	if (monthStr.substring(0,1) == "0") {
+		monthStr = flag_date.substring(3,4);
+	}
+	return parseInt(monthStr);
+}
+</script>
+<style type="text/css">
+<!--
+.backText {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000033; text-decoration: none;}
+.largeText {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ffffff}
+.linktext {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal}
+.spacedpara {  font-family: Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #ffffff;}
+.guggtext {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal; color: #000033; text-decoration: none; line-height: 22pt; }
+.tinytext {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal; color: #909090; text-decoration: none; line-height: 22pt; }
+-->
+</style></head>
+<body leftmargin="0" topmargin="0" bgcolor="#3366cc" link="#0000c0" marginheight="0" marginwidth="0" text="#000040" vlink="#0000c0">
+
+<table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%">
+  <tbody><tr height="100%">
+    <td ="" #cc1a1a="" align="left" bgcolor="#002f62" height="100%" valign="top" width="70%">
+      <table border="0" width="100%">
+        <tbody><tr>
+          <td align="left" height="50" valign="bottom">
+            <p class="spacedpara">  </p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp;<span class="spacedpara">net.flag</span> <span class="largetext">-- A flag for the internet</span></p>
+          </td>
+        </tr>
+        <tr>
+          <td height="50">
+            <p>  </p>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle">
+		<p class="tinytext">
+		<applet archive="netflag2005.jar" code="NetFlagLite.class" name="netflaglite" height="330" width="525">
+		<!applet codebase="netflagapplet" code="AppletLoader.class" name="netflaglite" height="330" width="525">
+			<!param name="applet class" value="NetFlagLite">
+			<!param name="classes" value="cgiDataPoster,Element,ElementArc,ElementDescription,ElementImage,ElementOval,ElementPolygon,Flag,FlagBuilder,FlagDescription,NetFlagLite">
+		</applet>
+		<br><script>showStats();</script></p>
+          </td>
+        </tr>
+      </tbody></table>
+        </td>
+    <td align="center" bgcolor="#ffcc33" valign="top" width="30%">
+      <table border="0">
+        <tbody><tr>
+          <td height="50" valign="bottom">
+            <p class="spacedpara">  </p>
+            <p class="guggtext"> <a href="javascript:openGugg()" onclick="openGugg();return false;" class="guggtext">Solomon R. Guggenheim Museum </a></p>
+          </td>
+        </tr>
+        <tr>
+          <td height="50">
+            <p>  </p>
+          </td>
+        </tr>
+        <tr>
+          <td height="18"> <a href="javascript:openFlagEditor();" onclick="openFlagEditor();return false;">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">Change
+            the net.flag</font> </a> </td>
+        </tr>
+        <tr>
+          <td height="18"> <a href="javascript:openFlagHistory();" onclick="openFlagHistory();return false;">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">Anatomy
+            of the flag</font> </a> </td>
+        </tr>
+        <tr>
+          <td height="18"> <a href="javascript:openGrid();" onclick="openGrid();return false;">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">Flags of
+            the web</font> </a> </td>
+        </tr>
+        <tr>
+          <td height="22"><a href="http://netflag.guggenheim.org/netflag/statsF.html">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">Statistics</font>
+            </a></td>
+        </tr>
+        <tr>
+          <td height="22"> </td>
+        </tr>
+        <tr>
+          <td height="22"> <a href="http://netflag.guggenheim.org/netflag/aboutF.html">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">about</font> </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="22"> <a href="http://netflag.guggenheim.org/netflag/creditsF.html">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">credits</font> </a>
+          </td>
+        </tr>
+        <tr>
+          <td height="22"> <a href="http://netflag.guggenheim.org/netflag/helpF.html">
+            <font class="linktext"><img src="star_bullet.gif" border="0" height="14" hspace="5" width="16">help</font> </a>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+   </tr>
+</tbody></table>
+
+</body></html>

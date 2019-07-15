@@ -1,0 +1,469 @@
+af	greenstripe	Green represents Islam.
+af	whitestripe	White represents purity.
+af	blackstripe	Black represents Afghanistan's dark past.
+af	coatofarms	"The arms contains a mosque within a wreath of wheat-ears. Above is the Shahada, the Moslem confession of faith, and the slogan Allahu Aqbar (God is Great).  Around all this are two curved sabres."
+ao	redfield	Red presents the struggle for independence. 
+ao	blackfield	Black represents the people that died for independence. 
+ao	coatofarms	"The cogwheel and machete are reminiscent of the Soviet Union's emblems. The star is part of the MPLA's flag. The star stands for the independent state of Angola. The cogwheel is an emblem of industry; and the machete, of agriculture.  "
+cn	redfield	Red stands for the blood shed and the suffering withstood during the communist revolution.
+cn	star	The large gold star stands for the common program of the Communist Party.
+cn	stars	"The four smaller stars stand for the classes united by the common program: the workers, the peasants, the petty bourgeois, and capitalists sympathetic to the Party (or 'patriotic capitalists')."
+fr	bluestripe	"Blue is the color of Saint Martin, a rich gallo-roman officer who ripped his blue coat with his sword to give one half of it to a poor who was begging him in the snow. The symbol of care, of the duty that the rich had to help the poor."
+fr	whitestripe	"White is the color of the Virgin Mary, to whom the Kingdom of France was consecrated by Louis XIII in the 17th century. It is also the color of Joan of Arc, under whose banner the English were finally driven out of the Kingdom (15th century). It became the color of royalty."
+fr	redstripe	"Red is the color of Saint Denis, saint patron of Paris. The original oriflamme (war banner) of the kings was the red oriflamme of Saint Denis."
+ie	greenstripe	Green represents the catholic children of Eire.
+ie	whitestripe	White represents the hope for peace between the native Irish Catholics and the descendants of the Protestant British colonialists.
+ie	orangestripe	"Orange represents the descendants of 17th-century British colonists (a group which supported William of Orange in the War of the Two Kings, 1689-91)."
+jp	whitefield	White represents purity and honesty.
+jp	circle	"The red disc or 'Hinomaru' stands for 'the disc of the sun'. It is the emblem of Japan, which means 'Land of the Rising Sun'. "
+pr	redstripe1	"Red stands for the 'blood' that nourishes the three branches of government; Legislative, Executive and Judiciary."
+pr	whitestripe1	White represents individual liberty and the rights that keeps in perfect balance our form of government.
+pr	redstripe2	"Red stands for the 'blood' that nourishes the three branches of government; Legislative, Executive and Judiciary."
+pr	whitestripe2	White represents individual liberty and the rights that keeps in perfect balance our form of government.
+pr	redstripe3	"Red stands for the 'blood' that nourishes the three branches of government; Legislative, Executive and Judiciary."
+pr	bluefield	"The blue triangle stands for the 'Republican Government', represented by the three branches of government: Legislative, Executive and Judiciary."
+pr	star	The lone star represents the 'estado libre asociado' or Puerto Rico's unique form of government as a 'free independent state'.
+rw	redstripe	Red stands for the shedding of blood and the suffering during the Hutus' liberation.
+rw	yellowstripe	Yellow stands for the rest and peace of a free people.
+rw	greenstripe	Green stands for hope and trust.
+rw	letter_R	"The 'R' is used to distinguish it from the flag of Guinea. It stands for Rwanda born through Revolution, confirmed by Referendum."
+es	redstripe1	not available
+es	yellowstripe	not available
+es	redstripe2	not available
+es	coatofarms	"The coat of arms represents the unification of the historical kingdoms of Castile, Leon, Aragon, Navarre and Granada.  A golden castle for Castilla, a purple lion for Leon; five red and gold stripes stand for the unified provinces of medieval Aragon; a gold chain laid out as a cross with and emerald in the center is the emblem of Navarra. a pomegranate; emblematic of Granada and the former Moorish kingdoms of Spain."
+us	redstripe1	Red represents hardiness and valour.
+us	whitestripe1	White is the symbol of purity and innocence.
+us	redstripe2	Red represents hardiness and valour.
+us	whitestripe2	White is the symbol of purity and innocence.
+us	redstripe3	Red represents hardiness and valour.
+us	whitestripe3	White is the symbol of purity and innocence.
+us	redstripe4	Red represents hardiness and valour.
+us	whitestripe4	White is the symbol of purity and innocence.
+us	redstripe5	Red represents hardiness and valour.
+us	whitestripe5	White is the symbol of purity and innocence.
+us	redstripe6	Red represents hardiness and valour.
+us	whitestripe6	White is the symbol of purity and innocence.
+us	redstripe7	Red represents hardiness and valour.
+us	bluefield	"Blue is the symbol of vigilance, perseverance and justice."
+us	stars	The stars represent the constellation formed by the 50 states of the union.
+vn	redfield	Red stands for the blood shed and the suffering withstood during the communist revolution.
+vn	star	"The five points of the star stand for the farmers, workers, intellectuals, youth, and soldiers."
+gl	whitefield	White represents the ice that covers Greenland.  
+gl	redfield	Red represents the sun.
+gl	redarc	The red part in the circle represents the fjords.  In other interpretations the circle is seen as representing the rising and setting sun.
+gl	whitearc	The white part of the circle symbolises the ice bergs and the pack ice.  In other interpretations the circle is seen as representing the rising and setting sun.
+zw	greenstripe1	Green represents the country's vegetation and land resources.
+zw	greenstripe2	Green represents the country's vegetation and land resources.
+zw	yellowstripe1	Yellow represents the country's mineral wealth. 
+zw	yellowstripe2	Yellow represents the country's mineral wealth. 
+zw	redstripe1	Red stands for the blood spilt during the liberation struggle.
+zw	redstripe2	Red stands for the blood spilt during the liberation struggle.
+zw	blackstripe	Black symbolized the black majority.
+zw	triangle	The white triangle stands for peace and the 'way forward'.
+zw	star	The red star stands for internationalism and reflects the ruling party's socialist credentials.
+zw	bird	The Zimbabwe Bird is the National Emblem of Zimbabwe.
+se	bluefield	Blue represents the lakes of Sweden
+se	yellowcross	Gold represents the sun.
+no	redfield	Red refers to the blood spilled during war.
+no	whitecross	The cross is a sign of Christianity
+no	bluecross	Blue cross refers to the union of Norway with Sweden in 1821.
+gb	bluefield	Blue comes from the Scottish flag.
+gb	whitex	White refers to the white Scottish cross of  St. Andrew.
+gb	redx	Red refers to the saltire of Ireland's St. Patrick.
+gb	whitecross	The white cross is taken from the white background of the flag of England after 1277.
+gb	redcross	"The red cross stands for St. George's cross, the flag of England after 1277."
+ly	greenfield	Green is the national color of Libya as well as a symbol of devotion to Islam. 
+bd	greenstripe	Green symbolizes the greenery of Bangladesh with its vitality and youthfulness.
+bd	circle	The red disc represents the rising sun and the sacrifice of its people made to obtain their independence. 
+so	bluefield	Light blue flag is in honour of the UNO.
+so	star	"The star has 5 points one for each branch of Somalis: Issas of Djibuti), Somali of Ethiopia, Issak of Somaliland, Somalis of old Italian Somalia and North Kenia Somalis."
+bb	bluestripe1	The left blue stands for the sky.
+bb	yellowstripe	The gold stands for the sand.
+bb	bluestripe2	The right blue stands for the sea. 
+bb	trident	"The trident in the middle represents the break with England at independence. The three points of the trident represent the three principles of democracy - government of, for and by the people."
+be	blackstripe	"Adopted in 1831after the revolution of 1830. The colours were taken from the flag of Brabant, a province in the Low Countrie (the Netherlands + Belgium ). The flag of Brabant was a golden (yellow) lion climbing the hoist, on a black surface, and its tongue and nails were red. "
+be	yellowstripe	"Adopted in 1831after the revolution of 1830. The colours were taken from the flag of Brabant, a province in the Low Countrie (the Netherlands + Belgium ). The flag of Brabant was a golden (yellow) lion climbing the hoist, on a black surface, and its tongue and nails were red. "
+be	redstripe	"Adopted in 1831after the revolution of 1830. The colours were taken from the flag of Brabant, a province in the Low Countrie (the Netherlands + Belgium ). The flag of Brabant was a golden (yellow) lion climbing the hoist, on a black surface, and its tongue and nails were red. "
+td	bluestripe	"Blue represents sky, hope, agriculture, and southern part of land. "
+td	yellowstripe	"Yellow is for the northern part, the  desert, and also stands for the sun. "
+td	redstripe	"Red is for prosperity, unity and the readiness of citizens to sacrifice for their country.  "
+ci	orangestripe	Orange represents savannahs in the north of the land.
+ci	whitestripe	White is a symbol of unity.
+ci	greenstripe	Green symbolizes the woods in the south.
+gp	bluestripe	not available
+gp	whitestripe	not available
+gp	redstripe	not available
+gn	redstripe	"Red is the colour of blood, symbol of anti-colonialist martyrs. It is the sweat that runs over the ivory body of farmers, factory workers, and other workers. It is the wish for progress. It stands for work."
+gn	yellowstripe	"Yellow is the colour of Guinean gold and African sun. It is the source of energy, generosity, and equality for all men to which he gives light equally. it stands for Justice."
+gn	greenstripe	"Green is the colour of the African vegetation. Green symbolizes prosperity which will surely arise from the wide wealth of soil and subsoil, and the difficult life of the countryside masses in our country. Green Symbolizes solidarity. "
+it	greenstripe	not available
+it	whitestripe	not available
+it	redstripe	not available
+ml	greenstripe	Panafrican color.
+ml	yellowstripe	Panafrican color.
+ml	redstripe	Panafrican color.
+ng	greenstripe1	Green stands for agriculture.
+ng	whitestripe	White stands for peace and unity.
+ng	greenstripe2	Green represents agriculture.
+pe	redstripe1	Not available
+pe	whitestripe	Not available
+pe	redstripe2	Not available
+ro	bluestripe	not available
+ro	yellowstripe	not available
+ro	redstripe	not available
+am	redstripe	"Red stands for the split blood of all Armenian soldiers, in the present and the past."
+am	bluestripe	Blue stands for the sky.
+am	orangestripe	Orange stands for the fertile land and the farmers that work on it.
+at	redstripe1	Red represents the blood-stained tunic of Duke Leopold after the Battle of Ptolemais in 1191.
+at	whitestripe	White represents the bit of the tunic covered by Duke Leopold' belt and not stained by the blood after the Battle of Ptolemais in 1191.
+at	redstripe2	Red represents the blood-stained tunic of Duke Leopold after the Battle of Ptolemais in 1191.
+bg	whitestripe	White stands for the country's love of peace.
+bg	greenstripe	Green represents the youthfullness of the emerging nation.
+bg	redstripe	Red signifies the bravery and valour of the people.
+eg	redstripe	"Red refers to the period before 1952 Revolution and the end of King Farouk, then King of Egypt."
+eg	whitestripe	White symbolizes the advent of the 1952 Revolution which ended the monarchy without bloodshed.
+eg	blackstripe	Black symbolizes the end of the oppression of the people of Egypt at the hands of the Monarchy and British colonialism.
+eg	coatofarms	not available
+ee	bluestripe	"Blue stands for faith, loyalty, and devotion. it also reflects the qualities of the sky, sea, and lakes."
+ee	blackstripe	Black is said to be symbolic of the dark past of suffering of the Estonian people. It also refers to the traditionally black jacket of the Estonian peasant during past times. 
+ee	whitestripe	"White is the color of birch bark, snow, and summer nights illuminated by the midnight sun."
+ga	greenstripe	Green refers to the country's forest.
+ga	yellowstripe	Yellow refers to the Equator line (which crosses the country).
+ga	bluestripe	Blue refers to the sea.
+de	blackstripe	not available
+de	redstripe	not available
+de	goldstripe	not available
+hu	redstripe	Red symbolizes strength. 
+hu	whitestripe	White represents faithfulness.
+hu	greenstripe	Green is the color of hope.
+lt	yellowstripe	Yellow stands for grain.
+lt	greenstripe	Green symbolizes the forests.
+lt	redstripe	Red stands for the blood shed in defense of the nation.
+lu	redstripe	not available
+lu	whitestripe	not available
+lu	bluestripe	not available
+nl	redstripe	not available
+nl	whitestripe	Not available
+nl	bluestripe	Not available
+ye	redstripe	Panarab color.
+ye	whitestripe	Panarab color.
+ye	blackstripe	Panarab color.
+yu	bluestripe	Panslavic color.
+yu	whitestripe	Panslavic color.
+yu	redstripe	Panslavic color.
+al	redfield	Red is adopted from the Communist flag of the USSR.
+al	coatofarms	"The eagle goes back to George Castriota, an Albanian Christian who became a Turkish general in the 15th century under the name of Iskander Bey, or Skanderbeg. He later returned to the Christian faith and led the fight of the Albanians against the Turks in the 1440's. He used the Byzantine two-headed eagle on his seals, hence the modern flag. "
+dz	greenstripe	The green stands for the Muslem faith.
+dz	whitestripe	White stands for purity of purpose.
+dz	coatofarms	The long horns of the crescent symbolize properity.
+ad	bluestripe	Not available
+ad	yellowstripe	Not available
+ad	redstripe	not available
+ad	coatofarms	not available
+ar	bluestripe1	Blue is related to the Virgin Mary's clothing.
+ar	whitestripe	White is related to the Virgin Mary's clothing. 
+ar	bluestripe2	Blue is related to the Virgin Mary's clothing.
+ar	coatofarms	"The sun represents the incaic sun with thirty-two beams, sixteen straight, and sixteen flaming, interpolated."
+cy	whitefield	White is a sign of peace among the two antagonistic communities living there (Turks and Greeks).
+cy	coatofarms	"The map of the island is intended to be a color of copper (symbol Cu), a metal that gave the name to the island. Green olive tree branches stand for peace."
+hk	redfield	not available
+hk	coatofarms	not available
+ma	redfield	not available
+ma	coatofarms	Solomon's seal
+ru	whitestripe	White stands for God.
+ru	bluestripe	Blue symbolizes the Czar.
+ru	redstripe	Red represents the people.
+az	bluestripe	Light blue is a traditional colour of the Turkic peoples.
+az	redstripe	Red is for modernization and progress. 
+az	greenstripe	Green is for the Islamic religion.
+az	coatofarms	The eight pointed star stands for the eight Turkic peoples.
+bo	redstripe	not available
+bo	yellowstripe	not available
+bo	greenstripe	not available
+kh	bluestripe1	Blue symbolizes the Royalty.
+kh	redstripe	Red symbolizes the Nation.
+kh	bluestripe2	Blue symbolizes the Royalty.
+kh	coatofarms	"White  symbolizes the religion, at the beginning of Brahmanism, and now with the majority of Buddhism."
+hr	redstripe	not available
+hr	whitestripe	not available
+hr	bluestripe	not available
+hr	coatofarms	not available
+et	greenstripe	Green represents the fertility of the country.
+et	yellowstripe	Yellow stands for the religious freedom.
+et	redstripe	Red symbolizes the lives sacrificed in the protection of national integrity.
+et	coatofarms	"A radiant star with equidistant rays shows the equality of all ethnic groups as well as creed and gender equity. The shining rays from the star testify to a bright future for Ethiopia, and the blue background denotes peace and democracy in Ethiopia. "
+in	goldstripe	Saffron/Kesaria colors represents Hinduism and patriotism. 
+in	whitestripe	"White stands for a hoped-for unity, peace, and simplicity. "
+in	greenstripe	Green represents Islam and agriculture.
+in	coatofarms	"A blue spinning wheel  in the center, derived from Gandhi's call for economic self-sufficiency and progress  through hand-spinning. "
+la	redstripe1	Red stands for  the blood shed in the fight for freedom.
+la	bluestripe	Blue represents wealth and the Mekong river.
+la	redstripe2	Red stands for  the blood shed in the fight for freedom.
+la	circle	White symbolizes the full moon over the Mekong River as well as unity under the communist government.The white circle is also the symbol of reunification of two laotians regions divised by the river.
+lb	redstripe1	"Red symbolizes the blood of martyrs who died trying to free the country from outside forces (Ottomans, French, and other colonizers). "
+lb	whitestripe	 White is a symbol of purity but is here connected with the snow-capped Lebanese mountains.
+lb	redstripe2	"Red symbolizes the blood of martyrs who died trying to free the country from outside forces (Ottomans, French, and other colonizers). "
+lb	coatofarms	The tree is the cedar traditionally connected with Lebanon.
+ni	bluestripe1	Blue means the territory is bathed by two oceans. 
+ni	whitestripe	The white stripe stands for the territory of the nation and represents the purity of the fatherland.
+ni	bluestripe2	Blue means the territory is bathed by two oceans. 
+ni	coatofarms	"The coat of arms, the five volcanoes stand for the five Central American countries, the rainbow for peace, and the Phrygian cap for freedom. "
+py	redstripe	"Red stands for patriotism, courage, heroism, equality, and justice. "
+py	whitestripe	"White for purity, firmness, union, and peace. "
+py	bluestripe	"Blue for tranquillity, love, knowledge, verity, and liberty."
+py	coatofarms	"The Star of May in the national arms recalls the date of independence, 14 May 1811. The defense of national liberty is symbolized by the lion guarding the liberty cap on the Treasury seal whose motto proclaims «Peace and Justice». "
+ve	yellowstripe	Yellow stands for the richnesses of the territory.
+ve	bluestripe	Blue represents the sea separating Venezuela from Spain. 
+ve	redstripe	Red stands for the blood shed by the patriots during the Independence.
+ve	stars	"The first seven stars represent, and are an homage to, the seven provinces which in 1810 declared their independance from Spain; Caracas, Cumana, Barinas, Barcelona, Margarita, Mérida and Trujillo.)The  8th star was added in 1817, after Guayana was liberated. "
+gh	redstripe	Red represents the blood of those who died in the country’s struggle for independence.
+gh	goldstripe	Gold stands for the minerals wealth.
+gh	greenstripe	Green symbolizes the rich forest.
+gh	star	"The lonestar of African freedom, is taken from the flag of the Black Star Line. This shipping line was founded by Marcus Garvey in June 1919 and would take new negro colonists back to Africa."
+ca	redstripe1	not available
+ca	whitestripe	not available
+ca	redstripe2	not available
+ca	coatofarms	The maple leaf stands for loyalty and authority. Perhaps this is comment on the spirit of democracy in Canada.
+gt	bluestripe1	Blue stands for the sea.
+gt	whitestripe	White stands for land.
+gt	bluestripe2	Blue stands for the sea.
+gt	coatofarms	"The coat of arms is composed by swords, symbols of justice, and sovereignty and laurel branches, symbol of victory. The parchment immortalizes the birthdate of the country. On the top of the parchment stands a quetzal, the supreme symbol of liberty. "
+mx	greenstripe	Green represents hope.
+mx	whitestripe	"White stands for unity, purity."
+mx	redstripe	Red symbolizes parenthood and the blood of national heroes.
+mx	coatofarms	"The emblem recalls an old legend: The Aztec people were guided by Huitzilopochtli to seek a place where an eagle landed on a prickly-pear cactus, eating a snake. After hundreds of years of wandering they found the sign on a small swampy island in Lake Texcoco. Their new home they named Tenochtitlan ('Place of the Prickly Pear Cactus'). In A.D.1325 they built a city on the site of the island in the lake -now the centre of Mexico City-"
+cm	greenstripe	panafrican color.
+cm	redstripe	panafrican color.
+cm	yellowstripe	panafrican color.
+cm	star	not available
+sn	greenstripe	panafrican color.
+sn	yellowstripe	panafrican color.
+sn	redstripe	panafrican color.
+sn	star	not available
+dk	redfield	The Red background was used by the Roman Empire in many of its provinces.
+dk	cross	The cross is for Christianity. 
+fi	whitefield	Scandinavian color.
+fi	cross	Scandinavian color.
+is	bluefield	Blue is a traditional color of Iceland and stands for the blue sky.
+is	whitecross	White is a traditional colors of Iceland.
+is	redcross	The red cross symbolises the Scandinavian heritage.
+bw	bluestripe1	"Blue represents water (the motto on the national arms is PULA, meaning 'let there be rain') and stands for life and prosperity."
+bw	whitestripe1	White depicts the racial harmony of the people as well as the pluralist nature of the society.
+bw	blackstripe	Black depicts the racial harmony of the people as well as the pluralist nature of the society.
+bw	whitestripe2	White depicts the racial harmony of the people as well as the pluralist nature of the society.
+bw	bluestripe2	"Blue represents water (the motto on the national arms is PULA, meaning 'let there be rain') and stands for life and prosperity."
+co	goldstripe	"Yellow symbolizes sovereignty, justice, and  liberty."
+co	bluestripe	"Blue represents nobility, vigilance, loyalty, an equality among races and social classes before God and the law."
+co	redstripe	"Red stands for valor, fraternity, honor, generosity, and victory achieved at the high cost of bloodshed."
+gm	redstripe	Red is the sun overhead. 
+gm	whitestripe1	White represents peace and purity. 
+gm	bluestripe	The light blue represents the Gambia river that flows through the land.
+gm	whitestripe2	White represents peace and purity. 
+gm	greenstripe	Green is  the land.
+id	redstripe	"Red represents the human blood, standing for the corporeal or concrete. Red also resembles the colour of sugar, which is a major component of daily Indonesian cooking."
+id	whitestripe	"White represents the spiritual side of humans.White also is the color of rice, which is a major component of daily Indonesian cooking."
+lv	redstripe1	"Red reminds of the blood that has been shed in the recent past. It has been shed at all times in the remote past and Latvians are ready to offer it again for freedom and independence, for their nation and country."
+lv	whitestripe	"White stands for right and truth, the honor of free citizens and trustworthiness. "
+lv	redstripe2	"Red reminds of the blood that has been shed in the recent past. It has been shed at all times in the remote past and Latvians are ready to offer it again for freedom and independence, for their nation and country."
+mc	redstripe	Heraldic colours of the Grimaldi family.
+mc	whitestripe	Heraldic colours of the Grimaldi family.
+pl	whitestripe	White eagle.
+pl	redstripe	Red crest.
+sm	whitestripe	not available
+sm	bluestripe	not available
+sm	coatofarms	"Adopted in 1862. Its coat of arms expresses its position; a mountain peak with three summits, each with a tower bearing an ostrich plume. The mountains in Mount Titano in the Appenines. The blue and white of the arms have given rise to the flag."
+th	redstripe1	Red is supposed to represent the land or the nation of Thailand.
+th	whitestripe1	White is supposed to stand for the Therevada Buddhist religion.
+th	bluestripe	Blue is supposed to represent the monarchy.
+th	whitestripe2	White is supposed to stand for the Therevada Buddhist religion.
+th	redstripe2	Red is supposed to represent the land or the nation of Thailand.
+ua	bluestripe	"Blue, the colors of the sky and streams symbolized Kyivan Rus' long before the introduction of Christianity. With the acceptance of Christianity, blue was incorporated into church symbolism."
+ua	yellowstripe	"Yellow, the colors of  mountains, and golden fields have symbolized Kyivan Rus' long before the introduction of Christianity. With the acceptance of Christianity, gold was incorporated into church symbolism."
+cr	bluestripe1	"Blue means the sky, opportunities at reach, intellectual thinking, perseverance to accomplish a goal, infinite, eternity, and ideals of the religious and spiritual desires. "
+cr	whitestripe1	"White means clear thinking, happiness, wisdom, power and beauty of the sky, the driving force of initiatives to search for new endeavors, and the peace of Costa Rica. "
+cr	redstripe	"Red means the warmth of Costa Rican people, their love to live, their blood shed for freedom, and their generous attitude."
+cr	whitestripe2	"White means clear thinking, happiness, wisdom, power and beauty of the sky, the driving force of initiatives to search for new endeavors, and the peace of Costa Rica. "
+cr	bluestripe2	"Blue means the sky, opportunities at reach, intellectual thinking, perseverance to accomplish a goal, infinite, eternity, and ideals of the religious and spiritual desires. "
+ec	yellowstripe	Yellow is the abundance and fertility of the crops and land.
+ec	bluestripe	Blue stands for the color of the sea and sky.
+ec	redstripe	Red stands for the blood shed by the soldiers and martyrs of the independence battles.
+ec	coatofarms	"The flags of Ecuador, Colombia and Venezuela are almost identical because they formed a confederation at independence in 1822. Red equals to the blood shed by the soldiers and martyrs of the independence battles.Blue stands for the color of the sea and sky.Yellow is the abundance and fertility of the crops and land."
+sv	bluestripe1	Blue stands for the Caribbean Sea and the Pacific Ocean. 
+sv	whitestripe	not available
+sv	bluestripe2	Blue stands for the Caribbean Sea and the Pacific Ocean. 
+ht	bluestripe	not available
+ht	redstripe	not available
+hn	bluestripe1	Blue stands for the Caribbean Sea and the Pacific Ocean. 
+hn	whitestripe	not available
+hn	bluestripe2	Blue stands for the Caribbean Sea and the Pacific Ocean. 
+hn	stars	"The five stars, introduced in 1866, reflect the hope that the five states may once again form an association"
+iq	redstripe	Adopted in 1963. The script -God is great- was added to the 1963 flag during the Gulf War.
+iq	whitestripe	Adopted in 1963. The script -God is great- was added to the 1963 flag during the Gulf War.
+iq	blackstripe	Adopted in 1963. The script -God is great- was added to the 1963 flag during the Gulf War.
+iq	script	Adopted in 1963. The script -God is great- was added to the 1963 flag during the Gulf War.
+il	whitestripe1	not available
+il	bluestripe1	"Blue may be based on a tallit, a religious article of clothing. "
+il	whitestripe2	not available
+il	bluestripe2	"Blue may be based on a tallit, a religious article of clothing. "
+il	whitestripe3	not available
+il	star	"The Magen David (Shield of David), the six-pointed star made of two triangles, appeared according to Jewish tradition on the shield of King David. According to the same tradition the same symbols appeared also on King Solomon's ring and therefore it is also called the Seal of Solomon."
+sg	redstripe	Red stands for brotherhood and equality.
+sg	whitestripe	White is the color for purity and virtue. 
+sg	coatofarms	The crescent moon originally served as a symbol of assurance to the Malays in 1959 that Singapore was not a Chinese state.Today it is generally said that the moon signified a young nation rising.
+ug	blackstripe1	Black represents the people of Africa.
+ug	yellowstripe1	Yellow is the image of sunshine. 
+ug	redstripe1	Red is the color for brotherhood.
+ug	blackstripe2	Black represents the people of Africa.
+ug	yellowstripe2	Yellow is the image of sunshine. 
+ug	redstripe2	Red is the color for brotherhood.
+ug	coatofarms	"Represents a dressed crane, which is a extensively found in Uganda."
+uz	bluestripe	Blue stands for eternal night and for water as a fundamental source of life. 
+uz	redstripe1	Red is the life force. 
+uz	whitestripe	White is the color for peace.
+uz	redstripe2	Red is the life force. 
+uz	greenstripe	Green symbolizes nature.
+uz	crescent	"The crescent moon represents the rebirth of the Uzbekistan, rather than its religion. The 12 stars stand either for the zodiac or the 12 oblasts or villoyets of Uzbekistan."
+sy	redstripe	Red symbolizes the struggle and sacrifice for freedom.
+sy	whitestripe	White signifies peace.
+sy	blackstripe	Black stands for the dark colonial past.
+sy	star	not available
+sy	star	not available
+tg	greenstripe1	"Green stands for freshness, hope, and a new area after colonization. It also refers to nature and agriculture"
+tg	yellowstripe1	"Yellow symbolizes the precious value of unity, maturity of Togolese people,and subsoil's wealth."
+tg	greenstripe2	"Green stands for freshness, hope, and a new area after colonization. It also refers to nature and agriculture."
+tg	yellowstripe2	"Yellow symbolizes the precious value of Unity, maturity of Togolese people,and subsoil's wealth."
+tg	greenstripe3	"Green stands for freshness, hope, and a new area after colonization. It also refers to nature and agriculture"
+tg	redfield	"Red is the symbol of the blood shed for Independence, Democracary and Legality."
+tg	star	"The five pointed star is the symbol of life, liberty, and action."
+bs	bluestripe1	The aquamarine stripes bring to mind the various shades of ocean waters around Bahamas islands. 
+bs	yellowstripe	The golden sands of the 700 Bahamian islands are reflected in the centere of the flag.
+bs	bluestripe2	The aquamarine stripes bring to mind the various shades of ocean waters around Bahamas islands. 
+bs	blacktriangle	The black triangle indicates the unity of the Bahamian people in their determination to develop the resources of both land and sea.
+cu	bluestripe1	Blue is the symbol of the original three provinces in Cuba.
+cu	whitestripe1	White represents the purity and justice of the patriotic liberators' motives.  
+cu	bluestripe2	Blue is the symbol of the original three provinces in Cuba.
+cu	whitestripe2	White represents the purity and justice of the patriotic liberators' motives.  
+cu	bluestripe3	Blue is the symbol of the original three provinces in Cuba.
+cu	redtriangle	"The triangle is a masonic symbol, here signifying liberty,freedom, unity, equality, and fraternity."
+cu	star	The lone white star within the equilateral red traingle represents the unity of Cubans.
+cz	whitestripe	 White represents Silesians.
+cz	redstripe	Red represents Moravians.
+cz	bluetriangle	Blue represents Slovaks.
+jo	blackstripe	Black represents the Arab Abbasid dynasty.
+jo	whitestripe	White represents the Umayyad dynasty.
+jo	greenstripe	Green represents the Arab Fatimid dynasty.
+jo	redstriangle	The crimson triangle joining the bands represents the Hashemite dynasty.
+jo	star	The seven-pointed Islamic star set in the center of the crimson triangle represents the unity of Arab peoples in Jordan and also refers to the first 7 verses of the Koran.
+ps	blackstripe	Liberation and unity.
+ps	whitestripe	Liberation and unity.
+ps	greenstripe	Liberation and unity.
+ps	redtriangle	Liberation and unity.
+ph	bluestripe	Blue stands for noble ideals.
+ph	redstripe	 Red represents courage and bravery.
+ph	whitetriangle	"The white triangle stands for the Katipunan, a revolutionary organization that led Philippines revolt against Spain. It also symbolizes the idea of peace and purity."
+ph	star1	"The 3 stars stand for the 3 principal geographic areas of Philippines; Luzon, the Visayas and Mindanao. "
+ph	star2	"The 3 stars stand for the 3 principal geographic areas of Philippines; Luzon, the Visayas and Mindanao. "
+ph	star3	"The 3 stars stand for the 3 principal geographic areas of Philippines; Luzon, the Visayas and Mindanao. "
+ph	sun	The sun represents the dawning of a new era of self determination desired in 1897 after the Spanish-American war and the US promise of independence. The 8 rays on the sun stand for the 8 provinces that rose in revolt against Spanish rule in the late 19th century.
+sd	redstripe	Red stands for struggle and the martyrs of the Sudan and the Great Arab Land. 
+sd	whitestripe	White represents purity and optimism.
+sd	blackstripe	Black stands for Sudan and the Mahdiya revolution (the Black Flag).
+sd	greentriangle	"Green stands for prosperity, good and agriculture."
+do	bluefield1	Blue is said to stand for liberty.
+do	redfield1	Red is said to stand for the fire and blood of the independence struggle.
+do	bluefield2	Blue is said to stand for liberty.
+do	redfield2	Red is said to stand for the fire and blood of the independence struggle.
+do	whitecross	A white cross is a symbol of sacrifice.
+bj	greenstripe	"Green recalls hope, revival, and palm trees."
+bj	yellowstripe	Yellow incitates to preserve the Benin's wealth and the savannas.
+bj	redstripe	"Red symbolizes courage and blood of ancestors, and Benin's soil."
+ge	redfield	Red symbolizez Georgia's bright in 1918 and nowadays joy. 
+ge	blackstripe	Black stands for the Georgia's tragic past.
+ge	whitestripe	White stands for the Georgia's hopes for the future.
+cl	bluefield	"It was first used in 1817. Designed by Charles Wood, Usa citizen serving with the Chilean insurgents, the pattern is based on that of the USA."
+cl	whitestripe	"It was first used in 1817. Designed by Charles Wood, Usa citizen serving with the Chilean insurgents, the pattern is based on that of the USA."
+cl	redstripe	"It was first used in 1817. Designed by Charles Wood, Usa citizen serving with the Chilean insurgents, the pattern is based on that of the USA."
+cl	star	"It was first used in 1817. Designed by Charles Wood, Usa citizen serving with the Chilean insurgents, the pattern is based on that of the USA."
+pa	whitestripe1	White stands for for peace.
+pa	redstripe	Red is for the Conservative Party and Liberal Party and for the blood of those who lost their lives for Panama.
+pa	bluestripe	Blue is for the Conservative Party and Liberal Party. It also symbolizes the Pacific Ocean and the Caribbean.
+pa	whitestripe2	White stands for for peace.
+pa	bluestar	The blue star is the purity and honesty of the life of Panama.
+pa	redstar	The red star is for authority and law in the country.
+va	yellowstripe	Yellow and white were adopted as the papal colors in 1808. Yellow is associated with the golden keys to paradise- symbols of Saint Peter. As in Jesus' words to Peter in St Matthew's Gospel 16:19 'I will give you the keys of the kingdom of heaven.'
+va	whitestripe	Yellow and white were adopted as the papal colors in 1808. Yellow is associated with the golden keys to paradise- symbols of Saint Peter. As in Jesus' words to Peter in St Matthew's Gospel 16:19 'I will give you the keys of the kingdom of heaven.'
+va	coatofarms	Yellow and white were adopted as the papal colors in 1808. Yellow is associated with the golden keys to paradise- symbols of Saint Peter. As in Jesus' words to Peter in St Matthew's Gospel 16:19 'I will give you the keys of the kingdom of heaven.'
+kw	greenstripe	Green is representative of the country's fertile land. 
+kw	whitestripe	White represents purity of heart and mind of the Kuwaiti people.
+kw	redstripe	Red is the color of the blood of the enemy on Kuwaitis' swords.
+kw	blackfield	Black represents the defeat of the enemies of Kuwait. 
+na	bluefield	"Blue represents the clear Namibian sky and rain, the Atlantic Ocean and the country's precious water resources."
+na	whitestripe1	White refers to peace and unity.
+na	redstripe	"Red represents Namibia's most important resource, its people. It refers to their heroism and their determination to build a future of equal opportunity for all."
+na	whitestripe2	White refers to peace and unity.
+na	greenstripe	Green symbolises vegetation and agricultural resources.
+na	sun	the golden-yellow sun represents life and energy.
+ch	field	not available
+ch	cross	not available
+gr	bluestripe1	not available
+gr	whitestripe1	not available
+gr	bluestripe2	not available
+gr	whitestripe2	not available
+gr	bluestripe3	not available
+gr	whitestripe3	not available
+gr	bluestripe4	not available
+gr	whitestripe4	not available
+gr	bluestripe5	not available
+gr	field	not available
+gr	cross	not available
+za	redstripe	not available
+za	bluestripe	not available
+za	whitestripe	not available
+za	greenstripe	not available
+za	yellowstripe	not available
+za	blacktriangle	not available
+my	redstripe1	not available
+my	whitestripe1	not available
+my	redstripe2	not available
+my	whitestripe2	not available
+my	redstripe3	not available
+my	whitestripe3	not available
+my	redstripe4	not available
+my	whitestripe4	not available
+my	redstripe5	not available
+my	whitestripe5	not available
+my	redstripe6	not available
+my	whitestripe6	not available
+my	redstripe7	not available
+my	whitestripe7	not available
+my	field	not available
+my	star	not available
+my	crescent	not available
+au	bluefield	not available
+au	whitex	not available
+au	redx	not available
+au	whitecross	not available
+au	redcross	not available
+au	bigstar	"The star of the Federation, the Commonwealth and the sky"
+au	medstar1	Alpha in the sky of Australia
+au	medstar2	Beta in the sky of Australia
+au	medstar3	Gamma in the sky of Australia
+au	medstar4	Delta in the sky of Australia
+au	smallstar	Epsilon in the sky of Australia.
+pk	whitestripe	The white stripe represents the country's non-Muslim minority
+pk	greenfield	The green field represents peace and prosperity
+pk	crescent	"The crescent represents progress, and the star represents knowledge"
+br	greenfield	The colors green and yellow refer to the Royal Houses of Bragança (Emperor Pedro I) and Habsburg (Empress Leopoldina).
+br	yellowdiamond	The colors green and yellow refer to the Royal Houses of Bragança (Emperor Pedro I) and Habsburg (Empress Leopoldina).
+br	globe	"The sphere portrays the sky of Rio de Janeiro on the night of 15 November 1889 (starting day of the revolution). Each star represents one state and are actually present in the night sky. The white band is inscribed with 'Order and Progress', attributed to the French positivist philosopher Auguste Comte."
+sa	greenfield	"The green color represents Islam.  The script on solid green was an old flag, connected to the Wahabi reformist movement of the late 18th century, with whose religious drive the as-Saud family first rose to power. "
+sa	script	"The shahada is the muslim profession of faith ('There is no god but Allah and Muhammad is his Prophet'). The sword was added in 1902, when Abdulaziz ibn Abdulrahman as-Saud ('Ibn Saud' to the British) established himself as King of the Nejd. "
+kp	bluestripe1	The blue stripes represent a commitment to peace.
+kp	whitestripe1	White - a traditional Korean color - represents purity.
+kp	redstripe	The red stripe symbolizes the struggle for socialism.
+kp	whitestripe2	White - a traditional Korean color - represents purity.
+kp	bluestripe2	The blue stripes represent a commitment to peace.
+kp	whitecircle	"The white disc suggests the traditional Korean T'aeguk, symbol of the universe."
+kp	redstar	The star is a symbol of the role played by the Korean Worker's Party in creating the socialist structure of the country.
+kr	whitefield	White is the traditional color of Korea and stands for peace and purity.
+kr	yin-yang	"The central emblem is the red and blue symbol of Yin-Yang, depicting the harmony of opposites in nature. The trigrams in the four corners are called Kwae and represent heaven, water, fire, and earth. Together these symbols embody the concepts of continual movement and the balance and harmony of the universe."

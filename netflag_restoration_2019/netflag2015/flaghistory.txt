@@ -1,0 +1,2073 @@
+France,bluestripe,69,-28
+France,whitestripe,36,3
+France,redstripe,35,-33
+United States,whitestripe2,63,24
+Angola,coatofarms,448,82
+Angola,coatofarms,24,59
+United States,whitestripe2,63,24
+United States,whitestripe2,63,24
+United States,whitestripe2,63,24
+United States,whitestripe2,63,24
+United States,whitestripe2,63,24
+United States,whitestripe2,63,24
+Angola,coatofarms,24,59
+Angola,coatofarms,24,59
+United States,whitestripe2,63,24
+France,whitestripe,36,3
+France,whitestripe,233,0
+France,redstripe,466,0
+United States,whitestripe2,0,101
+Angola,coatofarms,246,97
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Angola,coatofarms,246,97
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,-3,-2
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Sweden,yellowcross,0,0
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Angola,coatofarms,246,97
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Angola,coatofarms,246,97
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+United States,whitestripe2,0,101
+Angola,coatofarms,246,97
+Angola,coatofarms,246,97
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,334,103
+United States,whitestripe2,354,109
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+Zimbabwe,triangle,0,0
+Zimbabwe,star,23,117
+Puerto Rico,star,38,131
+Puerto Rico,redstripe1,466,1
+Puerto Rico,whitestripe1,464,92
+Puerto Rico,redstripe2,466,179
+Puerto Rico,whitestripe2,464,262
+Puerto Rico,redstripe3,466,351
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,334,103
+United States,whitestripe2,354,109
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+Zimbabwe,triangle,0,0
+Zimbabwe,star,23,117
+Puerto Rico,star,13,127
+Puerto Rico,redstripe1,466,1
+Puerto Rico,whitestripe1,464,92
+Puerto Rico,redstripe2,466,179
+Puerto Rico,whitestripe2,464,262
+Puerto Rico,redstripe3,466,351
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,334,103
+United States,whitestripe2,354,109
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+Zimbabwe,triangle,0,0
+Zimbabwe,star,23,117
+Puerto Rico,star,38,134
+Puerto Rico,redstripe1,466,1
+Puerto Rico,whitestripe1,464,92
+Puerto Rico,redstripe2,466,179
+Puerto Rico,whitestripe2,464,262
+Puerto Rico,redstripe3,466,351
+United States,whitestripe2,0,101
+France,whitestripe,233,0
+Ireland,greenstripe,0,0
+United States,whitestripe2,334,103
+United States,whitestripe2,354,109
+Sweden,yellowcross,0,0
+Ireland,orangestripe,466,0
+Zimbabwe,triangle,0,0
+Zimbabwe,star,23,117
+Puerto Rico,star,38,134
+Puerto Rico,redstripe1,466,1
+Puerto Rico,whitestripe1,464,92
+Puerto Rico,redstripe2,466,179
+Puerto Rico,whitestripe2,464,262
+Puerto Rico,redstripe3,466,351
+United Kingdom,bluefield,0,0
+United Kingdom,whitex,0,0
+United Kingdom,redx,0,0
+United Kingdom,whitecross,0,0
+United Kingdom,redcross,0,0
+United Kingdom,redx,0,0
+United Kingdom,whitecross,0,0
+United Kingdom,whitex,0,0
+United Kingdom,redx,0,0
+Sweden,yellowcross,0,0
+Sweden,yellowcross,0,0
+Rwanda,redstripe,0,0
+Rwanda,yellowstripe,235,0
+Rwanda,greenstripe,466,0
+Rwanda,letter_R,266,110
+Rwanda,redstripe,0,0
+Rwanda,yellowstripe,235,0
+Rwanda,greenstripe,466,0
+United Kingdom,whitecross,0,0
+United Kingdom,redcross,0,0
+United Kingdom,redx,0,0
+United Kingdom,whitecross,0,0
+United Kingdom,whitex,0,0
+United Kingdom,redx,0,0
+Sweden,yellowcross,0,0
+Sweden,yellowcross,0,0
+Rwanda,redstripe,0,0
+Rwanda,yellowstripe,235,0
+Rwanda,greenstripe,466,0
+Rwanda,letter_R,266,110
+Rwanda,redstripe,0,0
+Rwanda,yellowstripe,235,0
+Rwanda,greenstripe,466,0
+United Kingdom,bluefield,0,0
+United Kingdom,whitex,0,0
+United Kingdom,redx,0,0
+United Kingdom,whitecross,0,0
+United Kingdom,redcross,0,0
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+Spain,yellowstripe,0,110
+Spain,coatofarms,144,130
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+Spain,yellowstripe,0,110
+Spain,coatofarms,144,130
+Greenland,redarc,123,66
+Greenland,redarc,123,66
+Greenland,whitearc,123,66
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,redstripe7,1,406
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+Spain,yellowstripe,0,110
+Spain,coatofarms,144,130
+Greenland,redarc,123,66
+Greenland,redarc,123,66
+Greenland,whitearc,123,66
+Afghanistan,whitestripe,0,146
+Norway,bluecross,0,0
+France,bluestripe,0,0
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,redstripe7,1,406
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+Spain,yellowstripe,0,110
+Spain,coatofarms,144,130
+Greenland,redarc,123,66
+Greenland,redarc,123,66
+Greenland,whitearc,123,66
+Afghanistan,whitestripe,0,146
+Norway,bluecross,0,0
+France,bluestripe,0,0
+Greenland,whitearc,123,66
+Puerto Rico,bluefield,0,0
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,redstripe7,1,406
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+Spain,yellowstripe,0,110
+Spain,coatofarms,144,130
+Greenland,redarc,123,66
+Greenland,redarc,123,66
+Greenland,whitearc,123,66
+Afghanistan,whitestripe,0,146
+Norway,bluecross,0,0
+France,bluestripe,0,0
+Greenland,whitearc,123,66
+Puerto Rico,bluefield,0,0
+Angola,redfield,0,0
+Angola,blackfield,0,220
+Angola,coatofarms,468,90
+Angola,coatofarms,264,93
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,8,10
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Angola,redfield,0,0
+Angola,blackfield,0,220
+Angola,coatofarms,468,90
+Angola,coatofarms,264,93
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,8,10
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,0,264
+Puerto Rico,bluefield,0,0
+France,whitestripe,244,0
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,8,10
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,0,264
+Puerto Rico,bluefield,0,0
+France,whitestripe,244,0
+Barbados,trident,39,75
+Barbados,bluestripe,396,16
+Barbados,bluestripe,389,12
+Barbados,bluestripe,357,0
+Barbados,yellowstripe,473,-8
+Somalia,bluestripe,0,0
+Somalia,Star,256,115
+Peru,redstripe1,0,0
+Peru,redstripe1,0,0
+Peru,redstripe1,468,-1
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Angola,redfield,0,0
+Angola,blackfield,0,220
+Angola,coatofarms,468,90
+Angola,coatofarms,264,93
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,8,10
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,0,264
+Puerto Rico,bluefield,105,14
+France,whitestripe,244,0
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,107,116
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,0,264
+Puerto Rico,bluefield,105,14
+France,whitestripe,244,0
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Vietnam,star,206,82
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Vietnam,star,376,56
+Vietnam,star,60,56
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Vietnam,star,376,56
+Vietnam,star,60,56
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,100,241
+Puerto Rico,redstripe3,-4,104
+Puerto Rico,whitestripe2,1,-6
+Puerto Rico,bluefield,0,-1
+France,whitestripe,376,8
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Vietnam,star,422,31
+Vietnam,star,0,32
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+Bangladesh,circle,210,80
+Barbados,trident,261,128
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,95
+Spain,yellowstripe,1,219
+United Kingdom,redcross,0,0
+Puerto Rico,redstripe3,1,0
+Puerto Rico,bluefield,0,-1
+Spain,coatofarms,35,110
+France,whitestripe,376,-1
+Barbados,trident,406,124
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+Spain,redstripe1,0,0
+Vietnam,star,51,67
+Vietnam,star,416,67
+Bangladesh,circle,238,22
+Bangladesh,circle,210,80
+Barbados,trident,261,128
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,95
+Spain,yellowstripe,1,219
+United Kingdom,redcross,0,0
+Puerto Rico,redstripe3,1,0
+Puerto Rico,bluefield,0,-1
+Spain,coatofarms,35,110
+France,whitestripe,376,-1
+Barbados,trident,406,124
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+Spain,redstripe1,0,0
+Vietnam,star,51,67
+Vietnam,star,416,67
+Bangladesh,circle,238,22
+Algeria,greenstripe,0,0
+Algeria,whitestripe,350,0
+Argentina,bluestripe,0,-1
+Argentina,bluestripe,0,296
+Algeria,coatofarms,198,97
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,95
+Spain,yellowstripe,1,219
+United Kingdom,redcross,0,0
+Puerto Rico,redstripe3,1,0
+Puerto Rico,bluefield,0,-1
+Spain,coatofarms,35,110
+France,whitestripe,376,-1
+Barbados,trident,406,124
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+Spain,redstripe1,0,0
+Vietnam,star,51,67
+Vietnam,star,538,77
+Bangladesh,circle,238,22
+Algeria,greenstripe,-43,4
+Algeria,whitestripe,307,5
+Argentina,bluestripe,0,-1
+Argentina,bluestripe,0,296
+Algeria,coatofarms,195,98
+Argentina,coatofarms,338,148
+Puerto Rico,bluefield,382,6
+France,whitestripe,477,-2
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,143,89
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,-39
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,-38
+United Kingdom,redcross,78,95
+Spain,yellowstripe,0,110
+Spain,coatofarms,156,88
+Puerto Rico,redstripe3,0,352
+Puerto Rico,whitestripe2,12,128
+Puerto Rico,bluefield,40,-4
+France,whitestripe,265,6
+Angola,coatofarms,379,90
+Angola,coatofarms,15,91
+United States,stars,86,236
+United States,stars,245,10
+United Kingdom,redcross,-79,96
+United Kingdom,redcross,78,95
+Spain,yellowstripe,1,219
+United Kingdom,redcross,0,0
+Puerto Rico,redstripe3,1,0
+Puerto Rico,bluefield,0,-1
+Spain,coatofarms,35,110
+France,whitestripe,376,-1
+Barbados,trident,406,124
+United States,redstripe1,0,0
+United States,whitestripe1,0,33
+United States,redstripe2,0,67
+United States,whitestripe2,0,101
+United States,redstripe3,0,135
+United States,whitestripe3,0,169
+United States,redstripe4,0,203
+United States,whitestripe4,0,237
+United States,redstripe5,0,271
+United States,whitestripe5,0,304
+United States,redstripe6,0,338
+United States,whitestripe6,0,372
+United States,redstripe7,0,406
+Spain,redstripe1,0,0
+Spain,redstripe2,0,330
+Spain,redstripe1,0,0
+Vietnam,star,51,67
+Rwanda,letter_R,16,86
+Vietnam,star,538,77
+Bangladesh,circle,238,22
+Algeria,greenstripe,-43,4
+Algeria,whitestripe,307,5
+Argentina,bluestripe1,0,-1
+Argentina,bluestripe1,0,296
+Algeria,coatofarms,195,98
+Argentina,coatofarms,338,148
+Chad,yellowstripe,81,-3
+Algeria,coatofarms,195,98
+Barbados,yellowstripe,233,0
+Algeria,coatofarms,195,98
+Andorra,bluestripe,1,0
+Algeria,coatofarms,195,98
+France,whitestripe,410,-2
+France,redstripe,440,-3
+France,bluestripe,461,-6
+Cote d'Ivoire,orangestripe,177,0
+Peru,redstripe1,0,-2
+Romania,yellowstripe,-25,-2
+Sweden,yellowcross,73,-2
+Bangladesh,circle,563,78
+Bangladesh,circle,194,-199
+Bangladesh,circle,-140,77
+Bangladesh,circle,195,356
+Laos,circle,252,116
+Somalia,star,254,114
+Netherlands,bluestripe,0,231
+United States,whitestripe4,0,237
+Argentina,bluestripe1,0,0
+Netherlands,bluestripe,0,293
+United States,whitestripe5,0,304
+Japan,circle,205,74
+Lithuania,greenstripe,0,90
+Angola,redfield,0,-15
+United States,whitestripe6,0,372
+Cameroon,redstripe,233,0
+Cameroon,star,256,112
+Algeria,greenstripe,0,0
+Algeria,whitestripe,350,0
+Bahamas,yellowstripe,0,144
+Bangladesh,circle,210,80
+Chile,star,291,163
+Namibia,bluefield,0,0
+Namibia,greenstripe,142,89
+Namibia,sun,54,55
+Laos,circle,261,131
+Vietnam,star,417,168
+Iceland,whitecross,0,0
+Afghanistan,coatofarms,226,111
+Algeria,coatofarms,8,95
+Costa Rica,bluestripe1,0,0
+Costa Rica,bluestripe1,0,364
+Costa Rica,bluestripe1,0,293
+Costa Rica,bluestripe1,1,70
+Costa Rica,bluestripe1,0,276
+Costa Rica,bluestripe1,0,95
+Ireland,orangestripe,467,0
+Ireland,orangestripe,0,0
+Estonia,bluestripe,0,0
+Estonia,bluestripe,0,301
+Ireland,orangestripe,466,0
+Ireland,orangestripe,0,0
+Ireland,greenstripe,233,276
+Ireland,greenstripe,233,-272
+Cuba,star,40,158
+Cuba,star,547,159
+Philippines,star2,73,189
+Philippines,star2,581,191
+Croatia,coatofarms,265,83
+Chile,whitestripe,233,0
+Chile,redstripe,0,220
+Ireland,orangestripe,138,-1
+Ireland,orangestripe,13,-6
+Gambia,whitestripe1,-2,125
+Gambia,whitestripe2,0,58
+Chile,redstripe,0,220
+Panama,bluestripe,351,0
+Malaysia,star,221,270
+Malaysia,star,382,270
+Malaysia,star,531,269
+Malaysia,star,64,269
+Malaysia,field,-6,-31
+Bangladesh,circle,210,-61
+Cameroon,star,256,5
+Argentina,bluestripe1,0,1
+Argentina,whitestripe,0,146
+Germany,blackstripe,0,0
+Germany,goldstripe,0,293
+Japan,whitefield,0,0
+United States,redstripe1,527,-1
+United States,redstripe2,526,62
+United States,redstripe6,525,340
+United States,redstripe7,524,407
+Palestine,redtriangle,0,0
+United States,redstripe3,526,129
+United States,redstripe5,526,269
+United States,redstripe4,525,200
+Israel,coatofarms,264,115
+Japan,whitefield,0,0
+Germany,redstripe,0,146
+Germany,blackstripe,0,38
+Germany,goldstripe,1,257
+United States,whitestripe1,0,31
+United States,whitestripe1,0,64
+United States,whitestripe1,1,338
+United States,bluefield,-1,100
+United States,stars,13,111
+United States,whitestripe1,1,405
+United States,whitestripe1,1,372
+United States,whitestripe1,0,-1
+Japan,whitefield,0,0
+Germany,redstripe,0,146
+Germany,goldstripe,0,236
+Germany,blackstripe,0,75
+Germany,goldstripe,0,56
+Japan,circle,355,74
+Japan,whitefield,0,0
+Japan,circle,368,94
+United States,bluefield,-1,-4
+United States,stars,9,11
+Japan,whitefield,0,0
+Japan,circle,208,78
+United States,bluefield,415,273
+United States,bluefield,-1,-58
+United States,bluefield,-3,274
+United States,bluefield,414,-56
+Algeria,whitestripe,350,0
+Algeria,whitestripe,1,0
+United States,bluefield,-1,-53
+United States,bluefield,-1,274
+Japan,circle,365,87
+United States,whitestripe1,0,33
+United States,whitestripe2,0,101
+United States,whitestripe3,0,169
+United States,whitestripe4,0,237
+United States,whitestripe5,0,304
+United States,whitestripe6,0,372
+Bangladesh,greenstripe,-414,-2
+Jordan,star,106,88
+Jordan,star,105,190
+Jordan,star,105,292
+Vietnam,redfield,-2,-2
+United States,whitestripe1,0,33
+United States,whitestripe2,0,101
+United States,whitestripe3,0,169
+United States,whitestripe5,0,304
+United States,whitestripe4,0,237
+United States,whitestripe6,0,372
+Bangladesh,greenstripe,-349,-2
+Libya,greenfield,-349,-1
+Ghana,star,103,126
+Afghanistan,blackstripe,0,293
+Afghanistan,greenstripe,0,0
+Afghanistan,greenstripe,0,293
+United States,redstripe5,-1,337
+United States,redstripe3,0,268
+United States,redstripe6,-1,372
+Afghanistan,whitestripe,0,146
+United States,bluefield,-1,0
+United States,redstripe7,0,406
+United States,stars,12,8
+United States,redstripe4,-1,302
+Afghanistan,greenstripe,0,0
+Afghanistan,greenstripe,-1,148
+Afghanistan,greenstripe,-1,294
+United States,redstripe1,0,0
+United States,redstripe2,0,67
+United States,redstripe3,0,135
+United States,redstripe4,0,203
+United States,redstripe5,0,271
+United States,redstripe6,0,338
+United States,redstripe7,0,406
+United States,bluefield,0,0
+United States,stars,15,19
+Guadaloupe,whitestripe,233,0
+Afghanistan,coatofarms,243,104
+Afghanistan,coatofarms,243,104
+Afghanistan,coatofarms,243,104
+Puerto Rico,star,50,133
+United States,bluefield,0,0
+United States,stars,15,19
+Bahamas,blacktriangle,0,0
+France,redstripe,466,0
+Norway,bluecross,342,-66
+Norway,bluecross,342,274
+Ireland,whitestripe,233,0
+Pakistan,greenfield,-57,0
+Afghanistan,coatofarms,141,98
+Ukraine,bluestripe,0,0
+Bolivia,yellowstripe,0,146
+United Kingdom,redcross,0,0
+China,star,41,9
+Israel,bluestripe2,93,583
+Australia,redcross,54,200
+Laos,circle,447,17
+Israel,star,388,199
+Palestine,redtriangle,0,0
+Palestine,blackstripe,0,0
+Palestine,whitestripe,0,146
+Palestine,greenstripe,0,293
+Israel,whitestripe1,0,0
+Israel,bluestripe2,0,344
+Palestine,redtriangle,0,0
+Israel,bluestripe1,0,32
+Israel,star,245,108
+Armenia,redstripe,235,145,010928:084231,149.31.53.72
+Ireland,orangestripe,466,0,010928:084231,149.31.53.72
+Andorra,redstripe,103,-5,010928:084231,149.31.53.72
+Bangladesh,circle,210,80,010928:090722,149.31.53.72
+Palestine,redtriangle,0,0,010928:111736,r94aag002508.nyr.cable.rcn.com
+Malaysia,star,312,153,010928:151613,149.31.53.75
+Vietnam,star,-91,237,010928:151646,149.31.53.75
+Puerto Rico,bluefield,466,-1,010929:050731,ip-20-179-45.montreal.navipath.net
+Australia,bigstar,321,162,010929:051136,ip-20-179-45.montreal.navipath.net
+Vietnam,star,-92,-111,010930:051608,r94aag002508.nyr.cable.rcn.com
+Ghana,star,135,11,010930:083821,cache1.frankfurt.contrib.net
+Indonesia,redstripe,499,108,010930:083935,cache1.frankfurt.contrib.net
+Laos,circle,264,133,010930:084546,cache1.frankfurt.contrib.net
+Vietnam,redfield,-363,-1,011003:161109,r94aag002508.nyr.cable.rcn.com
+Vietnam,redfield,466,-1,011003:161109,r94aag002508.nyr.cable.rcn.com
+Georgia,redfield,-532,-1,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Gambia,redstripe,0,0,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Chile,redstripe,327,148,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+China,redfield,301,375,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Bolivia,redstripe,0,0,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Algeria,coatofarms,219,90,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Algeria,coatofarms,219,90,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Algeria,coatofarms,219,91,011003:231604,1cust168.tnt13.nyc3.da.uu.net
+Albania,coatofarms,505,107,011004:110338,149.31.53.88
+Japan,whitefield,1,73,011004:112803,r94aag002508.nyr.cable.rcn.com
+Vatican,yellowstripe,165,68,011004:112803,r94aag002508.nyr.cable.rcn.com
+Uganda,coatofarms,507,139,011004:112803,r94aag002508.nyr.cable.rcn.com
+Mexico,redstripe,293,1,011004:112803,r94aag002508.nyr.cable.rcn.com
+Algeria,coatofarms,114,47,011004:112803,r94aag002508.nyr.cable.rcn.com
+Lebanon,coatofarms,460,238,011004:112803,r94aag002508.nyr.cable.rcn.com
+Laos,circle,192,75,011005:074658,149.31.30.62
+Ethiopia,yellowstripe,-4,294,011005:135635,anim6.art.cooper.edu
+Japan,circle,472,39,011005:135635,anim6.art.cooper.edu
+Malaysia,star,553,111,011007:150554,r94aag002508.nyr.cable.rcn.com
+Vietnam,redfield,0,0,011007-151735,r94aag002508.nyr.cable.rcn.com
+Afghanistan,blackstripe,0,293,011007-151735,r94aag002508.nyr.cable.rcn.com
+Pakistan,greenfield,288,0,011007-151735,r94aag002508.nyr.cable.rcn.com
+Pakistan,crescent,379,76,011007-151735,r94aag002508.nyr.cable.rcn.com
+Afghanistan,coatofarms,43,29,011007-153358,r94aag002508.nyr.cable.rcn.com
+Greenland,whitearc,-24,134,011008-123637,149.31.56.70
+Australia,bigstar,237,391,011008-123637,149.31.56.70
+Afghanistan,coatofarms,452,29,011009-092044,dyn-126-73.ucsd.edu
+Algeria,whitestripe,-1,-153,011010-171136,r94aag002508.nyr.cable.rcn.com
+Algeria,whitestripe,350,0,011010-171136,r94aag002508.nyr.cable.rcn.com
+Afghanistan,blackstripe,-1,229,011010-171136,r94aag002508.nyr.cable.rcn.com
+Greenland,redarc,349,74,011010-171136,r94aag002508.nyr.cable.rcn.com
+Afghanistan,blackstripe,0,293,011010-171136,r94aag002508.nyr.cable.rcn.com
+Angola,redfield,0,228,011010-171136,r94aag002508.nyr.cable.rcn.com
+Greenland,whitearc,36,72,011010-171136,r94aag002508.nyr.cable.rcn.com
+Panama,redstar,125,196,011012-115428,r94aag002508.nyr.cable.rcn.com
+Chile,star,448,106,011012-115428,r94aag002508.nyr.cable.rcn.com
+United States,redstripe1,-5,48,011016-101351,209.177.1.70
+United States,whitestripe1,0,33,011016-101351,209.177.1.70
+United States,whitestripe2,0,101,011016-101351,209.177.1.70
+United States,whitestripe3,0,169,011016-101351,209.177.1.70
+United States,whitestripe6,0,372,011016-101351,209.177.1.70
+United States,whitestripe5,0,304,011016-101351,209.177.1.70
+United States,redstripe1,2,24,011016-101351,209.177.1.70
+United States,whitestripe4,0,237,011016-101351,209.177.1.70
+United States,redstripe2,4,64,011016-101351,209.177.1.70
+United States,redstripe2,-1,89,011016-101351,209.177.1.70
+United States,redstripe3,0,153,011016-101351,209.177.1.70
+United States,redstripe3,2,129,011016-101351,209.177.1.70
+United States,redstripe4,2,193,011016-101351,209.177.1.70
+United States,redstripe5,-1,282,011016-101351,209.177.1.70
+United States,redstripe6,-2,344,011016-101351,209.177.1.70
+United States,redstripe6,-1,322,011016-101351,209.177.1.70
+United States,redstripe4,2,219,011016-101351,209.177.1.70
+United States,redstripe7,0,406,011016-101351,209.177.1.70
+United States,redstripe7,-2,384,011016-101351,209.177.1.70
+United States,redstripe5,1,259,011016-101351,209.177.1.70
+United States,bluefield,108,77,011016-101351,209.177.1.70
+United States,bluefield,-22,78,011016-101351,209.177.1.70
+United States,stars,-253,-164,011016-101351,209.177.1.70
+United States,redstripe1,0,0,011016-101351,209.177.1.70
+United States,bluefield,0,0,011016-101351,209.177.1.70
+United States,bluefield,108,-12,011016-101351,209.177.1.70
+United States,stars,-273,-19,011016-101351,209.177.1.70
+United States,stars,-273,107,011016-101351,209.177.1.70
+United States,stars,21,-185,011016-101351,209.177.1.70
+United States,stars,124,-185,011016-101351,209.177.1.70
+Benin,greenstripe,184,-124,011018-092823,anim4.art.cooper.edu
+Bangladesh,greenstripe,0,0,011022-105449,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,0,0,011022-105449,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,0,291,011022-105449,r94aag002508.nyr.cable.rcn.com
+Jordan,redstriangle,0,0,011022-105449,r94aag002508.nyr.cable.rcn.com
+Afghanistan,coatofarms,411,105,011022-105449,r94aag002508.nyr.cable.rcn.com
+Sudan,greentriangle,0,0,011022-105627,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,-21,-3,011022-105627,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,379,81,011022-105752,r94aag002508.nyr.cable.rcn.com
+Laos,circle,433,132,011022-105752,r94aag002508.nyr.cable.rcn.com
+Libya,greenfield,0,0,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,0,0,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,267,158,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,267,-82,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,-39,158,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,stars,15,19,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,stars,270,20,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,stars,271,187,011022-110521,r94aag002508.nyr.cable.rcn.com
+United States,stars,16,186,011022-110521,r94aag002508.nyr.cable.rcn.com
+Albania,redfield,0,0,011024-145533,humn83-56-dhcp.colorado.edu
+Chile,star,225,72,011024-145533,humn83-56-dhcp.colorado.edu
+Chile,star,404,70,011024-145533,humn83-56-dhcp.colorado.edu
+Greenland,whitearc,214,79,011024-145533,humn83-56-dhcp.colorado.edu
+Palestine,whitestripe,-2,-3,011029-080911,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-2,148,011029-080911,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-2,0,011029-080911,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,-1,0,011029-080911,r94aag002508.nyr.cable.rcn.com
+United States,stars,14,18,011029-080911,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-3,296,011029-080911,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,309,-1,011029-080911,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-1,293,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe1,0,33,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe2,0,101,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe3,0,169,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe4,0,237,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe5,-2,307,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,whitestripe6,0,372,011029-082908,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,309,0,011029-082908,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-393,332,011029-082908,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-392,-42,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,-1,99,011029-082908,r94aag002508.nyr.cable.rcn.com
+United States,stars,16,117,011029-082908,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,189,295,011029-085037,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,189,216,011029-085037,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-514,236,011029-085037,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,186,-21,011029-085037,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,453,-21,011029-085037,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,217,-46,011029-085037,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-394,97,011029-085037,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,205,-77,011029-085037,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,186,-1,011029-085037,r94aag002508.nyr.cable.rcn.com
+Pakistan,crescent,26,74,011029-085037,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,113,-21,011029-085608,r94aag002508.nyr.cable.rcn.com
+United States,stars,400,14,011029-085608,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,0,219,011029-085608,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-2,299,011029-085608,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,148,-1,011029-085608,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-554,294,011029-085608,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-553,146,011029-085608,r94aag002508.nyr.cable.rcn.com
+Egypt,redstripe,-554,0,011029-085608,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-9,306,011029-090634,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,312,223,011029-090634,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-2,221,011029-090634,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,203,0,011029-090634,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,399,-19,011029-090634,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,94,102,011029-090634,r94aag002508.nyr.cable.rcn.com
+Palestine,redtriangle,-4,123,011029-090634,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,305,-19,011029-090634,r94aag002508.nyr.cable.rcn.com
+United States,bluefield,-1,-19,011029-090634,r94aag002508.nyr.cable.rcn.com
+United States,stars,14,13,011029-090634,r94aag002508.nyr.cable.rcn.com
+Barbados,trident,261,128,011031-133341,209.177.1.70
+Cambodia,coatofarms,175,115,011031-133440,209.177.1.70
+Greenland,redarc,6,69,011031-134809,209.177.1.70
+Greenland,redarc,377,69,011031-134809,209.177.1.70
+Uzbekistan,crescent,377,324,011031-135005,209.177.1.70
+Albania,coatofarms,237,505,011031-135140,209.177.1.70
+Ethiopia,coatofarms,273,150,011031-135411,209.177.1.70
+Ethiopia,coatofarms,274,289,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,494,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,175,115,011031-135411,209.177.1.70
+Cambodia,coatofarms,347,114,011031-135411,209.177.1.70
+Cambodia,coatofarms,-73,115,011031-135411,209.177.1.70
+Angola,coatofarms,386,89,011031-135541,209.177.1.70
+Angola,coatofarms,83,85,011031-135541,209.177.1.70
+Afghanistan,blackstripe,9,299,011031-190646,r94aag002508.nyr.cable.rcn.com
+Algeria,greenstripe,-146,0,011031-190646,r94aag002508.nyr.cable.rcn.com
+Algeria,greenstripe,482,-1,011031-190646,r94aag002508.nyr.cable.rcn.com
+Cyprus,whitefield,0,0,011101-095815,209.177.1.70
+Belgium,blackstripe,253,3,011101-095815,209.177.1.70
+Israel,star,272,121,011101-095815,209.177.1.70
+Ghana,star,39,143,011101-095815,209.177.1.70
+Ghana,star,538,144,011101-095815,209.177.1.70
+Barbados,yellowstripe,233,0,011101-131908,209.177.1.70
+Benin,redstripe,233,220,011102-192410,66-108-244-31.nyc.rr.com
+Cambodia,coatofarms,175,115,011102-192410,66-108-244-31.nyc.rr.com
+United Kingdom,bluefield,0,0,011102-192410,66-108-244-31.nyc.rr.com
+Israel,star,245,108,011102-192410,66-108-244-31.nyc.rr.com
+Argentina,coatofarms,292,160,011102-192410,66-108-244-31.nyc.rr.com
+Argentina,whitestripe,0,147,011102-192410,66-108-244-31.nyc.rr.com
+Algeria,coatofarms,219,90,011102-192410,66-108-244-31.nyc.rr.com
+Andorra,coatofarms,240,105,011102-192410,66-108-244-31.nyc.rr.com
+Palestine,redtriangle,0,0,011102-192410,66-108-244-31.nyc.rr.com
+Bangladesh,circle,223,78,011107-202616,sciarc.edu
+Canada,coatofarms,367,118,011107-214300,sciarc.edu
+Guinea,yellowstripe,233,0,011107-214300,sciarc.edu
+Italy,greenstripe,0,0,011107-214300,sciarc.edu
+Italy,redstripe,466,0,011107-214300,sciarc.edu
+Canada,coatofarms,92,84,011107-214300,sciarc.edu
+Australia,bigstar,413,325,011107-214300,sciarc.edu
+United Kingdom,bluefield,0,0,011116-080539,209.177.1.70
+Bahamas,yellowstripe,0,146,011116-080539,209.177.1.70
+Bangladesh,circle,210,80,011116-080539,209.177.1.70
+Vatican,coatofarms,235,80,011120-071415,loanpricing.com
+Ghana,star,274,135,011122-125423,r94aag002508.nyr.cable.rcn.com
+Cuba,star,303,166,011130-075928,149.31.54.86
+Afghanistan,greenstripe,0,0,011203-135509,intel58.itp.tsoa.nyu.edu
+Afghanistan,greenstripe,0,293,011203-135509,intel58.itp.tsoa.nyu.edu
+Ghana,goldstripe,0,146,011203-141624,209.177.1.70
+Ghana,goldstripe,2,146,011203-141624,209.177.1.70
+Ghana,redstripe,0,0,011203-141624,209.177.1.70
+Ghana,star,272,146,011203-141624,209.177.1.70
+Spain,yellowstripe,0,110,011204-160444,209.177.1.70
+Afghanistan,coatofarms,449,35,011204-163917,209.177.1.70
+Afghanistan,coatofarms,24,32,011204-163917,209.177.1.70
+Finland,whitefield,1,-1,011204-163917,209.177.1.70
+Argentina,bluestripe2,0,-4,011204-163917,209.177.1.70
+Argentina,bluestripe2,0,293,011204-163917,209.177.1.70
+Kuwait,blackfield,0,0,011204-163917,209.177.1.70
+Australia,bigstar,313,44,011210-152553,149.31.53.88
+Cyprus,coatofarms,295,70,011210-152553,149.31.53.88
+Greenland,redarc,-140,-9,011215-220100,pool-141-155-160-9.ny5030.east.verizon.net
+Afghanistan,blackstripe,0,293,011225-211248,12-254-36-160.client.attbi.com
+Afghanistan,greenstripe,0,0,011225-211248,12-254-36-160.client.attbi.com
+Afghanistan,whitestripe,0,146,011225-211248,12-254-36-160.client.attbi.com
+United States,bluefield,0,0,011225-211248,12-254-36-160.client.attbi.com
+United States,stars,15,19,011225-211248,12-254-36-160.client.attbi.com
+Egypt,redstripe,-28,373,011225-213605,12-254-36-160.client.attbi.com
+Italy,redstripe,628,-1,011225-213605,12-254-36-160.client.attbi.com
+Guadaloupe,whitestripe,426,-4,011225-213605,12-254-36-160.client.attbi.com
+Australia,whitex,0,0,011225-213605,12-254-36-160.client.attbi.com
+Australia,redx,0,-5,011225-213605,12-254-36-160.client.attbi.com
+Australia,whitecross,-12,7,011225-213605,12-254-36-160.client.attbi.com
+Australia,redcross,-12,6,011225-213605,12-254-36-160.client.attbi.com
+Italy,greenstripe,310,0,011225-213605,12-254-36-160.client.attbi.com
+France,bluestripe,372,0,011225-213605,12-254-36-160.client.attbi.com
+China,star,392,146,011225-213605,12-254-36-160.client.attbi.com
+China,stars,505,118,011225-213605,12-254-36-160.client.attbi.com
+Israel,star,68,183,011225-213605,12-254-36-160.client.attbi.com
+Afghanistan,blackstripe,0,293,020105-230114,spider-tm044.proxy.aol.com
+Afghanistan,blackstripe,0,293,020105-230114,spider-tm044.proxy.aol.com
+Afghanistan,greenstripe,0,0,020105-230114,spider-tm044.proxy.aol.com
+Afghanistan,whitestripe,0,146,020105-230114,spider-tm044.proxy.aol.com
+Afghanistan,coatofarms,243,104,020105-230114,spider-tm044.proxy.aol.com
+Bangladesh,circle,210,80,020112-193657,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,35,80,020112-193657,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,391,79,020112-193657,r94aag002508.nyr.cable.rcn.com
+Lithuania,yellowstripe,0,0,020114-123915,user239.artsinternational.org
+Afghanistan,greenstripe,0,0,020114-145724,209.177.1.70
+Benin,greenstripe,0,0,020115-080242,r94aag002508.nyr.cable.rcn.com
+Benin,greenstripe,466,-2,020115-080242,r94aag002508.nyr.cable.rcn.com
+Cuba,star,154,53,020115-080242,r94aag002508.nyr.cable.rcn.com
+Cuba,star,448,52,020115-080242,r94aag002508.nyr.cable.rcn.com
+Uganda,blackstripe1,0,0,020116-091238,209.177.1.70
+Uganda,blackstripe1,0,0,020116-091238,209.177.1.70
+Uganda,blackstripe2,0,220,020116-091238,209.177.1.70
+Uganda,redstripe1,0,146,020116-091238,209.177.1.70
+Iraq,script,108,160,020119-110409,lsanca1-ar4-059-002.lsanca1.dsl.gtei.net
+Ghana,star,270,143,020120-195916,r94aag002508.nyr.cable.rcn.com
+Chile,star,292,166,020120-205106,r94aag002508.nyr.cable.rcn.com
+Philippines,star1,328,206,020120-212748,r94aag002508.nyr.cable.rcn.com
+Philippines,star2,332,204,020122-135359,r94aag002508.nyr.cable.rcn.com
+Philippines,star3,329,203,020122-143643,r94aag002508.nyr.cable.rcn.com
+Hong Kong,redfield,0,0,020123-141305,fan275mac147.colorado.edu
+Ghana,star,329,5,020123-141305,fan275mac147.colorado.edu
+Ghana,star,463,65,020123-141305,fan275mac147.colorado.edu
+Ghana,star,328,257,020123-141305,fan275mac147.colorado.edu
+Ghana,star,176,257,020123-141305,fan275mac147.colorado.edu
+Ghana,star,455,210,020123-141305,fan275mac147.colorado.edu
+Ghana,star,53,204,020123-141305,fan275mac147.colorado.edu
+Ghana,star,173,5,020123-141305,fan275mac147.colorado.edu
+Ghana,star,50,75,020123-141305,fan275mac147.colorado.edu
+Chile,star,277,161,020123-141305,fan275mac147.colorado.edu
+Albania,coatofarms,215,132,020124-090608,user235.artsinternational.org
+Austria,redstripe1,0,0,020124-123007,pd9514678.dip.t-dialin.net
+Ukraine,yellowstripe,0,220,020124-123007,pd9514678.dip.t-dialin.net
+Botswana,blackstripe,0,183,020124-123007,pd9514678.dip.t-dialin.net
+Armenia,orangestripe,0,293,020124-123007,pd9514678.dip.t-dialin.net
+Togo,greenstripe2,0,176,020124-123007,pd9514678.dip.t-dialin.net
+Venezuela,bluestripe,0,146,020124-123007,pd9514678.dip.t-dialin.net
+Uganda,coatofarms,280,149,020124-123007,pd9514678.dip.t-dialin.net
+Zimbabwe,bird,503,148,020126-174525,r94aag002508.nyr.cable.rcn.com
+Egypt,coatofarms,95,148,020126-174827,r94aag002508.nyr.cable.rcn.com
+Australia,whitecross,0,0,020129-170346,209.177.1.70
+Australia,redcross,0,0,020129-170346,209.177.1.70
+Cyprus,coatofarms,208,119,020129-170346,209.177.1.70
+Costa Rica,redstripe,0,146,020129-170346,209.177.1.70
+Costa Rica,whitestripe2,0,293,020129-170346,209.177.1.70
+Australia,bigstar,123,280,020129-170448,209.177.1.70
+Cameroon,greenstripe,0,0,020129-170605,209.177.1.70
+Canada,coatofarms,205,63,020129-170605,209.177.1.70
+Kuwait,blackfield,0,0,020129-170655,209.177.1.70
+Australia,medstar1,499,42,020129-170758,209.177.1.70
+Cuba,bluestripe3,0,352,020129-170931,209.177.1.70
+Cote d'Ivoire,greenstripe,466,0,020129-171026,209.177.1.70
+Greece,bluestripe1,0,0,020129-171107,209.177.1.70
+Greece,bluestripe1,0,0,020129-171107,209.177.1.70
+United Kingdom,whitecross,0,0,020129-171144,209.177.1.70
+Iceland,redcross,0,0,020129-172211,209.177.1.70
+Greece,whitestripe1,0,48,020129-172211,209.177.1.70
+Ecuador,coatofarms,255,112,020129-172211,209.177.1.70
+Australia,bigstar,123,280,020129-172211,209.177.1.70
+Australia,medstar2,560,131,020129-172211,209.177.1.70
+Ireland,greenstripe,0,0,020129-172211,209.177.1.70
+Argentina,bluestripe2,0,293,020129-172211,209.177.1.70
+Vietnam,star,206,82,020129-172211,209.177.1.70
+Chad,redstripe,466,0,020129-172211,209.177.1.70
+United States,bluefield,0,0,020129-172211,209.177.1.70
+Bangladesh,greenstripe,0,0,020129-172211,209.177.1.70
+Denmark,cross,0,0,020129-172211,209.177.1.70
+Thailand,redstripe2,0,366,020129-172211,209.177.1.70
+Thailand,redstripe1,0,0,020129-172211,209.177.1.70
+Ghana,star,272,146,020129-172617,209.177.1.70
+Afghanistan,greenstripe,-1,218,020201-204402,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,-1,72,020201-204402,r94aag002508.nyr.cable.rcn.com
+Afghanistan,whitestripe,0,146,020201-204402,r94aag002508.nyr.cable.rcn.com
+Syria,star,179,166,020201-204402,r94aag002508.nyr.cable.rcn.com
+Syria,star,311,168,020201-204402,r94aag002508.nyr.cable.rcn.com
+Syria,star,48,166,020201-204402,r94aag002508.nyr.cable.rcn.com
+Syria,star,445,168,020201-204402,r94aag002508.nyr.cable.rcn.com
+Syria,star,575,168,020201-204402,r94aag002508.nyr.cable.rcn.com
+Afghanistan,whitestripe,0,146,020202-190522,r94aag002508.nyr.cable.rcn.com
+Greenland,redarc,49,213,020202-190522,r94aag002508.nyr.cable.rcn.com
+Greenland,redarc,353,213,020202-190522,r94aag002508.nyr.cable.rcn.com
+Greenland,redfield,-3,366,020202-190522,r94aag002508.nyr.cable.rcn.com
+Afghanistan,whitestripe,0,-2,020202-190522,r94aag002508.nyr.cable.rcn.com
+Afghanistan,greenstripe,0,0,020202-213836,r94aag002508.nyr.cable.rcn.com
+Afghanistan,whitestripe,0,146,020202-213836,r94aag002508.nyr.cable.rcn.com
+Afghanistan,blackstripe,0,293,020202-213836,r94aag002508.nyr.cable.rcn.com
+Afghanistan,coatofarms,243,104,020202-213836,r94aag002508.nyr.cable.rcn.com
+Greenland,redarc,44,178,020202-213836,r94aag002508.nyr.cable.rcn.com
+Greenland,redarc,346,178,020202-213836,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,378,199,020202-213836,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,44,205,020202-213836,r94aag002508.nyr.cable.rcn.com
+Bangladesh,circle,211,318,020202-213836,r94aag002508.nyr.cable.rcn.com
+Austria,whitestripe,0,146,020205-133231,pd9e0dc7f.dip.t-dialin.net
+Austria,whitestripe,0,146,020205-133231,pd9e0dc7f.dip.t-dialin.net
+Austria,whitestripe,0,146,020205-133231,pd9e0dc7f.dip.t-dialin.net
+Greenland,redfield,0,220,020205-133231,pd9e0dc7f.dip.t-dialin.net
+Albania,redfield,0,0,020205-133231,pd9e0dc7f.dip.t-dialin.net
+Palestine,redtriangle,0,0,020206-014507,pd9e0dc7f.dip.t-dialin.net
+Israel,star,215,111,020206-014507,pd9e0dc7f.dip.t-dialin.net
+Angola,coatofarms,358,484,020206-021844,pd9e0dc7f.dip.t-dialin.net
+Angola,coatofarms,235,142,020206-021844,pd9e0dc7f.dip.t-dialin.net
+Angola,coatofarms,108,479,020206-021844,pd9e0dc7f.dip.t-dialin.net
+Australia,bigstar,29,174,020206-021844,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Sudan,whitestripe,0,146,020206-023636,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-024104,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-024104,pd9e0dc7f.dip.t-dialin.net
+Cambodia,coatofarms,182,0,020206-024104,pd9e0dc7f.dip.t-dialin.net
+Albania,redfield,122,376,020206-024104,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Algeria,coatofarms,219,90,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Angola,redfield,0,0,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Sudan,greentriangle,0,0,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Sudan,blackstripe,0,293,020206-042208,pd9e0dc7f.dip.t-dialin.net
+Somalia,star,256,115,020206-050126,wsipc06.gris.uni-tuebingen.de
+Pakistan,greenfield,175,0,020206-050126,wsipc06.gris.uni-tuebingen.de
+Bangladesh,greenstripe,0,0,020206-050126,wsipc06.gris.uni-tuebingen.de
+Cuba,redtriangle,0,0,020206-050126,wsipc06.gris.uni-tuebingen.de
+Canada,redstripe2,525,0,020206-050126,wsipc06.gris.uni-tuebingen.de
+Sudan,greentriangle,303,-2,020206-055641,pd9e6d823.dip.t-dialin.net
+Zimbabwe,yellowstripe1,0,62,020206-055641,pd9e6d823.dip.t-dialin.net
+Zimbabwe,yellowstripe2,0,314,020206-055641,pd9e6d823.dip.t-dialin.net
+Azerbaijan,coatofarms,26,14,020206-055641,pd9e6d823.dip.t-dialin.net
+Rwanda,letter_R,502,161,020206-055641,pd9e6d823.dip.t-dialin.net
+Barbados,trident,261,128,020206-071822,pd9e6d823.dip.t-dialin.net
+Namibia,sun,47,28,020206-071945,12-248-5-253.client.attbi.com
+Cuba,redtriangle,0,0,020206-082040,pd9e6d823.dip.t-dialin.net
+Cuba,star,50,152,020206-082040,pd9e6d823.dip.t-dialin.net
+Bangladesh,circle,210,80,020206-082040,pd9e6d823.dip.t-dialin.net
+Ghana,redstripe,0,0,020206-082527,pd9e6d823.dip.t-dialin.net
+Ghana,goldstripe,0,146,020206-082527,pd9e6d823.dip.t-dialin.net
+Ghana,greenstripe,0,293,020206-082527,pd9e6d823.dip.t-dialin.net
+Cuba,redtriangle,0,0,020206-082527,pd9e6d823.dip.t-dialin.net
+Cuba,redtriangle,0,0,020206-082527,pd9e6d823.dip.t-dialin.net
+Cuba,redtriangle,0,0,020206-082527,pd9e6d823.dip.t-dialin.net
+Senegal,star,277,141,020206-082837,pd9e6d823.dip.t-dialin.net
+Bahamas,blacktriangle,0,0,020206-082837,pd9e6d823.dip.t-dialin.net
+Zimbabwe,triangle,0,0,020206-093845,pd9e6d823.dip.t-dialin.net
+Rwanda,letter_R,515,97,020206-105952,pd9e6d823.dip.t-dialin.net
+Czech Republic,bluetriangle,-181,-13,020206-105952,pd9e6d823.dip.t-dialin.net
+Australia,bluefield,0,0,020207-022546,pd9e0dd04.dip.t-dialin.net
+Ireland,orangestripe,466,0,020207-023003,pd9e0dd04.dip.t-dialin.net
+United Kingdom,redcross,0,0,020207-023003,pd9e0dd04.dip.t-dialin.net
+Cuba,star,50,152,020207-023003,pd9e0dd04.dip.t-dialin.net
+Vatican,yellowstripe,0,0,020207-052113,pd9e0dd04.dip.t-dialin.net
+Uzbekistan,bluestripe,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Yemen,blackstripe,0,293,020207-053224,pd9e0dd04.dip.t-dialin.net
+Cambodia,redstripe,0,112,020207-053224,pd9e0dd04.dip.t-dialin.net
+Bahamas,blacktriangle,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Botswana,blackstripe,0,183,020207-053224,pd9e0dd04.dip.t-dialin.net
+Czech Republic,bluetriangle,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Bahamas,blacktriangle,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Uganda,blackstripe1,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Palestine,blackstripe,0,0,020207-053224,pd9e0dd04.dip.t-dialin.net
+Ireland,whitestripe,233,0,020207-063628,pd9e0dd04.dip.t-dialin.net
+Estonia,bluestripe,0,0,020207-064239,pd9e0dd04.dip.t-dialin.net
+Greenland,whitearc,123,66,020207-064239,pd9e0dd04.dip.t-dialin.net
+Lithuania,yellowstripe,0,0,020207-064239,pd9e0dd04.dip.t-dialin.net
+Argentina,coatofarms,21,21,020207-112026,pd9e0dd04.dip.t-dialin.net
+United Kingdom,redcross,0,0,020208-012704,pd9e6ca02.dip.t-dialin.net
+Argentina,bluestripe1,0,0,020208-065105,pd9e6d34a.dip.t-dialin.net
+Argentina,bluestripe2,0,293,020208-065105,pd9e6d34a.dip.t-dialin.net
+Argentina,bluestripe2,0,293,020208-065105,pd9e6d34a.dip.t-dialin.net
+Ghana,star,514,144,020208-065105,pd9e6d34a.dip.t-dialin.net
+Ireland,whitestripe,233,0,020208-070031,pd951635b.dip.t-dialin.net
+United Kingdom,bluefield,0,0,020208-070031,pd951635b.dip.t-dialin.net
+Dominican Republic,whitecross,0,0,020208-102720,pd9e0d270.dip.t-dialin.net
+Dominican Republic,redfield2,0,264,020208-102720,pd9e0d270.dip.t-dialin.net
+Laos,bluestripe,0,110,020208-102720,pd9e0d270.dip.t-dialin.net
+Germany,blackstripe,0,0,020208-102720,pd9e0d270.dip.t-dialin.net
+Zimbabwe,bird,294,191,020208-105400,pd95165de.dip.t-dialin.net
+Rwanda,redstripe,0,0,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Uganda,coatofarms,63,249,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Uganda,coatofarms,381,23,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Uganda,coatofarms,40,27,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Angola,blackfield,0,220,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Angola,redfield,0,0,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Angola,redfield,0,0,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Angola,redfield,0,0,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Cameroon,star,256,112,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Cameroon,star,256,112,020208-110240,pd9e6d6a3.dip.t-dialin.net
+Bahamas,bluestripe1,0,0,020209-033206,pd9e0ddcb.dip.t-dialin.net
+Bahamas,yellowstripe,0,146,020209-033206,pd9e0ddcb.dip.t-dialin.net
+Algeria,coatofarms,219,90,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Zimbabwe,yellowstripe2,0,314,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Zimbabwe,yellowstripe1,0,62,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Zimbabwe,blackstripe,0,188,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Azerbaijan,coatofarms,250,155,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Nigeria,greenstripe2,466,0,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Puerto Rico,bluefield,0,0,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Puerto Rico,star,50,133,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,medstar1,499,42,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,medstar2,560,131,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,medstar4,499,329,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,smallstar,529,219,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,medstar3,420,162,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Australia,bigstar,123,280,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Cameroon,star,256,112,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Panama,redstar,446,256,020209-062145,pd9e0ddcb.dip.t-dialin.net
+China,star,53,45,020209-062145,pd9e0ddcb.dip.t-dialin.net
+China,stars,211,22,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Hong Kong,coatofarms,198,50,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Iraq,script,108,160,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Israel,bluestripe2,0,344,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Israel,bluestripe1,0,32,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Israel,star,245,108,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Malaysia,star,163,44,020209-062145,pd9e0ddcb.dip.t-dialin.net
+Pakistan,greenfield,175,0,020209-070320,pd9516724.dip.t-dialin.net
+Chad,bluestripe,0,0,020209-070320,pd9516724.dip.t-dialin.net
+Pakistan,crescent,294,90,020209-123525,pd9e0d9cc.dip.t-dialin.net
+Argentina,coatofarms,39,46,020209-123525,pd9e0d9cc.dip.t-dialin.net
+Guinea,yellowstripe,233,0,020209-130313,pd9e0d9cc.dip.t-dialin.net
+Pakistan,crescent,296,90,020209-130313,pd9e0d9cc.dip.t-dialin.net
+Argentina,bluestripe1,0,0,020210-054414,pd9e0df38.dip.t-dialin.net
+Venezuela,stars,196,159,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,196,159,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,196,159,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,196,159,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,196,159,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,173,28,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,37,92,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,159,43,020210-065618,p3e992964.dip.t-dialin.net
+Spain,redstripe2,0,331,020210-065618,p3e992964.dip.t-dialin.net
+Venezuela,stars,467,160,020210-065618,p3e992964.dip.t-dialin.net
+India,greenstripe,0,293,020210-065618,p3e992964.dip.t-dialin.net
+India,goldstripe,0,1,020210-065618,p3e992964.dip.t-dialin.net
+Canada,coatofarms,-75,18,020210-065618,p3e992964.dip.t-dialin.net
+Canada,whitestripe,175,0,020210-100612,pd9e6de3b.dip.t-dialin.net
+Algeria,coatofarms,238,83,020210-112404,pd9e6dd41.dip.t-dialin.net
+Bangladesh,circle,484,266,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Bangladesh,circle,497,83,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Bangladesh,circle,486,-75,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Bangladesh,circle,-60,283,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Bangladesh,circle,-75,100,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Bangladesh,circle,-68,-70,020211-155150,216-164-10-56.hybrid.nyr.ny.cable.rcn.com
+Somalia,bluefield,0,0,020215-180452,216.164.10.56
+Somalia,star,257,113,020215-180452,216.164.10.56
+Somalia,star,204,277,020215-180452,216.164.10.56
+Somalia,star,150,114,020215-180452,216.164.10.56
+Somalia,star,363,116,020215-180452,216.164.10.56
+Somalia,star,309,-50,020215-180452,216.164.10.56
+Somalia,star,203,-50,020215-180452,216.164.10.56
+Somalia,star,419,-50,020215-180452,216.164.10.56
+Somalia,star,471,115,020215-180452,216.164.10.56
+Somalia,star,97,278,020215-180452,216.164.10.56
+Somalia,star,415,278,020215-180452,216.164.10.56
+Somalia,star,311,276,020215-180452,216.164.10.56
+Somalia,star,524,278,020215-180452,216.164.10.56
+Somalia,star,579,117,020215-180452,216.164.10.56
+Somalia,star,525,-50,020215-180452,216.164.10.56
+Somalia,star,634,-48,020215-180452,216.164.10.56
+Somalia,star,-9,276,020215-180452,216.164.10.56
+Somalia,star,-63,112,020215-180452,216.164.10.56
+Somalia,star,43,113,020215-180452,216.164.10.56
+Somalia,star,-10,-51,020215-180452,216.164.10.56
+Somalia,star,96,-51,020215-180452,216.164.10.56
+Somalia,star,-116,275,020215-180452,216.164.10.56
+Somalia,star,633,278,020215-180452,216.164.10.56
+Somalia,star,-116,-53,020215-180452,216.164.10.56
+Ghana,goldstripe,0,146,020216-213136,216.164.10.56
+North Korea,redstripe,0,105,020219-104102,216.164.10.56
+North Korea,whitecircle,130,126,020219-104102,216.164.10.56
+North Korea,redstar,153,143,020219-104102,216.164.10.56
+South Korea,whitefield,0,0,020219-104102,216.164.10.56
+South Korea,yin-yang,121,38,020219-104102,216.164.10.56
+North Korea,bluestripe1,0,0,020219-105629,216.164.10.56
+North Korea,whitestripe1,0,78,020219-105629,216.164.10.56
+North Korea,redstripe,0,105,020219-105629,216.164.10.56
+North Korea,whitestripe2,0,332,020219-105629,216.164.10.56
+North Korea,bluestripe2,0,359,020219-105629,216.164.10.56
+North Korea,whitecircle,130,126,020219-105629,216.164.10.56
+North Korea,redstar,153,143,020219-105629,216.164.10.56
+Cyprus,coatofarms,374,119,050902-104752,207.237.24.22
+Syria,star,429,136,050902-104833,207.237.24.22
+North Korea,whitecircle,130,126,050902-105200,207.237.24.22
+Malaysia,star,163,158,050902-110636,207.237.24.22
+Australia,bigstar,172,169,050920-225935,207.237.24.22

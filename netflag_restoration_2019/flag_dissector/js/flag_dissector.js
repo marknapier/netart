@@ -273,9 +273,16 @@ window.FlagDissector = (function () {
       alert('Enter a country abbreviation at top of the page');
     }
     else {
-      removeElementRow(newElement.name);
-      flagElements[country] = flagElements[country] || [];
-      flagElements[country].push(newElement);
+      var flagEl = getElementRow(newElement.name);
+      if (flagEl) {
+        // element already exists in flag: replace with edited element
+        flagElements[country][flagEl.arrayIndex] = newElement;
+      }
+      else {
+        // Add new element to the flag elements
+        flagElements[country] = flagElements[country] || [];
+        flagElements[country].push(newElement);
+      }
       drawElementList();
       drawFlag();
     }
@@ -433,9 +440,18 @@ window.FlagDissector = (function () {
     }
   }
 
+  function getElementRow(elName) {
+    var country = $('#country').val();
+    var foundElements = flagElements[country] && flagElements[country].filter((el, arrayIndex) => {
+      el.arrayIndex = arrayIndex;
+      return el.name === elName;
+    });
+    return foundElements && foundElements[0];
+  }
+
   function removeElementRow(elName) {
     var country = $('#country').val();
-    var flagElement = flagElements[country] && flagElements[country].find(el => el.name === elName);
+    var flagElement = getElementRow(elName);
     if (flagElement) {
       var index = flagElements[country].indexOf(flagElement);
       flagElements[country].splice(index, 1);
