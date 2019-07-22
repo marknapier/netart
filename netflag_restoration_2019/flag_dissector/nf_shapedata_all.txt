@@ -1,0 +1,811 @@
+af	greenstripe	"0,153,0"	rect3h	0	0	1000	333	0	0	0	islam 
+af	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	purity
+af	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	"past, dark past"
+af	coatofarms	"255,204,0"	image	348	238	300	545	0	0	0	"wheat, wreath, shahada, mosque, allahu aqbar, islamic date"
+ao	redfield	"245,30,48"	rect2h	0	0	1000	500	0	0	0	communist revolution
+ao	blackfield	"0,0,0"	rect2h	0	500	1000	500	0	0	0	na
+ao	coatofarms	"255,204,0"	image	352	222	293	560	0	0	0	"prosperity, industry, agriculture"
+cn	redfield	"245,30,48"	rect1	0	0	1000	1000	0	0	0	communist revolution
+cn	star	"255,204,0"	star5	74	106	185	185	0	0	0	communism
+cn	stars	"255,204,0"	image	302	51	130	454	0	0	0	"social classes, peasants, workers, petty bourgeoisie, patriotic capitalists"
+fr	bluestripe	"0,35,119"	rect3v	0	0	333	1000	0	0	0	"compassion, saint martin"
+fr	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	"christianity, equality, royalty, joan of arc, virgin mary"
+fr	redstripe	"245,30,48"	rect3v	666	0	333	1000	0	0	0	"liberty, saint denis, paris, oriflamme, war banner, king"
+ie	greenstripe	"0,153,0"	rect3v	0	0	333	1000	0	0	0	"catholic, ireland"
+ie	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	peace
+ie	orangestripe	"255,90,0"	rect3v	666	0	333	1000	0	0	0	"protestant, england, british colonists, colonialism"
+jp	whitefield	"255,255,255"	rect1	0	0	1000	1000	0	0	0	"purity,honesty"
+jp	circle	"245,30,48"	circle	296	194	407	407	0	0	0	"the sun, rising sun"
+pr	redstripe1	"245,30,48"	rect5h	0	0	1000	200	0	0	0	"blood, government"
+pr	whitestripe1	"255,255,255"	rect5h	0	200	1000	200	0	0	0	"liberty, rights"
+pr	redstripe2	"245,30,48"	rect5h	0	400	1000	200	0	0	0	"blood, government"
+pr	whitestripe2	"255,255,255"	rect5h	0	600	1000	200	0	0	0	"liberty, rights"
+pr	redstripe3	"245,30,48"	rect5h	0	800	1000	200	0	0	0	"blood, government"
+pr	bluefield	"0,35,119"	triangle	0	0	537	1000	0	0	0	republican government
+pr	star	"255,255,255"	star5	68	306	216	216	0	0	0	"free independent state, lone star, commonwealth, estado libre asociado"
+rw	redstripe	"245,30,48"	rect3v	0	0	333	1000	0	0	0	"suffering,blood,hutus liberation,panafrican"
+rw	yellowstripe	"255,204,0"	rect3v	333	0	333	1000	0	0	0	"peace,pan-african,rest"
+rw	greenstripe	"0,191,0"	rect3v	666	0	333	1000	0	0	0	"hope,trust,pan-african"
+rw	letter_R	"0,0,0"	image	394	225	253	500	0	0	0	"rwanda, revolution, referendum"
+es	redstripe1	"245,30,48"	rect4h	0	0	1000	250	0	0	0	blood
+es	yellowstripe	"255,204,0"	rect2h	0	250	1000	500	0	0	0	"gold, shield"
+es	redstripe2	"245,30,48"	rect4h	0	750	1000	250	0	0	0	blood
+es	coatofarms	"245,30,48"	image	184	275	256	403	0	0	0	"regions of spain, lion, castle, crown, pillars, shield"
+us	redstripe1	"241,0,67"	rect10h	0	0	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe1	"255,255,255"	rect10h	0	77	1000	78	0	0	0	"purity, innocence"
+us	redstripe2	"241,0,67"	rect10h	0	154	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe2	"255,255,255"	rect10h	0	231	1000	78	0	0	0	"purity, innocence"
+us	redstripe3	"241,0,67"	rect10h	0	308	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe3	"255,255,255"	rect10h	0	385	1000	78	0	0	0	"purity, innocence"
+us	redstripe4	"241,0,67"	rect10h	0	462	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe4	"255,255,255"	rect10h	0	539	1000	78	0	0	0	"purity, innocence"
+us	redstripe5	"241,0,67"	rect10h	0	616	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe5	"255,255,255"	rect10h	0	693	1000	78	0	0	0	"purity, innocence"
+us	redstripe6	"241,0,67"	rect10h	0	770	1000	78	0	0	0	"valour,hardiness"
+us	whitestripe6	"255,255,255"	rect10h	0	847	1000	78	0	0	0	"purity, innocence"
+us	redstripe7	"241,0,67"	rect10h	0	924	1000	78	0	0	0	"valour,hardiness"
+us	bluefield	"0,35,119"	rect	0	0	441	543	0	0	0	"vigilance, perseverance, justice"
+us	stars	"255,255,255"	image	22	45	404	450	0	0	0	the 50 states of the union
+vn	redfield	"245,30,48"	rect1	0	0	1000	1000	0	0	0	"communist revolution, blood"
+vn	star	"255,204,0"	star5	286	189	425	618	0	0	0	"unity,social classes,farmers workers,intellectuals,youth,soldiers,communism"
+gl	whitefield	"255,255,255"	rect2h	0	0	1000	500	0	0	0	ice cap
+gl	redfield	"255,0,0"	rect2h	0	500	1000	500	0	0	0	the sun
+gl	redarc	"255,0,0"	arc	176	150	447	447	0	180	0	"rising sun, fjords"
+gl	whitearc	"255,255,255"	arc	176	150	447	447	0	-180	0	"setting sun, ice bergs, ice cap"
+zw	greenstripe1	"0,153,0"	rect5h	0	0	1000	144	0	0	0	"the land, vegetation, agriculture, resources, pan-african"
+zw	greenstripe2	"0,153,0"	rect5h	0	858	1000	144	0	0	0	"the land, vegetation, agriculture, resources, pan-african"
+zw	yellowstripe1	"255,255,0"	rect5h	0	143	1000	144	0	0	0	mineral wealth
+zw	yellowstripe2	"255,255,0"	rect5h	0	715	1000	144	0	0	0	mineral wealth
+zw	redstripe1	"255,0,0"	rect5h	0	286	1000	144	0	0	0	"blood,liberation"
+zw	redstripe2	"255,0,0"	rect5h	0	572	1000	144	0	0	0	"blood,liberation"
+zw	blackstripe	"0,0,0"	rect5h	0	429	1000	144	0	0	0	the African people
+zw	triangle	"255,255,255"	triangle	0	0	375	1000	0	0	0	peace
+zw	star	"255,0,0"	starz	28	267	264	264	0	0	0	"internationalism, socialism"
+zw	bird	"255,255,0"	image	83	290	172	341	0	0	0	national emblem of zimbabwe
+se	bluefield	"0,107,198"	rect1	0	0	1000	1000	0	0	0	the lakes of Sweden
+se	yellowcross	"255,204,0"	cross	0	0	1000	1000	119	381	500	the sun
+no	redfield	"255,0,0"	rect1	0	0	1000	1000	0	0	0	"liberty,blood,war"
+no	whitecross	"255,255,255"	cross	0	0	1000	1000	197	353	500	christianity
+no	bluecross	"0,51,153"	cross	0	0	1000	1000	97	353	500	"unity, sweden"
+gb	bluefield	"0,35,119"	rect1	0	0	1000	1000	0	0	0	Scotland
+gb	whitex	"255,255,255"	poly	0	0	1000	1000	"0,0,0,109,379,495,0,875,0,1000,117,1000,496,609,875,1000,1000,1000,1000,875,613,495,1000,109,1000,0,875,0,496,375,125,0"	0	0	Scottish cross of  St. Andrew
+gb	redx	"204,0,0"	poly	0	0	1000	1000	"0,0,0,74,458,532,0,1000,74,1000,539,532,1000,1000,1000,921,542,458,1000,0,921,0,461,458,0,0"	0	0	St. Patrick of Ireland
+gb	whitecross	"255,255,255"	cross	0	0	1000	1000	197	500	500	England
+gb	redcross	"204,0,0"	cross	0	0	1000	1000	97	500	500	St. George's cross of England
+ly	greenfield	"0,191,0"	rect1	0	0	1000	1000	0	0	0	islam 
+bd	greenstripe	"0,102,0"	rect1	0	0	1000	1000	0	0	0	"vitality, youthfulness, vegetation"
+bd	circle	"255,0,0"	circle	225	185	400	400	0	0	0	"rising sun,sacrifice,independence"
+so	bluefield	"0,107,198"	rect1	0	0	1000	1000	0	0	0	"gratitude, United Nations Organization"
+so	star	"255,255,255"	star5	362	264	262	420	0	0	0	"unity,  5 branches of Somalis"
+bb	bluestripe1	"0,51,153"	rect3v	0	0	333	1000	0	0	0	sky
+bb	yellowstripe	"255,204,0"	rect3v	333	0	333	1000	0	0	0	sand
+bb	bluestripe2	"0,51,153"	rect3v	667	0	333	1000	0	0	0	sea
+bb	trident	"0,0,0"	image	373	292	253	407	0	0	0	"indepence, democracy"
+be	blackstripe	"0,0,0"	rect3v	0	0	333	1000	0	0	0	na
+be	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	na
+be	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	na
+td	bluestripe	"0,0,204"	rect3v	0	0	333	1000	0	0	0	"sky,water,hope,agriculture"
+td	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	"desert,the sun"
+td	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	"sacrifice, liberty, independence"
+ci	orangestripe	"255,153,0"	rect3v	0	0	333	1000	0	0	0	"grasslands, savanna"
+ci	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	"rivers, unity, peace"
+ci	greenstripe	"0,191,0"	rect3v	666	0	333	1000	0	0	0	"forest, cote d'ivore"
+gp	bluestripe	"0,35,119"	rect3v	0	0	333	1000	0	0	0	NA
+gp	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	NA
+gp	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	NA
+gn	redstripe	"255,0,0"	rect3v	0	0	333	1000	0	0	0	"blood,martyrs,progress,work"
+gn	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	"sun, energy, generosity, equality, justice"
+gn	greenstripe	"0,153,0"	rect3v	666	0	333	1000	0	0	0	"vegetation, prosperity, solidarity"
+it	greenstripe	"0,153,0"	rect3v	0	0	333	1000	0	0	0	na
+it	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	na
+it	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	na
+ml	greenstripe	"0,153,0"	rect3v	0	0	333	1000	0	0	0	"agriculture, vegetation, pan-african"
+ml	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	"peace, prosperity, pan-african"
+ml	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	"strength, sacrifice, pan-african"
+ng	greenstripe1	"0,153,0"	rect3v	0	0	333	1000	0	0	0	agriculture
+ng	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	"peace,unity"
+ng	greenstripe2	"0,153,0"	rect3v	666	0	333	1000	0	0	9	agriculture
+pe	redstripe1	"255,0,0"	rect3v	0	0	333	1000	0	0	0	"the sun, Incan empire"
+pe	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	Incan empire
+pe	redstripe2	"255,0,0"	rect3v	666	0	333	1000	0	0	0	"the sun, Incan empire"
+ro	bluestripe	"0,0,204"	rect3v	0	0	333	1000	0	0	0	Moldova
+ro	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	Wallachia
+ro	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	unity
+am	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	"blood, liberty"
+am	bluestripe	"0,0,156"	rect3h	0	333	1000	333	0	0	0	"sky, hope"
+am	orangestripe	"255,153,0"	rect3h	0	666	1000	333	0	0	0	"fertility, agriculture, work"
+at	redstripe1	"255,0,0"	rect3h	0	0	1000	333	0	0	0	blood
+at	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	peace
+at	redstripe2	"255,0,0"	rect3h	0	666	1000	333	0	0	0	blood
+bg	whitestripe	"255,255,255"	rect3h	0	0	1000	333	0	0	0	peace
+bg	greenstripe	"0,153,0"	rect3h	0	333	1000	333	0	0	0	"youthfulness, vitality, agriculture"
+bg	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	valour
+eg	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	"oppression, monarchy, pan-arab"
+eg	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	revolution
+eg	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	"freedom,antimonarchy,anticolonialism"
+eg	coatofarms	"255,204,0"	image	434	338	146	308	0	0	0	Eagle of Saladin
+ee	bluestripe	"0,107,198"	rect3h	0	0	1000	333	0	0	0	"faith, loyalty, devotion,sky,sea, lakes"
+ee	blackstripe	"0,0,0"	rect3h	0	333	1000	333	0	0	0	"suffering, estonia"
+ee	whitestripe	"255,255,255"	rect3h	0	666	1000	333	0	0	0	"enlightenment, virtue, snow, midnight sun,birch bark"
+ga	greenstripe	"0,153,0"	rect3h	0	0	1000	333	0	0	0	forest
+ga	yellowstripe	"255,255,0"	rect3h	0	333	1000	333	0	0	0	equator
+ga	bluestripe	"0,0,204"	rect3h	0	666	1000	333	0	0	0	sea
+de	blackstripe	"0,0,0"	rect3h	0	0	1000	333	0	0	0	liberal nationalism
+de	redstripe	"255,0,0"	rect3h	0	333	1000	333	0	0	0	liberal nationalism
+de	goldstripe	"255,204,0"	rect3h	0	666	1000	333	0	0	0	liberal nationalism
+hu	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	strength
+hu	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	faith
+hu	greenstripe	"0,153,0"	rect3h	0	666	1000	333	0	0	0	hope
+lt	yellowstripe	"255,255,0"	rect3h	0	0	1000	333	0	0	0	grain
+lt	greenstripe	"0,191,0"	rect3h	0	333	1000	333	0	0	0	forest
+lt	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	"blood, liberty"
+lu	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	na
+lu	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+lu	bluestripe	"102,204,255"	rect3h	0	666	1000	333	0	0	0	na
+nl	redstripe	"245,30,48"	rect3h	0	0	1000	333	0	0	0	na
+nl	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+nl	bluestripe	"0,51,153"	rect3h	0	666	1000	333	0	0	0	na
+ye	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	na
+ye	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+ye	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	na
+yu	bluestripe	"0,0,204"	rect3h	0	0	1000	333	0	0	0	na
+yu	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+yu	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	na
+al	redfield	"222,33,16"	rect1	0	0	1000	1000	0	0	0	na
+al	coatofarms	"0,0,0"	image	332	204	342	350	0	0	0	na
+dz	greenstripe	"0,153,0"	rect2v	0	0	500	1000	0	0	0	na
+dz	whitestripe	"255,255,255"	rect2v	500	0	500	1000	0	0	0	na
+dz	coatofarms	"255,0,0"	image	314	206	341	341	0	0	0	na
+ad	bluestripe	"0,0,204"	rect3v	0	0	333	1000	0	0	0	france
+ad	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	spain
+ad	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	"france, spain"
+ad	coatofarms	"255,0,0"	image	344	240	312	507	0	0	0	"catalonia, spain, urgell ,"
+ar	bluestripe1	"102,204,255"	rect3h	0	0	1000	333	0	0	0	na
+ar	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+ar	bluestripe2	"102,204,255"	rect3h	0	666	1000	333	0	0	0	na
+ar	coatofarms	"255,255,0"	image	418	365	162	162	0	0	0	sun
+cy	whitefield	"255,255,255"	rect1	0	0	1000	1000	0	0	0	peace
+cy	coatofarms	"255,204,0"	image	298	272	442	470	0	0	0	"copper,peace"
+hk	redfield	"255,0,0"	rect1	0	0	1000	1000	0	0	0	na
+hk	coatofarms	"255,255,255"	image	284	115	442	700	0	0	0	na
+ma	redfield	"255,0,0"	rect1	0	0	1000	1000	0	0	0	arabic
+ma	coatofarms	"0,191,0"	image	366	281	262	373	0	0	0	solomon seal
+ru	whitestripe	"255,255,255"	rect3h	0	0	1000	333	0	0	0	god
+ru	bluestripe	"0,0,204"	rect3h	0	333	1000	333	0	0	0	czar
+ru	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	people
+az	bluestripe	"8,123,206"	rect3h	0	0	1000	333	0	0	0	tradition
+az	redstripe	"204,0,0"	rect3h	0	333	1000	333	0	0	0	"modernization, progress"
+az	greenstripe	"0,153,0"	rect3h	0	666	1000	333	0	0	0	islam
+az	coatofarms	"255,255,255"	image	358	354	264	264	0	0	0	turks
+bo	redstripe	"204,0,0"	rect3h	0	0	1000	333	0	0	0	na
+bo	yellowstripe	"255,255,0"	rect3h	0	333	1000	333	0	0	0	na
+bo	greenstripe	"0,153,0"	rect3h	0	666	1000	333	0	0	0	na
+kh	bluestripe1	"0,0,156"	rect4h	0	0	1000	250	0	0	0	royalty
+kh	redstripe	"204,0,0"	rect2h	0	255	1000	500	0	0	0	nation
+kh	bluestripe2	"0,0,156"	rect4h	0	745	1000	250	0	0	0	royalty
+kh	coatofarms	"255,255,255"	image	251	263	478	456	0	0	0	"religion, universe"
+hr	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	na
+hr	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+hr	bluestripe	"0,0,204"	rect3h	0	666	1000	333	0	0	0	na
+hr	coatofarms	"0,0,0"	image	374	168	255	600	0	0	0	croatia
+et	greenstripe	"0,153,0"	rect3h	0	0	1000	333	0	0	0	"fertility,pan-african"
+et	yellowstripe	"255,255,0"	rect3h	0	333	1000	333	0	0	0	"peace, freedom,pan-african"
+et	redstripe	"222,33,16"	rect3h	0	666	1000	666	0	0	0	"sacrifice,pan-african"
+et	coatofarms	"0,0,0"	image	391	343	205	350	0	0	0	"equality, peace, democracy, future, pan-african"
+in	goldstripe	"255,153,0"	rect3h	0	0	1000	333	0	0	0	"patriotism, hinduism"
+in	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	"peace,unity"
+in	greenstripe	"53,150,43"	rect3h	0	666	1000	333	0	0	0	"islam, agriculture"
+in	coatofarms	"0,0,0"	image	389	338	213	319	0	0	0	"self-sufficiency, progress"
+la	redstripe1	"245,30,48"	rect4h	0	0	1000	250	0	0	0	"struggle, blood, liberty, communism"
+la	bluestripe	"0,0,204"	rect2h	0	250	1000	500	0	0	0	"prosperity, Mekong River"
+la	redstripe2	"245,30,48"	rect4h	0	750	1000	250	0	0	0	"struggle, blood, liberty, communism"
+la	circle	"255,255,255"	circle	370	306	256	384	0	0	0	"unity, full moon"
+lb	redstripe1	"255,0,0"	rect4h	0	0	1000	250	0	0	0	"freedom, blood,strength"
+lb	whitestripe	"255,255,255"	rect2h	0	250	1000	500	0	0	0	purity
+lb	redstripe2	"255,0,0"	rect4h	0	750	1000	250	0	0	0	"freedom, blood, strength"
+lb	coatofarms	"0,153,0"	image	338	259	335	490	0	0	0	cedar tree
+ni	bluestripe1	"0,107,198"	rect3h	0	0	1000	333	0	0	0	ocean
+ni	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	purity
+ni	bluestripe2	"0,107,198"	rect3h	0	666	1000	333	0	0	0	ocean
+ni	coatofarms	"0,0,0"	image	403	332	193	318	0	0	0	"peace,freedom,central america"
+py	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	"courage,patriotism,equality,justice"
+py	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	"purity, unity, peace"
+py	bluestripe	"0,0,204"	rect3h	0	666	1000	333	0	0	0	"tranquillity, love, knowledge, verity and liberty"
+py	coatofarms	"0,0,0"	image	431	380	142	236	0	0	0	"national liberty, peace, justice, independence"
+ve	yellowstripe	"255,255,0"	rect3h	0	0	1000	333	0	0	0	prosperity
+ve	bluestripe	"0,0,204"	rect3h	0	333	1000	333	0	0	0	"sea, separation"
+ve	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	"blood, liberty"
+ve	stars	"255,255,255"	image	281	363	435	250	0	0	0	argentina
+gh	redstripe	"255,0,0"	rect3h	0	0	1000	333	0	0	0	"sacrifice, blood"
+gh	goldstripe	"255,255,0"	rect3h	0	333	1000	333	0	0	0	mineral wealth
+gh	greenstripe	"0,153,0"	rect3h	0	666	1000	333	0	0	0	forest
+gh	star	"0,0,0"	star5	383	333	235	338	0	0	0	"freedom,independence, lonestar of africa"
+ca	redstripe1	"245,30,48"	rect4v	0	0	250	1000	0	0	0	na
+ca	whitestripe	"255,255,255"	rect2v	250	0	500	1000	0	0	0	na
+ca	redstripe2	"245,30,48"	rect4v	750	0	250	1000	0	0	0	na
+ca	coatofarms	"245,30,48"	image	294	145	410	600	0	0	0	"loyalty, authority, canada"
+gt	bluestripe1	"0,107,198"	rect3v	0	0	333	1000	0	0	0	sea
+gt	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	land
+gt	bluestripe2	"0,107,198"	rect3v	666	0	333	1000	0	0	0	sea
+gt	coatofarms	"0,0,0"	image	355	293	287	320	0	0	0	"justice, victory,,liberty"
+mx	greenstripe	"0,104,71"	rect3v	0	0	333	1000	0	0	0	hope
+mx	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	"purity,unity,honesty"
+mx	redstripe	"204,0,0"	rect3v	666	0	333	1000	0	0	0	"sacrifice,blood"
+mx	coatofarms	"0,0,0"	image	371	293	256	409	0	0	0	na
+cm	greenstripe	"0,191,0"	rect3v	0	0	333	1000	0	0	0	"agriculture, panafrican"
+cm	redstripe	"255,0,0"	rect3v	333	0	333	1000	0	0	0	"sacriifice, panafrican"
+cm	yellowstripe	"255,255,0"	rect3v	666	0	333	1000	0	0	0	"peace, panafrican"
+cm	star	"255,255,0"	star5	360	258	277	401	0	0	0	na
+sn	greenstripe	"0,153,0"	rect3v	0	0	333	1000	0	0	0	"agriculture, panafrican"
+sn	yellowstripe	"255,255,0"	rect3v	333	0	333	1000	0	0	0	"peace, panafrican"
+sn	redstripe	"255,0,0"	rect3v	666	0	333	1000	0	0	0	"sacrifice, panafrican"
+sn	star	"0,153,0"	star5	392	324	216	310	0	0	0	na
+dk	redfield	"222,33,16"	rect1	0	0	1000	1000	0	0	0	war ensign
+dk	cross	"255,255,255"	cross	0	0	1000	1000	100	353	500	"christianity, war ensign"
+fi	whitefield	"255,255,255"	rect1	0	0	1000	1000	0	0	0	na
+fi	cross	"0,49,156"	cross	0	0	1000	1000	166	365	498	na
+is	bluefield	"4,2,188"	rect1	0	0	1000	1000	0	0	0	sky
+is	whitecross	"255,255,255"	cross	0	0	1000	1000	160	353	500	"iceland,scandinavia"
+is	redcross	"245,30,48"	cross	0	0	1000	1000	80	353	500	"Norway, scandinavia"
+bw	bluestripe1	"102,204,255"	rect	0	0	1000	375	0	0	0	"water,rain,life, prosperity"
+bw	whitestripe1	"255,255,255"	rect	0	370	1000	42	0	0	0	"harmony, pluralistic society"
+bw	blackstripe	"0,0,0"	rect	0	417	1000	167	0	0	0	"harmony, pluralistic society"
+bw	whitestripe2	"255,255,255"	rect	0	579	1000	42	0	0	0	"harmony, pluralistic society"
+bw	bluestripe2	"102,204,255"	rect	0	620	1000	375	0	0	0	"water,rain,life, prosperity"
+co	goldstripe	"255,204,0"	rect2h	0	0	1000	500	0	0	0	"justice,liberty,sovereignty"
+co	bluestripe	"0,49,156"	rect4h	0	500	1000	250	0	0	0	"nobility,vigilance,loyalty,equality"
+co	redstripe	"255,0,0"	rect4h	0	750	1000	250	0	0	0	"valor,fraternity,honor,generosity,victory"
+gm	redstripe	"204,0,0"	rect3h	0	0	1000	333	0	0	0	sun
+gm	whitestripe1	"255,255,255"	rect	0	333	1000	56	0	0	0	"peace,purity"
+gm	bluestripe	"0,0,204"	rect	0	389	1000	222	0	0	0	river
+gm	whitestripe2	"255,255,255"	rect	0	606	1000	56	0	0	0	"peace,purity"
+gm	greenstripe	"53,150,43"	rect3h	0	662	1000	333	0	0	0	agriculture
+id	redstripe	"255,0,0"	rect2h	0	0	1000	500	0	0	0	"blood,body,corporeal,sugar"
+id	whitestripe	"255,255,255"	rect2h	0	500	1000	500	0	0	0	"spiritual, rice"
+lv	redstripe1	"153,0,0"	rect	0	0	1000	407	0	0	0	"blood,freedom,independence"
+lv	whitestripe	"255,255,255"	rect	0	403	1000	185	0	0	0	"truth,freedom,trust"
+lv	redstripe2	"153,0,0"	rect	0	593	1000	407	0	0	0	"blood,freedom,independence"
+mc	redstripe	"222,33,16"	rect2h	0	0	1000	500	0	0	0	na
+mc	whitestripe	"255,255,255"	rect2h	0	500	1000	500	0	0	0	na
+pl	whitestripe	"255,255,255"	rect2h	0	0	1000	500	0	0	0	"eagle, poland"
+pl	redstripe	"255,0,0"	rect2h	0	500	1000	500	0	0	0	"eagle, poland"
+sm	whitestripe	"255,255,255"	rect2h	0	0	1000	500	0	0	0	na
+sm	bluestripe	"102,204,255"	rect2h	0	500	1000	500	0	0	0	na
+sm	coatofarms	"0,0,0"	image	323	202	358	600	0	0	0	na
+th	redstripe1	"222,33,16"	rect5h	0	0	1000	167	0	0	0	"land,nation"
+th	whitestripe1	"255,255,255"	rect5h	0	167	1000	167	0	0	0	buddhism
+th	bluestripe	"0,49,156"	rect3h	0	333	1000	333	0	0	0	monarchy
+th	whitestripe2	"255,255,255"	rect5h	0	666	1000	167	0	0	0	buddhism
+th	redstripe2	"222,33,16"	rect5h	0	833	1000	167	0	0	0	"land,nation"
+ua	bluestripe	"102,204,255"	rect2h	0	0	1000	500	0	0	0	sky
+ua	yellowstripe	"255,255,0"	rect2h	0	500	1000	500	0	0	0	sky
+cr	bluestripe1	"0,51,153"	rect5h	0	0	1000	167	0	0	0	"sky,opportunities,intellectual thinking,perseverance"
+cr	whitestripe1	"255,255,255"	rect5h	0	167	1000	167	0	0	0	"religion,spiritual desires,infinite,eternity"
+cr	redstripe	"255,0,0"	rect3h	0	333	1000	333	0	0	0	"blood, warmth, freedom, generosity"
+cr	whitestripe2	"255,255,255"	rect5h	0	666	1000	167	0	0	0	"religion,spiritual desires,infinite,eternity"
+cr	bluestripe2	"0,51,153"	rect5h	0	833	1000	167	0	0	0	"sky,opportunities,intellectual thinking,perseverance"
+ec	yellowstripe	"255,255,0"	rect2h	0	0	1000	500	0	0	0	"fertility, abundance"
+ec	bluestripe	"0,51,153"	rect4h	0	500	1000	250	0	0	0	sky
+ec	redstripe	"255,0,0"	rect4h	0	750	1000	250	0	0	0	blood
+ec	coatofarms	"255,255,0"	image	365	256	272	500	0	0	0	"victory, protection,shelter,trade"
+sv	bluestripe1	"0,107,198"	rect3h	0	0	1000	333	0	0	0	na
+sv	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+sv	bluestripe2	"0,107,198"	rect3h	0	666	1000	333	0	0	0	na
+ht	bluestripe	"0,49,156"	rect2h	0	0	1000	500	0	0	0	na
+ht	redstripe	"222,33,16"	rect2h	0	500	1000	500	0	0	0	na
+hn	bluestripe1	"0,107,198"	rect3h	0	0	1000	333	0	0	0	sea
+hn	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+hn	bluestripe2	"0,107,198"	rect3h	0	666	1000	333	0	0	0	sea
+hn	stars	"0,107,198"	image	396	343	208	296	0	0	0	"hope, unity"
+iq	redstripe	"204,0,0"	rect3h	0	0	1000	333	0	0	0	na
+iq	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+iq	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	na
+iq	script	"0,0,0"	image	155	364	684	230	0	0	0	na
+il	whitestripe1	"255,255,255"	rect	0	0	1000	74	0	0	0	na
+il	bluestripe1	"8,123,206"	rect	0	74	1000	147	0	0	0	"talit, judishm"
+il	whitestripe2	"255,255,255"	rect	0	221	1000	558	0	0	0	na
+il	bluestripe2	"8,123,206"	rect	0	783	1000	147	0	0	0	"talit, judaism"
+il	whitestripe3	"255,255,255"	rect	0	926	1000	74	0	0	0	na
+il	star	"0,0,0"	image	350	247	285	450	0	0	0	judaism
+sg	redstripe	"255,0,0"	rect2h	0	0	1000	500	0	0	0	equality
+sg	whitestripe	"255,255,255"	rect2h	0	500	1000	500	0	0	0	"purity, virtue"
+sg	coatofarms	"255,255,255"	image	83	70	292	379	0	0	0	young nation
+ug	blackstripe1	"0,0,0"	rect5h	0	0	1000	167	0	0	0	african people
+ug	yellowstripe1	"255,204,0"	rect5h	0	167	1000	167	0	0	0	the sun
+ug	redstripe1	"222,57,8"	rect5h	0	333	1000	167	0	0	0	equality
+ug	blackstripe2	"0,0,0"	rect5h	0	500	1000	167	0	0	0	african people
+ug	yellowstripe2	"255,204,0"	rect5h	0	667	1000	167	0	0	0	the sun
+ug	redstripe2	"222,57,8"	rect5h	0	833	1000	167	0	0	0	equality
+ug	coatofarms	"222,57,8"	image	400	340	200	300	0	0	0	"the sun,african people, equality"
+uz	bluestripe	"0,107,198"	rect	0	0	1000	318	0	0	0	"water, sky"
+uz	redstripe1	"222,33,16"	rect	0	318	1000	23	0	0	0	strength
+uz	whitestripe	"255,255,255"	rect	0	341	1000	318	0	0	0	peace
+uz	redstripe2	"222,33,16"	rect	0	659	1000	23	0	0	0	strength
+uz	greenstripe	"56,126,41"	rect	0	682	1000	318	0	0	0	"fertility, abundance"
+uz	crescent	"0,0,0"	image	38	34	392	263	0	0	0	"zodiac, rebirth"
+sy	redstripe	"222,33,16"	rect3h	0	0	1000	333	0	0	0	"struggle,sacrifice"
+sy	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	freedom
+sy	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	colonialism
+sy	star	"53,150,43"	star5	267	382	144	217	0	0	0	na
+sy	star	"53,150,43"	star5	592	382	144	217	0	0	0	na
+tg	greenstripe1	"53,150,43"	rect5h	0	0	1000	200	0	0	0	"hope,new era"
+tg	yellowstripe1	"255,204,0"	rect5h	0	200	1000	200	0	0	0	"unity,maturity,prosperity"
+tg	greenstripe2	"53,150,43"	rect5h	0	400	1000	200	0	0	0	"freshness,hope,new era"
+tg	yellowstripe2	"255,204,0"	rect5h	0	600	1000	200	0	0	0	"unity,maturity,prosperity"
+tg	greenstripe3	"53,150,43"	rect5h	0	800	1000	200	0	0	0	"freshness,hope,new era"
+tg	redfield	"222,33,16"	rect	0	0	333	600	0	0	0	"blood,independence,democracy,legality"
+tg	star	"255,255,255"	star5	95	135	190	190	0	0	0	"life,liberty,action"
+bs	bluestripe1	"0,51,153"	rect3h	0	0	1000	333	0	0	0	ocean
+bs	yellowstripe	"255,204,0"	rect3h	0	333	1000	333	0	0	0	sand
+bs	bluestripe2	"0,51,153"	rect3h	0	666	1000	333	0	0	0	ocean
+bs	blacktriangle	"0,0,0"	triangle	0	0	400	1000	0	0	0	"unity,determination"
+cu	bluestripe1	"0,51,153"	rect5h	0	0	1000	200	0	0	0	cuba
+cu	whitestripe1	"255,255,255"	rect5h	0	200	1000	200	0	0	0	"purity,justice"
+cu	bluestripe2	"0,51,153"	rect5h	0	400	1000	200	0	0	0	cuba
+cu	whitestripe2	"255,255,255"	rect5h	0	600	1000	200	0	0	0	"purity,justice"
+cu	bluestripe3	"0,51,153"	rect5h	0	800	1000	200	0	0	0	cuba
+cu	redtriangle	"245,30,48"	triangle	0	0	435	1000	0	0	0	"liberty,freedom, unity, equality,fraternity"
+cu	star	"255,255,255"	star5	69	347	146	278	0	0	0	unity
+cz	whitestripe	"255,255,255"	rect2h	0	0	1000	500	0	0	0	"moravians, slovaks,silesians"
+cz	redstripe	"222,33,16"	rect2h	0	500	1000	500	0	0	0	"moravians, slovaks,silesians"
+cz	bluetriangle	"0,49,156"	triangle	0	0	500	1000	0	0	0	"moravians, slovaks,silesians"
+jo	blackstripe	"0,0,0"	rect3h	0	0	1000	333	0	0	0	abbasi
+jo	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	umayyad
+jo	greenstripe	"53,150,43"	rect3h	0	666	1000	333	0	0	0	fatimid
+jo	redstriangle	"222,33,16"	triangle	0	0	500	1000	0	0	0	hashemite
+jo	star	"255,255,255"	star7	125	432	78	78	0	0	0	"unity,koran"
+ps	blackstripe	"0,0,0"	rect3h	0	0	1000	333	0	0	0	"struggle,pan-arab"
+ps	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	"purity,pan-arab"
+ps	greenstripe	"53,150,43"	rect3h	0	666	1000	333	0	0	0	"islam,pan-arab"
+ps	redtriangle	"255,0,0"	triangle	0	0	333	1000	0	0	0	"liberty,blood,pan-arab"
+ph	bluestripe	"0,35,119"	rect2h	0	0	1000	500	0	0	0	noble ideals
+ph	redstripe	"222,33,16"	rect2h	0	500	1000	500	0	0	0	"courage,bravery"
+ph	whitetriangle	"255,255,255"	triangle	0	0	435	1000	0	0	0	"katipunan,peace,purity"
+ph	star1	"255,204,0"	star5	10	83	55	55	45	0	0	phillipines
+ph	star2	"255,204,0"	star5	323	448	55	55	15	0	0	phillipines
+ph	star3	"255,204,0"	star5	10	813	55	55	60	0	0	phillipines
+ph	sun	"255,204,0"	image	44	322	216	380	0	0	0	self-determination
+sd	redstripe	"222,33,16"	rect3h	0	0	1000	333	0	0	0	"struggle,martyrs,arab land "
+sd	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	"peace,islam,light,love"
+sd	blackstripe	"0,0,0"	rect3h	0	666	1000	333	0	0	0	"revolution, Sudan, Mahdiya "
+sd	greentriangle	"53,150,43"	triangle	0	0	333	1000	0	0	0	"prosperity,agriculture"
+do	bluefield1	"0,49,156"	rect	0	0	435	400	0	0	0	liberty
+do	redfield1	"222,33,16"	rect	565	0	435	400	0	0	0	"blood,fire"
+do	bluefield2	"0,49,156"	rect	565	600	435	400	0	0	0	"blood,fire"
+do	redfield2	"222,33,16"	rect	0	600	435	400	0	0	0	liberty
+do	whitecross	"255,255,255"	cross	0	0	1000	1000	130	500	500	sacrifice
+bj	greenstripe	"53,150,43"	rect3v	0	0	333	1000	0	0	0	"hope,revival,palm tree"
+bj	yellowstripe	"255,204,0"	rect	333	0	666	500	0	0	0	"grasslands,savanna"
+bj	redstripe	"222,33,16"	rect	333	500	666	500	0	0	0	"courage,blood, ancestors"
+ge	redfield	"153,0,0"	rect1	0	0	1000	1000	0	0	0	joy
+ge	blackstripe	"0,0,0"	rect	0	0	400	200	0	0	0	"tragedy, past"
+ge	whitestripe	"249,250,221"	rect	0	200	400	200	0	0	0	"hope, future"
+cl	bluefield	"0,49,156"	rect	0	0	333	500	0	0	0	na
+cl	whitestripe	"255,255,255"	rect	333	0	666	500	0	0	0	na
+cl	redstripe	"222,33,16"	rect2h	0	500	1000	500	0	0	0	na
+cl	star	"255,255,255"	star5	83	125	167	245	0	0	0	na
+pa	whitestripe1	"255,255,255"	rect	0	0	500	500	0	0	0	peace
+pa	redstripe	"255,0,0"	rect	500	0	500	500	0	0	0	"liberal party,blood"
+pa	bluestripe	"0,49,156"	rect	0	500	500	500	0	0	0	"conservative party,pacific ocean,caribbean"
+pa	whitestripe2	"255,255,255"	rect	500	500	500	500	0	0	0	peace
+pa	bluestar	"0,49,156"	star5	133	79	200	200	0	0	0	purity.honesty
+pa	redstar	"255,0,0"	star5	633	583	200	200	0	0	0	"authority,law"
+va	yellowstripe	"255,204,0"	rect2v	0	0	500	1000	0	0	0	"paradise,heaven,saint peter"
+va	whitestripe	"255,255,255"	rect2v	500	0	500	1000	0	0	0	na
+va	coatofarms	"255,204,0"	image	600	188	328	641	0	0	0	"paradise,heaven,saint peter"
+kw	greenstripe	"0,153,0"	rect3h	0	0	1000	333	0	0	0	na
+kw	whitestripe	"255,255,255"	rect3h	0	333	1000	333	0	0	0	na
+kw	redstripe	"255,0,0"	rect3h	0	666	1000	333	0	0	0	na
+kw	blackfield	"0,0,0"	poly	0	0	1000	1000	"0,0,252,333,252,662,0,1000,0,0'"	0	0	na
+na	bluefield	"0,49,156"	poly	0	0	1000	1000	"'0,0,794,0,0,797,0,0'"	0	0	na
+na	whitestripe1	"255,255,255"	poly	0	0	1000	1000	"'792,0,859,0,0,863,0,797,792,0'"	0	0	na
+na	redstripe	"222,33,16"	poly	0	0	1000	1000	"'858,0,1000,0,1000,133,135,1000,0,1000,0,863,858,0'"	0	0	na
+na	whitestripe2	"255,255,255"	poly	0	0	1000	1000	"'1000,133,1000,203,203,1000,135,1000'"	0	0	na
+na	greenstripe	"53,150,43"	poly	0	0	1000	1000	"'1000,203,1000,1000,203,1000'"	0	0	na
+na	sun	"255,204,0"	image	68	65	237	355	0	0	0	na
+ch	field	"222,33,16"	rect1	0	0	1000	1000	0	0	0	na
+ch	cross	"255,255,255"	poly	284	180	393	621	"'421,184,541,184,541,395,675,395,675,582,541,582,541,797,421,797,421,582,284,582,284,395,421,395,421,184'"	0	0	na
+gr	bluestripe1	"0,107,198"	rect10h	0	0	1000	111	0	0	0	na
+gr	whitestripe1	"255,255,255"	rect10h	0	111	1000	111	0	0	0	na
+gr	bluestripe2	"0,107,198"	rect10h	0	222	1000	111	0	0	0	na
+gr	whitestripe2	"255,255,255"	rect10h	0	333	1000	111	0	0	0	na
+gr	bluestripe3	"0,107,198"	rect10h	0	444	1000	111	0	0	0	na
+gr	whitestripe3	"255,255,255"	rect10h	0	555	1000	111	0	0	0	na
+gr	bluestripe4	"0,107,198"	rect10h	0	666	1000	111	0	0	0	na
+gr	whitestripe4	"255,255,255"	rect10h	0	777	1000	111	0	0	0	na
+gr	bluestripe5	"0,107,198"	rect10h	0	888	1000	114	0	0	0	na
+gr	field	"0,107,198"	rect	0	0	360	555	0	0	0	na
+gr	cross	"255,255,255"	poly	0	0	360	555	"142,0,216,0,216,219,358,219,358,332,216,332,216,551,142,551,142,332,0,332,0,219,142,219'"	0	0	na
+za	redstripe	"'222,33,16'"	poly	0	0	1000	198	"'195,0,1000,0,1000,332,516,332,195,0'"	0	0	na
+za	bluestripe	"'0,49,156'"	poly	0	0	1000	198	"'516,668,1000,668,1000,1000,195,1000,516,668'"	0	0	na
+za	whitestripe	"'255,255,255'"	poly	0	0	1000	1000	"'0,0,194,0,518,334,1000,334,1000,664,516,664,193,1000,0,1000,0,0'"	0	0	na
+za	greenstripe	"53,150,43'"	poly	0	0	1000	1000	"'0,0,143,0,505,379,1000,379,1000,625,505,625,143,1000,0,1000,0,836,344,496,0,145,0,0'"	0	0	na
+za	yellowstripe	"255,204,0'"	poly	0	0	1000	1000	"'0,145,345,496,0,840,0,773,282,492,0,215'"	0	0	na
+za	blacktriangle	"'0,0,0'"	poly	0	0	1000	1000	"'0,215,283,495,0,777'"	0	0	na
+my	redstripe1	"222,33,16'"	rect10h	0	0	1000	71	0	0	0	na
+my	whitestripe1	"255,255,255'"	rect10h	0	71	1000	71	0	0	0	na
+my	redstripe2	"222,33,16'"	rect10h	0	143	1000	71	0	0	0	na
+my	whitestripe2	"255,255,255'"	rect10h	0	214	1000	71	0	0	0	na
+my	redstripe3	"222,33,16'"	rect10h	0	286	1000	71	0	0	0	na
+my	whitestripe3	"255,255,255'"	rect10h	0	357	1000	71	0	0	0	na
+my	redstripe4	"222,33,16'"	rect10h	0	429	1000	71	0	0	0	na
+my	whitestripe4	"255,255,255'"	rect10h	0	500	1000	71	0	0	0	na
+my	redstripe5	"222,33,16'"	rect10h	0	572	1000	71	0	0	0	na
+my	whitestripe5	"255,255,255'"	rect10h	0	643	1000	71	0	0	0	na
+my	redstripe6	"222,33,16'"	rect10h	0	715	1000	71	0	0	0	na
+my	whitestripe6	"255,255,255'"	rect10h	0	786	1000	71	0	0	0	na
+my	redstripe7	"222,33,16'"	rect10h	0	858	1000	71	0	0	0	na
+my	whitestripe7	"255,255,255'"	rect10h	0	929	1000	71	0	0	0	na
+my	field	"0,49,156'"	rect	0	0	500	572	0	0	0	na
+my	star	"255,204,0'"	star14	232	104	182	182	0	0	0	na
+my	crescent	"255,204,0'"	image	94	51	172	448	0	0	0	na
+au	bluefield	"'0,35,119'"	rect1	0	0	1000	1000	0	0	0	na
+au	whitex	"'255,255,255'"	poly	0	0	0	0	"'0,0,0,55,190,248,0,438,0,500,59,500,248,305,438,500,500,500,500,438,307,248,500,55,500,0,438,0,248,188,63,0'"	0	0	na
+au	redx	"'255,0,0'"	poly	0	0	0	0	"'0,0,0,37,229,266,0,500,37,500,270,266,500,500,500,461,271,229,500,0,461,0,231,229,0,0'"	0	0	na
+au	whitecross	"'255,255,255'"	cross	0	0	500	500	99	250	250	na
+au	redcross	"'255,0,0'"	cross	0	0	500	500	49	250	250	na
+au	bigstar	"'255,255,255'"	star7	177	640	154	154	0	0	0	na
+au	medstar1	"'255,255,255'"	star7	714	99	90	90	0	0	0	na
+au	medstar2	"'255,255,255'"	star7	800	300	90	90	0	0	0	na
+au	medstar3	"'255,255,255'"	star7	600	370	80	80	0	0	0	na
+au	medstar4	"'255,255,255'"	star7	714	750	90	90	0	0	0	na
+au	smallstar	"'255,255,255'"	star5	757	500	45	45	0	0	0	na
+pk	whitestripe	"'255,255,255'"	rect4v	0	0	250	1000	0	0	0	"social classes,minorities"
+pk	greenfield	"'0,91,24'"	rect	250	0	750	1000	0	0	0	"prosperity,islam"
+pk	crescent	"'255,255,255'"	image	420	205	390	600	0	0	0	"progress,knowledge"
+br	greenfield	"0,128,0"	rect	0	0	1000	1000	0	0	0	"royalty,braganca,habsburg"
+br	yellowdiamond	"255,255,0"	poly	84	129	845	780	"500,100,920,500,500,900,80,500'"	0	0	"royalty,braganca,habsburg"
+br	globe	"0,0,255"	image	330	235	340	530	0	0	0	"revolution,states,sky,night sky,positivism"
+sa	greenfield	"0,102,0"	rect	0	0	1000	1000	0	0	0	"islam,royalty,as-saud"
+sa	script	"0,0,0"	image	224	250	555	530	0	0	0	"islam,royalty,ibn saud"
+am	redstripe	"218,0,10"	rect	0	0	1000	333	0	0	0	"sacrifice"	"the Armenian people's continued struggle for survival"
+am	bluestripe	"0,29,199"	rect	0	333	1000	333	0	0	0	"strength, sky"	"the will of the people of Armenia to live beneath peaceful skies"
+am	yellowstripe	"242,170,0"	rect	0	666	1000	334	0	0	0	"hard-working"	"creative talent and hard-working nature of the people of Armenia"
+mg	whitestripe	"255,255,255"	rect	0	0	333	1000	0	0	0	"kingdom"	"represents Mernia Kingdom"
+mg	redstripe	"252,59,46"	rect	333	0	667	530	0	0	0	"kingdom"	"represents Mernia Kingdom"
+mg	greenstripe	"0,127,55"	rect	333	530	667	470	0	0	0	"kingdom"	"represents Mernia Kingdom"
+ae	redstripe	"255,0,0"	rect	0	0	250	1000	0	0	0	"unity"	"unity between the emirates"
+ae	greenstripe	"0,116,43"	rect	250	0	750	334	0	0	0	"hope, prosperity"	"hope and prosperity"
+ae	whitestripe	"255,255,255"	rect	250	333	750	334	0	0	0	"peace, honesty"	"peace, pure, clean, and honesty"
+ae	blackstripe	"0,0,0"	rect	250	666	750	334	0	0	0	"strength"	"strength of the mind"
+mu	redstripe	"235,35,54"	rect	0	0	1000	250	0	0	0	""	"struggle for freedom and independence"
+mu	bluestripe	"19,26,109"	rect	0	250	1000	250	0	0	0	""	"the indian ocean"
+mu	yellowstripe	"255,214,0"	rect	0	500	1000	250	0	0	0	""	"new light of independence"
+mu	greenstripe	"0,167,80"	rect	0	750	1000	250	0	0	0	""	"agriculture and color of the land"
+sl	greenstripe	"24,182,55"	rect	0	0	1000	334	0	0	0	"agriculture, mountains"	"agriculture and mountains"
+sl	whitestripe	"255,255,255"	rect	0	333	1000	334	0	0	0	"unity"	"unity and justice"
+sl	bluestripe	"0,115,199"	rect	0	666	1000	334	0	0	0	"peace, sea"	"natural harbors and world peace"
+bz	redstripe_1	"206,9,34"	rect	0	0	1000	73	0	0	0	"party"	"Color of the opposition party of Belize"
+bz	blue_background	"0,61,136"	rect	0	73	1000	857	0	0	0	"party"	"Color of the Belize national party"
+bz	coatofarms	"255,255,255"	image	240	107	495	787	0	0	0	"agriculture"	"The coat of arms recalls the logging industry that first led to British settlement in Belize."
+bz	redstripe_2	"207,9,33"	rect	0	928	1000	72	0	0	0	"party"	"Color of the opposition party of Belize"
+ke	black_stripe	"0,0,0"	rect	0	0	1000	333	0	0	0	"the people"	"The colour black represents the people of the Republic of Kenya."
+ke	redstripe	"188,0,0"	rect	0	333	1000	333	0	0	0	"independence, blood"	"To symbolize the blood shed during the fight for independence."
+ke	whitestripe_1	"255,255,255"	rect	0	300	1000	50	0	0	0	"peace, honesty"	"To symbolize peace and honesty."
+ke	greenstripe	"0,102,0"	rect	0	666	1000	334	0	0	0	"wealth, land"	"To symbolize the countries wealth and natural landscape"
+ke	whitestripe_2	"255,255,255"	rect	0	650	1000	50	0	0	0	"peace, honesty"	"To symbolize peace and honesty."
+ke	shield	"255,255,255"	image	365	160	270	692	0	0	0	"protection"	"To symbolize the defense of all things Kenya."
+kg	redbackground	"255,0,0"	rect	0	0	1000	1000	0	0	0	"bravery, valor"	"The red field stands for "bravery and valor", and alludes to Manas, the national hero of Kyrgyzstan."
+kg	coatofarms	"255,255,255"	image	335	200	377	600	0	0	0	"life, unity, home"	"to symbolize the "origin of life", the "unity of time and space", "hearth and home" and history."
+cv	bluestripe_1	"0,53,148"	rect	0	0	1000	500	0	0	0	"ocean, sky"	"To symbolize ocean and sky."
+cv	whitestripe_1	"255,255,255"	rect	0	500	1000	84	0	0	0	"peace"	"To symbolize construction of the nation, and peace."
+cv	redstripe	"208,26,34"	rect	0	583	1000	84	0	0	0	"peace"	"To symbolize construction of the nation, and peace."
+cv	whitestripe_2	"255,255,255"	rect	0	666	1000	84	0	0	0	"peace"	"To symbolize construction of the nation, and peace."
+cv	bluestripe_2	"0,53,148"	rect	0	750	1000	250	0	0	0	"ocean, sky"	"To symbolize ocean and sky."
+cv	stars	"255,255,255"	image	221	325	359	590	0	0	0	"islands, nation"	"The stars represent the main islands in the nation."
+ls	bluestripe	"0,26,160"	rect	0	0	1000	318	0	0	0	"sky"	"The sky and rain"
+ls	whitestripe	"255,255,255"	rect	0	318	1000	424	0	0	0	"peace"	"Peace"
+ls	greenstripe	"0,150,65"	rect	0	742	1000	258	0	0	0	"prosperity"	"Prosperity"
+ls	coatofarms	"255,255,255"	image	392	335	217	390	0	0	0	"hat"	"A Basotho hat"
+li	bluestripe	"0,39,128"	rect	0	0	1000	500	0	0	0	"sky"	"The sky"
+li	redstripe	"207,9,33"	rect	0	500	1000	500	0	0	0	"homes"	"The evening fires burning in peoples homes."
+li	crown	"255,255,255"	image	124	86	217	300	0	0	0	"unity, royalty"	"Unity of the people and their prince."
+mv	redbackground	"211,7,49"	rect	0	0	1000	1000	0	0	0	"heroes, nation"	"The boldness of the nations heroes."
+mv	greenrect	"0,127,55"	rect	166	250	668	500	0	0	0	"peace"	"Peace and prosperity."
+mv	crescent	"255,255,255"	image	435	333	125	335	0	0	0	"islam"	"The crescent represents the peoples Islamic faith."
+mw	blackstripe	"0,0,0"	rect	0	0	1000	333	0	0	0	"natives, africa"	"Represents the indigenous people of the continent of Africa."
+mw	redstripe	"207,9,33"	rect	0	333	1000	333	0	0	0	"blood, struggles"	"The blood of their struggles."
+mw	greenstripe	"47,159,50"	rect	0	666	1000	333	0	0	0	"nature"	"Nature"
+mw	risingsun	"255,255,255"	image	281	30	438	285	0	0	0	"hope, africa, independence"	"Dawn of hope and freedom for Africa. The 31 rays of light represent that Malawi was the 31st nation at the time of its independence."
+mt	whitestripe	"255,255,255"	rect	0	0	500	1000	0	0	0	""	"Said to be a gift from Roger I of Sicily."
+mt	redstripe	"208,12,39"	rect	500	0	500	1000	0	0	0	""	"Said to be a gift from Roger I of Sicily."
+mt	cross	"255,255,255"	image	24	38	186	297	0	0	0	"valour"	"Flag of the Knights of Malta"
+mr	redstripe_1	"206,37,60"	rect	0	0	1000	150	0	0	0	"sacrifice, blood"	"The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory"
+mr	greenstripe	"0,98,48"	rect	0	150	1000	700	0	0	0	"islam"	"Symbolizes the practices of Islam"
+mr	redstripe_2	"206,37,60"	rect	0	850	1000	150	0	0	0	"sacrifice, blood"	"The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory."
+mr	starandcrescent	"255,255,255"	image	284	208	432	564	0	0	0	""	"Symbolizes the beliefs of Islam."
+me	goldborder	"212,176,56"	poly	0	0	1000	1000	"26,52,976,52,976,952,26,952,0,1000,1000,1000,1000,0,0,0,0,1000,26,952"	0	0	""	"Cannot find meaning."
+me	redstripe	"197,0,2"	rect	26	52	950	900	0	0	0	""	"Cannot find meaning."
+me	crest	"255,255,255"	image	359	250	280	513	0	0	0	""	"Cannot find meaning."
+mn	redstripe_1	"219,26,46"	rect	0	0	333	1000	0	0	0	"progress"	"Thriving forever."
+mn	bluestripe	"0,102,180"	rect	333	0	333	1000	0	0	0	"sky"	"Eternal blue skies."
+mn	redstripe_2	"219,26,46"	rect	666	0	334	1000	0	0	0	"progress"	"Thriving forever."
+mn	coatofarms	"219,26,46"	image	75	180	184	597	0	0	0	"sun, water, dualist"	"Represents fire, sun, moon, earth, water, and a round shape as dualist aspect."
+md	bluestripe	"0,68,176"	rect	0	0	333	1000	0	0	0	""	"Cannot find meaning."
+md	yellowstripe	"255,211,0"	rect	333	0	333	1000	0	0	0	""	"Cannot find meaning."
+md	redstripe	"205,2,43"	rect	666	0	334	1000	0	0	0	""	"Cannot find meaning."
+md	coatofarms	"255,255,255"	image	389	300	222	445	0	0	0	""	"Cannot find meaning."
+vc	bluestripe	"0,115,199"	rect	0	0	250	1000	0	0	0	"sky, water"	"The tropical skies and the crystal waters."
+vc	goldstripe	"252,210,15"	rect	250	0	500	1000	0	0	0	"sand"	"The golden Grenadine sands."
+vc	greenstripe	"0,159,96"	rect	750	0	250	1000	0	0	0	"island, land, agriculture"	"The islands lush vegetation."
+vc	three_diamonds	"255,255,255"	image	375	353	250	574	0	0	0	"island"	"Each represent an island of the Grenadines under Saint Vincent."
+ws	redbackground	"207,9,33"	rect	0	0	1000	1000	0	0	0	"tradition"	"Courage and is a traditional Samoan color."
+ws	bluerectangle	"0,39,128"	rect	0	0	500	500	0	0	0	"freedom"	"Freedom."
+ws	stars	"255,255,255"	image	120	20	261	459	0	0	0	"southern-cross"	"Displays the stars of the Southern Cross."
+zm	greenbackground	"18,139,0"	poly	0	0	1000	1000	"0,0,0,1000,644,1000,643,359,1000,359,1000,0"	0	0	"land, wealth, agriculture"	"Natural resources and vegetation."
+zm	redstripe	"223,26,7"	rect	643	358	119	642	0	0	0	"struggle, freedom"	"The people of Zambia's struggle for freedom."
+zm	goldstripe	"239,126,0"	rect	881	358	119	642	0	0	0	"wealth, land"	"The countries mineral wealth."
+zm	blackstripe	"0,0,0"	rect	762	358	119	642	0	0	0	"the people"	"The people of Zambia"
+zm	coatofarms	"255,255,255"	image	663	89	317	200	0	0	0	"strength, will"	"Represents the countries ability to rise above their problems."
+lk	goldbackground	"255,191,36"	rect	0	0	1000	1000	0	0	0	"bhuddism"	"Saffron border represents Bhuddism"
+lk	greenstripe	"0,82,77"	rect	41	66	130	850	0	0	0	"muslim, faith"	"Muslim faith and Moor ethnicity"
+lk	orangestripe	"236,117,0"	rect	171	66	130	850	0	0	0	"ethnicity"	"The Tamil ethnicity"
+lk	maroonrectangle	"142,13,55"	rect	340	66	620	850	0	0	0	"ethnicity"	"The Tamil ethnicity"
+lk	coatofarms	"255,255,255"	image	343	69	614	846	0	0	0	"the people, religion, nation"	"The Sinhalese people, the four Buddhist virtues, the sovereignty of the nation, religious observance, elements and purity."
+uy	whitebackground	"255,255,255"	rect	0	0	1000	1000	0	0	0	""	"No meaning."
+uy	bluestripe_1	"0,53,170"	rect	370	111	630	111	0	0	0	"nation"	"The departments of Uruguay"
+uy	bluestripe_2	"0,53,170"	rect	370	333	630	112	0	0	0	"nation"	"The departments of Uruguay"
+uy	bluestripe_3	"0,53,170"	rect	0	556	1000	111	0	0	0	"nation"	"The departments of Uruguay"
+uy	bluestripe_4	"0,53,170"	rect	0	778	1000	111	0	0	0	"nation"	"The departments of Uruguay"
+uy	coatofarms	"255,255,255"	image	45	50	282	448	0	0	0	"sun, deity"	"The sun god Inti."
+tr	redbackground	"228,3,16"	rect	0	0	1000	1000	0	0	0	""	"Cannot find meaning."
+tr	starandcrescent	"255,255,255"	image	185	235	450	532	0	0	0	"islam"	"Islam"
+tj	redstripe	"205,0,0"	rect	0	0	1000	287	0	0	0	"unity, sun"	"Unity of the nation, victory, and sunrise."
+tj	whitestripe	"255,255,255"	rect	0	286	1000	430	0	0	0	"snow, purity"	"Morality, purity, ice and snow of the mountains, and cotton."
+tj	greenstripe	"0,102,0"	rect	0	717	1000	284	0	0	0	"fertility, islam, agriculture"	"Bountiful generosity of nature, fertile valleys, Islam, and the celebration of Novruz."
+tj	coatofarms	"255,255,255"	image	350	308	293	386	0	0	0	"culture, happiness"	"Represents the Tajik people. Seven stars as seven is a perfect number their culture and represents happiness."
+sk	whitestripe	"255,255,255"	rect	0	0	1000	333	0	0	0	"pan-slavic"	"Red, white and blue are traditional Pan-Slavic colors."
+sk	bluestripe	"3,77,163"	rect	0	333	1000	334	0	0	0	"pan-slavic"	"Red, white and blue are traditional Pan-Slavic colors."
+sk	redstripe	"239,22,32"	rect	0	666	1000	334	0	0	0	"pan-slavic"	"Red, white and blue are traditional Pan-Slavic colors."
+sk	coatofarms	"3,77,163"	image	180	249	292	570	0	0	0	""	"Russian Federation coat of arms."
+cs	redstripe	"199,51,57"	rect	0	0	1000	333	0	0	0	""	"After joining the Kingdom of Yugoslavia, Serbia assumed the red, white and blue tri-color."
+cs	bluestripe	"4,62,119"	rect	0	333	1000	333	0	0	0	""	"After joining the Kingdom of Yugoslavia, Serbia assumed the red, white and blue tri-color."
+cs	whitestripe	"255,255,255"	rect	0	666	1000	334	0	0	0	""	"After joining the Kingdom of Yugoslavia, Serbia assumed the red, white and blue tri-color."
+cs	coatofarms	"255,255,255"	image	200	75	252	791	0	0	0	""	"Cannot find meaning."
+si	whitestripe	"255,255,255"	rect	0	0	1000	333	0	0	0	""	"The colors originate from the medieval coat of arms of the Duchy of Carniola."
+si	bluestripe	"0,0,192"	rect	0	333	1000	333	0	0	0	""	"The colors originate from the medieval coat of arms of the Duchy of Carniola."
+si	redstripe	"214,0,0"	rect	0	666	1000	334	0	0	0	""	"The colors originate from the medieval coat of arms of the Duchy of Carniola."
+si	coatofarms	"255,255,255"	image	180	166	165	334	0	0	0	""	"Cannot find meaning."
+pt	greenstripe	"0,102,0"	rect	0	0	400	1000	0	0	0	"hope, the people"	"Represents the hope of the Portuguese people."
+pt	redstripe	"255,0,0"	rect	400	0	600	1000	0	0	0	"blood, the people"	"Represents the blood shed from the Portuguese people."
+pt	coatofarms	"255,255,255"	image	230	244	336	536	0	0	0	"sphere"	"Armillary sphere."
+tn	redbackground	"232,0,11"	rect	0	0	1000	1000	0	0	0	"turkey"	"A color taken from the ancient Turkish flag."
+tn	crescentandstar	"255,255,255"	image	340	250	319	507	0	0	0	"islam"	"Islam"
+ne	orangestripe	"224,82,6"	rect	0	0	1000	333	0	0	0	"sahara"	"The northern regions in the Sahara desert."
+ne	whitestripe	"255,255,255"	rect	0	333	1000	333	0	0	0	"purity"	"Purity, and or, the River Niger."
+ne	greenstripe	"13,176,43"	rect	0	666	1000	334	0	0	0	"land, hope"	"Hope and fertile regions of southern Niger."
+ne	orangecircle	"224,82,6"	circle	500	500	179	284	0	0	0	"independence, sun"	"Represents the sun and or independence."
+pw	bluebackground	"0,154,255"	rect	0	0	1000	1000	0	0	0	"ocean, nation"	"The ocean and the nations within it."
+pw	yellowcircle	"255,255,0"	circle	438	500	378	600	0	0	0	"moon"	"The moon."
+bf	redstripe	"239,39,41"	rect	0	0	1000	500	0	0	0	"revolution, independence"	"The revolution and independence."
+bf	greenstripe	"0,159,71"	rect	0	500	1000	500	0	0	0	"agriculture, wealth"	"Agriculture and abundance of natural resources."
+bf	star	"252,210,15"	star5	396	335	210	334	0	0	0	"revolution"	"The guiding light of the revolution."
+cf	bluestripe_1	"0,44,131"	rect	0	0	417	250	0	0	0	"france"	"France"
+cf	bluestripe_2	"0,44,131"	rect	583	0	417	250	0	0	0	"france"	"France."
+cf	whitestripe_1	"255,255,255"	rect	0	250	417	250	0	0	0	"france"	"France"
+cf	whitestripe_2	"255,255,255"	rect	583	250	417	250	0	0	0	"france"	"France"
+cf	greenstripe_1	"35,152,35"	rect	0	500	417	250	0	0	0	"africa"	"Africa"
+cf	greenstripe_2	"35,152,35"	rect	583	500	417	250	0	0	0	"africa"	"Africa"
+cf	goldstripe_1	"255,207,0"	rect	0	750	417	250	0	0	0	"africa"	"Africa"
+cf	goldstripe_2	"255,207,0"	rect	583	750	417	250	0	0	0	"africa"	"Africa"
+cf	redstripe	"211,7,49"	rect	416	0	168	1000	0	0	0	"unity, africa, france"	"The unification of Africa and France."
+cf	star	"255,207,0"	star5	95	23	142	150	0	0	0	"independence"	"Independence."
+dj	bluetrapezoid	"106,179,232"	poly	0	0	1000	1000	"0,0,1000,0,1000,500,577,500"	0	0	"sea, sky"	"The sea and the sky."
+dj	greentrapezoid	"9,175,39"	poly	0	0	1000	1000	"0,1000,1000,1000,1000,500,577,500"	0	0	"sea, sky"	"The sea and the sky."
+dj	whitetriangle	"255,255,255"	triangle	0	0	579	1000	0	0	0	"peace"	"Peace"
+dj	star	"216,12,19"	star5	131	371	180	266	0	0	0	"blood, independence, unity"	"Unity and the blood shed by the martyrs of independence."
+gq	greenstripe	"62,154,0"	poly	0	0	1000	1000	"0,0,166,334,1000,334,1000,0"	0	0	"agriculture, jungle"	"Agriculture, natural resources, and the jungles of Equatorial Guinea."
+gq	whitestripe	"255,255,255"	poly	0	0	1000	1000	"166,667,250,500,167,334,1000,332,1000,668"	0	0	"peace"	"Peace"
+gq	redstripe	"227,33,24"	poly	0	0	1000	1000	"0,1000,166,668,1000,667,1000,1000"	0	0	"blood, independence"	"Blood shed by fighters for independence."
+gq	bluetriangle	"0,115,206"	triangle	0	0	250	1000	0	0	0	"sea, island"	"The sea, which connects the main country with the islands."
+gq	coatofarms	"255,255,255"	image	416	352	168	298	0	0	0	""	"Cannot find meaning."
+fm	bluebackground	"118,179,222"	rect	0	0	1000	1000	0	0	0	"ocean"	"The Pacific Ocean."
+fm	top_star	"255,255,255"	star5	438	99	127	127	0	0	0	"states"	"Each star represents one of the Federated States."
+fm	bottom_star	"255,255,255"	star5	438	700	127	127	0	0	0	"states"	"Each star represents one of the Federated States."
+fm	right_star	"255,255,255"	star5	626	398	127	127	0	0	0	"states"	"Each star represents one of the Federated States."
+fm	left_star	"255,255,255"	star5	250	398	127	127	0	0	0	"states"	"Each star represents one of the Federated States."
+gw	goldstripe	"252,210,15"	rect	335	0	670	501	0	0	0	"wealth"	"Mineral wealth."
+gw	greenstripe	"0,159,71"	rect	335	500	670	501	0	0	0	"forest"	"Forests"
+gw	redstripe	"207,9,33"	rect	0	0	335	1000	0	0	0	"blood, independence, struggle"	"Blood shed during the struggle for independence."
+gw	star	"0,0,0"	star5	65	338	203	318	0	0	0	"africa, unity"	"The unity of Africa."
+gy	greentriangle_1	"0,158,73"	poly	0	0	1000	1000	"0,0,1000,500,1000,0"	0	0	"africa, forest"	"Agriculture and forests."
+gy	greentriangle_2	"0,158,73"	poly	0	0	1000	1000	"0,1000,1000,500,1000,1000"	0	0	"africa, forest"	"Agriculture and forests."
+gy	whitetriangle	"255,255,255"	poly	0	0	1000	1000	"0,0,1000,500,0,1000,90,912,911,500,91,91"	0	0	"rivers"	"Rivers and waters."
+gy	goldtriangle	"252,209,22"	poly	0	0	1000	1000	"89,89,910,500,87,914,500,500"	0	0	"wealth"	"Mineral wealth."
+gy	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"0,0,0,61,441,500,0,943,0,1000,500,500"	0	0	"energy"	"Endurance."
+gy	redtriangle	"206,17,38"	poly	0	0	1000	1000	"0,57,442,500,0,943"	0	0	"will, energy"	"Zeal and dynamism."
+lr	redstripe_1	"192,3,44"	rect	0	0	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	whitestripe_1	"255,255,255"	rect	0	90	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	redstripe_2	"192,3,44"	rect	0	182	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	whitestripe_2	"255,255,255"	rect	0	272	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	redstripe_3	"192,3,44"	rect	0	364	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	whitestripe_3	"255,255,255"	rect	0	454	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	redstripe_4	"192,3,44"	rect	0	544	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	whitestripe_4	"255,255,255"	rect	0	636	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	redstripe_5	"192,3,44"	rect	0	728	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	whitestripe_5	"255,255,255"	rect	0	818	1000	92	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	redstripe_6	"192,3,44"	rect	0	910	1000	90	0	0	0	"independence, declaration, signatures"	"Each stripe represents the signatories of the Liberian Declaration of Independence."
+lr	bluebox	"0,35,104"	rect	0	0	286	455	0	0	0	"africa"	"The African continent."
+lr	star	"255,255,255"	star5	60	94	166	166	0	0	0	"africa, independence"	"The white star represents the first independent western-styled republic in Africa, above the blue square representing the African continent."
+mm	goldstripe	"254,204,0"	rect	0	0	1000	333	0	0	0	"unity"	"Solidarity."
+mm	greenstripe	"49,179,48"	rect	0	333	1000	333	0	0	0	"peace"	"Peace and tranquility."
+mm	redstripe	"235,35,54"	rect	0	666	1000	334	0	0	0	"courage"	"Courage and decisiveness."
+mm	star	"255,255,255"	star5	260	153	480	741	0	0	0	""	"Cannot find meaning."
+nr	bluestripe_2	"0,39,128"	rect	0	540	1000	460	0	0	0	"The people"	"A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
+nr	bluestripe_1	"0,39,128"	rect	0	0	1000	459	0	0	0	"The people"	"A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
+nr	goldstripe	"255,199,24"	rect	0	457	1000	86	0	0	0	"The people"	"A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
+nr	whitestar	"255,255,255"	image	210	544	208	330	0	0	0	"tribes"	"Each point of the star represents one of the twelve tribes of Nauru."
+st	greenstripe_2	"9,175,39"	poly	0	0	1000	1000	"0,1000,142,716,1000,716,1000,1000"	0	0	"agriculture, land"	"The plentiful vegetation of the country."
+st	greenstripe_1	"9,175,39"	poly	0	0	1000	1000	"0,0,143,286,1000,286,1000,0"	0	0	"agriculture, land"	"The plentiful vegetation of the country."
+st	redtriangle	"211,7,49"	triangle	0	0	250	1000	0	0	0	"struggle, independence"	"The struggle for independence"
+st	goldstripe	"255,207,0"	poly	0	0	1000	1000	"143,286,250,500,143,716,1000,716,1000,286"	0	0	"sun, cocoa"	"The tropical sun and cocoa."
+st	star_1	"0,0,0"	star5	430	370	140	211	0	0	0	"island"	"The two islands that make up the country."
+st	star_2	"0,0,0"	star5	680	370	140	211	0	0	0	"island"	"The two islands that make up the country."
+ss	blackstripe	"0,0,0"	poly	0	0	1000	1000	"0,0,1000,0,1000,300,260,300"	0	0	"the people"	"The people of South Sudan."
+ss	whitestripe_1	"255,255,255"	poly	0	0	1000	1000	"261,300,303,352,1000,352,1000,300"	0	0	"peace, struggle, liberation"	"South Sudan's peace attained after many years of the liberation struggle."
+ss	whitestripe_2	"255,255,255"	poly	0	0	1000	1000	"260,700,303,650,1000,650,1000,700"	0	0	"peace, struggle, liberation"	"South Sudan's peace attained after many years of the liberation struggle."
+ss	redstripe	"218,18,26"	poly	0	0	1000	1000	"302,350,433,500,304,650,1000,650,1000,350"	0	0	"blood, independence"	"Represents blood that was shed for the independence of the country."
+ss	greenstripe	"7,137,48"	poly	0	0	1000	1000	"0,1000,260,700,1000,700,1000,1000"	0	0	"agriculture, wealth, progress"	"Represents the country's agricultural, natural wealth, land, as well as progress."
+ss	bluetriangle	"15,71,175"	triangle	0	0	435	1000	0	0	0	"water, life"	"Represents waters of the Nile River, a source of life for the country."
+ss	star	"252,221,9"	star5	50	340	200	293	0	0	0	"unity, state, determination"	"Represents unity (of the states), hope, and determination for all people."
+sr	greenstripe_1	"52,127,61"	rect	0	0	1000	200	0	0	0	"hope, fertility"	"Hope and fertility."
+sr	whitestripe_1	"255,255,255"	rect	0	200	1000	100	0	0	0	"peace"	"Peace and justice."
+sr	redstripe	"181,3,41"	rect	0	300	1000	400	0	0	0	"progress"	"Progress and love."
+sr	whitestripe_2	"255,255,255"	rect	0	700	1000	100	0	0	0	"peace"	"Peace and justice."
+sr	greenstripe_2	"52,127,61"	rect	0	800	1000	200	0	0	0	"hope, fertility"	"Hope and fertility."
+sr	star	"237,201,23"	star5	370	312	260	260	0	0	0	"unity"	"The star represents the unity of all ethnic groups."
+tl	redbackground	"221,31,25"	poly	0	0	1000	1000	"0,0,1000,0,1000,1000,0,1000,500,500"	0	0	"struggle, freedom"	"The struggle for liberation."
+tl	goldtriangle	"255,200,33"	poly	0	0	1000	1000	"0,1000,500,500,0,0,333,500"	0	0	"history"	"Prior colonial history."
+tl	blacktriangle	"0,0,0"	triangle	0	0	335	1000	0	0	0	"history"	"The prior obscurantism."
+tl	star	"255,255,255"	star5	30	342	200	357	0	0	0	"peace"	"Peace."
+by	verticalstrip	"255,255,255"	image	0	0	140	1000	0	0	0	"tradition"	"A traditional Belorussian pattern."
+by	redstripe	"201,45,60"	rect	140	0	860	667	0	0	0	""	"Cannot find meaning."
+by	greenstripe	"72,168,86"	rect	140	666	860	344	0	0	0	""	"Cannot find meaning."
+ir	greenstripe	"29,160,62"	rect	0	0	1000	333	0	0	0	"progress, unity, nature"	"Growth, happiness, unity, nature, vitality and the Iranian languages."
+ir	whitestripe	"255,255,255"	rect	0	333	1000	333	0	0	0	"freedom"	"Freedom."
+ir	redstripe	"219,0,0"	rect	0	666	1000	334	0	0	0	"martyrdom, life, bravery"	"Martyrdom, bravery, fire, life, love, warmth, and sophistication."
+ir	coatofarms	"255,255,255"	image	14	280	974	443	0	0	0	"islam"	"A geometrically symmetric form of the word Allah."
+bt	orangehalf	"255,77,10"	poly	0	0	1000	1000	"1000,1000,0,1000,1000,0"	0	0	"spiritual, tradition"	"Buddhist spiritual tradition"
+bt	goldhalf	"255,214,26"	poly	0	0	1000	1000	"0,0,0,1000,1000,0"	0	0	""	"Civil tradition and temporal authority as embodied in the Druk Gyalpo, the Dragon King of Bhutan,"
+bt	dragon	"255,255,255"	image	129	119	679	780	0	0	0	"deity"	"Druk, the Thunder Dragon."
+bn	whitestripe	"255,255,255"	poly	0	0	1000	1000	"0,70,0,307,1000,723,1000,486"	0	0	"royalty"	"Brunei's chief ministers."
+bn	blackstripe	"0,0,0"	poly	0	0	1000	1000	"0,305,0,515,1000,932,1000,722"	0	0	"royalty"	"Brunei's chief ministers."
+bn	goldtriangle_1	"247,225,16"	poly	0	0	1000	1000	"0,0,0,70,1000,489,1000,0"	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
+bn	goldtriangle_2	"247,225,16"	poly	0	0	1000	1000	"0,514,0,1000,1000,1000,1000,930"	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
+bn	coatofarms	"255,255,255"	image	333	205	336	600	0	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
+km	goldstripe	"255,199,24"	poly	0	0	1000	1000	"0,0,1000,0,1000,252,251,252"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+km	whitestripe	"255,255,255"	poly	0	0	1000	1000	"250,251,1000,251,1000,500,500,500"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+km	redstripe	"207,9,33"	poly	0	0	1000	1000	"249,750,1000,750,1000,500,499,500"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+km	bluestripe	"55,118,197"	poly	0	0	1000	1000	"0,1000,1000,1000,1000,750,249,750"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+km	greentriangle	"58,143,48"	triangle	0	0	500	1000	0	0	0	""	"Cannot find meaning."
+km	starandcrescent	"255,255,255"	image	30	275	196	450	0	0	0	"islam"	"Islam."
+cg	greenstripe	"0,149,67"	poly	0	0	1000	1000	"0,0,0,1000,667,0"	0	0	"africa"	"The official Pan-African colors."
+cg	goldstripe	"251,222,74"	poly	0	0	1000	1000	"0,1000,333,1000,1000,0,667,0"	0	0	"africa"	"The official Pan-African colors."
+cg	redstripe	"220,36,31"	poly	0	0	1000	1000	"334,1000,1000,1000,1000,0"	0	0	"africa"	"The official Pan-African colors."
+cd	bluetriangle_1	"0,128,255"	poly	0	0	1000	1000	"0,0,0,752,937,0"	0	0	"peace"	"Peace."
+cd	bluetriangle_2	"0,128,255"	poly	0	0	1000	1000	"63,1000,1000,1000,1000,250"	0	0	"peace"	"Peace."
+cd	goldstripe_1	"247,215,17"	poly	0	0	1000	1000	"0,800,0,750,937,0,1000,0"	0	0	"wealth"	"The country's wealth."
+cd	redstripe	"207,7,27"	poly	0	0	1000	1000	"0,800,0,1000,1000,201,1000,0"	0	0	"sacrifice, blood"	"The blood of the country's martyrs."
+cd	goldstripe_2	"247,215,17"	poly	0	0	1000	1000	"0,1000,63,1000,1000,250,1000,200"	0	0	"wealth"	"The country's wealth."
+cd	star	"247,215,17"	star5	53	55	260	43	0	0	0	"future, success"	"A radiant future for the country."
+er	redtriangle	"235,0,52"	triangle	0	0	1000	1000	0	0	0	"freedoom, battle, sacrifice"	"The lives of those lost in the battle for freedom."
+er	bluetriangle	"63,138,222"	poly	0	0	1000	1000	"0,1000,1000,1000,1000,500"	0	0	"sea"	"The sea."
+er	greentriangle	"9,175,39"	poly	0	0	1000	1000	"0,0,1000,0,1000,500"	0	0	"agriculture, livestock"	"Agriculture and livestock of the country."
+er	coatofarms	"207,7,27"	image	100	216	287	560	0	0	0	"life"	"Represents and olive branch."
+ag	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"0,0,1000,0,804,390,195,390"	0	0	"africa"	"African ancestry."
+ag	star	"252,210,15"	poly	0	0	1000	1000	"284,392,391,359,298,266,410,302,347,161,440,255,418,91,478,232,499,66,521,232,584,93,561,257,654,161,591,302,701,268,607,361,717,393"	0	0	"sun, sea"	"Represents the rising sun over the sea."
+ag	bluetriangle	"0,115,199"	poly	301	611	0	0	"195,390,804,390,696,609,304,609"	0	0	"hope"	"Hope."
+ag	whitetriangle	"255,255,255"	poly	0	0	1000	1000	"304,609,500,1000,696,609"	0	0	"sand"	"Sand."
+ag	redtriangle_1	"207,9,33"	poly	0	0	1000	1000	"0,0,0,1000,500,1000"	0	0	"energy, the people"	"Energy and life of the people."
+ag	redtriangle_2	"207,9,33"	poly	0	0	1000	1000	"1000,0,500,1000,1000,1000"	0	0	"energy, the people"	"Energy and life of the people."
+bh	whiteserration	"255,255,255"	poly	0	0	1000	1000	"0,0,247,0,400,100,250,200,400,300,250,400,400,500,250,600,400,700,250,800,400,900,250,1000,0,1000"	0	0	"islam"	"Each spike represents one of the five pillars of Islam."
+bh	redbackground	"207,9,33"	poly	0	0	1000	1000	"1000,0,247,0,400,100,250,200,400,300,250,400,400,500,250,600,400,700,250,800,400,900,250,1000,1000,1000"	0	0	"states"	"Traditional color of the gulf states."
+bi	greentri_1	"24,182,55"	poly	0	0	1000	1000	"0,0,0,1000,500,500"	0	0	"hope"	"Hope"
+bi	greentri_2	"24,182,55"	poly	0	0	1000	1000	"1000,0,1000,1000,500,500"	0	0	"hope"	"Hope."
+bi	redtri_1	"207,9,33"	poly	0	0	1000	1000	"0,1000,1000,1000,500,500"	0	0	"struggle, independence"	"Struggle for independence."
+bi	redtri_2	"207,9,33"	poly	0	0	1000	1000	"1000,0,0,0,500,500"	0	0	"struggle, independence"	"Struggle for independence."
+bi	cross	"255,255,255"	poly	0	0	1000	1000	"0,0,85,0,500,410,915,0,1000,0,1000,85,590,500,1000,915,1000,1000,915,1000,500,575,85,1000,0,1000,0,915,410,500,0,85"	0	0	"peace"	"Peace"
+bi	stars	"255,255,255"	image	320	215	341	543	0	0	0	"groups"	"Each star represents one of the major ethnic groups.The Hutu, the Twa and the Tutsi."
+dm	greenbackground	"0,107,61"	rect	0	0	1000	1000	0	0	0	"agriculture, island"	"Lush vegetation of the island."
+dm	goldstripe_1	"252,210,15"	rect	437	0	43	1000	0	0	0	"christianity"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	blackstripe_1	"0,0,0"	rect	479	0	43	1000	0	0	0	"natives"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	whitestripe_1	"255,255,255"	rect	520	0	43	1000	0	0	0	"purity"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	goldstripe_2	"252,210,15"	rect	0	375	1000	85	0	0	0	"chritianity"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	blackstripe_2	"0,0,0"	rect	0	457	1000	85	0	0	0	"natives"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	whitestripe_2	"255,255,255"	rect	0	541	1000	85	0	0	0	"purity"	"The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+dm	coatofarms	"255,255,255"	image	345	248	315	503	0	0	0	"bird"	"An endangered species of bird in Dominica."
+lc	bluebackground	"102,205,255"	rect	0	0	1000	1000	0	0	0	"sky, sea"	"The sky and the sea."
+lc	whitetriangle	"255,255,255"	poly	783	727	0	0	"290,916,346,805,500,200,652,800,710,916,500,92"	0	0	"harmony"	"The harmonious relationship between the black and white races."
+lc	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"346,805,500,500,653,802,500,200"	0	0	"harmony"	"The harmonious relationship between the black and white races."
+lc	goldtriangle	"252,210,15"	poly	0	0	1000	1000	"288,915,709,915,498,500"	0	0	"sun, prosperity"	"Sunshine and prosperity."
+qa	whiteserration	"255,255,255"	poly	374	280	0	0	"0,0,294,0,374,57,294,111,374,165,294,223,374,278,294,334,374,388,294,445,374,500,296,555,374,611,294,666,374,723,294,777,374,834,294,889,374,943,294,1000,0,1000"	0	0	""	"Cannot find meaning."
+qa	maroonbackground	"142,20,58"	poly	0	0	1000	1000	"1000,0,294,0,374,57,294,111,374,165,294,223,374,278,294,334,374,388,294,445,374,500,296,555,374,611,294,666,374,723,294,777,374,834,294,889,374,943,294,1000,1000,1000"	0	0	""	"Qatar was known for their production of purple dyes, so they implemented a purple red into their flag which faded over time."
+om	redcross	"220,14,20"	poly	0	0	1000	1000	"0,0,250,0,250,334,1000,334,1000,666,250,666,250,1000,0,1000"	0	0	"state"	"Red is a common color in Gulf state flags."
+om	whitestripe	"255,255,255"	rect	250	0	751	334	0	0	0	"islam, peace"	"White is associated with Islam and is a color of peace."
+om	greenstripe	"0,129,0"	rect	250	666	751	334	0	0	0	"land"	"Green is traditionally associated with the Jabal al-Akdar, or "Green Mountains," which lie toward the north of the country."
+om	coatofarms	"255,255,255"	image	53	100	144	232	0	0	0	"dagger"	"Crossed swords over a khanjar, a traditional curved dagger."
+sc	blueray	"0,61,136"	poly	0	0	1000	1000	"0,0,0,1000,419,0"	0	0	"sky, sea"	"The sky and sea that surrounds Seychelles."
+sc	redray	"215,35,35"	poly	0	0	1000	1000	"0,1000,610,0,1000,0,1000,300"	0	0	"the people, strength, unity"	"The people and their determination to work for the future in unity and love."
+sc	yellowray	"252,217,85"	poly	0	0	1000	1000	"0,1000,300,0,610,0"	0	0	"sun, life, light"	"The sun which gives light and life."
+sc	whiteray	"255,255,255"	poly	0	0	1000	1000	"0,1000,1000,300,1000,650"	0	0	"harmony"	"Social justice and harmony."
+sc	greenray	"0,123,58"	poly	0	0	1000	1000	"0,1000,1000,650,1000,1000"	0	0	"land"	"Land and natural environment."
+sb	bluetriangle	"0,80,187"	poly	0	0	1000	1000	"0,0,950,0,0,950"	0	0	"water, land, sea"	"Water, the rivers of the land and the Pacific Ocean."
+sb	greentriangle	"27,91,48"	poly	54	998	0	0	"1000,50,1000,1000,50,1000"	0	0	"land, agriculture"	"The land and agriculture."
+sb	yellowstripe	"252,210,15"	poly	0	0	1000	1000	"0,950,0,1000,50,1000,1000,50,1000,0,950,0"	0	0	"sun"	"The sun and its rays."
+sb	star_1	"255,255,255"	star5	24	40	105	173	0	0	0	"island"	"Each star represents one of the original islands that made up the Solomon Islands."
+sb	star_2	"255,255,255"	star5	240	40	105	173	0	0	0	"island"	"Each star represents one of the original islands that made up the Solomon Islands."
+sb	star_3	"255,255,255"	star5	240	340	105	173	0	0	0	"island"	"Each star represents one of the original islands that made up the Solomon Islands."
+sb	star_4	"255,255,255"	star5	24	340	105	173	0	0	0	"island"	"Each star represents one of the original islands that made up the Solomon Islands."
+sb	star_5	"255,255,255"	star5	132	180	105	173	0	0	0	"island"	"Each star represents one of the original islands that made up the Solomon Islands."
+to	redbackground	"194,0,0"	rect	0	0	1000	1000	0	0	0	"blood, christianity"	"Represents the blood of Christ."
+to	whitebox	"255,255,255"	rect	0	0	450	500	0	0	0	"purity"	"Purity"
+to	redcross	"194,0,0"	poly	0	0	1000	1000	"134,189,197,189,197,90,260,90,260,189,323,189,323,290,260,290,260,390,197,390,197,290,134,290"	0	0	"christianity"	"Christianity"
+vu	redstripe	"211,7,49"	poly	0	0	1000	1000	"0,0,1000,0,1000,411,467,411,0,2"	0	0	"blood"	"Blood of wild boars and men."
+vu	greenstripe	"0,150,65"	poly	0	0	1000	1000	"0,1000,467,590,1000,590,1000,1000"	0	0	"wealth, land, island"	"The richness of the islands."
+vu	blackstripe_1	"0,0,0"	poly	0	0	1000	1000	"0,2,0,73,460,475,1000,475,1000,411,467,411"	0	0	"the people"	"The ni-Vanuatu people."
+vu	blackstripe_2	"0,0,0"	poly	0	0	1000	1000	"0,1000,0,932,460,527,1000,530,1000,590,467,590"	0	0	"the people"	"The ni-Vanuatu people."
+vu	goldstripe	"253,207,10"	poly	0	0	1000	1000	"0,69,0,130,423,500,0,871,0,931,460,528,1000,529,1000,473,460,473"	0	0	"religion, sea, island"	"The light of the gospel going through the pattern of the islands in the Pacific Ocean."
+vu	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"0,128,424,500,0,872"	0	0	"the people"	"The ni-Vanuatu people."
+vu	coatofarms	"255,255,255"	image	68	345	167	309	0	0	0	"prosperity, peace"	"A boar's tusk, the symbol of prosperity worn as a pendant on the islands, along with two leaves of the local namele tree, a symbol of peace."
+ba	bluetriangle	"0,30,150"	poly	0	0	1000	1000	"0,0,204,0,833,1000,0,1000"	0	0	"peace"	"Neutrality and peace."
+ba	bluerectangle	"0,30,150"	rect	833	0	166	1000	0	0	0	"peace"	"Neutrality and peace."
+ba	goldtriangle	"254,204,0"	poly	0	0	1000	1000	"204,0,833,0,833,1000"	0	0	"peace"	"Neutrality and peace."
+ba	stars	"255,255,255"	image	56	0	722	1000	0	0	0	"europe"	"The stars, representing Europe, are meant to be infinite in number and thus they continue from top to bottom."
+sz	redstripe	"178,4,4"	rect	0	250	1000	500	0	0	0	"battles"	"Past battles."
+sz	coatofarms	"255,218,0"	image	98	284	812	432	0	0	0	"protection"	"Protection from the countries enemies."
+sz	bluerect_1	"60,94,186"	rect	0	0	1000	190	0	0	0	"peace"	"Peace and stability."
+sz	bluerect_2	"60,94,186"	rect	0	813	1000	190	0	0	0	"peace"	"Peace and stability."
+sz	goldstripe_1	"255,218,0"	rect	0	188	1000	62	0	0	0	"wealth"	"The resources of Eswatini."
+sz	goldstripe_2	"255,218,0"	rect	0	750	1000	64	0	0	0	"wealth"	"The resources of Eswatini."
+jm	blacktriangle_1	"0,0,0"	poly	0	0	1000	1000	"0,95,408,500,0,907"	0	0	"struggle"	"Hardships."
+jm	blacktriangle_2	"0,0,0"	poly	0	0	1000	1000	"1000,95,592,500,1000,907"	0	0	"struggle"	"Hardships."
+jm	greentriangle_1	"0,156,55"	poly	0	0	1000	1000	"95,1000,907,1000,500,594"	0	0	"land, agriculture"	"The land."
+jm	greentriangle_2	"0,156,55"	poly	0	0	1000	1000	"94,0,500,410,907,0"	0	0	"land, agriculture"	"The land."
+jm	cross	"254,210,0"	poly	0	0	1000	1000	"0,93,0,0,94,0,500,407,907,0,1000,0,1000,93,594,500,1000,907,1000,1000,907,1000,500,594,94,1000,0,1000,0,907,407,500"	0	0	"sun"	"The shining sun."
+mh	bluepoly_1	"0,53,148"	poly	0	0	1000	1000	"0,952,0,0,1000,0,1000,16"	0	0	"ocean, island"	"The islands place in the ocean."
+mh	bluepoly_2	"0,53,148"	poly	0	0	1000	1000	"0,1000,0,986,1000,409,1000,1000"	0	0	"ocean, island"	"The islands place in the ocean."
+mh	whitestripe	"255,255,255"	poly	0	0	1000	1000	"0,984,0,968,1000,211,1000,407"	0	0	"peace"	"The Ratak Chain ("sunrise") and peace."
+mh	orangestripe	"222,118,0"	poly	0	0	1000	1000	"0,968,0,950,1000,15,1000,212"	0	0	"courage"	"The Ralik Chain ("sunset") and courage."
+mh	star	"222,118,0"	image	35	57	350	580	0	0	0	"culture"	"The sun's 24 points represent the number of electoral districts, while the four elongated points represent the principal cultural centers of Majuro, Jaluit, Wotje and Ebeye."
+mz	greenstripe	"0,113,104"	rect	0	0	1000	313	0	0	0	"land"	"Fertile lands."
+mz	blackstripe	"0,0,0"	rect	0	343	1000	314	0	0	0	"africa"	"The African continent."
+mz	yellowstripe	"252,225,0"	rect	0	686	1000	314	0	0	0	"wealth"	"The countries mineral resources."
+mz	whitestripe_1	"255,255,255"	rect	0	312	1000	33	0	0	0	"peace"	"Peace."
+mz	whitestripe_2	"255,255,255"	rect	0	656	1000	33	0	0	0	"peace"	"Peace."
+mz	redtriangle	"210,16,52"	triangle	0	0	437	1000	0	0	0	"struggle, independence"	"The struggle for independence."
+mz	coatofarms	"255,218,0"	image	16	314	261	373	0	0	0	""	"Cannot find meaning."
+mk	redbackground	"217,27,33"	rect	0	0	1000	1000	0	0	0	""	"Cannot find meaning."
+mk	yellowstripe_1	"248,234,42"	poly	0	0	1000	1000	"0,105,0,0,60,0,411,391,399,425"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_2	"248,234,42"	poly	0	0	1000	1000	"437,0,564,0,513,323,489,323"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_3	"248,234,42"	poly	0	0	1000	1000	"939,0,1000,0,1000,105,602,425,589,390"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_4	"248,234,42"	poly	0	0	1000	1000	"611,482,1000,420,1000,580,612,518"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_5	"248,234,42"	poly	0	0	1000	1000	"1000,896,1000,1000,940,1000,589,609,602,573"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_8	"248,234,42"	poly	0	0	1000	1000	"0,420,389,482,389,518,0,580"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_7	"248,234,42"	poly	0	0	1000	1000	"61,1000,0,1000,0,896,397,573,411,609"	0	0	"star"	"Star of Verjina."
+mk	yellowstripe_6	"248,234,42"	poly	0	0	1000	1000	"437,1000,563,1000,511,677,489,677"	0	0	"star"	"Star of Verjina."
+mk	yellowcircle	"248,234,42"	circle	500	500	180	286	0	0	0	"star"	"Star of Verjina."
+pg	redbackground	"207,9,33"	poly	0	0	1000	1000	"0,0,1000,0,1000,1000"	0	0	"native"	"Traditional color used in the majority of native artwork."
+pg	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"0,0,0,1000,1000,1000"	0	0	"native"	"Traditional color used in the majority of native artwork."
+pg	star_1	"255,255,255"	star5	208	315	85	130	0	0	0	"southern-cross"	"The five stars are symbolic of the Southern Cross."
+pg	star_2	"255,255,255"	star5	94	508	86	130	0	0	0	"southern-cross"	"The five stars are symbolic of the Southern Cross."
+pg	star_3	"255,255,255"	star5	320	495	90	132	0	0	0	"southern-cross"	"The five stars are symbolic of the Southern Cross."
+pg	star_4	"255,255,255"	star5	281	665	44	61	0	0	0	"southern-cross"	"The five stars are symbolic of the Southern Cross."
+pg	star_5	"255,255,255"	star5	208	773	86	132	0	0	0	"southern-cross"	"The five stars are symbolic of the Southern Cross."
+pg	bird	"255,255,255"	image	520	107	282	502	0	0	0	"bird"	"The bird of paradise is a local tribal symbol."
+kn	greentriangle	"0,159,71"	poly	0	0	1000	1000	"0,0,747,0,0,748"	0	0	"land, fertility"	"Fertile lands."
+kn	redtriangle	"207,9,33"	poly	0	0	1000	1000	"253,1000,1000,1000,1000,252"	0	0	"struggle, freedom"	"The struggle for freedom."
+kn	blackstripe	"0,0,0"	poly	0	0	1000	1000	"0,820,0,1000,181,1000,1000,182,1000,0,819,0"	0	0	"africa, heritage "	"African heritage."
+kn	goldstripe_1	"252,210,15"	poly	0	0	1000	1000	"0,748,0,820,820,0,749,0"	0	0	""	"Cannot find meaning."
+kn	goldstripe_2	"252,210,15"	poly	0	0	1000	1000	"181,1000,253,1000,1000,255,1000,182"	0	0	""	"Cannot find meaning."
+kn	star_1	"255,255,255"	star5	217	573	168	259	0	0	0	"hope, liberty"	"The stars represent hope and liberty."
+kn	star_2	"255,255,255"	star5	596	193	167	257	0	0	0	"hope, liberty"	"The stars represent hope and liberty."
+tz	greentriangle	"24,182,55"	poly	0	0	1000	1000	"0,0,0,763,763,0"	0	0	"land"	"The land."
+tz	bluetriangle	"0,164,222"	poly	0	0	1000	1000	"237,1000,1000,1000,1000,237"	0	0	"sea"	"The sea."
+tz	blackstripe	"0,0,0"	poly	0	0	1000	1000	"0,839,0,1000,164,1000,1000,166,1000,0,837,0"	0	0	"the people"	"The people."
+tz	goldstripe_1	"252,210,15"	poly	0	0	1000	1000	"0,764,0,839,837,0,763,0"	0	0	"wealth"	"The countries resources."
+tz	goldstripe_2	"252,210,15"	poly	0	0	1000	1000	"163,1000,239,1000,1000,236,1000,164"	0	0	"wealth"	"The countries resources."
+tt	redtriangle_1	"219,19,50"	poly	0	0	1000	1000	"0,0,0,1000,694,1000"	0	0	"the people"	"The people."
+tt	redtriangle_2	"219,19,50"	poly	0	0	1000	1000	"307,0,1000,0,1000,1000"	0	0	"the people"	"The people."
+tt	blackstripe	"0,0,0"	poly	0	0	1000	1000	"50,0,256,0,950,1000,746,1000"	0	0	"strength, the people"	"The peoples hard work and strength."
+tt	whitestripe_1	"255,255,255"	poly	0	0	1000	1000	"0,0,51,0,746,1000,694,1000"	0	0	"wealth, sea"	"The bountiful sea."
+tt	whitestripe_2	"255,255,255"	poly	0	0	1000	1000	"256,0,306,0,1000,1000,950,1000"	0	0	"wealth, sea"	"The bountiful sea."

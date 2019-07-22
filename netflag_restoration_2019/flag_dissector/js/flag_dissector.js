@@ -197,7 +197,7 @@ window.FlagDissector = (function () {
     // only star type uses these
     marker.starNumpoints = flagElement.starNumpoints;
     marker.starSpikyness = flagElement.starSpikyness;
-    marker.starAngle = flagElement.Angle;
+    marker.starAngle = flagElement.starAngle;
 
     // only polygons use these
     marker.polyPointStr = flagElement.polyPointStr;  // netflag style data
@@ -350,17 +350,19 @@ window.FlagDissector = (function () {
 
   // Draw one flag element to the given flag context.
   function drawFlagElement(context, element) {
-    var type = element.type.substring(0, 4);
+    var type = element.type;//.substring(0, 4);
 
-    if (type === 'circ') {
+    if (type === 'circle') {
       FlagShapes.drawCircle(context, element.x, element.y, element.w, element.color);
-    } else if (type === 'tria') {
+    } else if (type === 'triangle') {
       FlagShapes.drawTriangleRight(context, element.x, element.y, element.w, element.h, element.color);
+    } else if (type === 'star5') {
+      FlagShapes.drawStar(context, element.x, element.y, element.w, 5, 0.38, element.starAngle, element.color);
     } else if (type === 'star') {
       FlagShapes.drawStar(context, element.x, element.y, element.w, element.starNumpoints, element.starSpikyness, element.starAngle, element.color);
     } else if (type === 'poly') {
       FlagShapes.drawPolygon(context, element.polyPoints, element.color);
-    } else if (type === 'imag') {
+    } else if (type === 'image') {
       loadImage(makeImageFilePath(), (img) => {
         FlagShapes.drawImage(context, img, element.x, element.y, element.w, element.h);
       });
@@ -399,7 +401,7 @@ window.FlagDissector = (function () {
   // CSS color string is like "rgb(120, 30, 255)"
   // netflag data file stores color as three ints "120, 30, 255"
   function stripRGB(rgbColorString) {
-    return rgbColorString.replace('rgb(', '').replace(')', '');
+    return rgbColorString.replace('rgb(', '').replace(')', '').replace(/ /g, '');
   }
 
   function drawElementRowText(el) {

@@ -25,7 +25,7 @@ window.FlagShapes = (function () {
 		var r = w / 2;
 		ctx.fillStyle = color;
 		ctx.beginPath();
-		ctx.arc(x + r, y + r, r, 0, Math.PI * 2, true);
+		ctx.arc(x, y, r, 0, Math.PI * 2, true);
 		ctx.fill();
 	}
 

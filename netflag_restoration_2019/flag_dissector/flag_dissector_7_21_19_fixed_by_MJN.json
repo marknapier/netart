@@ -9,7 +9,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(218, 0, 10)",
-            "meaning": "the Armenian people's continued struggle for survival"
+            "meaning": "the Armenian people's continued struggle for survival",
+            "keywords": "sacrifice",
+            "arrayIndex": 0
         },
         {
             "abbrev": "am",
@@ -20,7 +22,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(0, 29, 199)",
-            "meaning": "the will of the people of Armenia to live beneath peaceful skies"
+            "meaning": "the will of the people of Armenia to live beneath peaceful skies",
+            "keywords": "strength, sky",
+            "arrayIndex": 1
         },
         {
             "abbrev": "am",
@@ -31,7 +35,8 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(242, 170, 0)",
-            "meaning": "creative talent and hard-working nature of the people of Armenia"
+            "meaning": "creative talent and hard-working nature of the people of Armenia",
+            "keywords": "hard-working"
         }
     ],
     "madagascar": [
@@ -44,7 +49,9 @@
             "w": "333",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "represents Mernia Kingdom"
+            "meaning": "represents Mernia Kingdom",
+            "keywords": "kingdom",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mg",
@@ -55,7 +62,9 @@
             "w": "667",
             "h": "530",
             "color": "rgb(252, 59, 46)",
-            "meaning": "represents Mernia Kingdom"
+            "meaning": "represents Mernia Kingdom",
+            "keywords": "kingdom",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mg",
@@ -66,7 +75,8 @@
             "w": "667",
             "h": "470",
             "color": "rgb(0, 127, 55)",
-            "meaning": "represents Mernia Kingdom"
+            "meaning": "represents Mernia Kingdom",
+            "keywords": "kingdom"
         }
     ],
     "united_arab_emirates": [
@@ -76,43 +86,50 @@
             "type": "rect",
             "x": "0",
             "y": "0",
-            "w": "314",
+            "w": "250",
             "h": "1000",
             "color": "rgb(255, 0, 0)",
-            "meaning": "unity between the emirates"
+            "meaning": "unity between the emirates",
+            "keywords": "unity",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ae",
             "name": "greenstripe",
             "type": "rect",
-            "x": "314",
+            "x": "250",
             "y": "0",
-            "w": "686",
-            "h": "333",
+            "w": "750",
+            "h": "334",
             "color": "rgb(0, 116, 43)",
-            "meaning": "hope and prosperity"
+            "meaning": "hope and prosperity",
+            "keywords": "hope, prosperity",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ae",
             "name": "whitestripe",
             "type": "rect",
-            "x": "314",
-            "y": "334",
-            "w": "686",
-            "h": "333",
+            "x": "250",
+            "y": "333",
+            "w": "750",
+            "h": "334",
             "color": "rgb(255, 255, 255)",
-            "meaning": "peace, pure, clean, and honesty"
+            "meaning": "peace, pure, clean, and honesty",
+            "keywords": "peace, honesty",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ae",
             "name": "blackstripe",
             "type": "rect",
-            "x": "314",
-            "y": "669",
-            "w": "686",
-            "h": "330",
+            "x": "250",
+            "y": "666",
+            "w": "750",
+            "h": "334",
             "color": "rgb(0, 0, 0)",
-            "meaning": "strength of the mind"
+            "meaning": "strength of the mind",
+            "keywords": "strength"
         }
     ],
     "mauritius": [
@@ -123,42 +140,49 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "265",
+            "h": "250",
             "color": "rgb(235, 35, 54)",
-            "meaning": "struggle for freedom and independence"
+            "meaning": "struggle for freedom and independence",
+            "keywords": "",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mu",
             "name": "bluestripe",
             "type": "rect",
             "x": "0",
-            "y": "265",
+            "y": "250",
             "w": "1000",
-            "h": "265",
+            "h": "250",
             "color": "rgb(19, 26, 109)",
-            "meaning": "the indian ocean"
+            "meaning": "the indian ocean",
+            "keywords": "",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mu",
             "name": "yellowstripe",
             "type": "rect",
             "x": "0",
-            "y": "530",
+            "y": "500",
             "w": "1000",
-            "h": "265",
+            "h": "250",
             "color": "rgb(255, 214, 0)",
-            "meaning": "new light of independence"
+            "meaning": "new light of independence",
+            "keywords": "",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mu",
             "name": "greenstripe",
             "type": "rect",
             "x": "0",
-            "y": "795",
+            "y": "750",
             "w": "1000",
-            "h": "205",
+            "h": "250",
             "color": "rgb(0, 167, 80)",
-            "meaning": "agriculture and color of the land"
+            "meaning": "agriculture and color of the land",
+            "keywords": ""
         }
     ],
     "sierra_leone": [
@@ -169,31 +193,36 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "353",
+            "h": "334",
             "color": "rgb(24, 182, 55)",
-            "meaning": "agriculture and mountains"
+            "meaning": "agriculture and mountains",
+            "keywords": "agriculture, mountains",
+            "arrayIndex": 0
         },
         {
             "abbrev": "sl",
             "name": "whitestripe",
             "type": "rect",
             "x": "0",
-            "y": "353",
+            "y": "333",
             "w": "1000",
-            "h": "354",
+            "h": "334",
             "color": "rgb(255, 255, 255)",
-            "meaning": "unity and justice"
+            "meaning": "unity and justice",
+            "keywords": "unity",
+            "arrayIndex": 1
         },
         {
             "abbrev": "sl",
             "name": "bluestripe",
             "type": "rect",
             "x": "0",
-            "y": "709",
+            "y": "666",
             "w": "1000",
-            "h": "291",
+            "h": "334",
             "color": "rgb(0, 115, 199)",
-            "meaning": "natural harbors and world peace"
+            "meaning": "natural harbors and world peace",
+            "keywords": "peace, sea"
         }
     ],
     "belize": [
@@ -206,7 +235,9 @@
             "w": "1000",
             "h": "73",
             "color": "rgb(206, 9, 34)",
-            "meaning": "Color of the opposition party of Belize"
+            "meaning": "Color of the opposition party of Belize",
+            "keywords": "party",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bz",
@@ -217,7 +248,9 @@
             "w": "1000",
             "h": "857",
             "color": "rgb(0, 61, 136)",
-            "meaning": "Color of the Belize national party"
+            "meaning": "Color of the Belize national party",
+            "keywords": "party",
+            "arrayIndex": 1
         },
         {
             "abbrev": "bz",
@@ -228,7 +261,9 @@
             "w": "495",
             "h": "787",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The coat of arms recalls the logging industry that first led to British settlement in Belize."
+            "meaning": "The coat of arms recalls the logging industry that first led to British settlement in Belize.",
+            "keywords": "agriculture",
+            "arrayIndex": 2
         },
         {
             "abbrev": "bz",
@@ -239,7 +274,8 @@
             "w": "1000",
             "h": "72",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Color of the opposition party of Belize"
+            "meaning": "Color of the opposition party of Belize",
+            "keywords": "party"
         }
     ],
     "kenya": [
@@ -250,53 +286,62 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "317",
+            "h": "333",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The colour black represents the people of the Republic of Kenya."
-        },
-        {
-            "abbrev": "ke",
-            "name": "whitestripe_1",
-            "type": "rect",
-            "x": "0",
-            "y": "317",
-            "w": "1000",
-            "h": "55",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "To symbolize peace and honesty."
+            "meaning": "The colour black represents the people of the Republic of Kenya.",
+            "keywords": "the people",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ke",
             "name": "redstripe",
             "type": "rect",
             "x": "0",
-            "y": "371",
+            "y": "333",
             "w": "1000",
-            "h": "318",
+            "h": "333",
             "color": "rgb(188, 0, 0)",
-            "meaning": "To symbolize the blood shed during the fight for independence."
+            "meaning": "To symbolize the blood shed during the fight for independence.",
+            "keywords": "independence, blood",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ke",
-            "name": "whitestripe_2",
+            "name": "whitestripe_1",
             "type": "rect",
             "x": "0",
-            "y": "689",
+            "y": "300",
             "w": "1000",
-            "h": "53",
+            "h": "50",
             "color": "rgb(255, 255, 255)",
-            "meaning": "To symbolize peace and honesty."
+            "meaning": "To symbolize peace and honesty.",
+            "keywords": "peace, honesty"
         },
         {
             "abbrev": "ke",
             "name": "greenstripe",
             "type": "rect",
             "x": "0",
-            "y": "742",
+            "y": "666",
             "w": "1000",
-            "h": "259",
+            "h": "334",
             "color": "rgb(0, 102, 0)",
-            "meaning": "To symbolize the countries wealth and natural landscape"
+            "meaning": "To symbolize the countries wealth and natural landscape",
+            "keywords": "wealth, land",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "ke",
+            "name": "whitestripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "650",
+            "w": "1000",
+            "h": "50",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "To symbolize peace and honesty.",
+            "keywords": "peace, honesty",
+            "arrayIndex": 4
         },
         {
             "abbrev": "ke",
@@ -307,7 +352,9 @@
             "w": "270",
             "h": "692",
             "color": "rgb(255, 255, 255)",
-            "meaning": "To symbolize the defense of all things Kenya."
+            "meaning": "To symbolize the defense of all things Kenya.",
+            "keywords": "protection",
+            "arrayIndex": 5
         }
     ],
     "kyrgyzstan": [
@@ -320,7 +367,9 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(255, 0, 0)",
-            "meaning": "The red field stands for \"bravery and valor\", and alludes to Manas, the national hero of Kyrgyzstan."
+            "meaning": "The red field stands for \"bravery and valor\", and alludes to Manas, the national hero of Kyrgyzstan.",
+            "keywords": "bravery, valor",
+            "arrayIndex": 0
         },
         {
             "abbrev": "kg",
@@ -331,10 +380,24 @@
             "w": "377",
             "h": "600",
             "color": "rgb(255, 255, 255)",
-            "meaning": "to symbolize the \"origin of life\", the \"unity of time and space\", \"hearth and home\" and history."
+            "meaning": "to symbolize the \"origin of life\", the \"unity of time and space\", \"hearth and home\" and history.",
+            "keywords": "life, unity, home"
         }
     ],
     "cabo_verde": [
+        {
+            "abbrev": "cv",
+            "name": "bluestripe_1",
+            "type": "rect",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "500",
+            "color": "rgb(0, 53, 148)",
+            "meaning": "To symbolize ocean and sky.",
+            "keywords": "ocean, sky",
+            "arrayIndex": 0
+        },
         {
             "abbrev": "cv",
             "name": "whitestripe_1",
@@ -344,7 +407,9 @@
             "w": "1000",
             "h": "84",
             "color": "rgb(255, 255, 255)",
-            "meaning": "To symbolize construction of the nation, and peace."
+            "meaning": "To symbolize construction of the nation, and peace.",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "cv",
@@ -355,18 +420,21 @@
             "w": "1000",
             "h": "84",
             "color": "rgb(208, 26, 34)",
-            "meaning": "To symbolize construction of the nation, and peace."
+            "meaning": "To symbolize construction of the nation, and peace.",
+            "keywords": "peace",
+            "arrayIndex": 2
         },
         {
             "abbrev": "cv",
-            "name": "bluestripe_1",
+            "name": "whitestripe_2",
             "type": "rect",
             "x": "0",
-            "y": "0",
+            "y": "666",
             "w": "1000",
-            "h": "500",
-            "color": "rgb(0, 53, 148)",
-            "meaning": "To symbolize ocean and sky."
+            "h": "84",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "To symbolize construction of the nation, and peace.",
+            "keywords": "peace"
         },
         {
             "abbrev": "cv",
@@ -377,7 +445,9 @@
             "w": "1000",
             "h": "250",
             "color": "rgb(0, 53, 148)",
-            "meaning": "To symbolize ocean and sky."
+            "meaning": "To symbolize ocean and sky.",
+            "keywords": "ocean, sky",
+            "arrayIndex": 3
         },
         {
             "abbrev": "cv",
@@ -388,7 +458,9 @@
             "w": "359",
             "h": "590",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The stars represent the main islands in the nation."
+            "meaning": "The stars represent the main islands in the nation.",
+            "keywords": "islands, nation",
+            "arrayIndex": 4
         }
     ],
     "lesotho": [
@@ -401,7 +473,9 @@
             "w": "1000",
             "h": "318",
             "color": "rgb(0, 26, 160)",
-            "meaning": "The sky and rain"
+            "meaning": "The sky and rain",
+            "keywords": "sky",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ls",
@@ -412,7 +486,9 @@
             "w": "1000",
             "h": "424",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Peace"
+            "meaning": "Peace",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ls",
@@ -423,7 +499,9 @@
             "w": "1000",
             "h": "258",
             "color": "rgb(0, 150, 65)",
-            "meaning": "Prosperity"
+            "meaning": "Prosperity",
+            "keywords": "prosperity",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ls",
@@ -434,7 +512,8 @@
             "w": "217",
             "h": "390",
             "color": "rgb(255, 255, 255)",
-            "meaning": "A Basotho hat"
+            "meaning": "A Basotho hat",
+            "keywords": "hat"
         }
     ],
     "liechtenstein": [
@@ -447,7 +526,9 @@
             "w": "1000",
             "h": "500",
             "color": "rgb(0, 39, 128)",
-            "meaning": "The sky"
+            "meaning": "The sky",
+            "keywords": "sky",
+            "arrayIndex": 0
         },
         {
             "abbrev": "li",
@@ -458,7 +539,9 @@
             "w": "1000",
             "h": "500",
             "color": "rgb(207, 9, 33)",
-            "meaning": "The evening fires burning in peoples homes."
+            "meaning": "The evening fires burning in peoples homes.",
+            "keywords": "homes",
+            "arrayIndex": 1
         },
         {
             "abbrev": "li",
@@ -469,7 +552,8 @@
             "w": "217",
             "h": "300",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Unity of the people and their prince."
+            "meaning": "Unity of the people and their prince.",
+            "keywords": "unity, royalty"
         }
     ],
     "maldives": [
@@ -482,29 +566,34 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(211, 7, 49)",
-            "meaning": "The boldness of the nations heroes."
+            "meaning": "The boldness of the nations heroes.",
+            "keywords": "heroes, nation",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mv",
             "name": "greenrect",
             "type": "rect",
             "x": "166",
-            "y": "264",
+            "y": "250",
             "w": "668",
-            "h": "532",
+            "h": "500",
             "color": "rgb(0, 127, 55)",
-            "meaning": "Peace and prosperity."
+            "meaning": "Peace and prosperity.",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mv",
             "name": "crescent",
             "type": "image",
-            "x": "430",
-            "y": "352",
-            "w": "133",
-            "h": "356",
+            "x": "435",
+            "y": "333",
+            "w": "125",
+            "h": "335",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The crescent represents the peoples Islamic faith."
+            "meaning": "The crescent represents the peoples Islamic faith.",
+            "keywords": "islam"
         }
     ],
     "malawi": [
@@ -515,42 +604,49 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "355",
+            "h": "333",
             "color": "rgb(0, 0, 0)",
-            "meaning": "Represents the indigenous people of the continent of Africa."
+            "meaning": "Represents the indigenous people of the continent of Africa.",
+            "keywords": "natives, africa",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mw",
             "name": "redstripe",
             "type": "rect",
             "x": "0",
-            "y": "355",
+            "y": "333",
             "w": "1000",
-            "h": "353",
+            "h": "333",
             "color": "rgb(207, 9, 33)",
-            "meaning": "The blood of their struggles."
+            "meaning": "The blood of their struggles.",
+            "keywords": "blood, struggles",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mw",
             "name": "greenstripe",
             "type": "rect",
             "x": "0",
-            "y": "706",
+            "y": "666",
             "w": "1000",
-            "h": "294",
+            "h": "333",
             "color": "rgb(47, 159, 50)",
-            "meaning": "Nature"
+            "meaning": "Nature",
+            "keywords": "nature",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mw",
             "name": "risingsun",
             "type": "image",
             "x": "281",
-            "y": "42",
+            "y": "30",
             "w": "438",
             "h": "285",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Dawn of hope and freedom for Africa. The 31 rays of light represent that Malawi was the 31st nation at the time of its independence."
+            "meaning": "Dawn of hope and freedom for Africa. The 31 rays of light represent that Malawi was the 31st nation at the time of its independence.",
+            "keywords": "hope, africa, independence"
         }
     ],
     "malta": [
@@ -563,7 +659,8 @@
             "w": "500",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Said to be a gift from Roger I of Sicily."
+            "meaning": "Said to be a gift from Roger I of Sicily.",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mt",
@@ -574,7 +671,8 @@
             "w": "500",
             "h": "1000",
             "color": "rgb(208, 12, 39)",
-            "meaning": "Said to be a gift from Roger I of Sicily."
+            "meaning": "Said to be a gift from Roger I of Sicily.",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mt",
@@ -585,7 +683,8 @@
             "w": "186",
             "h": "297",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Flag of the Knights of Malta"
+            "meaning": "Flag of the Knights of Malta",
+            "keywords": "valour"
         }
     ],
     "mauritania": [
@@ -596,31 +695,36 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "160",
+            "h": "150",
             "color": "rgb(206, 37, 60)",
-            "meaning": "The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory"
+            "meaning": "The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory",
+            "keywords": "sacrifice, blood",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mr",
             "name": "greenstripe",
             "type": "rect",
             "x": "0",
-            "y": "160",
+            "y": "150",
             "w": "1000",
-            "h": "741",
+            "h": "700",
             "color": "rgb(0, 98, 48)",
-            "meaning": "Symbolizes the practices of Islam"
+            "meaning": "Symbolizes the practices of Islam",
+            "keywords": "islam"
         },
         {
             "abbrev": "mr",
             "name": "redstripe_2",
             "type": "rect",
             "x": "0",
-            "y": "900",
+            "y": "850",
             "w": "1000",
-            "h": "100",
+            "h": "150",
             "color": "rgb(206, 37, 60)",
-            "meaning": "The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory."
+            "meaning": "The efforts and sacrifices that the people of Mauritania will keep consenting, to the price of their blood, to defend their territory.",
+            "keywords": "sacrifice, blood",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mr",
@@ -631,31 +735,36 @@
             "w": "432",
             "h": "564",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Symbolizes the beliefs of Islam."
+            "meaning": "Symbolizes the beliefs of Islam.",
+            "arrayIndex": 3
         }
     ],
     "montenegro": [
         {
             "abbrev": "me",
             "name": "goldborder",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(212, 176, 56)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "keywords": "",
+            "polyPointStr": "26,52,976,52,976,952,26,952,0,1000,1000,1000,1000,0,0,0,0,1000,26,952",
+            "arrayIndex": 0
         },
         {
             "abbrev": "me",
             "name": "redstripe",
             "type": "rect",
-            "x": "40",
-            "y": "61",
-            "w": "920",
-            "h": "877",
+            "x": "26",
+            "y": "52",
+            "w": "950",
+            "h": "900",
             "color": "rgb(197, 0, 2)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "keywords": ""
         },
         {
             "abbrev": "me",
@@ -666,7 +775,8 @@
             "w": "280",
             "h": "513",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 2
         }
     ],
     "mongolia": [
@@ -679,7 +789,9 @@
             "w": "333",
             "h": "1000",
             "color": "rgb(219, 26, 46)",
-            "meaning": "Thriving forever."
+            "meaning": "Thriving forever.",
+            "keywords": "progress",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mn",
@@ -690,7 +802,9 @@
             "w": "333",
             "h": "1000",
             "color": "rgb(0, 102, 180)",
-            "meaning": "Eternal blue skies."
+            "meaning": "Eternal blue skies.",
+            "keywords": "sky",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mn",
@@ -701,7 +815,9 @@
             "w": "334",
             "h": "1000",
             "color": "rgb(219, 26, 46)",
-            "meaning": "Thriving forever."
+            "meaning": "Thriving forever.",
+            "keywords": "progress",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mn",
@@ -712,7 +828,8 @@
             "w": "184",
             "h": "597",
             "color": "rgb(219, 26, 46)",
-            "meaning": "Represents fire, sun, moon, earth, water, and a round shape as dualist aspect."
+            "meaning": "Represents fire, sun, moon, earth, water, and a round shape as dualist aspect.",
+            "keywords": "sun, water, dualist"
         }
     ],
     "moldova": [
@@ -771,7 +888,9 @@
             "w": "250",
             "h": "1000",
             "color": "rgb(0, 115, 199)",
-            "meaning": "The tropical skies and the crystal waters."
+            "meaning": "The tropical skies and the crystal waters.",
+            "keywords": "sky, water",
+            "arrayIndex": 0
         },
         {
             "abbrev": "vc",
@@ -782,7 +901,9 @@
             "w": "500",
             "h": "1000",
             "color": "rgb(252, 210, 15)",
-            "meaning": "The golden Grenadine sands."
+            "meaning": "The golden Grenadine sands.",
+            "keywords": "sand",
+            "arrayIndex": 1
         },
         {
             "abbrev": "vc",
@@ -793,7 +914,9 @@
             "w": "250",
             "h": "1000",
             "color": "rgb(0, 159, 96)",
-            "meaning": "The islands lush vegetation."
+            "meaning": "The islands lush vegetation.",
+            "keywords": "island, land, agriculture",
+            "arrayIndex": 2
         },
         {
             "abbrev": "vc",
@@ -804,7 +927,8 @@
             "w": "250",
             "h": "574",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each represent an island of the Grenadines under Saint Vincent."
+            "meaning": "Each represent an island of the Grenadines under Saint Vincent.",
+            "keywords": "island"
         }
     ],
     "samoa": [
@@ -817,7 +941,9 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Courage and is a traditional Samoan color."
+            "meaning": "Courage and is a traditional Samoan color.",
+            "keywords": "tradition",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ws",
@@ -828,7 +954,9 @@
             "w": "500",
             "h": "500",
             "color": "rgb(0, 39, 128)",
-            "meaning": "Freedom."
+            "meaning": "Freedom.",
+            "keywords": "freedom",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ws",
@@ -839,53 +967,62 @@
             "w": "261",
             "h": "459",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Displays the stars of the Southern Cross."
+            "meaning": "Displays the stars of the Southern Cross.",
+            "keywords": "southern-cross"
         }
     ],
     "zambia": [
         {
             "abbrev": "zm",
             "name": "greenbackground",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(18, 139, 0)",
-            "meaning": "Natural resources and vegetation."
+            "meaning": "Natural resources and vegetation.",
+            "keywords": "land, wealth, agriculture",
+            "polyPointStr": "0,0,0,1000,644,1000,643,359,1000,359,1000,0",
+            "arrayIndex": 0
         },
         {
             "abbrev": "zm",
             "name": "redstripe",
             "type": "rect",
             "x": "643",
-            "y": "379",
+            "y": "358",
             "w": "119",
-            "h": "621",
+            "h": "642",
             "color": "rgb(223, 26, 7)",
-            "meaning": "The people of Zambia's struggle for freedom."
+            "meaning": "The people of Zambia's struggle for freedom.",
+            "keywords": "struggle, freedom",
+            "arrayIndex": 1
         },
         {
             "abbrev": "zm",
             "name": "goldstripe",
             "type": "rect",
             "x": "881",
-            "y": "379",
+            "y": "358",
             "w": "119",
-            "h": "621",
+            "h": "642",
             "color": "rgb(239, 126, 0)",
-            "meaning": "The countries mineral wealth."
+            "meaning": "The countries mineral wealth.",
+            "keywords": "wealth, land",
+            "arrayIndex": 2
         },
         {
             "abbrev": "zm",
             "name": "blackstripe",
             "type": "rect",
             "x": "762",
-            "y": "379",
+            "y": "358",
             "w": "119",
-            "h": "621",
+            "h": "642",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The people of Zambia"
+            "meaning": "The people of Zambia",
+            "keywords": "the people"
         },
         {
             "abbrev": "zm",
@@ -896,7 +1033,9 @@
             "w": "317",
             "h": "200",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Represents the countries ability to rise above their problems."
+            "meaning": "Represents the countries ability to rise above their problems.",
+            "keywords": "strength, will",
+            "arrayIndex": 4
         }
     ],
     "sri_lanka": [
@@ -909,7 +1048,9 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(255, 191, 36)",
-            "meaning": "Saffron border represents Bhuddism"
+            "meaning": "Saffron border represents Bhuddism",
+            "keywords": "bhuddism",
+            "arrayIndex": 0
         },
         {
             "abbrev": "lk",
@@ -920,7 +1061,9 @@
             "w": "130",
             "h": "850",
             "color": "rgb(0, 82, 77)",
-            "meaning": "Muslim faith and Moor ethnicity"
+            "meaning": "Muslim faith and Moor ethnicity",
+            "keywords": "muslim, faith",
+            "arrayIndex": 1
         },
         {
             "abbrev": "lk",
@@ -931,7 +1074,9 @@
             "w": "130",
             "h": "850",
             "color": "rgb(236, 117, 0)",
-            "meaning": "The Tamil ethnicity"
+            "meaning": "The Tamil ethnicity",
+            "keywords": "ethnicity",
+            "arrayIndex": 2
         },
         {
             "abbrev": "lk",
@@ -942,7 +1087,9 @@
             "w": "620",
             "h": "850",
             "color": "rgb(142, 13, 55)",
-            "meaning": "The Tamil ethnicity"
+            "meaning": "The Tamil ethnicity",
+            "keywords": "ethnicity",
+            "arrayIndex": 3
         },
         {
             "abbrev": "lk",
@@ -953,7 +1100,8 @@
             "w": "614",
             "h": "846",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The Sinhalese people, the four Buddhist virtues, the sovereignty of the nation, religious observance, elements and purity."
+            "meaning": "The Sinhalese people, the four Buddhist virtues, the sovereignty of the nation, religious observance, elements and purity.",
+            "keywords": "the people, religion, nation"
         }
     ],
     "uruguay": [
@@ -966,29 +1114,34 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "No meaning."
+            "meaning": "No meaning.",
+            "arrayIndex": 0
         },
         {
             "abbrev": "uy",
             "name": "bluestripe_1",
             "type": "rect",
-            "x": "349",
+            "x": "370",
             "y": "111",
-            "w": "651",
+            "w": "630",
             "h": "111",
             "color": "rgb(0, 53, 170)",
-            "meaning": "The departments of Uruguay"
+            "meaning": "The departments of Uruguay",
+            "keywords": "nation",
+            "arrayIndex": 1
         },
         {
             "abbrev": "uy",
             "name": "bluestripe_2",
             "type": "rect",
-            "x": "349",
+            "x": "370",
             "y": "333",
-            "w": "651",
+            "w": "630",
             "h": "112",
             "color": "rgb(0, 53, 170)",
-            "meaning": "The departments of Uruguay"
+            "meaning": "The departments of Uruguay",
+            "keywords": "nation",
+            "arrayIndex": 2
         },
         {
             "abbrev": "uy",
@@ -999,7 +1152,9 @@
             "w": "1000",
             "h": "111",
             "color": "rgb(0, 53, 170)",
-            "meaning": "The departments of Uruguay"
+            "meaning": "The departments of Uruguay",
+            "keywords": "nation",
+            "arrayIndex": 3
         },
         {
             "abbrev": "uy",
@@ -1010,18 +1165,21 @@
             "w": "1000",
             "h": "111",
             "color": "rgb(0, 53, 170)",
-            "meaning": "The departments of Uruguay"
+            "meaning": "The departments of Uruguay",
+            "keywords": "nation",
+            "arrayIndex": 4
         },
         {
             "abbrev": "uy",
             "name": "coatofarms",
             "type": "image",
-            "x": "30",
+            "x": "45",
             "y": "50",
             "w": "282",
             "h": "448",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The sun god Inti."
+            "meaning": "The sun god Inti.",
+            "keywords": "sun, deity"
         }
     ],
     "turkey": [
@@ -1034,18 +1192,20 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(228, 3, 16)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 0
         },
         {
             "abbrev": "tr",
             "name": "starandcrescent",
             "type": "image",
-            "x": "200",
-            "y": "250",
+            "x": "185",
+            "y": "235",
             "w": "450",
             "h": "532",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Islam"
+            "meaning": "Islam",
+            "keywords": "islam"
         }
     ],
     "tajikistan": [
@@ -1056,31 +1216,36 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "300",
+            "h": "287",
             "color": "rgb(205, 0, 0)",
-            "meaning": "Unity of the nation, victory, and sunrise."
+            "meaning": "Unity of the nation, victory, and sunrise.",
+            "keywords": "unity, sun",
+            "arrayIndex": 0
         },
         {
             "abbrev": "tj",
             "name": "whitestripe",
             "type": "rect",
             "x": "0",
-            "y": "300",
+            "y": "286",
             "w": "1000",
-            "h": "400",
+            "h": "430",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Morality, purity, ice and snow of the mountains, and cotton."
+            "meaning": "Morality, purity, ice and snow of the mountains, and cotton.",
+            "keywords": "snow, purity"
         },
         {
             "abbrev": "tj",
             "name": "greenstripe",
             "type": "rect",
             "x": "0",
-            "y": "700",
+            "y": "717",
             "w": "1000",
-            "h": "300",
+            "h": "284",
             "color": "rgb(0, 102, 0)",
-            "meaning": "Bountiful generosity of nature, fertile valleys, Islam, and the celebration of Novruz."
+            "meaning": "Bountiful generosity of nature, fertile valleys, Islam, and the celebration of Novruz.",
+            "keywords": "fertility, islam, agriculture",
+            "arrayIndex": 2
         },
         {
             "abbrev": "tj",
@@ -1091,21 +1256,12 @@
             "w": "293",
             "h": "386",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Represents the Tajik people. Seven stars as seven is a perfect number their culture and represents happiness."
+            "meaning": "Represents the Tajik people. Seven stars as seven is a perfect number their culture and represents happiness.",
+            "keywords": "culture, happiness",
+            "arrayIndex": 3
         }
     ],
     "slovakia": [
-        {
-            "abbrev": "sk",
-            "name": "coatofarms",
-            "type": "image",
-            "x": "180",
-            "y": "249",
-            "w": "292",
-            "h": "570",
-            "color": "rgb(3, 77, 163)",
-            "meaning": "Russian Federation coat of arms."
-        },
         {
             "abbrev": "sk",
             "name": "whitestripe",
@@ -1115,18 +1271,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Red, white and blue are traditional Pan-Slavic colors."
-        },
-        {
-            "abbrev": "sk",
-            "name": "redstripe",
-            "type": "rect",
-            "x": "0",
-            "y": "666",
-            "w": "1000",
-            "h": "334",
-            "color": "rgb(239, 22, 32)",
-            "meaning": "Red, white and blue are traditional Pan-Slavic colors."
+            "meaning": "Red, white and blue are traditional Pan-Slavic colors.",
+            "keywords": "pan-slavic",
+            "arrayIndex": 1
         },
         {
             "abbrev": "sk",
@@ -1137,7 +1284,33 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(3, 77, 163)",
-            "meaning": "Red, white and blue are traditional Pan-Slavic colors."
+            "meaning": "Red, white and blue are traditional Pan-Slavic colors.",
+            "keywords": "pan-slavic"
+        },
+        {
+            "abbrev": "sk",
+            "name": "redstripe",
+            "type": "rect",
+            "x": "0",
+            "y": "666",
+            "w": "1000",
+            "h": "334",
+            "color": "rgb(239, 22, 32)",
+            "meaning": "Red, white and blue are traditional Pan-Slavic colors.",
+            "keywords": "pan-slavic",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "sk",
+            "name": "coatofarms",
+            "type": "image",
+            "x": "180",
+            "y": "249",
+            "w": "292",
+            "h": "570",
+            "color": "rgb(3, 77, 163)",
+            "meaning": "Russian Federation coat of arms.",
+            "arrayIndex": 0
         }
     ],
     "serbia": [
@@ -1196,7 +1369,8 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola."
+            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola.",
+            "arrayIndex": 0
         },
         {
             "abbrev": "si",
@@ -1207,7 +1381,8 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(0, 0, 192)",
-            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola."
+            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola.",
+            "arrayIndex": 1
         },
         {
             "abbrev": "si",
@@ -1218,18 +1393,20 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(214, 0, 0)",
-            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola."
+            "meaning": "The colors originate from the medieval coat of arms of the Duchy of Carniola.",
+            "arrayIndex": 2
         },
         {
             "abbrev": "si",
             "name": "coatofarms",
             "type": "image",
-            "x": "232",
+            "x": "180",
             "y": "166",
             "w": "165",
             "h": "334",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "keywords": ""
         }
     ],
     "portugal": [
@@ -1242,7 +1419,9 @@
             "w": "400",
             "h": "1000",
             "color": "rgb(0, 102, 0)",
-            "meaning": "Represents the hope of the Portuguese people."
+            "meaning": "Represents the hope of the Portuguese people.",
+            "keywords": "hope, the people",
+            "arrayIndex": 0
         },
         {
             "abbrev": "pt",
@@ -1253,18 +1432,21 @@
             "w": "600",
             "h": "1000",
             "color": "rgb(255, 0, 0)",
-            "meaning": "Represents the blood shed from the Portuguese people."
+            "meaning": "Represents the blood shed from the Portuguese people.",
+            "keywords": "blood, the people",
+            "arrayIndex": 1
         },
         {
             "abbrev": "pt",
             "name": "coatofarms",
             "type": "image",
-            "x": "232",
-            "y": "264",
+            "x": "230",
+            "y": "244",
             "w": "336",
             "h": "536",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Armillary sphere."
+            "meaning": "Armillary sphere.",
+            "keywords": "sphere"
         }
     ],
     "tunisia": [
@@ -1277,18 +1459,21 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(232, 0, 11)",
-            "meaning": "A color taken from the ancient Turkish flag."
+            "meaning": "A color taken from the ancient Turkish flag.",
+            "keywords": "turkey",
+            "arrayIndex": 0
         },
         {
             "abbrev": "tn",
             "name": "crescentandstar",
             "type": "image",
-            "x": "333",
-            "y": "264",
-            "w": "334",
-            "h": "532",
+            "x": "340",
+            "y": "250",
+            "w": "319",
+            "h": "507",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Islam"
+            "meaning": "Islam",
+            "keywords": "islam"
         }
     ],
     "niger": [
@@ -1301,7 +1486,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(224, 82, 6)",
-            "meaning": "The northern regions in the Sahara desert."
+            "meaning": "The northern regions in the Sahara desert.",
+            "keywords": "sahara",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ne",
@@ -1312,7 +1499,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Purity, and or, the River Niger."
+            "meaning": "Purity, and or, the River Niger.",
+            "keywords": "purity",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ne",
@@ -1323,18 +1512,21 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(13, 176, 43)",
-            "meaning": "Hope and fertile regions of southern Niger."
+            "meaning": "Hope and fertile regions of southern Niger.",
+            "keywords": "land, hope",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ne",
             "name": "orangecircle",
             "type": "circle",
-            "x": "400",
-            "y": "358",
+            "x": "500",
+            "y": "500",
             "w": "179",
             "h": "284",
             "color": "rgb(224, 82, 6)",
-            "meaning": "Represents the sun and or independence."
+            "meaning": "Represents the sun and or independence.",
+            "keywords": "independence, sun"
         }
     ],
     "palau": [
@@ -1347,18 +1539,21 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 154, 255)",
-            "meaning": "The ocean and the nations within it."
+            "meaning": "The ocean and the nations within it.",
+            "keywords": "ocean, nation",
+            "arrayIndex": 0
         },
         {
             "abbrev": "pw",
             "name": "yellowcircle",
             "type": "circle",
-            "x": "230",
-            "y": "220",
+            "x": "438",
+            "y": "500",
             "w": "378",
             "h": "600",
             "color": "rgb(255, 255, 0)",
-            "meaning": "The moon."
+            "meaning": "The moon.",
+            "keywords": "moon"
         }
     ],
     "burkina_faso": [
@@ -1371,7 +1566,9 @@
             "w": "1000",
             "h": "500",
             "color": "rgb(239, 39, 41)",
-            "meaning": "The revolution and independence."
+            "meaning": "The revolution and independence.",
+            "keywords": "revolution, independence",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bf",
@@ -1382,21 +1579,24 @@
             "w": "1000",
             "h": "500",
             "color": "rgb(0, 159, 71)",
-            "meaning": "Agriculture and abundance of natural resources."
+            "meaning": "Agriculture and abundance of natural resources.",
+            "keywords": "agriculture, wealth",
+            "arrayIndex": 1
         },
         {
             "abbrev": "bf",
             "name": "star",
-            "type": "star",
+            "type": "star5",
             "x": "396",
-            "y": "355",
+            "y": "335",
             "w": "210",
             "h": "334",
             "color": "rgb(252, 210, 15)",
             "meaning": "The guiding light of the revolution.",
-            "starNumpoints": "5",
-            "starSpikyness": ".40",
-            "starAngle": "0"
+            "keywords": "revolution",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": ""
         }
     ],
     "central_african_republic": [
@@ -1409,21 +1609,9 @@
             "w": "417",
             "h": "250",
             "color": "rgb(0, 44, 131)",
-            "meaning": "France"
-        },
-        {
-            "abbrev": "cf",
-            "name": "star",
-            "type": "star",
-            "x": "95",
-            "y": "23",
-            "w": "142",
-            "h": "150",
-            "color": "rgb(255, 207, 0)",
-            "meaning": "Independence.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.36",
-            "starAngle": "0"
+            "meaning": "France",
+            "keywords": "france",
+            "arrayIndex": 0
         },
         {
             "abbrev": "cf",
@@ -1434,40 +1622,9 @@
             "w": "417",
             "h": "250",
             "color": "rgb(0, 44, 131)",
-            "meaning": "France."
-        },
-        {
-            "abbrev": "cf",
-            "name": "whitestripe_2",
-            "type": "rect",
-            "x": "583",
-            "y": "250",
-            "w": "417",
-            "h": "250",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "France"
-        },
-        {
-            "abbrev": "cf",
-            "name": "greenstripe_2",
-            "type": "rect",
-            "x": "583",
-            "y": "500",
-            "w": "417",
-            "h": "250",
-            "color": "rgb(35, 152, 35)",
-            "meaning": "Africa"
-        },
-        {
-            "abbrev": "cf",
-            "name": "goldstripe_2",
-            "type": "rect",
-            "x": "583",
-            "y": "750",
-            "w": "417",
-            "h": "250",
-            "color": "rgb(255, 207, 0)",
-            "meaning": "Africa"
+            "meaning": "France.",
+            "keywords": "france",
+            "arrayIndex": 2
         },
         {
             "abbrev": "cf",
@@ -1478,7 +1635,22 @@
             "w": "417",
             "h": "250",
             "color": "rgb(255, 255, 255)",
-            "meaning": "France"
+            "meaning": "France",
+            "keywords": "france",
+            "arrayIndex": 6
+        },
+        {
+            "abbrev": "cf",
+            "name": "whitestripe_2",
+            "type": "rect",
+            "x": "583",
+            "y": "250",
+            "w": "417",
+            "h": "250",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "France",
+            "keywords": "france",
+            "arrayIndex": 3
         },
         {
             "abbrev": "cf",
@@ -1489,7 +1661,22 @@
             "w": "417",
             "h": "250",
             "color": "rgb(35, 152, 35)",
-            "meaning": "Africa"
+            "meaning": "Africa",
+            "keywords": "africa",
+            "arrayIndex": 7
+        },
+        {
+            "abbrev": "cf",
+            "name": "greenstripe_2",
+            "type": "rect",
+            "x": "583",
+            "y": "500",
+            "w": "417",
+            "h": "250",
+            "color": "rgb(35, 152, 35)",
+            "meaning": "Africa",
+            "keywords": "africa",
+            "arrayIndex": 4
         },
         {
             "abbrev": "cf",
@@ -1500,7 +1687,22 @@
             "w": "417",
             "h": "250",
             "color": "rgb(255, 207, 0)",
-            "meaning": "Africa"
+            "meaning": "Africa",
+            "keywords": "africa",
+            "arrayIndex": 8
+        },
+        {
+            "abbrev": "cf",
+            "name": "goldstripe_2",
+            "type": "rect",
+            "x": "583",
+            "y": "750",
+            "w": "417",
+            "h": "250",
+            "color": "rgb(255, 207, 0)",
+            "meaning": "Africa",
+            "keywords": "africa",
+            "arrayIndex": 5
         },
         {
             "abbrev": "cf",
@@ -1511,31 +1713,53 @@
             "w": "168",
             "h": "1000",
             "color": "rgb(211, 7, 49)",
-            "meaning": "The unification of Africa and France."
+            "meaning": "The unification of Africa and France.",
+            "keywords": "unity, africa, france"
+        },
+        {
+            "abbrev": "cf",
+            "name": "star",
+            "type": "star5",
+            "x": "95",
+            "y": "23",
+            "w": "142",
+            "h": "150",
+            "color": "rgb(255, 207, 0)",
+            "meaning": "Independence.",
+            "keywords": "independence",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 1
         }
     ],
     "djibouti": [
         {
             "abbrev": "dj",
             "name": "bluetrapezoid",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "500",
+            "h": "1000",
             "color": "rgb(106, 179, 232)",
-            "meaning": "The sea and the sky."
+            "meaning": "The sea and the sky.",
+            "keywords": "sea, sky",
+            "polyPointStr": "0,0,1000,0,1000,500,577,500",
+            "arrayIndex": 0
         },
         {
             "abbrev": "dj",
             "name": "greentrapezoid",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "500",
+            "y": "0",
             "w": "1000",
-            "h": "500",
+            "h": "1000",
             "color": "rgb(9, 175, 39)",
-            "meaning": "The everlasting green of the Earth and the Afar people."
+            "meaning": "The sea and the sky.",
+            "keywords": "sea, sky",
+            "polyPointStr": "0,1000,1000,1000,1000,500,577,500"
         },
         {
             "abbrev": "dj",
@@ -1546,56 +1770,68 @@
             "w": "579",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Peace"
+            "meaning": "Peace",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "dj",
             "name": "star",
-            "type": "star",
+            "type": "star5",
             "x": "131",
             "y": "371",
             "w": "180",
             "h": "266",
             "color": "rgb(216, 12, 19)",
             "meaning": "Unity and the blood shed by the martyrs of independence.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "blood, independence, unity",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 2
         }
     ],
     "equatorial_guinea": [
         {
             "abbrev": "gq",
             "name": "greenstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "333",
+            "h": "1000",
             "color": "rgb(62, 154, 0)",
-            "meaning": "Agriculture, natural resources, and the jungles of Equatorial Guinea."
+            "meaning": "Agriculture, natural resources, and the jungles of Equatorial Guinea.",
+            "keywords": "agriculture, jungle",
+            "polyPointStr": "0,0,166,334,1000,334,1000,0",
+            "arrayIndex": 0
         },
         {
             "abbrev": "gq",
             "name": "whitestripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "333",
+            "y": "0",
             "w": "1000",
-            "h": "333",
+            "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Peace"
+            "meaning": "Peace",
+            "keywords": "peace",
+            "polyPointStr": "166,667,250,500,167,334,1000,332,1000,668",
+            "arrayIndex": 1
         },
         {
             "abbrev": "gq",
             "name": "redstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "666",
+            "y": "0",
             "w": "1000",
-            "h": "334",
+            "h": "1000",
             "color": "rgb(227, 33, 24)",
-            "meaning": "Blood shed by fighters for independence."
+            "meaning": "Blood shed by fighters for independence.",
+            "keywords": "blood, independence",
+            "polyPointStr": "0,1000,166,668,1000,667,1000,1000"
         },
         {
             "abbrev": "gq",
@@ -1606,18 +1842,9 @@
             "w": "250",
             "h": "1000",
             "color": "rgb(0, 115, 206)",
-            "meaning": "The sea, which connects the main country with the islands."
-        },
-        {
-            "abbrev": "gq",
-            "name": "blacktriangle_2",
-            "type": "image",
-            "x": "416",
-            "y": "352",
-            "w": "168",
-            "h": "298",
-            "color": "rgb(0, 0, 0)",
-            "meaning": "The ni-Vanuatu people."
+            "meaning": "The sea, which connects the main country with the islands.",
+            "keywords": "sea, island",
+            "arrayIndex": 3
         },
         {
             "abbrev": "gq",
@@ -1628,7 +1855,8 @@
             "w": "168",
             "h": "298",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 4
         }
     ],
     "federated_states_of_micronesia": [
@@ -1641,169 +1869,213 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(118, 179, 222)",
-            "meaning": "The Pacific Ocean."
+            "meaning": "The Pacific Ocean.",
+            "keywords": "ocean",
+            "arrayIndex": 0
         },
         {
             "abbrev": "fm",
             "name": "top_star",
-            "type": "star",
-            "x": "445",
-            "y": "200",
-            "w": "110",
-            "h": "175",
+            "type": "star5",
+            "x": "438",
+            "y": "99",
+            "w": "127",
+            "h": "127",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the Federated States.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "states",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 1
         },
         {
             "abbrev": "fm",
             "name": "bottom_star",
-            "type": "star",
-            "x": "445",
-            "y": "650",
-            "w": "110",
-            "h": "175",
+            "type": "star5",
+            "x": "438",
+            "y": "700",
+            "w": "127",
+            "h": "127",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the Federated States.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "180"
+            "keywords": "states",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "180",
+            "arrayIndex": 2
         },
         {
             "abbrev": "fm",
             "name": "right_star",
-            "type": "star",
-            "x": "602",
-            "y": "435",
-            "w": "110",
-            "h": "175",
+            "type": "star5",
+            "x": "626",
+            "y": "398",
+            "w": "127",
+            "h": "127",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the Federated States.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "234"
+            "keywords": "states",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "234",
+            "arrayIndex": 3
         },
         {
             "abbrev": "fm",
             "name": "left_star",
-            "type": "star",
-            "x": "287",
-            "y": "435",
-            "w": "110",
-            "h": "175",
+            "type": "star5",
+            "x": "250",
+            "y": "398",
+            "w": "127",
+            "h": "127",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the Federated States.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
+            "keywords": "states",
+            "starNumpoints": "",
+            "starSpikyness": "",
             "starAngle": "54"
         }
     ],
     "guinea-bissau": [
         {
             "abbrev": "gw",
-            "name": "redstripe",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "419",
-            "h": "1000",
-            "color": "rgb(207, 9, 33)",
-            "meaning": "Blood shed during the struggle for independence."
-        },
-        {
-            "abbrev": "gw",
             "name": "goldstripe",
             "type": "rect",
-            "x": "419",
+            "x": "335",
             "y": "0",
-            "w": "681",
-            "h": "500",
+            "w": "670",
+            "h": "501",
             "color": "rgb(252, 210, 15)",
-            "meaning": "Mineral wealth."
+            "meaning": "Mineral wealth.",
+            "keywords": "wealth",
+            "arrayIndex": 1
         },
         {
             "abbrev": "gw",
             "name": "greenstripe",
             "type": "rect",
-            "x": "419",
+            "x": "335",
             "y": "500",
-            "w": "681",
-            "h": "500",
+            "w": "670",
+            "h": "501",
             "color": "rgb(0, 159, 71)",
-            "meaning": "Forests"
+            "meaning": "Forests",
+            "keywords": "forest"
+        },
+        {
+            "abbrev": "gw",
+            "name": "redstripe",
+            "type": "rect",
+            "x": "0",
+            "y": "0",
+            "w": "335",
+            "h": "1000",
+            "color": "rgb(207, 9, 33)",
+            "meaning": "Blood shed during the struggle for independence.",
+            "keywords": "blood, independence, struggle",
+            "arrayIndex": 0
         },
         {
             "abbrev": "gw",
             "name": "star",
-            "type": "star",
-            "x": "108",
+            "type": "star5",
+            "x": "65",
             "y": "338",
             "w": "203",
             "h": "318",
             "color": "rgb(0, 0, 0)",
             "meaning": "The unity of Africa.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "africa, unity",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 3
         }
     ],
     "guyana": [
         {
             "abbrev": "gy",
-            "name": "greenbackground",
-            "type": "rect",
+            "name": "greentriangle_1",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 158, 73)",
-            "meaning": "Agriculture and forests."
+            "meaning": "Agriculture and forests.",
+            "keywords": "africa, forest",
+            "polyPointStr": "0,0,1000,500,1000,0",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "gy",
+            "name": "greentriangle_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(0, 158, 73)",
+            "meaning": "Agriculture and forests.",
+            "keywords": "africa, forest",
+            "polyPointStr": "0,1000,1000,500,1000,1000",
+            "arrayIndex": 5
         },
         {
             "abbrev": "gy",
             "name": "whitetriangle",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Rivers and waters."
+            "meaning": "Rivers and waters.",
+            "keywords": "rivers",
+            "polyPointStr": "0,0,1000,500,0,1000,90,912,911,500,91,91",
+            "arrayIndex": 0
         },
         {
             "abbrev": "gy",
             "name": "goldtriangle",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
-            "y": "45",
-            "w": "913",
-            "h": "910",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(252, 209, 22)",
-            "meaning": "Mineral wealth."
+            "meaning": "Mineral wealth.",
+            "keywords": "wealth",
+            "polyPointStr": "89,89,910,500,87,914,500,500",
+            "arrayIndex": 1
         },
         {
             "abbrev": "gy",
             "name": "blacktriangle",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
-            "w": "500",
+            "w": "1000",
             "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "Endurance."
+            "meaning": "Endurance.",
+            "keywords": "energy",
+            "polyPointStr": "0,0,0,61,441,500,0,943,0,1000,500,500",
+            "arrayIndex": 2
         },
         {
             "abbrev": "gy",
             "name": "redtriangle",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
-            "y": "57",
-            "w": "442",
-            "h": "888",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(206, 17, 38)",
-            "meaning": "Zeal and dynamism."
+            "meaning": "Zeal and dynamism.",
+            "keywords": "will, energy",
+            "polyPointStr": "0,57,442,500,0,943"
         }
     ],
     "liberia": [
@@ -1816,18 +2088,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
-        },
-        {
-            "abbrev": "lr",
-            "name": "redstripe_2",
-            "type": "rect",
-            "x": "0",
-            "y": "182",
-            "w": "1000",
-            "h": "92",
-            "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 0
         },
         {
             "abbrev": "lr",
@@ -1838,7 +2101,22 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "lr",
+            "name": "redstripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "182",
+            "w": "1000",
+            "h": "92",
+            "color": "rgb(192, 3, 44)",
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 2
         },
         {
             "abbrev": "lr",
@@ -1849,29 +2127,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
-        },
-        {
-            "abbrev": "lr",
-            "name": "bluebox",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "286",
-            "h": "455",
-            "color": "rgb(0, 35, 104)",
-            "meaning": "The African continent."
-        },
-        {
-            "abbrev": "lr",
-            "name": "whitestripe_3",
-            "type": "rect",
-            "x": "0",
-            "y": "454",
-            "w": "1000",
-            "h": "92",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 3
         },
         {
             "abbrev": "lr",
@@ -1882,7 +2140,22 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "lr",
+            "name": "whitestripe_3",
+            "type": "rect",
+            "x": "0",
+            "y": "454",
+            "w": "1000",
+            "h": "92",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 5
         },
         {
             "abbrev": "lr",
@@ -1893,7 +2166,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 6
         },
         {
             "abbrev": "lr",
@@ -1904,7 +2179,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 7
         },
         {
             "abbrev": "lr",
@@ -1915,7 +2192,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 8
         },
         {
             "abbrev": "lr",
@@ -1926,7 +2205,9 @@
             "w": "1000",
             "h": "92",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 9
         },
         {
             "abbrev": "lr",
@@ -1937,21 +2218,37 @@
             "w": "1000",
             "h": "90",
             "color": "rgb(192, 3, 44)",
-            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence."
+            "meaning": "Each stripe represents the signatories of the Liberian Declaration of Independence.",
+            "keywords": "independence, declaration, signatures",
+            "arrayIndex": 10
+        },
+        {
+            "abbrev": "lr",
+            "name": "bluebox",
+            "type": "rect",
+            "x": "0",
+            "y": "0",
+            "w": "286",
+            "h": "455",
+            "color": "rgb(0, 35, 104)",
+            "meaning": "The African continent.",
+            "keywords": "africa",
+            "arrayIndex": 11
         },
         {
             "abbrev": "lr",
             "name": "star",
-            "type": "star",
-            "x": "61",
-            "y": "60",
-            "w": "165",
-            "h": "257",
+            "type": "star5",
+            "x": "60",
+            "y": "94",
+            "w": "166",
+            "h": "166",
             "color": "rgb(255, 255, 255)",
             "meaning": "The white star represents the first independent western-styled republic in Africa, above the blue square representing the African continent.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "africa, independence",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": ""
         }
     ],
     "myanmar": [
@@ -1964,7 +2261,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(254, 204, 0)",
-            "meaning": "Solidarity."
+            "meaning": "Solidarity.",
+            "keywords": "unity",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mm",
@@ -1975,7 +2274,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(49, 179, 48)",
-            "meaning": "Peace and tranquility."
+            "meaning": "Peace and tranquility.",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mm",
@@ -1986,21 +2287,24 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(235, 35, 54)",
-            "meaning": "Courage and decisiveness."
+            "meaning": "Courage and decisiveness.",
+            "keywords": "courage",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mm",
             "name": "star",
-            "type": "star",
+            "type": "star5",
             "x": "260",
             "y": "153",
             "w": "480",
             "h": "741",
             "color": "rgb(255, 255, 255)",
             "meaning": "Cannot find meaning.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.36",
-            "starAngle": "0"
+            "keywords": "",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": ""
         }
     ],
     "Nauru": [
@@ -2013,21 +2317,9 @@
             "w": "1000",
             "h": "460",
             "color": "rgb(0, 39, 128)",
-            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
-        },
-        {
-            "abbrev": "nr",
-            "name": "star",
-            "type": "star",
-            "x": "209",
-            "y": "540",
-            "w": "210",
-            "h": "309",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "Each point of the star represents one of the twelve tribes of Nauru.",
-            "starNumpoints": "12",
-            "starSpikyness": "0.50",
-            "starAngle": "0"
+            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders.",
+            "keywords": "The people",
+            "arrayIndex": 0
         },
         {
             "abbrev": "nr",
@@ -2038,7 +2330,9 @@
             "w": "1000",
             "h": "459",
             "color": "rgb(0, 39, 128)",
-            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
+            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders.",
+            "keywords": "The people",
+            "arrayIndex": 2
         },
         {
             "abbrev": "nr",
@@ -2049,31 +2343,51 @@
             "w": "1000",
             "h": "86",
             "color": "rgb(255, 199, 24)",
-            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders."
+            "meaning": "A metaphor that that the first inhabitants were to have been brought to Earth from two boulders.",
+            "keywords": "The people",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "nr",
+            "name": "whitestar",
+            "type": "image",
+            "x": "210",
+            "y": "544",
+            "w": "208",
+            "h": "330",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "Each point of the star represents one of the twelve tribes of Nauru.",
+            "keywords": "tribes",
+            "arrayIndex": 4
         }
     ],
     "sao_tome_and_principe": [
         {
             "abbrev": "st",
-            "name": "greenbackground",
-            "type": "rect",
+            "name": "greenstripe_2",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(9, 175, 39)",
-            "meaning": "The plentiful vegetation of the country."
+            "meaning": "The plentiful vegetation of the country.",
+            "keywords": "agriculture, land",
+            "polyPointStr": "0,1000,142,716,1000,716,1000,1000"
         },
         {
             "abbrev": "st",
-            "name": "goldstripe",
-            "type": "rect",
+            "name": "greenstripe_1",
+            "type": "poly",
             "x": "0",
-            "y": "322",
+            "y": "0",
             "w": "1000",
-            "h": "341",
-            "color": "rgb(255, 207, 0)",
-            "meaning": "The tropical sun and cocoa."
+            "h": "1000",
+            "color": "rgb(9, 175, 39)",
+            "meaning": "The plentiful vegetation of the country.",
+            "keywords": "agriculture, land",
+            "polyPointStr": "0,0,143,286,1000,286,1000,0",
+            "arrayIndex": 1
         },
         {
             "abbrev": "st",
@@ -2084,92 +2398,127 @@
             "w": "250",
             "h": "1000",
             "color": "rgb(211, 7, 49)",
-            "meaning": "The struggle for independence"
+            "meaning": "The struggle for independence",
+            "keywords": "struggle, independence",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "st",
+            "name": "goldstripe",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(255, 207, 0)",
+            "meaning": "The tropical sun and cocoa.",
+            "keywords": "sun, cocoa",
+            "polyPointStr": "143,286,250,500,143,716,1000,716,1000,286",
+            "arrayIndex": 3
         },
         {
             "abbrev": "st",
             "name": "star_1",
-            "type": "star",
+            "type": "star5",
             "x": "430",
             "y": "370",
             "w": "140",
             "h": "211",
             "color": "rgb(0, 0, 0)",
             "meaning": "The two islands that make up the country.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 4
         },
         {
             "abbrev": "st",
             "name": "star_2",
-            "type": "star",
+            "type": "star5",
             "x": "680",
             "y": "370",
             "w": "140",
             "h": "211",
             "color": "rgb(0, 0, 0)",
             "meaning": "The two islands that make up the country.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 5
         }
     ],
     "south_sudan": [
         {
             "abbrev": "ss",
             "name": "blackstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "300",
+            "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The people of South Sudan."
+            "meaning": "The people of South Sudan.",
+            "keywords": "the people",
+            "polyPointStr": "0,0,1000,0,1000,300,260,300",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ss",
             "name": "whitestripe_1",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "300",
+            "y": "0",
             "w": "1000",
-            "h": "50",
+            "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "South Sudan's peace attained after many years of the liberation struggle."
+            "meaning": "South Sudan's peace attained after many years of the liberation struggle.",
+            "keywords": "peace, struggle, liberation",
+            "polyPointStr": "261,300,303,352,1000,352,1000,300",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ss",
             "name": "whitestripe_2",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "650",
+            "y": "0",
             "w": "1000",
-            "h": "50",
+            "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "South Sudan's peace attained after many years of the liberation struggle."
+            "meaning": "South Sudan's peace attained after many years of the liberation struggle.",
+            "keywords": "peace, struggle, liberation",
+            "polyPointStr": "260,700,303,650,1000,650,1000,700",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ss",
             "name": "redstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "350",
+            "y": "0",
             "w": "1000",
-            "h": "300",
+            "h": "1000",
             "color": "rgb(218, 18, 26)",
-            "meaning": "Represents blood that was shed for the independence of the country."
+            "meaning": "Represents blood that was shed for the independence of the country.",
+            "keywords": "blood, independence",
+            "polyPointStr": "302,350,433,500,304,650,1000,650,1000,350",
+            "arrayIndex": 3
         },
         {
             "abbrev": "ss",
             "name": "greenstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "700",
+            "y": "0",
             "w": "1000",
-            "h": "300",
+            "h": "1000",
             "color": "rgb(7, 137, 48)",
-            "meaning": "Represents the country's agricultural, natural wealth, land, as well as progress."
+            "meaning": "Represents the country's agricultural, natural wealth, land, as well as progress.",
+            "keywords": "agriculture, wealth, progress",
+            "polyPointStr": "0,1000,260,700,1000,700,1000,1000",
+            "arrayIndex": 4
         },
         {
             "abbrev": "ss",
@@ -2177,23 +2526,26 @@
             "type": "triangle",
             "x": "0",
             "y": "0",
-            "w": "500",
+            "w": "435",
             "h": "1000",
             "color": "rgb(15, 71, 175)",
-            "meaning": "Represents waters of the Nile River, a source of life for the country."
+            "meaning": "Represents waters of the Nile River, a source of life for the country.",
+            "keywords": "water, life",
+            "arrayIndex": 5
         },
         {
             "abbrev": "ss",
             "name": "star",
-            "type": "star",
-            "x": "83",
+            "type": "star5",
+            "x": "50",
             "y": "340",
             "w": "200",
             "h": "293",
             "color": "rgb(252, 221, 9)",
             "meaning": "Represents unity (of the states), hope, and determination for all people.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
+            "keywords": "unity, state, determination",
+            "starNumpoints": "",
+            "starSpikyness": "",
             "starAngle": "54"
         }
     ],
@@ -2207,7 +2559,9 @@
             "w": "1000",
             "h": "200",
             "color": "rgb(52, 127, 61)",
-            "meaning": "Hope and fertility."
+            "meaning": "Hope and fertility.",
+            "keywords": "hope, fertility",
+            "arrayIndex": 0
         },
         {
             "abbrev": "sr",
@@ -2218,7 +2572,9 @@
             "w": "1000",
             "h": "100",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Peace and justice."
+            "meaning": "Peace and justice.",
+            "keywords": "peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "sr",
@@ -2229,7 +2585,9 @@
             "w": "1000",
             "h": "400",
             "color": "rgb(181, 3, 41)",
-            "meaning": "Progress and love."
+            "meaning": "Progress and love.",
+            "keywords": "progress",
+            "arrayIndex": 2
         },
         {
             "abbrev": "sr",
@@ -2240,7 +2598,9 @@
             "w": "1000",
             "h": "100",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Peace and justice."
+            "meaning": "Peace and justice.",
+            "keywords": "peace",
+            "arrayIndex": 3
         },
         {
             "abbrev": "sr",
@@ -2251,45 +2611,54 @@
             "w": "1000",
             "h": "200",
             "color": "rgb(52, 127, 61)",
-            "meaning": "Hope and fertility."
+            "meaning": "Hope and fertility.",
+            "keywords": "hope, fertility",
+            "arrayIndex": 4
         },
         {
             "abbrev": "sr",
             "name": "star",
-            "type": "star",
-            "x": "368",
-            "y": "310",
-            "w": "265",
-            "h": "416",
+            "type": "star5",
+            "x": "370",
+            "y": "312",
+            "w": "260",
+            "h": "260",
             "color": "rgb(237, 201, 23)",
             "meaning": "The star represents the unity of all ethnic groups.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "unity",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": ""
         }
     ],
     "timor_leste": [
         {
             "abbrev": "tl",
             "name": "redbackground",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(221, 31, 25)",
-            "meaning": "The struggle for liberation."
+            "meaning": "The struggle for liberation.",
+            "keywords": "struggle, freedom",
+            "polyPointStr": "0,0,1000,0,1000,1000,0,1000,500,500",
+            "arrayIndex": 0
         },
         {
             "abbrev": "tl",
             "name": "goldtriangle",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
-            "w": "500",
+            "w": "1000",
             "h": "1000",
             "color": "rgb(255, 200, 33)",
-            "meaning": "Prior colonial history."
+            "meaning": "Prior colonial history.",
+            "keywords": "history",
+            "polyPointStr": "0,1000,500,500,0,0,333,500",
+            "arrayIndex": 1
         },
         {
             "abbrev": "tl",
@@ -2297,23 +2666,26 @@
             "type": "triangle",
             "x": "0",
             "y": "0",
-            "w": "350",
+            "w": "335",
             "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The prior obscurantism."
+            "meaning": "The prior obscurantism.",
+            "keywords": "history",
+            "arrayIndex": 2
         },
         {
             "abbrev": "tl",
             "name": "star",
-            "type": "star",
-            "x": "40",
+            "type": "star5",
+            "x": "30",
             "y": "342",
             "w": "200",
             "h": "357",
             "color": "rgb(255, 255, 255)",
             "meaning": "Peace.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
+            "keywords": "peace",
+            "starNumpoints": "",
+            "starSpikyness": "",
             "starAngle": "45"
         }
     ],
@@ -2327,7 +2699,8 @@
             "w": "140",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "A traditional Belorussian pattern."
+            "meaning": "A traditional Belorussian pattern.",
+            "keywords": "tradition"
         },
         {
             "abbrev": "by",
@@ -2338,7 +2711,8 @@
             "w": "860",
             "h": "667",
             "color": "rgb(201, 45, 60)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 1
         },
         {
             "abbrev": "by",
@@ -2349,7 +2723,8 @@
             "w": "860",
             "h": "344",
             "color": "rgb(72, 168, 86)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 2
         }
     ],
     "iran": [
@@ -2362,7 +2737,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(29, 160, 62)",
-            "meaning": "Growth, happiness, unity, nature, vitality and the Iranian languages."
+            "meaning": "Growth, happiness, unity, nature, vitality and the Iranian languages.",
+            "keywords": "progress, unity, nature",
+            "arrayIndex": 0
         },
         {
             "abbrev": "ir",
@@ -2373,7 +2750,9 @@
             "w": "1000",
             "h": "333",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Freedom."
+            "meaning": "Freedom.",
+            "keywords": "freedom",
+            "arrayIndex": 1
         },
         {
             "abbrev": "ir",
@@ -2384,18 +2763,21 @@
             "w": "1000",
             "h": "334",
             "color": "rgb(219, 0, 0)",
-            "meaning": "Martyrdom, bravery, fire, life, love, warmth, and sophistication."
+            "meaning": "Martyrdom, bravery, fire, life, love, warmth, and sophistication.",
+            "keywords": "martyrdom, life, bravery",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ir",
             "name": "coatofarms",
             "type": "image",
-            "x": "0",
-            "y": "332",
-            "w": "1000",
-            "h": "400",
+            "x": "14",
+            "y": "280",
+            "w": "974",
+            "h": "443",
             "color": "rgb(255, 255, 255)",
-            "meaning": "A geometrically symmetric form of the word Allah."
+            "meaning": "A geometrically symmetric form of the word Allah.",
+            "keywords": "islam"
         }
     ],
     "bhutan": [
@@ -2409,7 +2791,9 @@
             "h": "1000",
             "color": "rgb(255, 77, 10)",
             "meaning": "Buddhist spiritual tradition",
-            "polyPointStr": "1000,1000,0,1000,1000,0"
+            "keywords": "spiritual, tradition",
+            "polyPointStr": "1000,1000,0,1000,1000,0",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bt",
@@ -2421,7 +2805,8 @@
             "h": "1000",
             "color": "rgb(255, 214, 26)",
             "meaning": "Civil tradition and temporal authority as embodied in the Druk Gyalpo, the Dragon King of Bhutan,",
-            "polyPointStr": "0,0,0,1000,1000,0"
+            "polyPointStr": "0,0,0,1000,1000,0",
+            "arrayIndex": 1
         },
         {
             "abbrev": "bt",
@@ -2432,21 +2817,11 @@
             "w": "679",
             "h": "780",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Druk, the Thunder Dragon."
+            "meaning": "Druk, the Thunder Dragon.",
+            "keywords": "deity"
         }
     ],
     "brunei": [
-        {
-            "abbrev": "bn",
-            "name": "goldbackground",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(247, 225, 16)",
-            "meaning": "The color of royalty, and the royal standards of Malaysia and Thailand."
-        },
         {
             "abbrev": "bn",
             "name": "whitestripe",
@@ -2457,19 +2832,51 @@
             "h": "1000",
             "color": "rgb(255, 255, 255)",
             "meaning": "Brunei's chief ministers.",
-            "polyPointStr": "0,70,0,307,1000,723,1000,486"
+            "keywords": "royalty",
+            "polyPointStr": "0,70,0,307,1000,723,1000,486",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bn",
             "name": "blackstripe",
             "type": "poly",
-            "x": "54",
-            "y": "598",
-            "w": "4",
-            "h": "0",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "Brunei's chief ministers.",
-            "polyPointStr": "0,305,0,515,1000,932,1000,722"
+            "keywords": "royalty",
+            "polyPointStr": "0,305,0,515,1000,932,1000,722",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "bn",
+            "name": "goldtriangle_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(247, 225, 16)",
+            "meaning": "Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government.",
+            "keywords": "islam, monarchy",
+            "polyPointStr": "0,0,0,70,1000,489,1000,0",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "bn",
+            "name": "goldtriangle_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(247, 225, 16)",
+            "meaning": "Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government.",
+            "keywords": "islam, monarchy",
+            "polyPointStr": "0,514,0,1000,1000,1000,1000,930",
+            "arrayIndex": 4
         },
         {
             "abbrev": "bn",
@@ -2480,53 +2887,66 @@
             "w": "336",
             "h": "600",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
+            "meaning": "Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government.",
+            "keywords": "islam, monarchy",
+            "arrayIndex": 5
         }
     ],
     "comoros": [
         {
             "abbrev": "km",
             "name": "goldstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "250",
+            "h": "1000",
             "color": "rgb(255, 199, 24)",
-            "meaning": "Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+            "meaning": "Each stripe represents an island of the nation.  MohÃ©li, Mayotte, Anjouan, and Grande Comore, respectively.",
+            "keywords": "island, nation",
+            "polyPointStr": "0,0,1000,0,1000,252,251,252",
+            "arrayIndex": 0
         },
         {
             "abbrev": "km",
             "name": "whitestripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "250",
+            "y": "0",
             "w": "1000",
-            "h": "250",
+            "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+            "meaning": "Each stripe represents an island of the nation.  MohÃ©li, Mayotte, Anjouan, and Grande Comore, respectively.",
+            "keywords": "island, nation",
+            "polyPointStr": "250,251,1000,251,1000,500,500,500",
+            "arrayIndex": 1
         },
         {
             "abbrev": "km",
             "name": "redstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "500",
+            "y": "0",
             "w": "1000",
-            "h": "250",
+            "h": "1000",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+            "meaning": "Each stripe represents an island of the nation.  MohÃ©li, Mayotte, Anjouan, and Grande Comore, respectively.",
+            "keywords": "island, nation",
+            "polyPointStr": "249,750,1000,750,1000,500,499,500",
+            "arrayIndex": 2
         },
         {
             "abbrev": "km",
             "name": "bluestripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
-            "y": "750",
+            "y": "0",
             "w": "1000",
-            "h": "250",
+            "h": "1000",
             "color": "rgb(55, 118, 197)",
-            "meaning": "Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
+            "meaning": "Each stripe represents an island of the nation.  MohÃ©li, Mayotte, Anjouan, and Grande Comore, respectively.",
+            "keywords": "island, nation",
+            "polyPointStr": "0,1000,1000,1000,1000,750,249,750"
         },
         {
             "abbrev": "km",
@@ -2537,7 +2957,8 @@
             "w": "500",
             "h": "1000",
             "color": "rgb(58, 143, 48)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 4
         },
         {
             "abbrev": "km",
@@ -2548,7 +2969,9 @@
             "w": "196",
             "h": "450",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Islam."
+            "meaning": "Islam.",
+            "keywords": "islam",
+            "arrayIndex": 5
         }
     ],
     "congo": [
@@ -2562,7 +2985,9 @@
             "h": "1000",
             "color": "rgb(0, 149, 67)",
             "meaning": "The official Pan-African colors.",
-            "polyPointStr": "0,0,0,1000,667,0"
+            "keywords": "africa",
+            "polyPointStr": "0,0,0,1000,667,0",
+            "arrayIndex": 0
         },
         {
             "abbrev": "cg",
@@ -2574,7 +2999,9 @@
             "h": "1000",
             "color": "rgb(251, 222, 74)",
             "meaning": "The official Pan-African colors.",
-            "polyPointStr": "0,1000,333,1000,1000,0,667,0"
+            "keywords": "africa",
+            "polyPointStr": "0,1000,333,1000,1000,0,667,0",
+            "arrayIndex": 1
         },
         {
             "abbrev": "cg",
@@ -2586,24 +3013,42 @@
             "h": "1000",
             "color": "rgb(220, 36, 31)",
             "meaning": "The official Pan-African colors.",
+            "keywords": "africa",
             "polyPointStr": "334,1000,1000,1000,1000,0"
         }
     ],
     "democratic_republic_of_the_congo": [
         {
             "abbrev": "cd",
-            "name": "bluebackground",
-            "type": "rect",
+            "name": "bluetriangle_1",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 128, 255)",
-            "meaning": "Peace."
+            "meaning": "Peace.",
+            "keywords": "peace",
+            "polyPointStr": "0,0,0,752,937,0",
+            "arrayIndex": 5
         },
         {
             "abbrev": "cd",
-            "name": "goldstripe",
+            "name": "bluetriangle_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(0, 128, 255)",
+            "meaning": "Peace.",
+            "keywords": "peace",
+            "polyPointStr": "63,1000,1000,1000,1000,250",
+            "arrayIndex": 6
+        },
+        {
+            "abbrev": "cd",
+            "name": "goldstripe_1",
             "type": "poly",
             "x": "0",
             "y": "0",
@@ -2611,7 +3056,9 @@
             "h": "1000",
             "color": "rgb(247, 215, 17)",
             "meaning": "The country's wealth.",
-            "polyPointStr": "0,750,0,1000,61,1000,1000,250,1000,0,937,0"
+            "keywords": "wealth",
+            "polyPointStr": "0,800,0,750,937,0,1000,0",
+            "arrayIndex": 2
         },
         {
             "abbrev": "cd",
@@ -2623,57 +3070,42 @@
             "h": "1000",
             "color": "rgb(207, 7, 27)",
             "meaning": "The blood of the country's martyrs.",
-            "polyPointStr": "0,800,0,1000,1000,201,1000,0"
+            "keywords": "sacrifice, blood",
+            "polyPointStr": "0,800,0,1000,1000,201,1000,0",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "cd",
+            "name": "goldstripe_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(247, 215, 17)",
+            "meaning": "The country's wealth.",
+            "keywords": "wealth",
+            "polyPointStr": "0,1000,63,1000,1000,250,1000,200",
+            "arrayIndex": 3
         },
         {
             "abbrev": "cd",
             "name": "star",
-            "type": "star",
+            "type": "star5",
             "x": "53",
             "y": "55",
             "w": "260",
             "h": "43",
             "color": "rgb(247, 215, 17)",
             "meaning": "A radiant future for the country.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.39",
-            "starAngle": "0"
+            "keywords": "future, success",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 4
         }
     ],
     "eritrea": [
-        {
-            "abbrev": "er",
-            "name": "green stripe",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "500",
-            "color": "rgb(9, 175, 39)",
-            "meaning": "Agriculture and livestock of the country."
-        },
-        {
-            "abbrev": "er",
-            "name": "greenstripe",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "500",
-            "color": "rgb(9, 175, 39)",
-            "meaning": "Agriculture and livestock of the country."
-        },
-        {
-            "abbrev": "er",
-            "name": "bluestripe",
-            "type": "rect",
-            "x": "0",
-            "y": "500",
-            "w": "1000",
-            "h": "500",
-            "color": "rgb(63, 138, 222)",
-            "meaning": "The sea."
-        },
         {
             "abbrev": "er",
             "name": "redtriangle",
@@ -2683,7 +3115,37 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(235, 0, 52)",
-            "meaning": "The lives of those lost in the battle for freedom."
+            "meaning": "The lives of those lost in the battle for freedom.",
+            "keywords": "freedoom, battle, sacrifice",
+            "arrayIndex": 0
+        },
+        {
+            "abbrev": "er",
+            "name": "bluetriangle",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(63, 138, 222)",
+            "meaning": "The sea.",
+            "keywords": "sea",
+            "polyPointStr": "0,1000,1000,1000,1000,500",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "er",
+            "name": "greentriangle",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(9, 175, 39)",
+            "meaning": "Agriculture and livestock of the country.",
+            "keywords": "agriculture, livestock",
+            "polyPointStr": "0,0,1000,0,1000,500",
+            "arrayIndex": 4
         },
         {
             "abbrev": "er",
@@ -2694,21 +3156,12 @@
             "w": "287",
             "h": "560",
             "color": "rgb(207, 7, 27)",
-            "meaning": "Represents and olive branch."
+            "meaning": "Represents and olive branch.",
+            "keywords": "life",
+            "arrayIndex": 2
         }
     ],
     "antigua_and_barbuda": [
-        {
-            "abbrev": "ag",
-            "name": "redbackground",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(207, 9, 33)",
-            "meaning": "Energy and life of the people."
-        },
         {
             "abbrev": "ag",
             "name": "blacktriangle",
@@ -2719,33 +3172,36 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "African ancestry.",
-            "polyPointStr": "0,0,1000,0,500,1000"
+            "keywords": "africa",
+            "polyPointStr": "0,0,1000,0,804,390,195,390"
         },
         {
             "abbrev": "ag",
             "name": "star",
-            "type": "star",
-            "x": "288",
-            "y": "55",
-            "w": "425",
-            "h": "734",
-            "color": "rgb(252, 210, 15)",
-            "meaning": "Represents the rising sun over the sea.",
-            "starNumpoints": "16",
-            "starSpikyness": "0.50",
-            "starAngle": "0"
-        },
-        {
-            "abbrev": "ag",
-            "name": "bluetriangle",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
+            "color": "rgb(252, 210, 15)",
+            "meaning": "Represents the rising sun over the sea.",
+            "keywords": "sun, sea",
+            "polyPointStr": "284,392,391,359,298,266,410,302,347,161,440,255,418,91,478,232,499,66,521,232,584,93,561,257,654,161,591,302,701,268,607,361,717,393",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "ag",
+            "name": "bluetriangle",
+            "type": "poly",
+            "x": "301",
+            "y": "611",
+            "w": "0",
+            "h": "0",
             "color": "rgb(0, 115, 199)",
             "meaning": "Hope.",
-            "polyPointStr": "195,390,804,390,500,1000"
+            "keywords": "hope",
+            "polyPointStr": "195,390,804,390,696,609,304,609",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ag",
@@ -2757,7 +3213,37 @@
             "h": "1000",
             "color": "rgb(255, 255, 255)",
             "meaning": "Sand.",
-            "polyPointStr": "305,608,500,1000,697,607"
+            "keywords": "sand",
+            "polyPointStr": "304,609,500,1000,696,609",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "ag",
+            "name": "redtriangle_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(207, 9, 33)",
+            "meaning": "Energy and life of the people.",
+            "keywords": "energy, the people",
+            "polyPointStr": "0,0,0,1000,500,1000",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "ag",
+            "name": "redtriangle_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(207, 9, 33)",
+            "meaning": "Energy and life of the people.",
+            "keywords": "energy, the people",
+            "polyPointStr": "1000,0,500,1000,1000,1000",
+            "arrayIndex": 5
         }
     ],
     "bahrain": [
@@ -2771,7 +3257,9 @@
             "h": "1000",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each spike represents one of the five pillars of Islam.",
-            "polyPointStr": "0,0,247,0,400,100,250,200,400,300,250,400,400,500,250,600,400,700,250,800,400,900,250,1000,0,1000"
+            "keywords": "islam",
+            "polyPointStr": "0,0,247,0,400,100,250,200,400,300,250,400,400,500,250,600,400,700,250,800,400,900,250,1000,0,1000",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bh",
@@ -2783,80 +3271,79 @@
             "h": "1000",
             "color": "rgb(207, 9, 33)",
             "meaning": "Traditional color of the gulf states.",
+            "keywords": "states",
             "polyPointStr": "1000,0,247,0,400,100,250,200,400,300,250,400,400,500,250,600,400,700,250,800,400,900,250,1000,1000,1000"
         }
     ],
     "burundi": [
         {
             "abbrev": "bi",
-            "name": "greentriangle_1",
-            "type": "triangle",
-            "x": "0",
-            "y": "0",
-            "w": "500",
-            "h": "1000",
-            "color": "rgb(24, 182, 55)",
-            "meaning": "The nations hopes placed on future development."
-        },
-        {
-            "abbrev": "bi",
-            "name": "greentriangle_2",
+            "name": "greentri_1",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(24, 182, 55)",
-            "meaning": "The nations hopes placed on future development.",
-            "polyPointStr": "1000,0,1000,1000,500,500"
+            "meaning": "Hope",
+            "keywords": "hope",
+            "polyPointStr": "0,0,0,1000,500,500",
+            "arrayIndex": 0
         },
         {
             "abbrev": "bi",
-            "name": "redtriangle_2",
+            "name": "greentri_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(24, 182, 55)",
+            "meaning": "Hope.",
+            "keywords": "hope",
+            "polyPointStr": "1000,0,1000,1000,500,500",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "bi",
+            "name": "redtri_1",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Suffering of the nation during its freedom struggle.",
-            "polyPointStr": "0,1000,1000,1000,500,500"
+            "meaning": "Struggle for independence.",
+            "keywords": "struggle, independence",
+            "polyPointStr": "0,1000,1000,1000,500,500",
+            "arrayIndex": 2
         },
         {
             "abbrev": "bi",
-            "name": "redtriangle_1",
+            "name": "redtri_2",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Suffering of the nation during its freedom struggle.",
-            "polyPointStr": "0,0,1000,2,500,500"
+            "meaning": "Struggle for independence.",
+            "keywords": "struggle, independence",
+            "polyPointStr": "1000,0,0,0,500,500",
+            "arrayIndex": 3
         },
         {
             "abbrev": "bi",
-            "name": "cross_1",
+            "name": "cross",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "",
-            "polyPointStr": "0,80,0,0,80,0,1000,921,1000,1000,923,1000"
-        },
-        {
-            "abbrev": "bi",
-            "name": "cross_2",
-            "type": "poly",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "",
-            "polyPointStr": "80,1000,0,1000,0,922,922,0,1000,0,1000,80"
+            "meaning": "Peace",
+            "keywords": "peace",
+            "polyPointStr": "0,0,85,0,500,410,915,0,1000,0,1000,85,590,500,1000,915,1000,1000,915,1000,500,575,85,1000,0,1000,0,915,410,500,0,85"
         },
         {
             "abbrev": "bi",
@@ -2867,7 +3354,9 @@
             "w": "341",
             "h": "543",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Each star represents one of the major ethnic groups.The Hutu, the Twa and the Tutsi."
+            "meaning": "Each star represents one of the major ethnic groups.The Hutu, the Twa and the Tutsi.",
+            "keywords": "groups",
+            "arrayIndex": 5
         }
     ],
     "dominica": [
@@ -2880,7 +3369,9 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 107, 61)",
-            "meaning": "Lush vegetation of the island."
+            "meaning": "Lush vegetation of the island.",
+            "keywords": "agriculture, island",
+            "arrayIndex": 0
         },
         {
             "abbrev": "dm",
@@ -2891,7 +3382,9 @@
             "w": "43",
             "h": "1000",
             "color": "rgb(252, 210, 15)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "christianity",
+            "arrayIndex": 1
         },
         {
             "abbrev": "dm",
@@ -2902,7 +3395,9 @@
             "w": "43",
             "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "natives",
+            "arrayIndex": 2
         },
         {
             "abbrev": "dm",
@@ -2913,29 +3408,9 @@
             "w": "43",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
-        },
-        {
-            "abbrev": "dm",
-            "name": "whitestripe_2",
-            "type": "rect",
-            "x": "0",
-            "y": "541",
-            "w": "1000",
-            "h": "85",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
-        },
-        {
-            "abbrev": "dm",
-            "name": "blackstripe_2",
-            "type": "rect",
-            "x": "0",
-            "y": "457",
-            "w": "1000",
-            "h": "85",
-            "color": "rgb(0, 0, 0)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "purity",
+            "arrayIndex": 3
         },
         {
             "abbrev": "dm",
@@ -2946,7 +3421,35 @@
             "w": "1000",
             "h": "85",
             "color": "rgb(252, 210, 15)",
-            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water."
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "chritianity",
+            "arrayIndex": 6
+        },
+        {
+            "abbrev": "dm",
+            "name": "blackstripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "457",
+            "w": "1000",
+            "h": "85",
+            "color": "rgb(0, 0, 0)",
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "natives",
+            "arrayIndex": 5
+        },
+        {
+            "abbrev": "dm",
+            "name": "whitestripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "541",
+            "w": "1000",
+            "h": "85",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "The cross represents the Trinity and Christianity, with its three colours symbolising the natives, the fertile soil, and the pure water.",
+            "keywords": "purity",
+            "arrayIndex": 4
         },
         {
             "abbrev": "dm",
@@ -2957,7 +3460,8 @@
             "w": "315",
             "h": "503",
             "color": "rgb(255, 255, 255)",
-            "meaning": "An endangered species of bird in Dominica."
+            "meaning": "An endangered species of bird in Dominica.",
+            "keywords": "bird"
         }
     ],
     "saint_lucia": [
@@ -2970,19 +3474,23 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(102, 205, 255)",
-            "meaning": "The sky and the sea."
+            "meaning": "The sky and the sea.",
+            "keywords": "sky, sea",
+            "arrayIndex": 0
         },
         {
             "abbrev": "lc",
             "name": "whitetriangle",
             "type": "poly",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
+            "x": "783",
+            "y": "727",
+            "w": "0",
+            "h": "0",
             "color": "rgb(255, 255, 255)",
             "meaning": "The harmonious relationship between the black and white races.",
-            "polyPointStr": "288,915,709,915,498,90"
+            "keywords": "harmony",
+            "polyPointStr": "290,916,346,805,500,200,652,800,710,916,500,92",
+            "arrayIndex": 1
         },
         {
             "abbrev": "lc",
@@ -2994,7 +3502,8 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "The harmonious relationship between the black and white races.",
-            "polyPointStr": "320,915,680,915,498,200"
+            "keywords": "harmony",
+            "polyPointStr": "346,805,500,500,653,802,500,200"
         },
         {
             "abbrev": "lc",
@@ -3006,7 +3515,9 @@
             "h": "1000",
             "color": "rgb(252, 210, 15)",
             "meaning": "Sunshine and prosperity.",
-            "polyPointStr": "288,915,709,915,498,500"
+            "keywords": "sun, prosperity",
+            "polyPointStr": "288,915,709,915,498,500",
+            "arrayIndex": 3
         }
     ],
     "qatar": [
@@ -3038,58 +3549,55 @@
     "oman": [
         {
             "abbrev": "om",
-            "name": "redbackground",
-            "type": "rect",
+            "name": "redcross",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(220, 14, 20)",
-            "meaning": "Red is a common color in Gulf state flags."
+            "meaning": "Red is a common color in Gulf state flags.",
+            "keywords": "state",
+            "polyPointStr": "0,0,250,0,250,334,1000,334,1000,666,250,666,250,1000,0,1000",
+            "arrayIndex": 0
         },
         {
             "abbrev": "om",
             "name": "whitestripe",
             "type": "rect",
-            "x": "314",
+            "x": "250",
             "y": "0",
-            "w": "686",
-            "h": "333",
+            "w": "751",
+            "h": "334",
             "color": "rgb(255, 255, 255)",
-            "meaning": "White is associated with Islam and is a color of peace."
-        },
-        {
-            "abbrev": "om",
-            "name": "redstripe",
-            "type": "rect",
-            "x": "314",
-            "y": "333",
-            "w": "686",
-            "h": "333",
-            "color": "rgb(220, 14, 20)",
-            "meaning": "Red is a common color in Gulf state flags."
+            "meaning": "White is associated with Islam and is a color of peace.",
+            "keywords": "islam, peace",
+            "arrayIndex": 1
         },
         {
             "abbrev": "om",
             "name": "greenstripe",
             "type": "rect",
-            "x": "314",
+            "x": "250",
             "y": "666",
-            "w": "686",
+            "w": "751",
             "h": "334",
             "color": "rgb(0, 129, 0)",
-            "meaning": "Green is traditionally associated with the Jabal al-Akdar, or \"Green Mountains,\" which lie toward the north of the country."
+            "meaning": "Green is traditionally associated with the Jabal al-Akdar, or \"Green Mountains,\" which lie toward the north of the country.",
+            "keywords": "land",
+            "arrayIndex": 2
         },
         {
             "abbrev": "om",
             "name": "coatofarms",
             "type": "image",
-            "x": "66",
-            "y": "51",
-            "w": "183",
-            "h": "291",
+            "x": "53",
+            "y": "100",
+            "w": "144",
+            "h": "232",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Crossed swords over a khanjar, a traditional curved dagger."
+            "meaning": "Crossed swords over a khanjar, a traditional curved dagger.",
+            "keywords": "dagger"
         }
     ],
     "seychelles": [
@@ -3103,7 +3611,9 @@
             "h": "1000",
             "color": "rgb(0, 61, 136)",
             "meaning": "The sky and sea that surrounds Seychelles.",
-            "polyPointStr": "0,0,0,1000,419,0"
+            "keywords": "sky, sea",
+            "polyPointStr": "0,0,0,1000,419,0",
+            "arrayIndex": 0
         },
         {
             "abbrev": "sc",
@@ -3115,7 +3625,9 @@
             "h": "1000",
             "color": "rgb(215, 35, 35)",
             "meaning": "The people and their determination to work for the future in unity and love.",
-            "polyPointStr": "0,1000,610,0,1000,0,1000,300"
+            "keywords": "the people, strength, unity",
+            "polyPointStr": "0,1000,610,0,1000,0,1000,300",
+            "arrayIndex": 1
         },
         {
             "abbrev": "sc",
@@ -3127,7 +3639,9 @@
             "h": "1000",
             "color": "rgb(252, 217, 85)",
             "meaning": "The sun which gives light and life.",
-            "polyPointStr": "0,1000,300,0,610,0"
+            "keywords": "sun, life, light",
+            "polyPointStr": "0,1000,300,0,610,0",
+            "arrayIndex": 2
         },
         {
             "abbrev": "sc",
@@ -3139,18 +3653,21 @@
             "h": "1000",
             "color": "rgb(255, 255, 255)",
             "meaning": "Social justice and harmony.",
-            "polyPointStr": "0,1000,1000,300,1000,650"
+            "keywords": "harmony",
+            "polyPointStr": "0,1000,1000,300,1000,650",
+            "arrayIndex": 3
         },
         {
             "abbrev": "sc",
             "name": "greenray",
             "type": "poly",
-            "x": "1000",
-            "y": "998",
-            "w": "0",
-            "h": "2",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(0, 123, 58)",
             "meaning": "Land and natural environment.",
+            "keywords": "land",
             "polyPointStr": "0,1000,1000,650,1000,1000"
         }
     ],
@@ -3159,107 +3676,122 @@
             "abbrev": "sb",
             "name": "bluetriangle",
             "type": "poly",
-            "x": "1000",
-            "y": "998",
-            "w": "0",
-            "h": "2",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(0, 80, 187)",
             "meaning": "Water, the rivers of the land and the Pacific Ocean.",
-            "polyPointStr": "0,0,0,1000,1000,"
+            "keywords": "water, land, sea",
+            "polyPointStr": "0,0,950,0,0,950"
         },
         {
             "abbrev": "sb",
             "name": "greentriangle",
             "type": "poly",
-            "x": "1000",
+            "x": "54",
             "y": "998",
             "w": "0",
-            "h": "2",
+            "h": "0",
             "color": "rgb(27, 91, 48)",
             "meaning": "The land and agriculture.",
-            "polyPointStr": "1000,1000,0,1000,1000,"
+            "keywords": "land, agriculture",
+            "polyPointStr": "1000,50,1000,1000,50,1000",
+            "arrayIndex": 1
         },
         {
             "abbrev": "sb",
             "name": "yellowstripe",
             "type": "poly",
-            "x": "1000",
-            "y": "998",
-            "w": "0",
-            "h": "2",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(252, 210, 15)",
             "meaning": "The sun and its rays.",
-            "polyPointStr": "0,950,0,1000,50,1000,1000,50,1000,0,950,0"
+            "keywords": "sun",
+            "polyPointStr": "0,950,0,1000,50,1000,1000,50,1000,0,950,0",
+            "arrayIndex": 2
         },
         {
             "abbrev": "sb",
             "name": "star_1",
-            "type": "star",
+            "type": "star5",
             "x": "24",
             "y": "40",
             "w": "105",
             "h": "173",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the original islands that made up the Solomon Islands.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 3
         },
         {
             "abbrev": "sb",
             "name": "star_2",
-            "type": "star",
+            "type": "star5",
             "x": "240",
             "y": "40",
             "w": "105",
             "h": "173",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the original islands that made up the Solomon Islands.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 4
         },
         {
             "abbrev": "sb",
             "name": "star_3",
-            "type": "star",
+            "type": "star5",
             "x": "240",
             "y": "340",
             "w": "105",
             "h": "173",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the original islands that made up the Solomon Islands.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 5
         },
         {
             "abbrev": "sb",
             "name": "star_4",
-            "type": "star",
+            "type": "star5",
             "x": "24",
             "y": "340",
             "w": "105",
             "h": "173",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the original islands that made up the Solomon Islands.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 6
         },
         {
             "abbrev": "sb",
             "name": "star_5",
-            "type": "star",
+            "type": "star5",
             "x": "132",
             "y": "180",
             "w": "105",
             "h": "173",
             "color": "rgb(255, 255, 255)",
             "meaning": "Each star represents one of the original islands that made up the Solomon Islands.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "0"
+            "keywords": "island",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 7
         }
     ],
     "tonga": [
@@ -3272,7 +3804,9 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(194, 0, 0)",
-            "meaning": "Represents the blood of Christ."
+            "meaning": "Represents the blood of Christ.",
+            "keywords": "blood, christianity",
+            "arrayIndex": 0
         },
         {
             "abbrev": "to",
@@ -3283,7 +3817,9 @@
             "w": "450",
             "h": "500",
             "color": "rgb(255, 255, 255)",
-            "meaning": "Purity"
+            "meaning": "Purity",
+            "keywords": "purity",
+            "arrayIndex": 1
         },
         {
             "abbrev": "to",
@@ -3295,6 +3831,7 @@
             "h": "1000",
             "color": "rgb(194, 0, 0)",
             "meaning": "Christianity",
+            "keywords": "christianity",
             "polyPointStr": "134,189,197,189,197,90,260,90,260,189,323,189,323,290,260,290,260,390,197,390,197,290,134,290"
         }
     ],
@@ -3302,79 +3839,86 @@
         {
             "abbrev": "vu",
             "name": "redstripe",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "500",
+            "h": "1000",
             "color": "rgb(211, 7, 49)",
-            "meaning": "Blood of wild boars and men."
+            "meaning": "Blood of wild boars and men.",
+            "keywords": "blood",
+            "polyPointStr": "0,0,1000,0,1000,411,467,411,0,2",
+            "arrayIndex": 0
         },
         {
             "abbrev": "vu",
             "name": "greenstripe",
-            "type": "rect",
-            "x": "0",
-            "y": "500",
-            "w": "1000",
-            "h": "500",
-            "color": "rgb(0, 150, 65)",
-            "meaning": "The richness of the islands."
-        },
-        {
-            "abbrev": "vu",
-            "name": "blacktriangle_1",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
-            "w": "570",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(0, 150, 65)",
+            "meaning": "The richness of the islands.",
+            "keywords": "wealth, land, island",
+            "polyPointStr": "0,1000,467,590,1000,590,1000,1000",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "vu",
+            "name": "blackstripe_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
             "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The ni-Vanuatu people."
+            "meaning": "The ni-Vanuatu people.",
+            "keywords": "the people",
+            "polyPointStr": "0,2,0,73,460,475,1000,475,1000,411,467,411",
+            "arrayIndex": 5
         },
         {
             "abbrev": "vu",
-            "name": "blackstripe",
-            "type": "rect",
+            "name": "blackstripe_2",
+            "type": "poly",
             "x": "0",
-            "y": "410",
+            "y": "0",
             "w": "1000",
-            "h": "180",
+            "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The ni-Vanuatu people."
+            "meaning": "The ni-Vanuatu people.",
+            "keywords": "the people",
+            "polyPointStr": "0,1000,0,932,460,527,1000,530,1000,590,467,590",
+            "arrayIndex": 6
         },
         {
             "abbrev": "vu",
-            "name": "goldstripe_1",
-            "type": "rect",
-            "x": "450",
-            "y": "474",
-            "w": "650",
-            "h": "53",
-            "color": "rgb(253, 207, 10)",
-            "meaning": "The light of the gospel going through the pattern of the islands in the Pacific Ocean."
-        },
-        {
-            "abbrev": "vu",
-            "name": "goldtriangle",
-            "type": "triangle",
+            "name": "goldstripe",
+            "type": "poly",
             "x": "0",
-            "y": "69",
-            "w": "490",
-            "h": "864",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(253, 207, 10)",
-            "meaning": "The light of the gospel going through the pattern of the islands in the Pacific Ocean."
+            "meaning": "The light of the gospel going through the pattern of the islands in the Pacific Ocean.",
+            "keywords": "religion, sea, island",
+            "polyPointStr": "0,69,0,130,423,500,0,871,0,931,460,528,1000,529,1000,473,460,473",
+            "arrayIndex": 4
         },
         {
             "abbrev": "vu",
-            "name": "blacktriangle_2",
-            "type": "triangle",
+            "name": "blacktriangle",
+            "type": "poly",
             "x": "0",
-            "y": "129",
-            "w": "423",
-            "h": "743",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The ni-Vanuatu people."
+            "meaning": "The ni-Vanuatu people.",
+            "keywords": "the people",
+            "polyPointStr": "0,128,424,500,0,872",
+            "arrayIndex": 7
         },
         {
             "abbrev": "vu",
@@ -3385,20 +3929,37 @@
             "w": "167",
             "h": "309",
             "color": "rgb(255, 255, 255)",
-            "meaning": "A boar's tusk, the symbol of prosperity worn as a pendant on the islands, along with two leaves of the local namele tree, a symbol of peace."
+            "meaning": "A boar's tusk, the symbol of prosperity worn as a pendant on the islands, along with two leaves of the local namele tree, a symbol of peace.",
+            "keywords": "prosperity, peace",
+            "arrayIndex": 3
         }
     ],
     "bosnia_and_herzegovina": [
         {
             "abbrev": "ba",
-            "name": "bluebackground",
-            "type": "rect",
+            "name": "bluetriangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 30, 150)",
-            "meaning": "Neutrality and peace."
+            "meaning": "Neutrality and peace.",
+            "keywords": "peace",
+            "polyPointStr": "0,0,204,0,833,1000,0,1000",
+            "arrayIndex": 0
+        },
+        {
+            "abbrev": "ba",
+            "name": "bluerectangle",
+            "type": "rect",
+            "x": "833",
+            "y": "0",
+            "w": "166",
+            "h": "1000",
+            "color": "rgb(0, 30, 150)",
+            "meaning": "Neutrality and peace.",
+            "keywords": "peace"
         },
         {
             "abbrev": "ba",
@@ -3410,43 +3971,25 @@
             "h": "1000",
             "color": "rgb(254, 204, 0)",
             "meaning": "Neutrality and peace.",
-            "polyPointStr": "265,0,766,0,766,1000"
+            "keywords": "peace",
+            "polyPointStr": "204,0,833,0,833,1000",
+            "arrayIndex": 2
         },
         {
             "abbrev": "ba",
             "name": "stars",
             "type": "image",
-            "x": "147",
+            "x": "56",
             "y": "0",
-            "w": "573",
+            "w": "722",
             "h": "1000",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The stars, representing Europe, are meant to be infinite in number and thus they continue from top to bottom."
+            "meaning": "The stars, representing Europe, are meant to be infinite in number and thus they continue from top to bottom.",
+            "keywords": "europe",
+            "arrayIndex": 3
         }
     ],
     "eswatini": [
-        {
-            "abbrev": "sz",
-            "name": "bluebackground",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(60, 94, 186)",
-            "meaning": "Peace and stability."
-        },
-        {
-            "abbrev": "sz",
-            "name": "goldstripe",
-            "type": "rect",
-            "x": "0",
-            "y": "187",
-            "w": "1000",
-            "h": "626",
-            "color": "rgb(255, 218, 0)",
-            "meaning": "The resources of Eswatini."
-        },
         {
             "abbrev": "sz",
             "name": "redstripe",
@@ -3456,7 +3999,9 @@
             "w": "1000",
             "h": "500",
             "color": "rgb(178, 4, 4)",
-            "meaning": "Past battles."
+            "meaning": "Past battles.",
+            "keywords": "battles",
+            "arrayIndex": 0
         },
         {
             "abbrev": "sz",
@@ -3467,20 +4012,75 @@
             "w": "812",
             "h": "432",
             "color": "rgb(255, 218, 0)",
-            "meaning": "Protection from the countries enemies."
+            "meaning": "Protection from the countries enemies.",
+            "keywords": "protection",
+            "arrayIndex": 1
+        },
+        {
+            "abbrev": "sz",
+            "name": "bluerect_1",
+            "type": "rect",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "190",
+            "color": "rgb(60, 94, 186)",
+            "meaning": "Peace and stability.",
+            "keywords": "peace"
+        },
+        {
+            "abbrev": "sz",
+            "name": "bluerect_2",
+            "type": "rect",
+            "x": "0",
+            "y": "813",
+            "w": "1000",
+            "h": "190",
+            "color": "rgb(60, 94, 186)",
+            "meaning": "Peace and stability.",
+            "keywords": "peace",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "sz",
+            "name": "goldstripe_1",
+            "type": "rect",
+            "x": "0",
+            "y": "188",
+            "w": "1000",
+            "h": "62",
+            "color": "rgb(255, 218, 0)",
+            "meaning": "The resources of Eswatini.",
+            "keywords": "wealth",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "sz",
+            "name": "goldstripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "750",
+            "w": "1000",
+            "h": "64",
+            "color": "rgb(255, 218, 0)",
+            "meaning": "The resources of Eswatini.",
+            "keywords": "wealth",
+            "arrayIndex": 5
         }
     ],
     "jamaica": [
         {
             "abbrev": "jm",
             "name": "blacktriangle_1",
-            "type": "triangle",
+            "type": "poly",
             "x": "0",
             "y": "0",
-            "w": "500",
+            "w": "1000",
             "h": "1000",
             "color": "rgb(0, 0, 0)",
-            "meaning": "Hardships."
+            "meaning": "Hardships.",
+            "keywords": "struggle",
+            "polyPointStr": "0,95,408,500,0,907"
         },
         {
             "abbrev": "jm",
@@ -3492,7 +4092,9 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "Hardships.",
-            "polyPointStr": "1000,0,1000,1000,500,500"
+            "keywords": "struggle",
+            "polyPointStr": "1000,95,592,500,1000,907",
+            "arrayIndex": 1
         },
         {
             "abbrev": "jm",
@@ -3504,7 +4106,9 @@
             "h": "1000",
             "color": "rgb(0, 156, 55)",
             "meaning": "The land.",
-            "polyPointStr": "0,0,1000,0,500,500"
+            "keywords": "land, agriculture",
+            "polyPointStr": "95,1000,907,1000,500,594",
+            "arrayIndex": 2
         },
         {
             "abbrev": "jm",
@@ -3516,7 +4120,9 @@
             "h": "1000",
             "color": "rgb(0, 156, 55)",
             "meaning": "The land.",
-            "polyPointStr": "0,1000,1000,1000,500,500"
+            "keywords": "land, agriculture",
+            "polyPointStr": "94,0,500,410,907,0",
+            "arrayIndex": 3
         },
         {
             "abbrev": "jm",
@@ -3528,20 +4134,39 @@
             "h": "1000",
             "color": "rgb(254, 210, 0)",
             "meaning": "The shining sun.",
-            "polyPointStr": "0,93,0,0,94,0,500,407,907,0,1000,0,1000,93,594,500,1000,907,1000,1000,907,1000,500,594,94,1000,0,1000,0,907,407,500"
+            "keywords": "sun",
+            "polyPointStr": "0,93,0,0,94,0,500,407,907,0,1000,0,1000,93,594,500,1000,907,1000,1000,907,1000,500,594,94,1000,0,1000,0,907,407,500",
+            "arrayIndex": 4
         }
     ],
     "marshall_islands": [
         {
             "abbrev": "mh",
-            "name": "bluebackground",
-            "type": "rect",
+            "name": "bluepoly_1",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(0, 53, 148)",
-            "meaning": "The islands place in the ocean."
+            "meaning": "The islands place in the ocean.",
+            "keywords": "ocean, island",
+            "polyPointStr": "0,952,0,0,1000,0,1000,16",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "mh",
+            "name": "bluepoly_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(0, 53, 148)",
+            "meaning": "The islands place in the ocean.",
+            "keywords": "ocean, island",
+            "polyPointStr": "0,1000,0,986,1000,409,1000,1000",
+            "arrayIndex": 5
         },
         {
             "abbrev": "mh",
@@ -3553,7 +4178,9 @@
             "h": "1000",
             "color": "rgb(255, 255, 255)",
             "meaning": "The Ratak Chain (\"sunrise\") and peace.",
-            "polyPointStr": "0,984,0,968,1000,211,1000,407"
+            "keywords": "peace",
+            "polyPointStr": "0,984,0,968,1000,211,1000,407",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mh",
@@ -3565,7 +4192,9 @@
             "h": "1000",
             "color": "rgb(222, 118, 0)",
             "meaning": "The Ralik Chain (\"sunset\") and courage.",
-            "polyPointStr": "0,968,0,950,1000,15,1000,212"
+            "keywords": "courage",
+            "polyPointStr": "0,968,0,950,1000,15,1000,212",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mh",
@@ -3576,21 +4205,12 @@
             "w": "350",
             "h": "580",
             "color": "rgb(222, 118, 0)",
-            "meaning": " The sun's 24 points represent the number of electoral districts, while the four elongated points represent the principal cultural centers of Majuro, Jaluit, Wotje and Ebeye."
+            "meaning": "The sun's 24 points represent the number of electoral districts, while the four elongated points represent the principal cultural centers of Majuro, Jaluit, Wotje and Ebeye.",
+            "keywords": "culture",
+            "arrayIndex": 3
         }
     ],
     "mozambique": [
-        {
-            "abbrev": "mz",
-            "name": "coatofarms",
-            "type": "image",
-            "x": "16",
-            "y": "314",
-            "w": "261",
-            "h": "373",
-            "color": "rgb(255, 218, 0)",
-            "meaning": "Cannot find meaning."
-        },
         {
             "abbrev": "mz",
             "name": "greenstripe",
@@ -3598,20 +4218,11 @@
             "x": "0",
             "y": "0",
             "w": "1000",
-            "h": "311",
+            "h": "313",
             "color": "rgb(0, 113, 104)",
-            "meaning": "Fertile lands."
-        },
-        {
-            "abbrev": "mz",
-            "name": "whitestripe",
-            "type": "rect",
-            "x": "0",
-            "y": "311",
-            "w": "1000",
-            "h": "375",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "Peace."
+            "meaning": "Fertile lands.",
+            "keywords": "land",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mz",
@@ -3622,7 +4233,9 @@
             "w": "1000",
             "h": "314",
             "color": "rgb(0, 0, 0)",
-            "meaning": "The African continent."
+            "meaning": "The African continent.",
+            "keywords": "africa",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mz",
@@ -3633,7 +4246,34 @@
             "w": "1000",
             "h": "314",
             "color": "rgb(252, 225, 0)",
-            "meaning": "The countries mineral resources."
+            "meaning": "The countries mineral resources.",
+            "keywords": "wealth",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "mz",
+            "name": "whitestripe_1",
+            "type": "rect",
+            "x": "0",
+            "y": "312",
+            "w": "1000",
+            "h": "33",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "Peace.",
+            "keywords": "peace",
+            "arrayIndex": 3
+        },
+        {
+            "abbrev": "mz",
+            "name": "whitestripe_2",
+            "type": "rect",
+            "x": "0",
+            "y": "656",
+            "w": "1000",
+            "h": "33",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "Peace.",
+            "keywords": "peace"
         },
         {
             "abbrev": "mz",
@@ -3644,7 +4284,21 @@
             "w": "437",
             "h": "1000",
             "color": "rgb(210, 16, 52)",
-            "meaning": "The struggle for independence."
+            "meaning": "The struggle for independence.",
+            "keywords": "struggle, independence",
+            "arrayIndex": 5
+        },
+        {
+            "abbrev": "mz",
+            "name": "coatofarms",
+            "type": "image",
+            "x": "16",
+            "y": "314",
+            "w": "261",
+            "h": "373",
+            "color": "rgb(255, 218, 0)",
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 6
         }
     ],
     "north_macedonia": [
@@ -3657,7 +4311,8 @@
             "w": "1000",
             "h": "1000",
             "color": "rgb(217, 27, 33)",
-            "meaning": "Cannot find meaning."
+            "meaning": "Cannot find meaning.",
+            "arrayIndex": 0
         },
         {
             "abbrev": "mk",
@@ -3669,7 +4324,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "0,105,0,0,60,0,411,391,399,425"
+            "keywords": "star",
+            "polyPointStr": "0,105,0,0,60,0,411,391,399,425",
+            "arrayIndex": 1
         },
         {
             "abbrev": "mk",
@@ -3681,7 +4338,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "437,0,564,0,513,323,489,323"
+            "keywords": "star",
+            "polyPointStr": "437,0,564,0,513,323,489,323",
+            "arrayIndex": 2
         },
         {
             "abbrev": "mk",
@@ -3693,7 +4352,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "939,0,1000,0,1000,105,602,425,589,390"
+            "keywords": "star",
+            "polyPointStr": "939,0,1000,0,1000,105,602,425,589,390",
+            "arrayIndex": 3
         },
         {
             "abbrev": "mk",
@@ -3705,7 +4366,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "611,482,1000,420,1000,580,612,518"
+            "keywords": "star",
+            "polyPointStr": "611,482,1000,420,1000,580,612,518",
+            "arrayIndex": 4
         },
         {
             "abbrev": "mk",
@@ -3717,7 +4380,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "1000,896,1000,1000,940,1000,589,609,602,573"
+            "keywords": "star",
+            "polyPointStr": "1000,896,1000,1000,940,1000,589,609,602,573",
+            "arrayIndex": 5
         },
         {
             "abbrev": "mk",
@@ -3729,7 +4394,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "0,420,389,482,389,518,0,580"
+            "keywords": "star",
+            "polyPointStr": "0,420,389,482,389,518,0,580",
+            "arrayIndex": 6
         },
         {
             "abbrev": "mk",
@@ -3741,7 +4408,9 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "61,1000,0,1000,0,896,397,573,411,609"
+            "keywords": "star",
+            "polyPointStr": "61,1000,0,1000,0,896,397,573,411,609",
+            "arrayIndex": 7
         },
         {
             "abbrev": "mk",
@@ -3753,42 +4422,37 @@
             "h": "1000",
             "color": "rgb(248, 234, 42)",
             "meaning": "Star of Verjina.",
-            "polyPointStr": "437,1000,563,1000,511,677,489,677"
-        },
-        {
-            "abbrev": "mk",
-            "name": "redcircle",
-            "type": "circle",
-            "x": "387",
-            "y": "320",
-            "w": "225",
-            "h": "359",
-            "color": "rgb(217, 27, 33)",
-            "meaning": "Cannot find meaning."
+            "keywords": "star",
+            "polyPointStr": "437,1000,563,1000,511,677,489,677",
+            "arrayIndex": 8
         },
         {
             "abbrev": "mk",
             "name": "yellowcircle",
             "type": "circle",
-            "x": "410",
-            "y": "357",
+            "x": "500",
+            "y": "500",
             "w": "180",
             "h": "286",
             "color": "rgb(248, 234, 42)",
-            "meaning": "Star of Verjina."
+            "meaning": "Star of Verjina.",
+            "keywords": "star"
         }
     ],
     "papua_new_guinea": [
         {
             "abbrev": "pg",
             "name": "redbackground",
-            "type": "rect",
+            "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
             "color": "rgb(207, 9, 33)",
-            "meaning": "Traditional color used in the majority of native artwork."
+            "meaning": "Traditional color used in the majority of native artwork.",
+            "keywords": "native",
+            "polyPointStr": "0,0,1000,0,1000,1000",
+            "arrayIndex": 0
         },
         {
             "abbrev": "pg",
@@ -3800,88 +4464,101 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "Traditional color used in the majority of native artwork.",
-            "polyPointStr": "0,0,0,1000,1000,1000"
+            "keywords": "native",
+            "polyPointStr": "0,0,0,1000,1000,1000",
+            "arrayIndex": 1
         },
         {
             "abbrev": "pg",
             "name": "star_1",
-            "type": "star",
-            "x": "218",
+            "type": "star5",
+            "x": "208",
             "y": "315",
             "w": "85",
             "h": "130",
             "color": "rgb(255, 255, 255)",
             "meaning": "The five stars are symbolic of the Southern Cross.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": ""
+            "keywords": "southern-cross",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 2
         },
         {
             "abbrev": "pg",
             "name": "star_2",
-            "type": "star",
-            "x": "131",
+            "type": "star5",
+            "x": "94",
             "y": "508",
             "w": "86",
             "h": "130",
             "color": "rgb(255, 255, 255)",
             "meaning": "The five stars are symbolic of the Southern Cross.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": ""
+            "keywords": "southern-cross",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 3
         },
         {
             "abbrev": "pg",
             "name": "star_3",
-            "type": "star",
-            "x": "310",
+            "type": "star5",
+            "x": "320",
             "y": "495",
             "w": "90",
             "h": "132",
             "color": "rgb(255, 255, 255)",
             "meaning": "The five stars are symbolic of the Southern Cross.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": ""
+            "keywords": "southern-cross",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 4
         },
         {
             "abbrev": "pg",
             "name": "star_4",
-            "type": "star",
+            "type": "star5",
             "x": "281",
             "y": "665",
             "w": "44",
             "h": "61",
             "color": "rgb(255, 255, 255)",
             "meaning": "The five stars are symbolic of the Southern Cross.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": ""
+            "keywords": "southern-cross",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 5
         },
         {
             "abbrev": "pg",
             "name": "star_5",
-            "type": "star",
-            "x": "217",
+            "type": "star5",
+            "x": "208",
             "y": "773",
             "w": "86",
             "h": "132",
             "color": "rgb(255, 255, 255)",
             "meaning": "The five stars are symbolic of the Southern Cross.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": ""
+            "keywords": "southern-cross",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "",
+            "arrayIndex": 6
         },
         {
             "abbrev": "pg",
             "name": "bird",
             "type": "image",
-            "x": "473",
+            "x": "520",
             "y": "107",
             "w": "282",
             "h": "502",
             "color": "rgb(255, 255, 255)",
-            "meaning": "The bird of paradise is a local tribal symbol."
+            "meaning": "The bird of paradise is a local tribal symbol.",
+            "keywords": "bird"
         }
     ],
     "saint_kitts_and_nevis": [
@@ -3895,7 +4572,9 @@
             "h": "1000",
             "color": "rgb(0, 159, 71)",
             "meaning": "Fertile lands.",
-            "polyPointStr": "0,0,1000,0,0,1000"
+            "keywords": "land, fertility",
+            "polyPointStr": "0,0,747,0,0,748",
+            "arrayIndex": 0
         },
         {
             "abbrev": "kn",
@@ -3907,19 +4586,9 @@
             "h": "1000",
             "color": "rgb(207, 9, 33)",
             "meaning": "The struggle for freedom.",
-            "polyPointStr": "1000,1000,1000,0,0,1000"
-        },
-        {
-            "abbrev": "kn",
-            "name": "goldstripe",
-            "type": "poly",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(252, 210, 15)",
-            "meaning": "Cannot find meaning.",
-            "polyPointStr": "0,748,0,1000,253,1000,1000,255,1000,0,747,0"
+            "keywords": "struggle, freedom",
+            "polyPointStr": "253,1000,1000,1000,1000,252",
+            "arrayIndex": 1
         },
         {
             "abbrev": "kn",
@@ -3931,35 +4600,68 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "African heritage.",
-            "polyPointStr": "0,820,0,1000,181,1000,1000,182,1000,0,819,0"
+            "keywords": "africa, heritage ",
+            "polyPointStr": "0,820,0,1000,181,1000,1000,182,1000,0,819,0",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "kn",
+            "name": "goldstripe_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(252, 210, 15)",
+            "meaning": "Cannot find meaning.",
+            "keywords": "",
+            "polyPointStr": "0,748,0,820,820,0,749,0",
+            "arrayIndex": 5
+        },
+        {
+            "abbrev": "kn",
+            "name": "goldstripe_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(252, 210, 15)",
+            "meaning": "Cannot find meaning.",
+            "keywords": "",
+            "polyPointStr": "181,1000,253,1000,1000,255,1000,182"
         },
         {
             "abbrev": "kn",
             "name": "star_1",
-            "type": "star",
+            "type": "star5",
             "x": "217",
             "y": "573",
             "w": "168",
             "h": "259",
             "color": "rgb(255, 255, 255)",
             "meaning": "The stars represent hope and liberty.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "45"
+            "keywords": "hope, liberty",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "45",
+            "arrayIndex": 3
         },
         {
             "abbrev": "kn",
             "name": "star_2",
-            "type": "star",
+            "type": "star5",
             "x": "596",
             "y": "193",
             "w": "167",
             "h": "257",
             "color": "rgb(255, 255, 255)",
             "meaning": "The stars represent hope and liberty.",
-            "starNumpoints": "5",
-            "starSpikyness": "0.38",
-            "starAngle": "45"
+            "keywords": "hope, liberty",
+            "starNumpoints": "",
+            "starSpikyness": "",
+            "starAngle": "45",
+            "arrayIndex": 4
         }
     ],
     "tanzania": [
@@ -3973,7 +4675,9 @@
             "h": "1000",
             "color": "rgb(24, 182, 55)",
             "meaning": "The land.",
-            "polyPointStr": "0,0,0,1000,1000,"
+            "keywords": "land",
+            "polyPointStr": "0,0,0,763,763,0",
+            "arrayIndex": 1
         },
         {
             "abbrev": "tz",
@@ -3985,19 +4689,9 @@
             "h": "1000",
             "color": "rgb(0, 164, 222)",
             "meaning": "The sea.",
-            "polyPointStr": "1000,1000,0,1000,1000,"
-        },
-        {
-            "abbrev": "tz",
-            "name": "goldstripe",
-            "type": "poly",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(252, 210, 15)",
-            "meaning": "The countries resources.",
-            "polyPointStr": "0,764,0,1000,239,1000,1000,239,1000,0,763,0"
+            "keywords": "sea",
+            "polyPointStr": "237,1000,1000,1000,1000,237",
+            "arrayIndex": 2
         },
         {
             "abbrev": "tz",
@@ -4009,32 +4703,67 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "The people.",
-            "polyPointStr": "0,839,0,1000,164,1000,1000,166,1000,0,837,0"
-        }
-    ],
-    "trinidad_and_tobago": [
-        {
-            "abbrev": "tt",
-            "name": "redbackground",
-            "type": "rect",
-            "x": "0",
-            "y": "0",
-            "w": "1000",
-            "h": "1000",
-            "color": "rgb(219, 19, 50)",
-            "meaning": "The people."
+            "keywords": "the people",
+            "polyPointStr": "0,839,0,1000,164,1000,1000,166,1000,0,837,0",
+            "arrayIndex": 3
         },
         {
-            "abbrev": "tt",
-            "name": "whitestripe",
+            "abbrev": "tz",
+            "name": "goldstripe_1",
             "type": "poly",
             "x": "0",
             "y": "0",
             "w": "1000",
             "h": "1000",
-            "color": "rgb(255, 255, 255)",
-            "meaning": "The bountiful sea.",
-            "polyPointStr": "0,0,307,0,1000,1000,694,1000"
+            "color": "rgb(252, 210, 15)",
+            "meaning": "The countries resources.",
+            "keywords": "wealth",
+            "polyPointStr": "0,764,0,839,837,0,763,0",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "tz",
+            "name": "goldstripe_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(252, 210, 15)",
+            "meaning": "The countries resources.",
+            "keywords": "wealth",
+            "polyPointStr": "163,1000,239,1000,1000,236,1000,164",
+            "arrayIndex": 5
+        }
+    ],
+    "trinidad_and_tobago": [
+        {
+            "abbrev": "tt",
+            "name": "redtriangle_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(219, 19, 50)",
+            "meaning": "The people.",
+            "keywords": "the people",
+            "polyPointStr": "0,0,0,1000,694,1000",
+            "arrayIndex": 4
+        },
+        {
+            "abbrev": "tt",
+            "name": "redtriangle_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(219, 19, 50)",
+            "meaning": "The people.",
+            "keywords": "the people",
+            "polyPointStr": "307,0,1000,0,1000,1000",
+            "arrayIndex": 5
         },
         {
             "abbrev": "tt",
@@ -4046,7 +4775,37 @@
             "h": "1000",
             "color": "rgb(0, 0, 0)",
             "meaning": "The peoples hard work and strength.",
-            "polyPointStr": "50,0,256,0,950,1000,746,1000"
+            "keywords": "strength, the people",
+            "polyPointStr": "50,0,256,0,950,1000,746,1000",
+            "arrayIndex": 0
+        },
+        {
+            "abbrev": "tt",
+            "name": "whitestripe_1",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "The bountiful sea.",
+            "keywords": "wealth, sea",
+            "polyPointStr": "0,0,51,0,746,1000,694,1000",
+            "arrayIndex": 2
+        },
+        {
+            "abbrev": "tt",
+            "name": "whitestripe_2",
+            "type": "poly",
+            "x": "0",
+            "y": "0",
+            "w": "1000",
+            "h": "1000",
+            "color": "rgb(255, 255, 255)",
+            "meaning": "The bountiful sea.",
+            "keywords": "wealth, sea",
+            "polyPointStr": "256,0,306,0,1000,1000,950,1000",
+            "arrayIndex": 3
         }
     ]
 }
