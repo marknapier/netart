@@ -15,7 +15,7 @@ ie	greenstripe	"0,153,0"	rect3v	0	0	333	1000	0	0	0	"catholic, ireland"
 ie	whitestripe	"255,255,255"	rect3v	333	0	333	1000	0	0	0	peace
 ie	orangestripe	"255,90,0"	rect3v	666	0	333	1000	0	0	0	"protestant, england, british colonists, colonialism"
 jp	whitefield	"255,255,255"	rect1	0	0	1000	1000	0	0	0	"purity,honesty"
-jp	circle	"245,30,48"	circle	296	194	407	407	0	0	0	"the sun, rising sun"
+jp	circle	"245,30,48"	circle	500	500	407	407	0	0	0	"the sun, rising sun"
 pr	redstripe1	"245,30,48"	rect5h	0	0	1000	200	0	0	0	"blood, government"
 pr	whitestripe1	"255,255,255"	rect5h	0	200	1000	200	0	0	0	"liberty, rights"
 pr	redstripe2	"245,30,48"	rect5h	0	400	1000	200	0	0	0	"blood, government"
@@ -74,7 +74,7 @@ gb	whitecross	"255,255,255"	cross	0	0	1000	1000	197	500	500	England
 gb	redcross	"204,0,0"	cross	0	0	1000	1000	97	500	500	St. George's cross of England
 ly	greenfield	"0,191,0"	rect1	0	0	1000	1000	0	0	0	islam 
 bd	greenstripe	"0,102,0"	rect1	0	0	1000	1000	0	0	0	"vitality, youthfulness, vegetation"
-bd	circle	"255,0,0"	circle	225	185	400	400	0	0	0	"rising sun,sacrifice,independence"
+bd	circle	"255,0,0"	circle	500	500	400	400	0	0	0	"rising sun,sacrifice,independence"
 so	bluefield	"0,107,198"	rect1	0	0	1000	1000	0	0	0	"gratitude, United Nations Organization"
 so	star	"255,255,255"	star5	362	264	262	420	0	0	0	"unity,  5 branches of Somalis"
 bb	bluestripe1	"0,51,153"	rect3v	0	0	333	1000	0	0	0	sky
@@ -199,7 +199,7 @@ in	coatofarms	"0,0,0"	image	389	338	213	319	0	0	0	"self-sufficiency, progress"
 la	redstripe1	"245,30,48"	rect4h	0	0	1000	250	0	0	0	"struggle, blood, liberty, communism"
 la	bluestripe	"0,0,204"	rect2h	0	250	1000	500	0	0	0	"prosperity, Mekong River"
 la	redstripe2	"245,30,48"	rect4h	0	750	1000	250	0	0	0	"struggle, blood, liberty, communism"
-la	circle	"255,255,255"	circle	370	306	256	384	0	0	0	"unity, full moon"
+la	circle	"255,255,255"	circle	500	500	256	384	0	0	0	"unity, full moon"
 lb	redstripe1	"255,0,0"	rect4h	0	0	1000	250	0	0	0	"freedom, blood,strength"
 lb	whitestripe	"255,255,255"	rect2h	0	250	1000	500	0	0	0	purity
 lb	redstripe2	"255,0,0"	rect4h	0	750	1000	250	0	0	0	"freedom, blood, strength"
@@ -458,6 +458,15 @@ br	yellowdiamond	"255,255,0"	poly	84	129	845	780	"500,100,920,500,500,900,80,500
 br	globe	"0,0,255"	image	330	235	340	530	0	0	0	"revolution,states,sky,night sky,positivism"
 sa	greenfield	"0,102,0"	rect	0	0	1000	1000	0	0	0	"islam,royalty,as-saud"
 sa	script	"0,0,0"	image	224	250	555	530	0	0	0	"islam,royalty,ibn saud"
+kp	bluestripe1	"'0,0,255'"	rect	0	0	1000	178	0	0	0	peace
+kp	whitestripe1	"'255,255,255'"	rect	0	178	1000	63	0	0	0	"purity,tradition"
+kp	redstripe	"'255,0,0'"	rect	0	240	1000	516	0	0	0	communist revolution
+kp	whitestripe2	"'255,255,255'"	rect	0	756	1000	63	0	0	0	"purity,tradition"
+kp	bluestripe2	"'0,0,255'"	rect	0	818	1000	182	0	0	0	peace
+kp	whitecircle	"'255,255,255'"	circle	320	500	270	270	0	0	0	"harmony,yin-yang,Korean T'aeguk"
+kp	redstar	"255,0,0'"	star5	215	325	220	220	0	0	0	communism
+kr	whitefield	"'255,255,255'"	rect	0	0	1000	1000	0	0	0	"purity,peace,tradition"
+kr	yin-yang	"'255,0,0'"	image	172	90	650	750	0	0	0	"harmony,yin-yang,Kwae,elements of nature"
 am	redstripe	"218,0,10"	rect	0	0	1000	333	0	0	0	"sacrifice"	"the Armenian people's continued struggle for survival"
 am	bluestripe	"0,29,199"	rect	0	333	1000	333	0	0	0	"strength, sky"	"the will of the people of Armenia to live beneath peaceful skies"
 am	yellowstripe	"242,170,0"	rect	0	666	1000	334	0	0	0	"hard-working"	"creative talent and hard-working nature of the people of Armenia"
@@ -477,7 +486,7 @@ sl	whitestripe	"255,255,255"	rect	0	333	1000	334	0	0	0	"unity"	"unity and justic
 sl	bluestripe	"0,115,199"	rect	0	666	1000	334	0	0	0	"peace, sea"	"natural harbors and world peace"
 bz	redstripe_1	"206,9,34"	rect	0	0	1000	73	0	0	0	"party"	"Color of the opposition party of Belize"
 bz	blue_background	"0,61,136"	rect	0	73	1000	857	0	0	0	"party"	"Color of the Belize national party"
-bz	coatofarms	"255,255,255"	image	240	107	495	787	0	0	0	"agriculture"	"The coat of arms recalls the logging industry that first led to British settlement in Belize."
+bz	coatofarms	"255,255,255"	image	252	105	496	788	0	0	0	"agriculture"	"The coat of arms recalls the logging industry that first led to British settlement in Belize."
 bz	redstripe_2	"207,9,33"	rect	0	928	1000	72	0	0	0	"party"	"Color of the opposition party of Belize"
 ke	black_stripe	"0,0,0"	rect	0	0	1000	333	0	0	0	"the people"	"The colour black represents the people of the Republic of Kenya."
 ke	redstripe	"188,0,0"	rect	0	333	1000	333	0	0	0	"independence, blood"	"To symbolize the blood shed during the fight for independence."
@@ -672,7 +681,7 @@ bn	whitestripe	"255,255,255"	poly	0	0	1000	1000	"0,70,0,307,1000,723,1000,486"	0
 bn	blackstripe	"0,0,0"	poly	0	0	1000	1000	"0,305,0,515,1000,932,1000,722"	0	0	"royalty"	"Brunei's chief ministers."
 bn	goldtriangle_1	"247,225,16"	poly	0	0	1000	1000	"0,0,0,70,1000,489,1000,0"	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
 bn	goldtriangle_2	"247,225,16"	poly	0	0	1000	1000	"0,514,0,1000,1000,1000,1000,930"	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
-bn	coatofarms	"255,255,255"	image	333	205	336	600	0	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
+bn	coatofarms	"255,255,255"	image	290	205	424	592	0	0	0	"islam, monarchy"	"Islam, the parasol symbolizes monarchy, and the hands at the side symbolize the benevolence of the government."
 km	goldstripe	"255,199,24"	poly	0	0	1000	1000	"0,0,1000,0,1000,252,251,252"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
 km	whitestripe	"255,255,255"	poly	0	0	1000	1000	"250,251,1000,251,1000,500,500,500"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
 km	redstripe	"207,9,33"	poly	0	0	1000	1000	"249,750,1000,750,1000,500,499,500"	0	0	"island, nation"	"Each stripe represents an island of the nation.  Mohéli, Mayotte, Anjouan, and Grande Comore, respectively."
@@ -691,7 +700,7 @@ cd	star	"247,215,17"	star5	53	55	260	43	0	0	0	"future, success"	"A radiant futur
 er	redtriangle	"235,0,52"	triangle	0	0	1000	1000	0	0	0	"freedoom, battle, sacrifice"	"The lives of those lost in the battle for freedom."
 er	bluetriangle	"63,138,222"	poly	0	0	1000	1000	"0,1000,1000,1000,1000,500"	0	0	"sea"	"The sea."
 er	greentriangle	"9,175,39"	poly	0	0	1000	1000	"0,0,1000,0,1000,500"	0	0	"agriculture, livestock"	"Agriculture and livestock of the country."
-er	coatofarms	"207,7,27"	image	100	216	287	560	0	0	0	"life"	"Represents and olive branch."
+er	coatofarms	"207,7,27"	image	60	216	363	562	0	0	0	"life"	"Represents and olive branch."
 ag	blacktriangle	"0,0,0"	poly	0	0	1000	1000	"0,0,1000,0,804,390,195,390"	0	0	"africa"	"African ancestry."
 ag	star	"252,210,15"	poly	0	0	1000	1000	"284,392,391,359,298,266,410,302,347,161,440,255,418,91,478,232,499,66,521,232,584,93,561,257,654,161,591,302,701,268,607,361,717,393"	0	0	"sun, sea"	"Represents the rising sun over the sea."
 ag	bluetriangle	"0,115,199"	poly	301	611	0	0	"195,390,804,390,696,609,304,609"	0	0	"hope"	"Hope."

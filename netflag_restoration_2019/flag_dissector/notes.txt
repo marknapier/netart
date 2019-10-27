@@ -1,0 +1,53 @@
+
+remaining:
+fiji
+grenada
+kazakhstan
+kiribati
+nepal
+new_zealand
+turkmenistan
+tuvalu
+
+
+
+coat of arms
+------------
+x argentina (quality change) -- use new
+x bangladesh (colors) -- ???? (use old)
+x bolivia -- drop the coat of arms
+costa rica -- keep coa
+x cyprus (quality) -- use 2002 version
+x georgia -- use 2002 version
+haiti (add coa?)
+x iraq  (updated coa stayed with 2002 version)
+x israel (colors - made star the original netflag lighter blue)
+x libya   (keep the solid green 2002 flag)
+x lithuania (colors) (keep original colors)
+peru   (add coa?)
+x rwanda  (keep the 2001 version with the R)
+x san marino (update the thumbnail with coa)
+x venezuela (keep the netflag original version without upper left coa)
+x brunei (was too small)
+greece upper left cross overlaps stripe
+
+Check
+----------
+x afghanistan (stripes?) (use the 2001 - 2004 version horizontal white stripe gold coa)
+x azerbaijan (placement too low)
+x belize too low   (adjusted... test)
+x cambodia too low
+x canada color
+x eritrea too high AND too small
+x ethiopia too low
+x india too low
+x kenya too low?
+x lebanon too low
+x lesotho
+malaysia too small and high
+x serbia too low
+x singapore too low
+x sri lanka too high
+x uganda too low
+x zimbabwe bird too low
+
