@@ -51,3 +51,35 @@ x sri lanka too high
 x uganda too low
 x zimbabwe bird too low
 
+// to make a gzip file for the original net.flag
+gzip nf_shapedata_all.txt
+mv nf_shapedata_all.txt.gz nf_shapedata.gzip
+
+// then copy the gzip to the net.flag installation folder
+
+
+
+About the 2019 restoration
+--------------------------
+
+The original net.flag was written in the Java programming language in 2002. At that time the browser had limited options for creating the kind of graphic images that net.flag called for. Over the years Java support in the browser became more complicated and by 2016 many browsers dropped Java altogether. 
+
+The Guggenheim restored the artwork by rewriting it in Javascript, a language built-in to the browser and more likely to remain stable for the forseeable future.
+
+This project involved re-thinking some aspects of net.flag. Flags have changed since 2002. Some countries have changed borders and identities have shifted. We had the challenge of remaining true to the original choices of the artwork, but also to include new flags to bring the full set of UN recognized flags into net.flag.  
+
+Some flags that were included in the original net.flag have changed their design since then. Georgia for example, changed their flag design in 2004. We chose to keep the 2002 design in those cases. Newer flags, not in the original, have been added using their 2019 verions. For example for South Sudan we've included their 2005 flag version.
+
+Many of the international tensions that existed in 2002 are even more pronounced in 2019. National borders are blurred and challenged by the growth of the global information network. New alliances form across oceans. Like-minded people form spontaneous tribes through social media. Cold war adversaries square off in Facebook, undermining power through misinformation campaigns intended to spread confusion and doubt.
+
+The internet continues to grow and connect humans into a single meta-group, straining the imagined borders of nation-states. Net.flag remains a commentary on the human capacity to forge group identity.
+
+Credits
+-------
+
+Emma Dickson
+Jonathon Farbowitz - 
+Aidan Napier - research
+
+Special thanks to Deena Engels and Lena Stringari for guiding the project.
+
